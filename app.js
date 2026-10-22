@@ -30,6 +30,15 @@
     render();
   });
 
+  navEl.addEventListener("click", function (event) {
+    if (event.target.closest('a[href="#share"]')) {
+      var box = document.querySelector("#share details");
+      if (box) {
+        box.open = true;
+      }
+    }
+  });
+
   relevanceBtn.addEventListener("click", function () {
     setSort("relevance");
   });
@@ -325,9 +334,10 @@
     var view = buildSections(articles);
     var needle = query.trim();
 
-    navEl.innerHTML = view.sections.map(function (section) {
-      return '<a href="#' + escapeHtml(section.id) + '">' + escapeHtml(section.title) + "</a>";
-    }).join("");
+    navEl.innerHTML = '<a href="#share" class="nav-share">Share Your Story</a>' +
+      view.sections.map(function (section) {
+        return '<a href="#' + escapeHtml(section.id) + '">' + escapeHtml(section.title) + "</a>";
+      }).join("");
 
     if (!view.sections.length) {
       contentEl.innerHTML = '<p class="empty">No stories match “' + escapeHtml(needle) + "”.</p>";

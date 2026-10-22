@@ -35,6 +35,64 @@
     <p class="result-count" id="result-count" aria-live="polite"></p>
   </header>
 
+  <section class="share" id="share" aria-labelledby="share-heading">
+    <h2 class="share-head" id="share-heading">Share Your Story</h2>
+    <p class="share-lede">Everyone is welcome here, whatever your race, religion, background or means. If you have something that adds value, a personal story, a recovery, a treatment that helped, a solution or a resource, please share it. It is always free.</p>
+    <p class="share-lede">You can also write a full article, and if we publish it, you will get full credit. Every submission is read by a moderator before anything is posted. We publish only positive, real experiences that help others. No profanity, rudeness or negativity. Together we can help people heal.</p>
+
+    <details class="share-open">
+      <summary><span class="when-closed">Open the form</span><span class="when-open">Hide the form</span></summary>
+      <form id="share-form" class="share-form" novalidate>
+        <div class="share-grid">
+          <div class="f">
+            <label for="share-name">Name <span class="hint">(or how you want to be credited)</span></label>
+            <input id="share-name" name="name" type="text" autocomplete="name" maxlength="120">
+          </div>
+          <div class="f">
+            <label for="share-email">Email <span class="req">Required</span> <span class="hint">Never shown publicly</span></label>
+            <input id="share-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="err-email" maxlength="200">
+            <p class="err" id="err-email" aria-live="polite"></p>
+          </div>
+          <div class="f">
+            <label for="share-type">Type</label>
+            <select id="share-type" name="type">
+              <option>Story</option>
+              <option>Solution or treatment that helped</option>
+              <option>Article to publish</option>
+              <option>Comment or question</option>
+            </select>
+          </div>
+          <div class="f">
+            <label for="share-title">Title</label>
+            <input id="share-title" name="title" type="text" maxlength="200">
+          </div>
+          <div class="f f--wide">
+            <label for="share-message">Message <span class="req">Required</span></label>
+            <textarea id="share-message" name="message" rows="6" required aria-describedby="err-message" maxlength="8000"></textarea>
+            <p class="err" id="err-message" aria-live="polite"></p>
+          </div>
+          <div class="f f--wide">
+            <label for="share-link">Link <span class="hint">(optional)</span></label>
+            <input id="share-link" name="link" type="url" inputmode="url" placeholder="https://" maxlength="500">
+          </div>
+          <div class="f f--wide f--check">
+            <input id="share-consent" name="consent" type="checkbox" required aria-describedby="err-consent">
+            <label for="share-consent">I agree my submission may be edited and published with credit <span class="req">Required</span></label>
+            <p class="err" id="err-consent" aria-live="polite"></p>
+          </div>
+        </div>
+        <p class="share-note">Please do not share private medical records. This site is not medical advice.</p>
+        <button type="submit" class="share-submit" id="share-submit">Send to the Editors</button>
+        <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
+      </form>
+      <div class="share-thanks" id="share-thanks" tabindex="-1" hidden>
+        <p class="share-thanks-head">Thank you for sharing.</p>
+        <p>A moderator will read your submission with care. <span class="share-thanks-extra"></span></p>
+        <button type="button" class="share-again" id="share-again">Share something else</button>
+      </div>
+    </details>
+  </section>
+
   <p class="intro" id="intro">
     This site tracks the latest research, clinical trials, and experimental options in nerve regeneration in one place, from spinal cord and nerve-root repair to peripheral nerve repair and therapies still being tested. Each entry summarizes a published source and links out to it.
   </p>
@@ -52,6 +110,7 @@
     <p class="colophon-meta"><a href="#top">Back to top</a></p>
   </footer>
 
+  <script src="share.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

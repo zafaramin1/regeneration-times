@@ -33,6 +33,13 @@ Latest stays ordered by `date_published`. Top Stories starts ranked by `relevanc
 
 Each story renders as a compact log entry styled as a parchment scroll: date, category tag, relevance score, headline, source, and the Quick Read. Tapping the entry (or its "Open full details" button, which carries `aria-expanded`) unrolls the full details: summary, why it matters, evidence level, relevance reason, date note, trial status and eligibility, trial link, and the link to the original article. Tapping again rolls it back up. The animation is CSS only and is turned off under `prefers-reduced-motion`.
 
+## Share Your Story form
+
+The form at the top of the page has no backend. Its settings are the two constants at the top of [`share.js`](share.js):
+
+- `SUBMIT_TO`: the editors' email address. On submit the form checks that an email and message are filled in and the consent box is ticked, then opens a pre-filled `mailto:` to this address.
+- `FORM_ENDPOINT`: empty by default. Set it to a form service URL and the form will POST its fields there as FormData instead (falling back to `mailto:` if the request fails).
+
 ## Run locally
 
 Fetching the story file needs a local server:
