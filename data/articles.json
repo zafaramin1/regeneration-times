@@ -8,6 +8,12 @@
     "date_published": "2026-10-12",
     "date_added": "2026-10-21",
     "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Neck spine",
+      "cause": "Trauma",
+      "approach": "Drug",
+      "stage": "Recruiting trial"
+    },
     "summary": "NervGen announced that the first participant has been dosed in RESTORE, a randomized, double-blind, placebo-controlled Phase 3 study of NVG-291, an investigational peptide designed to target the inhibitory CSPG-PTP-sigma pathway that can block nerve repair. Participants receive a once-daily injection under the skin (NVG-291 or placebo) for 12 weeks, followed by a 4-week observation period, with an optional open-label extension planned. The primary endpoint is change in hand function measured by the GRASSP Quantitative Prehension score. About 150 adults are expected to enroll across the United States and Canada; the company expects enrollment to finish in the second half of 2027 and topline data in the first half of 2028.",
     "quick_read": "This is a large, late-stage study of an experimental drug called NVG-291 in adults who injured the spinal cord in their neck one to ten years ago. The drug is designed to block a natural signal that stops damaged nerves from repairing themselves after an injury. Participants get a daily shot under the skin, either the drug or a dummy shot, for 12 weeks, and researchers measure whether their hand function improves. If it works, it could become one of the first medicines aimed at helping people regain hand use years after a spinal cord injury, but results are not expected until 2028 and injuries not caused by trauma are excluded.",
     "why_it_matters": "This is a late-stage drug trial with hand function as its main goal, which is directly relevant to hand recovery after cervical cord damage. Eligibility is limited to traumatic injuries, though: the registry listing excludes nontraumatic spinal cord injury, ongoing cord compression and malignancy within the past 5 years, so tumor-related compression would likely not qualify.",
@@ -29,6 +35,12 @@
     "date_published": "2026-07-21",
     "date_added": "2026-10-21",
     "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Neck spine",
+      "cause": "Trauma",
+      "approach": "Stem cells",
+      "stage": "Human trial"
+    },
     "summary": "Keio University researchers report long-term results of a first-in-human, open-label study in which neural stem/progenitor cells made from induced pluripotent stem cells were transplanted into four patients with subacute complete cervical spinal cord injury. The main safety goal was met: no tumor formation or graft-related adverse events were seen over 2 to 4 years of follow-up, and graft sites were stable on imaging. As an exploratory measure, the median motor score improved by 13 points by week 52, and two patients improved in ASIA grade (A to C and A to D). The authors note these gains were numerically greater than spontaneous recovery in a registry cohort, but with only four patients and no control group, effectiveness still has to be tested in further trials.",
     "quick_read": "Researchers in Japan turned specially reprogrammed stem cells into young nerve cells and transplanted them into four people with recent, complete spinal cord injuries in the neck. The main goal was safety, and over 2 to 4 years no tumors or other problems caused by the transplanted cells were found. Some patients regained movement, and two moved up on the standard scale doctors use to grade spinal cord injuries. With only four people and no comparison group, no one can yet say the cells caused that improvement. It is an early sign that replacing lost spinal cord cells may be possible to do safely in people.",
     "why_it_matters": "It is one of the first long-term human safety readouts for replacing lost spinal cord cells with iPSC-derived cells in the cervical (hand-controlling) region of the cord. It shows the approach can be done in people, though whether it works is still unproven.",
@@ -44,6 +56,12 @@
     "date_published": "2025-10-29",
     "date_added": "2026-10-21",
     "category": "Breakthroughs",
+    "tags": {
+      "body_area": "Neck spine",
+      "cause": "Trauma",
+      "approach": "Drug",
+      "stage": "Animal study"
+    },
     "summary": "UC San Diego researchers used computer screens to find existing compounds that push injured motor neurons toward the embryonic, growth-ready gene-activity state linked to successful regeneration. Their lead hit, thiorphan (a neutral endopeptidase inhibitor that has been tested in humans for another use), increased neurite outgrowth 1.8-fold in cultured adult motor cortex neurons. In rats with severe C5 spinal cord contusions, thiorphan infused into the motor cortex starting 2 weeks after injury, combined with a neural stem cell graft, significantly improved forelimb grasping and increased corticospinal axon regeneration into the graft by about 60%. Thiorphan also increased neurite growth in cultured adult monkey and human cortical neurons.",
     "quick_read": "Scientists used computers to search existing drugs for ones that could push injured nerve cells back into a young, growth-ready state, and they found one called thiorphan. In rats with neck-level spinal cord injuries, giving thiorphan into the brain together with a stem cell graft helped more nerve fibers regrow and improved the rats' ability to grip with their front paws. The drug also boosted nerve growth in human and monkey nerve cells grown in the lab. This is still animal and lab research, and the drug currently has to be delivered straight into the brain, so it is a long way from being a treatment people can use.",
     "why_it_matters": "The study targets the corticospinal tract, the main pathway for skilled hand movement, and measured forelimb grasping after a cervical-level injury, which makes it relevant to hand function. It is still preclinical, and the drug had to be infused directly into the brain because it does not cross the blood-brain barrier.",
@@ -59,6 +77,12 @@
     "date_published": "2026-09-21",
     "date_added": "2026-10-21",
     "category": "Peripheral Nerve Repair",
+    "tags": {
+      "body_area": "Peripheral nerve",
+      "cause": "Nerve gap",
+      "approach": "Scaffold",
+      "stage": "Animal study"
+    },
     "summary": "Researchers built a biodegradable polycaprolactone scaffold packed with many tiny parallel channels that mimic the bundles inside a natural nerve, using a new embossing method that leaves over 70% of the cross-section open for regrowing axons. In 1 cm sciatic nerve gaps in rats and 3 cm gaps in rabbits, the scaffold was equivalent to the gold-standard nerve autograft on axon regeneration, motor neuron-to-muscle reconnection and muscle mass, and it beat simple open-tube conduits on all measures. In the 3 cm rabbit gap, muscle electrical responses were about twofold greater than with autografts. The authors say the device is now in a multicenter randomized clinical trial (NCT06529835), and several authors disclose that they are founders and shareholders in Auxilium Therapeutics, which licensed the technology.",
     "quick_read": "When a cut nerve in the arm or leg leaves a gap, surgeons often bridge it with a healthy nerve taken from elsewhere in the patient's body, called an autograft. This team built a dissolvable tube packed with many tiny channels, designed to guide regrowing nerve fibers the way the inside of a real nerve does. In rats and rabbits it worked as well as an autograft for nerve regrowth and reconnecting to muscle, and better than a simple hollow tube. The device is now being tested in people, and if it holds up, patients might one day avoid giving up a healthy nerve to repair a gap. Several of the authors have a financial stake in the company that licensed it.",
     "why_it_matters": "An off-the-shelf conduit as good as an autograft could mean no need to harvest a healthy nerve when repairing gaps in the arm and hand. It applies to peripheral nerve gaps rather than to the spinal cord itself.",
@@ -74,9 +98,15 @@
     "date_published": "2026-09-03",
     "date_added": "2026-10-21",
     "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Neck spine",
+      "cause": "Any cause",
+      "approach": "Nerve transfer",
+      "stage": "Review"
+    },
     "summary": "This PROSPERO-registered systematic review pooled 51 studies covering 959 patients who had tendon and/or nerve transfer surgery to restore elbow extension, grip, pinch or release after a spinal cord injury. For elbow extension, strength of M3 or better (able to move against gravity) was reported in 68% after nerve transfers, 79% after biceps-to-triceps tendon transfer and 70% after deltoid-to-triceps transfer. For finger flexion, the pooled rate of M3 or better after brachialis-to-anterior interosseous nerve transfer was 50% (95% CI 31-70%), with better results in younger patients, while 78% reached M3 or better after supinator-to-posterior interosseous nerve transfer for finger extension. The authors conclude there is no gold standard, that procedure choice is patient-specific, and that more consistent follow-up measures are needed.",
     "quick_read": "This study pooled results from 51 earlier studies covering 959 people who had surgery after a neck-level spinal cord injury to reroute working nerves or tendons to muscles that had stopped working. These operations aim to bring back abilities like straightening the elbow, gripping, pinching and letting go. Depending on the procedure, roughly half to about four in five patients regained enough strength to move the joint against gravity. The authors found no single best surgery, so the right choice depends on the person, but the review gives a realistic picture of what these operations can achieve for arm and hand function.",
-    "why_it_matters": "It gives an evidence-based overview of how much hand and arm strength surgical rerouting of working nerves and tendons has restored, which is useful background for families learning about hand-function reconstruction options.",
+    "why_it_matters": "It gives an evidence-based overview of how much hand and arm strength surgical rerouting of working nerves and tendons has restored, which is useful background for anyone learning about hand-function reconstruction options.",
     "relevance_score": 8,
     "relevance_reason": "Large evidence synthesis focused squarely on hand and arm function after cervical cord injury.",
     "evidence_level": "Systematic review (Level III therapeutic evidence)"
@@ -89,6 +119,12 @@
     "date_published": "2025-02-19",
     "date_added": "2026-10-21",
     "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Neck spine",
+      "cause": "Any cause",
+      "approach": "Stimulation",
+      "stage": "Recruiting trial"
+    },
     "summary": "This Stanford observational study is testing whether brief electrical stimulation of donor nerves during nerve transfer surgery, plus a temporary implanted peripheral nerve stimulator used for 60 days afterward, improves hand motor function and pain compared with past patients who had the same surgery without stimulation. About 10 patients with C6 or C7 injuries rated ASIA A or B will have transfers aimed at restoring finger extension (posterior interosseous nerve) and finger flexion (anterior interosseous nerve). The main outcomes are finger and thumb muscle strength at 36 months and pain at 6 months, and patients are followed for up to 3 years. The registry notes that all care in the study is standard of care rather than experimental.",
     "quick_read": "This Stanford study is enrolling about 10 adults with certain neck-level spinal cord injuries who are already having nerve transfer surgery to help their fingers open and close. During the operation, doctors briefly stimulate the donor nerves with electricity, and a small temporary stimulator is then used for 60 days afterward. Researchers will compare finger and thumb strength and pain with past patients who had the same surgery without stimulation. If it helps, adding electrical stimulation could be a simple way to get more out of nerve transfer surgery, though only a narrow group of patients can join.",
     "why_it_matters": "It combines two approaches aimed at hand recovery (nerve transfers and electrical stimulation) and is recruiting now. The criteria are narrow, however (ASIA A/B, C6-C7 level, and active malignancy excluded), so individual eligibility would have to be checked with the study team.",
@@ -112,6 +148,12 @@
     "date_published": "2026-02-26",
     "date_added": "2026-10-21",
     "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Trauma",
+      "approach": "Stimulation",
+      "stage": "Recruiting trial"
+    },
     "summary": "FASTR-TEN is a multicenter, double-blind, randomized controlled trial testing whether a brief dose of electrical stimulation delivered to a repaired nerve during surgery speeds healing after finger (digital) nerve injuries. It uses Checkpoint Surgical's investigational Regen10 Nerve Regeneration System under an FDA Investigational Device Exemption; the company's related BEST platform received FDA Breakthrough Device designation. Patients get standard surgical repair with or without 10 minutes of stimulation, and outcomes include two-point discrimination, other sensory tests, pain and hand-function questionnaires through 9 months. In February 2026, UW Medicine's Harborview Medical Center enrolled its first patient, bringing the study to five US institutions.",
     "quick_read": "This trial is testing whether 10 minutes of electrical stimulation, given to a finger nerve during surgery to repair it, helps the nerve heal faster. People with a recently cut finger nerve get the standard repair, and some are randomly chosen to also get the stimulation, with neither the patients nor the researchers measuring results told who received it. The team then tracks feeling, pain and hand function for 9 months. If it works, brief stimulation could become an easy add-on to nerve repair surgery, though this study only covers fresh finger nerve cuts, not spinal cord damage.",
     "why_it_matters": "Brief electrical stimulation is one of the closest-to-clinic ways to speed up nerve regrowth, and this trial tests it rigorously in the hand. It covers fresh finger-nerve cuts repaired within a month of injury, not spinal cord or root compression.",
@@ -133,6 +175,12 @@
     "date_published": "2026-05-20",
     "date_added": "2026-10-21",
     "category": "Peripheral Nerve Repair",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Any cause",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
     "summary": "Polyethylene glycol (PEG) is a chemical that, during nerve repair surgery, can help re-seal cut nerve fibers and limit the breakdown of the disconnected segment. This analysis of prospectively collected data compared 48 PEG-assisted upper-extremity nerve repairs, 42 direct (primary) repairs and 6 repairs using a nerve autograft, followed for up to 100 days. Patients in the PEG-plus-autograft group were more likely to reach a meaningful sensory recovery grade (MRCC 3 or higher) over follow-up than those with PEG primary repair (p=0.029). The authors call this the first human comparison of PEG-assisted techniques and say the small autograft group means larger validation studies are needed.",
     "quick_read": "When a nerve is cut, the part that is cut off usually breaks down, and the nerve then has to slowly regrow over months. Polyethylene glycol, or PEG, is a chemical used during repair surgery to help seal cut nerve fibers back together right away. This study compared different PEG-assisted repairs of arm and hand nerves and found that patients who had PEG combined with a nerve graft were more likely to regain useful feeling within the first 100 days than those who had PEG with a direct repair. Only 6 patients were in the graft group, so the results are early and need to be confirmed in larger studies.",
     "why_it_matters": "PEG fusion aims to reconnect cut nerve fibers right away rather than waiting months for regrowth, and this adds early human data on arm and hand nerves. Only 6 patients received autografts, so the findings are preliminary.",

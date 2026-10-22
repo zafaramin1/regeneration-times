@@ -7,16 +7,6 @@
   var query = "";
   var openEntries = {};
   var REDUCED_MOTION = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var HANDS_SVG =
-    '<svg class="scroll-close-mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' +
-      '<path d="M24 4.5c-3.4 1.6-5.8 6-6.8 11.6l-1.5 8.6c-2.6 3.2-4.1 7.1-4.1 11.3V43"/>' +
-      '<path d="M24 4.5c3.4 1.6 5.8 6 6.8 11.6l1.5 8.6c2.6 3.2 4.1 7.1 4.1 11.3V43"/>' +
-      '<path d="M24 5.5v28"/>' +
-      '<path d="M24 33c-3.6-.5-5.4-3.6-4.9-8.6"/>' +
-      '<path d="M24 33c3.6-.5 5.4-3.6 4.9-8.6"/>' +
-      '<path d="M20.9 10.5l-.9 5.5M27.1 10.5l.9 5.5"/>' +
-      '<path d="M9.5 43h13M25.5 43h13"/>' +
-    "</svg>";
   var CLOSE_HTML =
     '<button type="button" class="scroll-close" aria-label="Close the scroll">' +
       '<span class="scroll-close-emblem" aria-hidden="true"></span>' +
@@ -97,11 +87,24 @@
     });
   }
 
+  function formatShortDate(iso) {
+    if (!iso || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) {
+      return iso || "";
+    }
+    var parts = iso.split("-");
+    var date = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+    return date.toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric"
+    });
+  }
+
   function matches(article, needle) {
     if (!needle) {
       return true;
     }
-    var haystack = [article.title, article.quick_read, article.summary, article.source, article.category]
+    var haystack = [article.title, article.quick_read, article.summary, article.source, article.category].concat(tagList(article))
       .join("\n")
       .toLowerCase();
     return haystack.indexOf(needle) !== -1;
@@ -244,19 +247,35 @@
     return '<aside class="trial">' + parts.join("") + "</aside>";
   }
 
+  var TAG_KEYS = ["body_area", "cause", "approach", "stage"];
+
+  function tagList(article) {
+    var tags = article.tags || {};
+    return TAG_KEYS.map(function (k) {
+      return tags[k];
+    }).filter(Boolean);
+  }
+
   function entryHtml(article, section, index) {
     var key = section.id + "--" + (article.id || index);
-    var isOpen = !!openEntries[key];
+    var level = openEntries[key] || 0;
+    var qrId = "qr-" + key;
     var detailsId = "details-" + key;
     var headId = "head-" + key;
     var score = article.relevance_score == null || article.relevance_score === ""
       ? ""
-      : '<span class="score" title="Relevance score">Relevance ' + escapeHtml(article.relevance_score) + "</span>";
+      : '<span class="score" title="Relevance score"><span class="sr-only">Relevance </span>' + escapeHtml(article.relevance_score) + '<span class="score-of" aria-hidden="true">/10</span></span>';
     var date = article.date_published
-      ? '<time datetime="' + escapeHtml(article.date_published) + '">' + escapeHtml(formatDate(article.date_published)) + "</time>"
+      ? '<time datetime="' + escapeHtml(article.date_published) + '">' + escapeHtml(formatShortDate(article.date_published)) + "</time>"
+      : "";
+    var tags = tagList(article);
+    var tagLine = tags.length
+      ? '<p class="entry-tags"><span class="sr-only">Tags: </span>' + tags.map(function (t) {
+          return '<span class="chip">' + escapeHtml(t) + "</span>";
+        }).join('<span class="dot" aria-hidden="true"> · </span>') + "</p>"
       : "";
     var quick = article.quick_read
-      ? '<div class="quick-read"><p class="qr-label">Quick Read</p><p class="qr-text">' + escapeHtml(article.quick_read) + "</p></div>"
+      ? '<div class="quick-read" data-advance><p class="qr-label">Quick Read</p><p class="qr-text">' + escapeHtml(article.quick_read) + "</p></div>"
       : "";
 
     var detail = "";
@@ -268,6 +287,9 @@
     }
     var facts = "";
     [
+      ["Section", article.category],
+      ["Source", article.source],
+      ["Published", article.date_published ? formatDate(article.date_published) : ""],
       ["Evidence level", article.evidence_level],
       ["Relevance", article.relevance_score == null || article.relevance_score === ""
         ? ""
@@ -277,7 +299,10 @@
       if (!pair[1]) {
         return;
       }
-      facts += "<div><dt>" + escapeHtml(pair[0]) + "</dt><dd>" + escapeHtml(pair[1]) + "</dd></div>";
+      var val = pair[0] === "Section"
+        ? '<span class="chip chip--brass">' + escapeHtml(pair[1]) + "</span>"
+        : escapeHtml(pair[1]);
+      facts += "<div><dt>" + escapeHtml(pair[0]) + "</dt><dd>" + val + "</dd></div>";
     });
     if (facts) {
       detail += '<dl class="facts">' + facts + "</dl>";
@@ -289,24 +314,29 @@
     detail += CLOSE_HTML;
 
     return (
-      '<article class="entry scroll' + (isOpen ? " is-open" : "") + '" id="' + escapeHtml(key) + '" data-key="' + escapeHtml(key) + '" aria-labelledby="' + escapeHtml(headId) + '">' +
+      '<article class="entry scroll" data-level="' + level + '" id="' + escapeHtml(key) + '" data-key="' + escapeHtml(key) + '" aria-labelledby="' + escapeHtml(headId) + '">' +
         '<div class="scroll-rod scroll-rod--top" aria-hidden="true"></div>' +
         '<div class="scroll-sheet">' +
-          '<div class="entry-row" data-toggle-area>' +
-            '<p class="entry-meta">' + date +
-              '<span class="tag">' + escapeHtml(article.category || "Story") + "</span>" +
-              score +
-            "</p>" +
-            '<h3 class="entry-head" id="' + escapeHtml(headId) + '">' + escapeHtml(article.title || "Untitled") + "</h3>" +
-            (article.source ? '<p class="entry-source">' + escapeHtml(article.source) + "</p>" : "") +
-            quick +
-            '<button type="button" class="entry-toggle" aria-expanded="' + (isOpen ? "true" : "false") + '" aria-controls="' + escapeHtml(detailsId) + '">' +
-              '<span class="when-closed">Open full details</span><span class="when-open">Close details</span>' +
-              '<span class="chev" aria-hidden="true"></span>' +
-            "</button>" +
+          '<div class="entry-row" data-advance>' +
+            '<h3 class="entry-head">' +
+              '<button type="button" class="entry-headbtn" id="' + escapeHtml(headId) + '" aria-expanded="' + (level > 0 ? "true" : "false") + '" aria-controls="' + escapeHtml(qrId) + '">' +
+                '<span class="head-text">' + escapeHtml(article.title || "Untitled") + "</span>" +
+              "</button>" +
+            "</h3>" +
+            ((date || score) ? '<p class="head-meta">' + date + score + "</p>" : "") +
           "</div>" +
-          '<div class="entry-details" id="' + escapeHtml(detailsId) + '" role="region" aria-labelledby="' + escapeHtml(headId) + '"' + (isOpen ? "" : " inert") + ">" +
-            '<div class="entry-details-inner">' + detail + "</div>" +
+          tagLine +
+          '<div class="stage stage--qr" id="' + escapeHtml(qrId) + '"' + (level >= 1 ? "" : " inert") + ">" +
+            '<div class="stage-inner">' +
+              quick +
+              '<button type="button" class="more-btn" aria-expanded="' + (level >= 2 ? "true" : "false") + '" aria-controls="' + escapeHtml(detailsId) + '">' +
+                '<span class="when-closed">Read full details</span><span class="when-open">Hide full details</span>' +
+                '<span class="chev" aria-hidden="true"></span>' +
+              "</button>" +
+            "</div>" +
+          "</div>" +
+          '<div class="stage stage--details" id="' + escapeHtml(detailsId) + '" role="region" aria-label="Full details"' + (level >= 2 ? "" : " inert") + ">" +
+            '<div class="stage-inner">' + detail + "</div>" +
           "</div>" +
         "</div>" +
         '<div class="scroll-rod scroll-rod--bottom" aria-hidden="true"></div>' +
@@ -314,20 +344,32 @@
     );
   }
 
-  function toggleEntry(entry) {
+  function setLevel(entry, level) {
     var key = entry.getAttribute("data-key");
-    var open = !entry.classList.contains("is-open");
-    var button = entry.querySelector(".entry-toggle");
-    var details = entry.querySelector(".entry-details");
-    entry.classList.toggle("is-open", open);
-    button.setAttribute("aria-expanded", open ? "true" : "false");
-    if (open) {
+    entry.setAttribute("data-level", String(level));
+    entry.querySelector(".entry-headbtn").setAttribute("aria-expanded", level > 0 ? "true" : "false");
+    entry.querySelector(".more-btn").setAttribute("aria-expanded", level >= 2 ? "true" : "false");
+    var qr = entry.querySelector(".stage--qr");
+    var details = entry.querySelector(".stage--details");
+    if (level >= 1) {
+      qr.removeAttribute("inert");
+    } else {
+      qr.setAttribute("inert", "");
+    }
+    if (level >= 2) {
       details.removeAttribute("inert");
-      openEntries[key] = true;
     } else {
       details.setAttribute("inert", "");
+    }
+    if (level) {
+      openEntries[key] = level;
+    } else {
       delete openEntries[key];
     }
+  }
+
+  function levelOf(entry) {
+    return Number(entry.getAttribute("data-level")) || 0;
   }
 
   contentEl.addEventListener("click", function (event) {
@@ -335,31 +377,35 @@
     if (target.closest("a")) {
       return;
     }
-    var closer = target.closest(".scroll-close");
-    if (closer) {
-      var entry = closer.closest(".entry");
-      if (entry && entry.classList.contains("is-open")) {
-        toggleEntry(entry);
-        var toggle = entry.querySelector(".entry-toggle");
-        if (toggle) {
-          toggle.focus({ preventScroll: true });
-        }
-        var rect = entry.getBoundingClientRect();
-        if (rect.top < 0 || rect.top > window.innerHeight * 0.4) {
-          entry.scrollIntoView({ block: "start", behavior: REDUCED_MOTION ? "auto" : "smooth" });
-        }
+    var entry = target.closest(".entry");
+    if (!entry) {
+      return;
+    }
+    if (target.closest(".scroll-close")) {
+      setLevel(entry, 0);
+      var head = entry.querySelector(".entry-headbtn");
+      if (head) {
+        head.focus({ preventScroll: true });
+      }
+      var rect = entry.getBoundingClientRect();
+      if (rect.top < 0 || rect.top > window.innerHeight * 0.4) {
+        entry.scrollIntoView({ block: "start", behavior: REDUCED_MOTION ? "auto" : "smooth" });
       }
       return;
     }
-    var area = target.closest("[data-toggle-area]");
-    if (!area) {
+    if (target.closest(".more-btn")) {
+      setLevel(entry, levelOf(entry) >= 2 ? 1 : 2);
+      return;
+    }
+    if (!target.closest("[data-advance]") && !target.closest(".entry-tags")) {
       return;
     }
     var selection = window.getSelection && window.getSelection();
-    if (selection && String(selection).length > 0 && !target.closest(".entry-toggle")) {
+    if (selection && String(selection).length > 0 && !target.closest("button")) {
       return;
     }
-    toggleEntry(area.closest(".entry"));
+    // Closed -> Quick Read -> full details -> closed.
+    setLevel(entry, (levelOf(entry) + 1) % 3);
   });
 
   function render() {
