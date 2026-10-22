@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Regeneration Times</title>
+  <meta name="description" content="Nerve repair and regeneration breakthroughs, every day. Research, clinical trials, and experimental options in one place.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to stories</a>
+
+  <header class="masthead" id="top">
+    <p class="edition">Daily briefing</p>
+    <p class="dateline" id="dateline">Thursday, October 22, 2026</p>
+    <h1>The Regeneration Times</h1>
+    <p class="tagline">Nerve repair and regeneration breakthroughs, every day.</p>
+    <nav class="jump-nav" id="jump-nav" aria-label="Jump to section"></nav>
+    <div class="tools">
+      <form id="search-form" class="search" role="search" autocomplete="off">
+        <label for="q">Search</label>
+        <input id="q" name="q" type="search" placeholder="Title, summary, source, or category" enterkeyhint="search">
+      </form>
+      <div class="sort" role="group" aria-label="Sort stories">
+        <span class="sort-label" id="sort-label">Sort</span>
+        <button type="button" id="sort-relevance" aria-pressed="true">Relevance</button>
+        <button type="button" id="sort-newest" aria-pressed="false">Newest</button>
+      </div>
+    </div>
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+  </header>
+
+  <p class="intro" id="intro">
+    This site tracks the latest research, clinical trials, and experimental options in nerve regeneration in one place, from spinal cord and nerve-root repair to peripheral nerve repair and therapies still being tested. Each card summarizes a published source and links out to it.
+  </p>
+
+  <main id="content">
+    <p class="loading" id="loading">Loading stories…</p>
+  </main>
+
+  <footer class="colophon">
+    <p class="disclaimer">For information only. Not medical advice. Talk to your doctor before considering any treatment or trial.</p>
+    <p class="colophon-meta"><a href="#top">Back to top</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
