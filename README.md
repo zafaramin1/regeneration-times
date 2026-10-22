@@ -91,3 +91,17 @@ Publish with GitHub Pages from the `main` branch, folder `/` (root). `.nojekyll`
 ## Disclaimer
 
 For information only. Not medical advice. Talk to your doctor before considering any treatment or trial.
+
+
+## Layout and shared editorial workflow
+
+Topic buttons use three rectangular columns on desktop and two on phones. Closed story scrolls use three columns on desktop, two on tablets, and one on phones. An opened scroll spans the entire grid width, with following stories flowing below it. Fine crosshatched paper texture, serif typography, parchment, and restrained wooden ends preserve the newspaper style.
+
+Multiple editors or bots may add stories. Before every write:
+1. Read the current `data/articles.json` and its blob SHA.
+2. Check normalized source URLs, DOI, trial registry IDs, and the underlying study to avoid duplicate coverage.
+3. Append only verified, original summaries using this schema. Preserve all existing entries and stable IDs.
+4. Re-fetch immediately before committing. If the SHA changed, merge the addition into the latest version and check for duplicates again. On a conflict, repeat this process; never force-push or replace another editor's work with a stale copy.
+5. Confirm that the result is valid JSON with unique IDs. Story-only contributors should not change presentation files.
+
+Prioritize neurological problems and recovery associated with brain tumors. Clearly identify the evidence level and actual source publication date. Recheck trial recruitment status from its registry. A daily search is a target, not a reason to invent news, overstate results, or publish an unverified claim.
