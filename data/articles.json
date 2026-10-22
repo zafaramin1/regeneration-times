@@ -1,5 +1,144 @@
 [
   {
+    "id": "columbia-rtms-motor-recovery-after-brain-tumor-surgery-nct07530536",
+    "title": "Columbia study recruiting: magnetic brain stimulation to help movement recover after brain tumor surgery",
+    "source": "ClinicalTrials.gov (Columbia University)",
+    "url": "https://clinicaltrials.gov/study/NCT07530536",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07530536",
+    "date_published": "2026-04-15",
+    "date_added": "2026-10-22",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Recruiting trial"
+    },
+    "summary": "Columbia University is running a single-center, open-label pilot study of image-guided repetitive transcranial magnetic stimulation (rTMS) for adults who have movement problems after surgery to remove a brain tumor. Six patients are planned: three with new motor deficits one to two weeks after surgery, who also get physical therapy, and three with persistent deficits up to three years after surgery, with or without physical therapy. Each person gets stimulation once a day for three days in a row, using inhibitory theta burst stimulation over motor areas on the healthy side of the brain and excitatory theta burst stimulation over motor areas on the operated side. The main outcomes are side effects and change in muscle strength on the British Medical Research Council (MRC) scale one week after treatment, with follow-up at 1 week, 1 month, 3 months and 6 months.",
+    "quick_read": "This small study at Columbia University in New York is testing whether a non-invasive magnetic stimulation treatment can help people regain movement after brain tumor surgery. Magnetic pulses are given through the scalp to the brain areas that control movement, once a day for three days. It is open both to people with new weakness one to two weeks after surgery and to people who still have weakness up to three years later. The main goals are to check safety and whether muscle strength improves, so it is an early step rather than a proven treatment.",
+    "why_it_matters": "It is one of the few recruiting trials built specifically for weakness caused by brain tumor surgery, and it accepts people with long-standing deficits, not just the first weeks after the operation. It is very small and early, and people with any history of seizures are excluded, which rules out many brain tumor patients.",
+    "relevance_score": 10,
+    "relevance_reason": "Recruiting trial aimed directly at motor deficits after brain tumor surgery, including chronic deficits up to 3 years.",
+    "evidence_level": "Recruiting pilot trial (single-arm, open-label, 6 participants planned)",
+    "trial_status": {
+      "status": "Recruiting (first posted 2026-04-15; estimated start 2026-06; estimated primary completion 2028-04)",
+      "phase": "Not applicable (device study)",
+      "location": "Columbia University Irving Medical Center, New York, NY, USA",
+      "key_eligibility": "Ages 22-65; surgical removal of a brain tumor (biopsy alone does not qualify); motor weakness of MRC 3/5 or less, or a sustained drop of one MRC point, 1-2 weeks after surgery, or persistent motor deficits within 3 years of surgery. Excludes any history of seizures, implanted devices, MMSE below 26, prior TMS, other structural brain conditions such as stroke, and pregnancy (see registry for full criteria)."
+    },
+    "date_note": "date_published is the registry's first-posted date (2026-04-15), which is also its last update. Recruiting status was checked on 2026-10-22."
+  },
+  {
+    "id": "nrtms-postsurgical-paresis-brain-tumor-multicenter-j-neurooncol",
+    "title": "Four-center analysis of 135 patients: magnetic stimulation plus physiotherapy helped arm weakness after brain tumor surgery",
+    "source": "Journal of Neuro-Oncology (Charité Berlin, TU Munich, King's College Hospital, MD Anderson)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11937064/",
+    "date_published": "2025-01-23",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "summary": "Researchers pooled two randomized trials and three single-arm studies of brain tumor patients with new or worsened arm weakness after surgery. Patients received low-frequency navigated repetitive TMS over the motor cortex on the healthy side of the brain (to reduce its inhibition of the injured side), or sham stimulation, followed by physiotherapy. Of 135 patients, 51 were in the randomized trials (30 treated, 21 sham). The treated group did better on muscle strength (BMRC) at 7 days and on overall functional status (Karnofsky score) at 7 days and 3 months, with a smaller, uncertain difference on the Fugl-Meyer motor scale. The effect was stronger in patients whose MRI showed a small stroke (ischemia) from surgery, and the authors estimate that about 4 patients need treatment for one to gain at least one strength grade at 3 months.",
+    "quick_read": "Some people develop new weakness in an arm after brain tumor surgery. This study combined results from hospitals in Germany, the UK and the US, where 135 such patients received either a magnetic stimulation treatment through the scalp or a fake version, followed by physiotherapy. Those who got the real stimulation regained strength and everyday function faster, and the benefit was clearest when surgery had caused a small stroke near the movement areas. It adds to growing evidence that this non-invasive treatment can support rehabilitation, although larger randomized trials are still needed.",
+    "why_it_matters": "It is the largest pooled dataset so far on TMS for weakness caused specifically by brain tumor surgery, and it focuses on the arm and hand. Only 51 patients were randomized, and the strength advantage at 3 months was not statistically certain, so it supports but does not prove the approach.",
+    "relevance_score": 9,
+    "relevance_reason": "Multicenter human data on a rehab-boosting treatment for arm weakness caused by brain tumor surgery.",
+    "evidence_level": "Human study (secondary analysis of 2 RCTs and 3 single-arm studies, 135 patients)",
+    "date_note": "Published online 2025-01-23; print issue April 2025."
+  },
+  {
+    "id": "hf-nrtms-hand-knob-glioma-motor-deficits-rct-neuroimage-clin",
+    "title": "Randomized trial in glioma surgery patients: stimulating the brain's hand area sped up recovery of strength",
+    "source": "NeuroImage: Clinical (Beijing Tiantan Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12996816/",
+    "date_published": "2026-03-04",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "summary": "Thirty glioma patients with motor deficits after surgery were randomized to high-frequency neuro-navigated repetitive TMS or sham stimulation targeting the hand area (hand knob) of the motor cortex on the same side as the tumor. The stimulated group showed significantly greater gains in muscle strength right after treatment (average 3.5 vs 2.1) and at 3 months (4.6 vs 3.7). Resting-state MRI showed changes in sensorimotor network organization after stimulation, and changes in an upper limb motor region tracked most closely with recovery.",
+    "quick_read": "After surgery for a glioma, a common type of brain tumor, some people lose strength on one side of the body. In this study from a large hospital in Beijing, 30 such patients received either real or fake magnetic stimulation aimed at the part of the brain that controls the hand. Those who got the real treatment regained strength faster, and the difference was still there three months later. Brain scans suggested the stimulation helped the movement network reorganize, but the study was small and larger trials are needed.",
+    "why_it_matters": "It is a randomized, sham-controlled trial showing faster strength recovery with stimulation over the hand area on the operated side, a different approach from the low-frequency stimulation of the healthy side used in earlier studies. With 30 patients at one center, the results need confirmation.",
+    "relevance_score": 9,
+    "relevance_reason": "Randomized human trial targeting hand and arm recovery after glioma surgery.",
+    "evidence_level": "Human trial (randomized, sham-controlled, 30 patients)",
+    "date_note": "Published online 2026-03-04 (NeuroImage: Clinical volume 50, 2026)."
+  },
+  {
+    "id": "sma-glioma-resection-recovery-15-year-cohort",
+    "title": "Most severe weakness after surgery near the brain's supplementary motor area improved within 3 months, 15-year study finds",
+    "source": "Clinical Neurology and Neurosurgery (Haukeland University Hospital, Bergen)",
+    "url": "https://doi.org/10.1016/j.clineuro.2026.109598",
+    "date_published": "2026-07-31",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "summary": "This retrospective single-center cohort followed 46 adults who had grade 2 to 4 gliomas removed in or next to the supplementary motor area (SMA) between 2009 and 2024. On the first day after surgery, 54.3% had severe motor deficits and 56.5% had severe language problems, typical of SMA syndrome; by first follow-up both had fallen to 8.9%. Most patients recovered markedly within 3 months, though some kept mild motor or language difficulties and lower ECOG performance status, and older age was linked to lasting arm weakness. Gross total resection was achieved in 71.7%, 30-day mortality was 0%, 39% went to specialized rehabilitation at discharge, and 85% of those sent home received community rehabilitation.",
+    "quick_read": "Surgery for tumors near a brain area called the supplementary motor area can cause sudden, dramatic weakness and speech problems right after the operation. This Norwegian study looked back at 46 adults treated over 15 years and found that more than half had severe weakness the day after surgery. By their first follow-up visit, fewer than 1 in 10 still had severe weakness, and most had improved a great deal within three months. Some people kept mild problems, especially older patients with arm weakness, so rehabilitation and planning ahead still matter.",
+    "why_it_matters": "It gives patients and families a realistic, mostly hopeful picture of recovery after this kind of surgery, and shows how often rehabilitation was needed. It is a small retrospective study from one center, so individual outcomes vary.",
+    "relevance_score": 9,
+    "relevance_reason": "Direct data on recovery of movement after brain tumor surgery, with rehab needs.",
+    "evidence_level": "Human study (retrospective single-center cohort, 46 patients)",
+    "date_note": "Published online 2026-07-31; print issue November 2026."
+  },
+  {
+    "id": "facial-nerve-rehab-tens-cpa-tumor-surgery",
+    "title": "Electrical stimulation added to rehab was linked to better facial nerve recovery after surgery for tumors at the base of the brain",
+    "source": "European Journal of Translational Myology",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13389615/",
+    "date_published": "2026-03-02",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Face",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "summary": "This single-center retrospective cohort included adults who had cerebellopontine angle (CPA) tumors removed between 2018 and 2023 with a confirmed facial nerve injury that needed surgical reconstruction. Patients were grouped by the rehabilitation they received in routine care: standard therapy, standard therapy plus transcutaneous electrical nerve stimulation (TENS), or a multimodal plan combining TENS with targeted drug support. Over 12 months, facial function was measured with the House-Brackmann, Yanagihara and Sunnybrook scales, the Facial Disability Index, and surface and needle EMG. All groups improved, the groups with TENS improved more, and the multimodal group showed the largest gains in facial symmetry, voluntary movement and patient-reported function, even after adjusting for other factors.",
+    "quick_read": "Tumors at the base of the brain, in an area called the cerebellopontine angle, can injure the nerve that moves the face during surgery. This study looked back at patients whose facial nerve had to be repaired during that surgery and compared the rehab they received afterward. Everyone improved over a year, but people whose rehab included mild electrical stimulation through the skin recovered more, and those who also got targeted medication did best. Because patients were not randomly assigned, it shows a link rather than proof, and the authors call for prospective trials.",
+    "why_it_matters": "Facial weakness is one of the most visible cranial nerve problems after brain tumor surgery, and this points to practical rehab options that may help. The study is retrospective, the number of patients per group is limited, and treatment was not randomized.",
+    "relevance_score": 8,
+    "relevance_reason": "Cranial nerve (facial) deficit after brain tumor surgery with a rehab and stimulation comparison.",
+    "evidence_level": "Human study (retrospective single-center cohort)",
+    "date_note": "Published online 2026-03-02; issue dated 2026-07-03. CPA tumors such as vestibular schwannomas sit beside the brainstem at the base of the brain."
+  },
+  {
+    "id": "actino-intensive-exercise-high-grade-glioma-chemotherapy",
+    "title": "Supervised strength and endurance training during chemo was safe and improved fitness and quality of life in high-grade glioma",
+    "source": "Neuro-Oncology (ActiNO / MMH trial investigators, Germany)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12908479/",
+    "date_published": "2025-11-01",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "summary": "In this prospective, single-arm proof-of-concept trial at several German centers, 54 patients with high-grade glioma took part in Active in Neuro-Oncology (ActiNO), a 16-week program of supervised strength and endurance exercise twice a week during chemotherapy. Physical working capacity rose 23%, peak oxygen uptake 13% and peak power 19%, and quality of life, including global health and physical functioning, improved to normative levels. Exercise-related side effects were few and mild (CTCAE grade 1-2) and adherence was 85%, but 48% dropped out, mainly because of disease progression or physical limits.",
+    "quick_read": "People with aggressive brain tumors often lose strength and stamina during treatment. In this German study, 54 patients with high-grade glioma did supervised strength and endurance workouts twice a week for 16 weeks while on chemotherapy. Their fitness improved clearly and their quality of life, including physical functioning, rose to levels seen in the general population. Side effects from the exercise were few and mild, though about half of participants did not finish, mostly because of their illness.",
+    "why_it_matters": "It shows that structured, fairly intense exercise is possible and safe for many people with high-grade glioma during treatment, which supports building it into survivorship and rehab care. There was no control group and many people dropped out, so the size of the benefit is uncertain.",
+    "relevance_score": 8,
+    "relevance_reason": "Neuro-oncology survivorship rehab with physical function and quality of life outcomes.",
+    "evidence_level": "Human study (prospective single-arm proof-of-concept trial, 54 patients)",
+    "date_note": "Issue date 2025-11-01 (Neuro-Oncology volume 27, issue 11)."
+  },
+  {
     "id": "nvg-291-restore-phase3-first-dosed",
     "title": "NervGen doses first participant in RESTORE, a Phase 3 trial of NVG-291 for hand function in chronic cervical spinal cord injury",
     "source": "NervGen press release; ClinicalTrials.gov NCT07799532",
