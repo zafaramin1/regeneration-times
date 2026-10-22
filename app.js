@@ -19,8 +19,7 @@
     "</svg>";
   var CLOSE_HTML =
     '<button type="button" class="scroll-close" aria-label="Close the scroll">' +
-      '<span class="scroll-close-text" aria-hidden="true">Close the Scroll</span>' +
-      HANDS_SVG +
+      '<span class="scroll-close-emblem" aria-hidden="true"></span>' +
     "</button>";
 
   var contentEl = document.getElementById("content");
