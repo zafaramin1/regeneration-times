@@ -335,6 +335,7 @@
     var needle = query.trim();
 
     navEl.innerHTML = '<a href="#share" class="nav-share">Share Your Story</a>' +
+      '<a href="#subscribe" class="nav-share">Subscribe</a>' +
       view.sections.map(function (section) {
         return '<a href="#' + escapeHtml(section.id) + '">' + escapeHtml(section.title) + "</a>";
       }).join("");

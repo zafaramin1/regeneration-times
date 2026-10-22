@@ -86,6 +86,7 @@ var FORM_ENDPOINT = "";
 
   function collect() {
     return {
+      form: "share",
       name: value("name"),
       email: value("email"),
       type: value("type"),
@@ -180,5 +181,80 @@ var FORM_ENDPOINT = "";
     form.hidden = false;
     statusEl.textContent = "";
     field("name").focus();
+  });
+
+  /* ---------- Subscribe forms (top and footer) ---------- */
+
+  function subscribeMailto(name, email) {
+    var body = [
+      "Please add me to The Regeneration Times email list.",
+      "",
+      "Name: " + (name || "(not given)"),
+      "Email: " + email
+    ].join("\n");
+    return "mailto:" + encodeURIComponent(submitAddress()) +
+      "?subject=" + encodeURIComponent("Subscribe me to The Regeneration Times") +
+      "&body=" + encodeURIComponent(body);
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".subscribe-form"), function (subForm) {
+    var box = subForm.closest(".subscribe");
+    var emailEl = subForm.querySelector('input[name="email"]');
+    var nameEl = subForm.querySelector('input[name="name"]');
+    var errEl = subForm.querySelector(".err");
+    var btn = subForm.querySelector('button[type="submit"]');
+    var thanks = box.querySelector(".subscribe-thanks");
+
+    function done(viaEmail) {
+      thanks.querySelector(".subscribe-thanks-extra").textContent = viaEmail
+        ? "Your email app should open with the request ready. Please press Send to finish."
+        : "You are on the list.";
+      subForm.hidden = true;
+      thanks.hidden = false;
+      thanks.focus();
+    }
+
+    subForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      var email = String(emailEl.value || "").trim();
+      var name = nameEl ? String(nameEl.value || "").trim() : "";
+      if (!email || !EMAIL_RE.test(email)) {
+        emailEl.setAttribute("aria-invalid", "true");
+        errEl.textContent = email ? "That email address does not look right." : "Please enter your email.";
+        emailEl.focus();
+        return;
+      }
+      emailEl.removeAttribute("aria-invalid");
+      errEl.textContent = "";
+
+      if (FORM_ENDPOINT) {
+        btn.disabled = true;
+        var body = new FormData();
+        body.append("type", "subscribe");
+        body.append("name", name);
+        body.append("email", email);
+        body.append("page", window.location.href);
+        body.append("sent_at", new Date().toISOString());
+        fetch(FORM_ENDPOINT, { method: "POST", body: body, headers: { Accept: "application/json" } })
+          .then(function (response) {
+            if (!response.ok) {
+              throw new Error("Send failed");
+            }
+            subForm.reset();
+            done(false);
+          })
+          .catch(function () {
+            window.location.href = subscribeMailto(name, email);
+            done(true);
+          })
+          .then(function () {
+            btn.disabled = false;
+          });
+        return;
+      }
+
+      window.location.href = subscribeMailto(name, email);
+      done(true);
+    });
   });
 })();

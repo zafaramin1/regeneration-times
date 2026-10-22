@@ -1165,3 +1165,109 @@ a:hover {
   font-weight: 600;
   letter-spacing: 0.06em;
 }
+
+/* ---------- Subscribe ---------- */
+
+.subscribe {
+  width: min(var(--measure), calc(100% - 2rem));
+  max-width: 50rem;
+  margin: 0.9rem auto 0;
+  padding: 0.9rem 1.2rem 1rem;
+  border: 1px solid var(--ink);
+  font-family: var(--sans);
+  scroll-margin-top: 0.75rem;
+}
+
+.subscribe-head {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.subscribe-lede {
+  margin: 0.25rem 0 0.7rem;
+  font-family: var(--serif);
+  font-size: 1rem;
+}
+
+.subscribe-fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) auto;
+  gap: 0.6rem 0.8rem;
+  align-items: end;
+}
+
+.subscribe-submit {
+  min-height: 44px;
+  padding: 0.55rem 1.2rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--paper);
+  background: var(--ink);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.subscribe-submit:disabled {
+  opacity: 0.6;
+}
+
+.subscribe-thanks:focus {
+  outline: none;
+}
+
+.subscribe-thanks p {
+  margin: 0.2rem 0 0;
+}
+
+.subscribe-thanks-head {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.subscribe--footer {
+  width: 100%;
+  max-width: 36rem;
+  margin: 1.1rem auto 0;
+  padding: 0.75rem 0.9rem 0.85rem;
+  text-align: left;
+  border-width: 1px 0;
+}
+
+.subscribe--footer .subscribe-head {
+  font-size: 1.05rem;
+}
+
+.subscribe--footer .subscribe-lede {
+  font-size: 0.92rem;
+}
+
+@media (max-width: 600px) {
+  .subscribe {
+    padding: 0.85rem 0.9rem 0.95rem;
+  }
+
+  .subscribe-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe-submit {
+    width: 100%;
+  }
+}
+
+@media print {
+  .subscribe {
+    display: none;
+  }
+}

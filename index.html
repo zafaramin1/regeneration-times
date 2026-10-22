@@ -94,6 +94,29 @@
     </details>
   </section>
 
+  <section class="subscribe subscribe--top" id="subscribe" aria-labelledby="subscribe-heading">
+    <h2 class="subscribe-head" id="subscribe-heading">Subscribe</h2>
+    <p class="subscribe-lede">Get new breakthroughs by email. Free, no spam, unsubscribe anytime.</p>
+    <form class="subscribe-form" novalidate>
+      <div class="subscribe-fields">
+        <div class="f">
+          <label for="subscribe-name">Name <span class="hint">(optional)</span></label>
+          <input id="subscribe-name" name="name" type="text" autocomplete="name" maxlength="120">
+        </div>
+        <div class="f">
+          <label for="subscribe-email">Email <span class="req">Required</span></label>
+          <input id="subscribe-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="subscribe-err" maxlength="200">
+        </div>
+        <button type="submit" class="subscribe-submit">Subscribe</button>
+      </div>
+      <p class="err" id="subscribe-err" aria-live="polite"></p>
+    </form>
+    <div class="subscribe-thanks" tabindex="-1" hidden>
+      <p class="subscribe-thanks-head">Thank you for subscribing.</p>
+      <p class="subscribe-thanks-extra"></p>
+    </div>
+  </section>
+
   <p class="intro" id="intro">
     This site tracks the latest research, clinical trials, and experimental options in nerve regeneration in one place, from spinal cord and nerve-root repair to peripheral nerve repair and therapies still being tested. Each entry summarizes a published source and links out to it.
   </p>
@@ -108,6 +131,28 @@
 
   <footer class="colophon">
     <p class="disclaimer">For information only. Not medical advice. Talk to your doctor before considering any treatment or trial.</p>
+    <section class="subscribe subscribe--footer" id="subscribe-footer" aria-labelledby="subscribe-footer-heading">
+      <h2 class="subscribe-head" id="subscribe-footer-heading">Subscribe</h2>
+      <p class="subscribe-lede">Get new breakthroughs by email. Free, no spam, unsubscribe anytime.</p>
+      <form class="subscribe-form" novalidate>
+        <div class="subscribe-fields">
+          <div class="f">
+            <label for="subscribe-footer-name">Name <span class="hint">(optional)</span></label>
+            <input id="subscribe-footer-name" name="name" type="text" autocomplete="name" maxlength="120">
+          </div>
+          <div class="f">
+            <label for="subscribe-footer-email">Email <span class="req">Required</span></label>
+            <input id="subscribe-footer-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="subscribe-footer-err" maxlength="200">
+          </div>
+          <button type="submit" class="subscribe-submit">Subscribe</button>
+        </div>
+        <p class="err" id="subscribe-footer-err" aria-live="polite"></p>
+      </form>
+      <div class="subscribe-thanks" tabindex="-1" hidden>
+        <p class="subscribe-thanks-head">Thank you for subscribing.</p>
+        <p class="subscribe-thanks-extra"></p>
+      </div>
+    </section>
     <p class="colophon-founder">Founder: Zafar Amin</p>
     <p class="colophon-meta"><a href="#top">Back to top</a></p>
   </footer>

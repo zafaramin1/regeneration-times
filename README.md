@@ -38,7 +38,9 @@ Each story renders as a compact log entry styled as a parchment scroll: date, ca
 The form at the top of the page has no backend. Its settings are the two constants at the top of [`share.js`](share.js):
 
 - `SUBMIT_TO`: the editors' email address, stored encoded (reversed character codes shifted by +7) so it never appears as plain text; the comment in `share.js` shows how to encode a new one. On submit the form checks that an email and message are filled in and the consent box is ticked, then opens a pre-filled `mailto:` to this address.
-- `FORM_ENDPOINT`: empty by default. Set it to a form service URL and the form will POST its fields there as FormData instead (falling back to `mailto:` if the request fails).
+- `FORM_ENDPOINT`: empty by default. Set it to a form service URL and the form will POST its fields there as FormData instead (falling back to `mailto:` if the request fails). Share submissions carry `form=share`.
+
+The two Subscribe boxes (below Share Your Story and in the footer) use the same constants. With `FORM_ENDPOINT` set they POST `type=subscribe`, `name` and `email`; while it is empty they open a `mailto:` to `SUBMIT_TO` with the subject "Subscribe me to The Regeneration Times".
 
 ## Run locally
 
