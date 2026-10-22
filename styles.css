@@ -1,7 +1,7 @@
 :root {
-  --parchment: #f7f2e4;
-  --parchment-deep: #ebe3cd;
-  --parchment-edge: #d2c4a3;
+  --parchment: #f9f5e9;
+  --parchment-deep: #efe9d7;
+  --parchment-edge: #dbd0b5;
   --weave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.35 0 0 0 0 0.27 0 0 0 0 0.15 0 0 0 0.2 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --parchment-ink: #2b2115;
   --rod: #8a6a3c;
@@ -845,7 +845,7 @@ a:hover {
 }
 
 .section--trials .scroll-sheet {
-  background-color: #f4eedd;
+  background-color: #f6f1e4;
 }
 
 @media (max-width: 600px) {
@@ -889,7 +889,7 @@ a:hover {
   max-width: 50rem;
   margin: 1.4rem auto 0;
   padding: 1.1rem 1.2rem 1.2rem;
-  background: #fbf6ea;
+  background: #fcf8ee;
   border-top: 3px double var(--ink);
   border-bottom: 1px solid var(--ink);
   scroll-margin-top: 0.75rem;
