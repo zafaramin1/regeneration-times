@@ -1,4 +1,11 @@
 :root {
+  --parchment: #f3e7c9;
+  --parchment-deep: #e6d3a3;
+  --parchment-edge: #c9ad72;
+  --parchment-ink: #2b2115;
+  --rod: #8a6a3c;
+  --rod-dark: #5b4325;
+  --unroll: 520ms;
   --ink: #121212;
   --muted: #4a4a4a;
   --rule: #121212;
@@ -292,24 +299,6 @@ a:hover {
   padding: 1.15rem 0 1.35rem;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 1.35rem;
-  row-gap: 1.6rem;
-}
-
-.card {
-  min-width: 0;
-  padding-right: 1.2rem;
-  border-right: 1px solid var(--hairline);
-}
-
-.card:nth-child(3n) {
-  padding-right: 0;
-  border-right: none;
-}
-
 .kicker {
   margin: 0 0 0.3rem;
   color: var(--accent);
@@ -317,28 +306,6 @@ a:hover {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-}
-
-.card h3 {
-  margin: 0;
-  font-size: 1.28rem;
-  font-weight: 650;
-  line-height: 1.18;
-  letter-spacing: -0.015em;
-}
-
-.card--lead h3 {
-  font-size: clamp(1.7rem, 2.6vw, 2.35rem);
-  line-height: 1.08;
-}
-
-.card h3 a {
-  text-decoration: none;
-}
-
-.card h3 a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
 }
 
 .byline {
@@ -384,16 +351,12 @@ a:hover {
 }
 
 .summary {
-  margin: 0.65rem 0 0;
+  margin: 0.2rem 0 0;
   font-size: 1.02rem;
 }
 
-.card--lead .summary {
-  font-size: 1.12rem;
-}
-
 .why {
-  margin: 0.7rem 0 0;
+  margin: 0.2rem 0 0;
   font-size: 0.98rem;
 }
 
@@ -489,19 +452,6 @@ a:hover {
 }
 
 @media (max-width: 860px) {
-  .cards {
-    grid-template-columns: 1fr;
-    row-gap: 1.35rem;
-  }
-
-  .card,
-  .card:nth-child(3n) {
-    padding-right: 0;
-    padding-bottom: 1.15rem;
-    border-right: none;
-    border-bottom: 1px solid var(--hairline);
-  }
-
   .tools {
     flex-direction: column;
     align-items: stretch;
@@ -523,22 +473,6 @@ a:hover {
   }
 }
 
-@media (min-width: 861px) and (max-width: 1080px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .card:nth-child(3n) {
-    padding-right: 1.2rem;
-    border-right: 1px solid var(--hairline);
-  }
-
-  .card:nth-child(2n) {
-    padding-right: 0;
-    border-right: none;
-  }
-}
-
 @media print {
   .skip,
   .tools,
@@ -552,17 +486,393 @@ a:hover {
     font-size: 11pt;
   }
 
-  .cards {
-    display: block;
+  .entry {
+    break-inside: avoid;
   }
 
-  .card {
-    break-inside: avoid;
-    border: none;
-    padding: 0 0 1rem;
+  .entry-details {
+    grid-template-rows: 1fr !important;
+    visibility: visible !important;
+  }
+
+  .entry-toggle,
+  .scroll-rod {
+    display: none;
   }
 
   a {
     text-decoration: none;
+  }
+}
+
+/* ---------- How-to note ---------- */
+
+.how-to {
+  width: min(var(--measure), calc(100% - 2rem));
+  max-width: 44rem;
+  margin: 0.8rem auto 0;
+  padding: 0.6rem 0 0.1rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.98rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.how-to-label {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-right: 0.25rem;
+}
+
+/* ---------- Log of scroll entries ---------- */
+
+.log {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.entry {
+  position: relative;
+  min-width: 0;
+  scroll-margin-top: 0.75rem;
+}
+
+.scroll-sheet {
+  position: relative;
+  margin: 0 0.55rem;
+  padding: 0.95rem 1.05rem 0.9rem;
+  color: var(--parchment-ink);
+  font-family: var(--serif);
+  background-color: var(--parchment);
+  background-image:
+    radial-gradient(ellipse at 12% 18%, rgba(255, 250, 235, 0.65), transparent 55%),
+    radial-gradient(ellipse at 88% 82%, rgba(190, 150, 80, 0.18), transparent 60%),
+    linear-gradient(90deg, rgba(150, 110, 50, 0.16), transparent 7%, transparent 93%, rgba(150, 110, 50, 0.16));
+  border-left: 1px solid var(--parchment-edge);
+  border-right: 1px solid var(--parchment-edge);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04), 0 6px 14px -10px rgba(60, 40, 10, 0.45);
+}
+
+/* Rolled ends: wooden rods with paper wrapped around them */
+.scroll-rod {
+  position: relative;
+  height: 1.05rem;
+  margin: 0;
+  border-radius: 0.55rem;
+  background:
+    linear-gradient(180deg,
+      #f8efd6 0%,
+      var(--parchment-deep) 30%,
+      var(--parchment-edge) 62%,
+      #a8884f 88%,
+      #8f7240 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 2px 3px rgba(60, 40, 10, 0.28);
+  z-index: 1;
+  transform-origin: center;
+  transition: transform var(--unroll) cubic-bezier(0.22, 0.8, 0.24, 1);
+}
+
+.scroll-rod::before,
+.scroll-rod::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 0.6rem;
+  height: 1.3rem;
+  margin-top: -0.65rem;
+  border-radius: 0.3rem;
+  background: linear-gradient(180deg, var(--rod) 0%, #b08850 35%, var(--rod-dark) 100%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-rod::before {
+  left: -0.3rem;
+}
+
+.scroll-rod::after {
+  right: -0.3rem;
+}
+
+.scroll-rod--top {
+  margin-bottom: -0.3rem;
+}
+
+.scroll-rod--bottom {
+  margin-top: -0.3rem;
+}
+
+.entry.is-open .scroll-rod--top {
+  transform: scaleY(0.82);
+}
+
+.entry.is-open .scroll-rod--bottom {
+  transform: scaleY(0.82);
+}
+
+/* Tappable row */
+.entry-row {
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(155, 27, 27, 0.08);
+  touch-action: manipulation;
+}
+
+.entry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 0.75rem;
+  margin: 0 0 0.35rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px dotted rgba(90, 60, 20, 0.45);
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  line-height: 1.3;
+  color: #5a4630;
+}
+
+.entry-meta time {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.tag {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.entry-meta .score {
+  margin-left: auto;
+  padding: 0.05rem 0.4rem;
+  border: 1px solid rgba(90, 60, 20, 0.55);
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+}
+
+.entry-head {
+  margin: 0.15rem 0 0;
+  font-size: 1.28rem;
+  font-weight: 650;
+  line-height: 1.18;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+}
+
+.entry-source {
+  margin: 0.25rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  color: #5a4630;
+}
+
+.quick-read {
+  margin-top: 0.65rem;
+  padding: 0.55rem 0 0;
+  border-top: 1px solid rgba(90, 60, 20, 0.28);
+}
+
+.qr-label {
+  display: inline-block;
+  margin: 0 0 0.2rem;
+  font-family: var(--sans);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.qr-text {
+  margin: 0;
+  font-size: 1.04rem;
+  line-height: 1.5;
+}
+
+.entry-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  min-height: 44px;
+  margin: 0.7rem 0 0;
+  padding: 0.5rem 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--parchment-ink);
+  background: rgba(255, 250, 235, 0.45);
+  border: 1px solid rgba(90, 60, 20, 0.5);
+  border-radius: 2px;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.entry-toggle:hover {
+  background: rgba(255, 250, 235, 0.8);
+}
+
+.entry-toggle .when-open,
+.entry.is-open .entry-toggle .when-closed {
+  display: none;
+}
+
+.entry.is-open .entry-toggle .when-open {
+  display: inline;
+}
+
+.chev {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-0.12rem) rotate(45deg);
+  transition: transform var(--unroll) ease;
+}
+
+.entry.is-open .chev {
+  transform: translateY(0.12rem) rotate(-135deg);
+}
+
+/* Unrolling details: animate grid row from 0fr to 1fr */
+.entry-details {
+  display: grid;
+  grid-template-rows: 0fr;
+  visibility: hidden;
+  transition:
+    grid-template-rows var(--unroll) cubic-bezier(0.22, 0.8, 0.24, 1),
+    visibility 0s linear var(--unroll);
+}
+
+.entry.is-open .entry-details {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  transition:
+    grid-template-rows var(--unroll) cubic-bezier(0.22, 0.8, 0.24, 1),
+    visibility 0s linear 0s;
+}
+
+.entry-details-inner {
+  min-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-0.4rem);
+  transition: opacity calc(var(--unroll) * 0.6) ease, transform var(--unroll) ease;
+}
+
+.entry.is-open .entry-details-inner {
+  opacity: 1;
+  transform: none;
+  transition: opacity var(--unroll) ease calc(var(--unroll) * 0.25), transform var(--unroll) ease;
+}
+
+.entry-details-inner > :first-child {
+  margin-top: 0.9rem;
+}
+
+.d-label {
+  margin: 0.85rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--parchment-ink);
+}
+
+.facts {
+  margin: 0.85rem 0 0;
+  padding-top: 0.55rem;
+  border-top: 1px dotted rgba(90, 60, 20, 0.45);
+}
+
+.facts div {
+  margin: 0 0 0.4rem;
+}
+
+.facts dt {
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.facts dd {
+  margin: 0.05rem 0 0;
+  font-size: 0.95rem;
+}
+
+.entry .trial {
+  border-top-color: rgba(90, 60, 20, 0.7);
+}
+
+.source-link {
+  margin: 0.9rem 0 0.2rem;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.source-link a,
+.registry-link a {
+  display: inline-block;
+  padding: 0.45rem 0;
+  min-height: 44px;
+  line-height: 1.6;
+  color: var(--accent);
+  text-underline-offset: 0.15em;
+}
+
+.section--trials .scroll-sheet {
+  background-color: #f1e3c0;
+}
+
+@media (max-width: 600px) {
+  .scroll-sheet {
+    margin: 0 0.4rem;
+    padding: 0.85rem 0.85rem 0.8rem;
+  }
+
+  .entry-head {
+    font-size: 1.18rem;
+  }
+
+  .entry-meta .score {
+    margin-left: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .entry-details,
+  .entry.is-open .entry-details,
+  .entry-details-inner,
+  .entry.is-open .entry-details-inner,
+  .scroll-rod,
+  .chev {
+    transition: none !important;
+  }
+
+  .entry-details-inner {
+    transform: none;
   }
 }
