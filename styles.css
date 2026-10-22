@@ -1643,8 +1643,8 @@ body {
 .finder-label { margin: .65rem 0 0; font-size: .65rem; }
 .finder-chips { display: flex; flex-wrap: wrap; gap: .4rem; }
 .finder-chips .chip--filter {
-  flex: 0 0 9.5rem; width: 9.5rem; min-height: 2.2rem;
-  padding: .4rem .65rem; font-size: .91rem; background: transparent;
+  flex: 0 0 auto; width: auto; min-height: 2.1rem;
+  padding: .35rem .7rem; font-size: .91rem; background: transparent; white-space: nowrap; gap: .65rem;
   border: 1px solid #bfb9ad; box-shadow: none; border-radius: 2px;
   color: var(--ink); text-shadow: none;
 }
@@ -1707,7 +1707,7 @@ body:has(.form-dialog[open]) { overflow: hidden; }
 @media (max-width: 600px) {
   .finder-group { grid-template-columns: 1fr; gap: .35rem; margin: .85rem 0; }
   .finder-label { margin-top: 0; }
-  .finder-chips .chip--filter { flex-basis: 9rem; width: 9rem; min-height: 2.35rem; font-size: .9rem; }
+  .finder-chips .chip--filter { flex-basis: auto; width: auto; min-height: 2.35rem; font-size: .9rem; }
   .reading-desk { margin-top: 1rem; padding-top: 1.2rem; }
   .reading-steps { grid-template-columns: minmax(0, 1fr); gap: .65rem; }
   .reading-steps li { padding-left: 2rem; position: relative; }
