@@ -187,5 +187,55 @@
     "relevance_score": 5,
     "relevance_reason": "Human data on a novel nerve-repair technique in the upper limb; small, early, and not about spinal compression.",
     "evidence_level": "Human study (prospective cohort subset from a randomized trial; n=48)"
+  },
+  {
+    "id": "tongue-controlled-fes-exoskeleton-hand-cervical-sci",
+    "title": "Tongue-controlled glove that combines a soft robot and electrical muscle stimulation helped five people with cervical spinal cord injury grasp everyday objects",
+    "source": "npj Robotics",
+    "url": "https://www.nature.com/articles/s44182-026-00117-9",
+    "date_published": "2026-10-08",
+    "date_added": "2026-10-22",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Trauma",
+      "approach": "Device",
+      "stage": "Human study"
+    },
+    "quick_read": "People with injuries high in the neck often lose the ability to open and close their hands, and many cannot press buttons or use joysticks to control helper devices. Researchers in Denmark and the Netherlands built a system where the user moves the tongue against a custom mouthpiece to tell a soft robotic glove to close the fingers, and to trigger mild electrical stimulation of the forearm muscles to open the hand. Five people with cervical spinal cord injury tried it on everyday tasks such as picking up a bottle or a toothbrush. With the stimulation version of the glove, 96% of grasp attempts succeeded, and users reported low discomfort, pain and fatigue. It is a small early study, but it shows a practical way to give back daily hand use when the hand itself cannot move well.",
+    "summary": "The team paired a non-invasive tongue-control interface, built into a fitted dental retainer, with a five-finger soft exoskeleton glove adapted from the commercial Carbonhand glove. Tongue commands drive tendon-based flexion of each finger, and a tongue command also triggers functional electrical stimulation (FES) to extend the fingers and open the hand. Five participants with cervical spinal cord injury tested grasping tasks over two sessions. The overall success rate was 96% with the FES opening exoskeleton and 89% with a passive opening version, and participants reported consistently low discomfort, pain and fatigue and preferred the system for its wearability and ease of use.",
+    "why_it_matters": "Hand function is a top priority for people with cervical injuries, and this approach works even for people with severe paralysis and long-standing injuries. It is an assistive device that restores use while worn, not a treatment that repairs nerves, and it was tested in only five people.",
+    "relevance_reason": "Directly targets hand grasp and release after cervical cord injury; very small study and assistive rather than regenerative.",
+    "relevance_score": 7,
+    "evidence_level": "Human study (feasibility evaluation; n=5)"
+  },
+  {
+    "id": "ntx-001-peg-fusion-phase2-results-posted",
+    "title": "Phase 2 results posted for NTX-001, a PEG 'nerve fusion' kit used during repair of freshly cut arm and leg nerves",
+    "source": "ClinicalTrials.gov (sponsor: Neuraptive Therapeutics)",
+    "url": "https://clinicaltrials.gov/study/NCT04572906",
+    "date_published": "2026-10-15",
+    "date_added": "2026-10-22",
+    "date_note": "Date the trial results were first posted on ClinicalTrials.gov; the study itself was completed in June 2024.",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Peripheral nerve",
+      "cause": "Trauma",
+      "approach": "Drug",
+      "stage": "Human trial"
+    },
+    "quick_read": "When a nerve in the arm or leg is cut, surgeons sew the ends together, but the nerve then has to regrow slowly over months and recovery is often incomplete. NTX-001 is a single-use surgical kit that uses a chemical called polyethylene glycol (PEG) to try to fuse the cut nerve fibers back together right at the time of surgery. In this Phase 2 trial of 51 people with a freshly cut nerve below the shoulder nerve network, patients got either the standard stitched repair or the repair plus NTX-001. At 12 weeks, hand function questionnaire scores improved by about 18 points with NTX-001 versus about 13 points with standard repair, but the registry does not report a statistical test for that difference, so the result should be read as encouraging but unproven. The trial is finished and is not recruiting.",
+    "summary": "Neuraptive Therapeutics posted results on October 15, 2026 for its randomized, patient- and evaluator-blinded Phase 2a trial (NCT04572906) comparing NTX-001 plus standard suture repair with standard repair alone in acute single transected peripheral nerve injuries below the brachial plexus, repaired within 48 hours. The trial enrolled 51 participants at 10 US sites. For the primary outcome, change in Michigan Hand Questionnaire total score (0 to 100) from baseline to week 12, the mean change was 18.42 (standard error 3.64, n=17) with NTX-001 and 12.80 (standard error 3.04, n=24) with standard care; no p-value is listed for this comparison. Serious adverse events were reported in 2 of 23 NTX-001 participants and 4 of 28 standard-care participants.",
+    "why_it_matters": "PEG fusion aims to reconnect cut nerve fibers immediately instead of waiting months for regrowth, and this is randomized human data on a packaged product. The difference is modest, the groups are small, and the trial only covered fresh cuts repaired within 48 hours, not older injuries or compression.",
+    "relevance_reason": "Randomized human trial of a nerve-repair technology for arm and hand nerves; acute cuts only and results are preliminary.",
+    "relevance_score": 6,
+    "evidence_level": "Randomized controlled Phase 2a trial (n=51; results posted on registry, not yet peer reviewed)",
+    "trial_url": "https://clinicaltrials.gov/study/NCT04572906",
+    "trial_status": {
+      "status": "Completed (not recruiting)",
+      "phase": "Phase 2a",
+      "location": "10 sites in the United States",
+      "key_eligibility": "Ages 12 to 80 with a single fully transected peripheral nerve below the brachial plexus that can be repaired end to end within 48 hours of injury. Nerve gaps needing a graft were excluded. Tumor-related compression was not part of this trial, which only covered acute cuts."
+    }
   }
 ]
