@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261022d">
+  <link rel="stylesheet" href="styles.css?v=20261022e">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -21,33 +21,12 @@
     <h1>The Regeneration Times</h1>
     <p class="tagline">Nerve repair and regeneration breakthroughs, every day.</p>
     <nav class="jump-nav" id="jump-nav" aria-label="Jump to section"></nav>
-    <div class="tools">
-      <form id="search-form" class="search" role="search" autocomplete="off">
-        <label for="q">Search</label>
-        <input id="q" name="q" type="search" placeholder="Title, tag, Quick Read, summary, or source" enterkeyhint="search">
-      </form>
-      <div class="sort" role="group" aria-label="Sort stories">
-        <span class="sort-label" id="sort-label">Sort</span>
-        <button type="button" id="sort-relevance" aria-pressed="true">Relevance</button>
-        <button type="button" id="sort-newest" aria-pressed="false">Newest</button>
-      </div>
-    </div>
-    <section class="finder" id="finder" aria-labelledby="finder-heading">
-      <div class="finder-top">
-        <h2 class="finder-head" id="finder-heading">Find what matters to you</h2>
-        <button type="button" class="finder-clear" id="finder-clear" disabled>Clear</button>
-      </div>
-      <p class="finder-lede">Choose any topics. Choices in one group mean either; choices across groups must all match. For example: Hand + Brain tumor. Numbers show matching stories.</p>
-      <div class="finder-groups" id="finder-groups"></div>
-      <p class="finder-status" id="finder-status" aria-live="polite"></p>
-    </section>
-    <p class="result-count" id="result-count" aria-live="polite"></p>
   </header>
 
   <section class="reading-desk" aria-label="Reader guide and community">
     <div class="reading-guide" id="how-to">
       <h2>How to read this page</h2>
-      <p class="desk-lede">Research, recovery and clinical trials, explained in plain English. Start with a topic above, or browse the stories below.</p>
+      <p class="desk-lede">Research, recovery and clinical trials, explained in plain English. Start with a topic below, or browse the stories below.</p>
       <ol class="reading-steps">
         <li><strong>Open a scroll</strong>Tap a headline for the Quick Read. It opens in the center; the previous scroll closes.</li>
         <li><strong>Go a little deeper</strong>Choose Read full details for the evidence, limitations and original source.</li>
@@ -77,6 +56,30 @@
     </aside>
   </section>
 
+  <section class="reader-index" aria-label="Find and sort stories">
+    <div class="tools">
+      <form id="search-form" class="search" role="search" autocomplete="off">
+        <label for="q">Search</label>
+        <input id="q" name="q" type="search" placeholder="Title, tag, Quick Read, summary, or source" enterkeyhint="search">
+      </form>
+      <div class="sort" role="group" aria-label="Sort stories">
+        <span class="sort-label" id="sort-label">Sort</span>
+        <button type="button" id="sort-relevance" aria-pressed="true">Relevance</button>
+        <button type="button" id="sort-newest" aria-pressed="false">Newest</button>
+      </div>
+    </div>
+    <section class="finder" id="finder" aria-labelledby="finder-heading">
+      <div class="finder-top">
+        <h2 class="finder-head" id="finder-heading">Find what matters to you</h2>
+        <button type="button" class="finder-clear" id="finder-clear" disabled>Clear</button>
+      </div>
+      <p class="finder-lede">Choose any topics. Choices in one group mean either; choices across groups must all match. For example: Hand + Brain tumor. Numbers show matching stories.</p>
+      <div class="finder-groups" id="finder-groups"></div>
+      <p class="finder-status" id="finder-status" aria-live="polite"></p>
+    </section>
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+  </section>
+
   <main id="content">
     <p class="loading" id="loading">Loading stories…</p>
   </main>
@@ -95,7 +98,7 @@
     <iframe id="reader-form-frame" title="Reader form" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     <p class="form-dialog-fallback">Trouble loading? <a id="reader-form-fallback" target="_blank" rel="noopener">Open the form in a new tab</a>.</p>
   </dialog>
-  <script src="share.js?v=20261022d"></script>
-  <script src="app.js?v=20261022d"></script>
+  <script src="share.js?v=20261022e"></script>
+  <script src="app.js?v=20261022e"></script>
 </body>
 </html>
