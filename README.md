@@ -23,8 +23,8 @@ Fields the page uses:
 | `quick_read` | yes | One plain-English paragraph (3 to 5 sentences) for non-experts: what the study or trial is, what it does, and what it could mean for people with nerve damage. Base it only on the source; no invented facts or numbers, no hype, no em dashes. Shown on the first tap |
 | `summary` | yes | What the source reports (shown in the full details) |
 | `why_it_matters` | yes | Short note under the summary |
-| `relevance_reason` | no | One line explaining the score; shown in the details |
-| `relevance_score` | yes | Number; Top Stories sorts by this |
+| `relevance_reason` | no | One line explaining the ranking; internal only, never shown on the site |
+| `relevance_score` | yes | Number; orders Top Stories internally. Never shown on the site |
 | `evidence_level` | yes | Shown in the full details |
 | `trial_url` | no | Registry link |
 | `trial_status` | no | `status`, `phase`, `location`, `key_eligibility` |
@@ -32,12 +32,12 @@ Fields the page uses:
 
 ### Tag vocabulary
 
-Pick one value per key. Derive it honestly from the source; if the cause is not specific, use `Any cause` (or the injury type the source states, such as `Nerve gap`). Add a new value only when none fits, keep it to one or two words, and add it to this list.
+Pick one value per key. Derive it honestly from the source; if the cause is not specific, use `Any cause` (or the injury type the source states, such as `Nerve gap`). When a nerve problem is caused by a tumor pressing on the brain or spinal cord, use exactly `Brain tumor` or `Spine tumor`, and only when the source says so. Add a new value only when none fits, keep it to one or two words, and add it to this list and to `VOCAB` at the top of `app.js` so it appears as a filter chip.
 
 | Key | Allowed values |
 | --- | --- |
-| `body_area` | Spine, Neck spine, Nerve root, Hand, Arm, Leg, Peripheral nerve, Brain |
-| `cause` | Trauma, Tumor compression, Disease, Surgery, Nerve gap, Any cause |
+| `body_area` | Brain, Neck spine, Back spine, Spine, Nerve root, Peripheral nerve, Arm, Hand, Leg, Face |
+| `cause` | Trauma, Brain tumor, Spine tumor, Stroke, Diabetes, Chemotherapy, Disease, Surgery, Nerve gap, Any cause |
 | `approach` | Drug, Stem cells, Scaffold, Nerve transfer, Stimulation, Surgery, Device, Rehab, Review |
 | `stage` | Lab study, Animal study, Human study, Human trial, Recruiting trial, Approved, Review |
 
@@ -47,13 +47,19 @@ Example:
 "tags": { "body_area": "Neck spine", "cause": "Trauma", "approach": "Drug", "stage": "Recruiting trial" }
 ```
 
-Latest stays ordered by `date_published`. Top Stories starts ranked by `relevance_score`; the Relevance / Newest toggle reorders Top Stories, each category, and search results. Search matches title, tags, quick read, summary, source, and category, and shows one results list.
+Latest stays ordered by `date_published`. Top Stories is ordered by `relevance_score` behind the scenes (no score, rank number or score label is ever shown); the Relevance / Newest toggle reorders Top Stories, each category, and search results. Search matches title, tags, quick read, summary, source, and category, and shows one results list.
 
 Each story renders as a parchment scroll with three levels:
 
-1. Closed (default): headline, a small date and relevance score on the right, and the four tags as small engraved metal cylinder chips.
-2. First tap (on the headline, tags or entry): the Quick Read unrolls, with a "Read full details" control.
-3. Second tap (or that control): the full details unroll: summary, why it matters, section, source, evidence level, relevance reason, date note, trial status and eligibility, trial link, and the link to the original article. It ends with the Close the Scroll emblem button, which rolls the scroll fully closed and brings its headline into view. Tapping the headline while fully open also closes it.
+1. Closed (default): headline, a small date on the right, and the four tags as smooth pewter pill capsules. Tapping a tag shows every story with that tag.
+2. First tap (on the headline or entry): the Quick Read unrolls, with a "Read full details" control.
+3. Second tap (or that control): the full details unroll: summary, why it matters, section, source, evidence level, date note, trial status and eligibility, trial link, and the link to the original article. It ends with the Close the Scroll emblem button, which rolls the scroll fully closed and brings its headline into view. Tapping the headline while fully open also closes it.
+
+## Find what matters to you
+
+Below the search box, tap buttons (chips) filter the stories by Body area, Cause, Treatment (`approach`) and Stage. Chips come from `VOCAB` in `app.js` plus any other tag value found in `data/articles.json`, so values people look for (such as Brain tumor or Stroke) show even before a story has them. Each chip shows how many stories match; chips with 0 are dimmed. Choices combine as AND across groups and OR within a group. Clear resets them. When nothing matches, the page says "No articles yet for ... New ones are added daily."
+
+The filter is kept in the URL hash so a topic can be shared or bookmarked, for example `#cause=Brain%20tumor` or `#body_area=Hand&cause=Trauma`. Several values in one group are separated by commas. `treatment=` and `body=` also work as aliases.
 
 The headline button and the "Read full details" button carry `aria-expanded`. The animation is CSS only and is turned off under `prefers-reduced-motion`.
 

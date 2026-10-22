@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261021e">
+  <link rel="stylesheet" href="styles.css?v=20261022a">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -33,6 +33,15 @@
         <button type="button" id="sort-newest" aria-pressed="false">Newest</button>
       </div>
     </div>
+    <section class="finder" id="finder" aria-labelledby="finder-heading">
+      <div class="finder-top">
+        <h2 class="finder-head" id="finder-heading">Find what matters to you</h2>
+        <button type="button" class="finder-clear" id="finder-clear" disabled>Clear</button>
+      </div>
+      <p class="finder-lede">Tap a topic to see only those stories. Tap more to narrow it down. The number shows how many stories match.</p>
+      <div class="finder-groups" id="finder-groups"></div>
+      <p class="finder-status" id="finder-status" aria-live="polite"></p>
+    </section>
     <p class="result-count" id="result-count" aria-live="polite"></p>
   </header>
 
@@ -122,7 +131,7 @@
   </p>
   <p class="how-to" id="how-to">
     <span class="how-to-label">How to read this page.</span>
-    Each story starts rolled up, showing only its headline and a line of tags: body area, cause, approach and stage. Tap once to unroll a one-paragraph Quick Read in plain English. Tap again, or choose Read full details, to see everything. Close the Scroll at the bottom rolls it back up.
+    Each story starts rolled up, showing only its headline and a line of tags: body area, cause, treatment and stage. Tap a tag to see every story with that tag. Tap the headline once to unroll a one-paragraph Quick Read in plain English. Tap again, or choose Read full details, to see everything. Close the Scroll at the bottom rolls it back up.
   </p>
 
   <main id="content">
@@ -157,7 +166,7 @@
     <p class="colophon-meta"><a href="#top">Back to top</a></p>
   </footer>
 
-  <script src="share.js?v=20261021e"></script>
-  <script src="app.js?v=20261021e"></script>
+  <script src="share.js?v=20261022a"></script>
+  <script src="app.js?v=20261022a"></script>
 </body>
 </html>

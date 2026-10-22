@@ -18,6 +18,30 @@
   var searchInput = document.getElementById("q");
   var relevanceBtn = document.getElementById("sort-relevance");
   var newestBtn = document.getElementById("sort-newest");
+  var finderGroupsEl = document.getElementById("finder-groups");
+  var finderStatusEl = document.getElementById("finder-status");
+  var finderClearBtn = document.getElementById("finder-clear");
+
+  // Topic filter. Values people look for are always offered, even before any story has them.
+  var FILTER_GROUPS = [
+    { key: "body_area", label: "Body area" },
+    { key: "cause", label: "Cause" },
+    { key: "approach", label: "Treatment" },
+    { key: "stage", label: "Stage" }
+  ];
+  var VOCAB = {
+    body_area: ["Brain", "Neck spine", "Back spine", "Spine", "Nerve root", "Peripheral nerve", "Arm", "Hand", "Leg", "Face"],
+    cause: ["Trauma", "Brain tumor", "Spine tumor", "Stroke", "Diabetes", "Chemotherapy", "Disease", "Surgery", "Nerve gap", "Any cause"],
+    approach: ["Drug", "Stem cells", "Scaffold", "Nerve transfer", "Stimulation", "Surgery", "Device", "Rehab", "Review"],
+    stage: ["Lab study", "Animal study", "Human study", "Human trial", "Recruiting trial", "Approved", "Review"]
+  };
+  var HASH_KEYS = {
+    body_area: "body_area", body: "body_area", area: "body_area",
+    cause: "cause",
+    approach: "approach", treatment: "approach",
+    stage: "stage"
+  };
+  var filters = emptyFilters();
 
   document.getElementById("dateline").textContent = new Date().toLocaleDateString("en-US", {
     weekday: "long",
@@ -142,15 +166,15 @@
   function buildSections(list) {
     var needle = query.trim().toLowerCase();
     var filtered = list.filter(function (article) {
-      return matches(article, needle);
+      return matches(article, needle) && passesFilters(article, null);
     });
-    if (needle) {
+    if (needle || hasFilters()) {
       return {
         filteredCount: filtered.length,
         sections: filtered.length
           ? [{
               id: "search-results",
-              title: "Search results",
+              title: needle ? "Search results" : "Stories for " + selectionLabel(),
               kind: "search",
               items: filtered.slice().sort(function (a, b) {
                 return compare(a, b, sortMode);
@@ -262,16 +286,16 @@
     var qrId = "qr-" + key;
     var detailsId = "details-" + key;
     var headId = "head-" + key;
-    var score = article.relevance_score == null || article.relevance_score === ""
-      ? ""
-      : '<span class="score" title="Relevance score"><span class="sr-only">Relevance </span>' + escapeHtml(article.relevance_score) + '<span class="score-of" aria-hidden="true">/10</span></span>';
     var date = article.date_published
       ? '<time datetime="' + escapeHtml(article.date_published) + '">' + escapeHtml(formatShortDate(article.date_published)) + "</time>"
       : "";
-    var tags = tagList(article);
-    var tagLine = tags.length
-      ? '<p class="entry-tags"><span class="sr-only">Tags: </span>' + tags.map(function (t) {
-          return '<span class="chip">' + escapeHtml(t) + "</span>";
+    var tagPairs = TAG_KEYS.filter(function (k) {
+      return article.tags && article.tags[k];
+    });
+    var tagLine = tagPairs.length
+      ? '<p class="entry-tags"><span class="sr-only">Tags: </span>' + tagPairs.map(function (k) {
+          var t = article.tags[k];
+          return '<button type="button" class="chip chip--tag" data-fkey="' + escapeHtml(k) + '" data-fval="' + escapeHtml(t) + '" title="Show all stories tagged ' + escapeHtml(t) + '">' + escapeHtml(t) + "</button>";
         }).join('<span class="dot" aria-hidden="true"> · </span>') + "</p>"
       : "";
     var quick = article.quick_read
@@ -291,9 +315,6 @@
       ["Source", article.source],
       ["Published", article.date_published ? formatDate(article.date_published) : ""],
       ["Evidence level", article.evidence_level],
-      ["Relevance", article.relevance_score == null || article.relevance_score === ""
-        ? ""
-        : article.relevance_score + (article.relevance_reason ? ". " + article.relevance_reason : "")],
       ["Date note", article.date_note]
     ].forEach(function (pair) {
       if (!pair[1]) {
@@ -323,7 +344,7 @@
                 '<span class="head-text">' + escapeHtml(article.title || "Untitled") + "</span>" +
               "</button>" +
             "</h3>" +
-            ((date || score) ? '<p class="head-meta">' + date + score + "</p>" : "") +
+            (date ? '<p class="head-meta">' + date + "</p>" : "") +
           "</div>" +
           tagLine +
           '<div class="stage stage--qr" id="' + escapeHtml(qrId) + '"' + (level >= 1 ? "" : " inert") + ">" +
@@ -377,6 +398,15 @@
     if (target.closest("a")) {
       return;
     }
+    var tagBtn = target.closest(".chip[data-fkey]");
+    if (tagBtn) {
+      showOnly(tagBtn.getAttribute("data-fkey"), tagBtn.getAttribute("data-fval"));
+      return;
+    }
+    if (target.closest(".finder-clear-inline")) {
+      clearFilters();
+      return;
+    }
     var entry = target.closest(".entry");
     if (!entry) {
       return;
@@ -408,9 +438,228 @@
     setLevel(entry, (levelOf(entry) + 1) % 3);
   });
 
+  function emptyFilters() {
+    var f = {};
+    FILTER_GROUPS.forEach(function (g) {
+      f[g.key] = [];
+    });
+    return f;
+  }
+
+  function hasFilters() {
+    return FILTER_GROUPS.some(function (g) {
+      return filters[g.key].length > 0;
+    });
+  }
+
+  function selectedValues() {
+    var out = [];
+    FILTER_GROUPS.forEach(function (g) {
+      out = out.concat(filters[g.key]);
+    });
+    return out;
+  }
+
+  function selectionLabel() {
+    return FILTER_GROUPS.filter(function (g) {
+      return filters[g.key].length > 0;
+    }).map(function (g) {
+      return filters[g.key].join(" or ");
+    }).join(" · ");
+  }
+
+  // AND across groups, OR within a group. "except" skips one group (for chip counts).
+  function passesFilters(article, except) {
+    var tags = article.tags || {};
+    return FILTER_GROUPS.every(function (g) {
+      var chosen = filters[g.key];
+      if (g.key === except || !chosen.length) {
+        return true;
+      }
+      return chosen.indexOf(tags[g.key]) !== -1;
+    });
+  }
+
+  function groupValues(key) {
+    var values = VOCAB[key].slice();
+    articles.forEach(function (article) {
+      var v = article.tags && article.tags[key];
+      if (v && values.indexOf(v) === -1) {
+        values.push(v);
+      }
+    });
+    filters[key].forEach(function (v) {
+      if (values.indexOf(v) === -1) {
+        values.push(v);
+      }
+    });
+    return values;
+  }
+
+  function canonical(key, value) {
+    var lower = String(value).trim().toLowerCase();
+    var values = groupValues(key);
+    for (var i = 0; i < values.length; i++) {
+      if (values[i].toLowerCase() === lower) {
+        return values[i];
+      }
+    }
+    return String(value).trim();
+  }
+
+  function readHash() {
+    var raw = window.location.hash.replace(/^#/, "");
+    if (raw.indexOf("=") === -1) {
+      return false;
+    }
+    var next = emptyFilters();
+    raw.split("&").forEach(function (part) {
+      var eq = part.indexOf("=");
+      if (eq < 1) {
+        return;
+      }
+      var key = HASH_KEYS[decodePart(part.slice(0, eq)).toLowerCase()];
+      if (!key) {
+        return;
+      }
+      part.slice(eq + 1).split(",").forEach(function (v) {
+        var value = decodePart(v);
+        if (!value) {
+          return;
+        }
+        value = canonical(key, value);
+        if (next[key].indexOf(value) === -1) {
+          next[key].push(value);
+        }
+      });
+    });
+    filters = next;
+    return true;
+  }
+
+  function decodePart(text) {
+    try {
+      return decodeURIComponent(String(text).replace(/\+/g, " ")).trim();
+    } catch (e) {
+      return String(text).trim();
+    }
+  }
+
+  function writeHash() {
+    var parts = [];
+    FILTER_GROUPS.forEach(function (g) {
+      if (filters[g.key].length) {
+        parts.push(g.key + "=" + filters[g.key].map(encodeURIComponent).join(","));
+      }
+    });
+    var url = window.location.pathname + window.location.search + (parts.length ? "#" + parts.join("&") : "");
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState(null, "", url);
+    } else if (parts.length) {
+      window.location.hash = parts.join("&");
+    }
+  }
+
+  function toggleFilter(key, value) {
+    var list = filters[key];
+    var at = list.indexOf(value);
+    if (at === -1) {
+      list.push(value);
+    } else {
+      list.splice(at, 1);
+    }
+    writeHash();
+    render();
+  }
+
+  function showOnly(key, value) {
+    filters = emptyFilters();
+    filters[key] = [value];
+    writeHash();
+    render();
+    var finder = document.getElementById("finder");
+    if (finder) {
+      finder.scrollIntoView({ block: "start", behavior: REDUCED_MOTION ? "auto" : "smooth" });
+    }
+  }
+
+  function clearFilters() {
+    filters = emptyFilters();
+    writeHash();
+    render();
+  }
+
+  function renderFinder(matchCount) {
+    if (!finderGroupsEl) {
+      return;
+    }
+    var active = document.activeElement;
+    var focusKey = active && active.getAttribute && active.getAttribute("data-fkey") && active.closest && active.closest("#finder-groups")
+      ? active.getAttribute("data-fkey") + "\u0000" + active.getAttribute("data-fval")
+      : "";
+    var needle = query.trim().toLowerCase();
+    finderGroupsEl.innerHTML = FILTER_GROUPS.map(function (g) {
+      var chips = groupValues(g.key).map(function (value) {
+        var count = articles.filter(function (article) {
+          return article.tags && article.tags[g.key] === value && passesFilters(article, g.key) && matches(article, needle);
+        }).length;
+        var on = filters[g.key].indexOf(value) !== -1;
+        return '<button type="button" class="chip chip--filter' + (count ? "" : " is-empty") + '" data-fkey="' + escapeHtml(g.key) + '" data-fval="' + escapeHtml(value) + '" aria-pressed="' + (on ? "true" : "false") + '">' +
+          '<span class="chip-text">' + escapeHtml(value) + "</span>" +
+          '<span class="chip-count">' + count + '<span class="sr-only"> ' + (count === 1 ? "story" : "stories") + "</span></span>" +
+          "</button>";
+      }).join("");
+      return '<div class="finder-group" role="group" aria-labelledby="fg-' + escapeHtml(g.key) + '">' +
+        '<p class="finder-label" id="fg-' + escapeHtml(g.key) + '">' + escapeHtml(g.label) + "</p>" +
+        '<div class="finder-chips">' + chips + "</div>" +
+        "</div>";
+    }).join("");
+    if (focusKey) {
+      var parts = focusKey.split("\u0000");
+      Array.prototype.some.call(finderGroupsEl.querySelectorAll(".chip--filter"), function (btn) {
+        if (btn.getAttribute("data-fkey") === parts[0] && btn.getAttribute("data-fval") === parts[1]) {
+          btn.focus({ preventScroll: true });
+          return true;
+        }
+        return false;
+      });
+    }
+    var any = hasFilters();
+    finderClearBtn.disabled = !any;
+    if (!any) {
+      finderStatusEl.innerHTML = "";
+    } else if (!matchCount) {
+      finderStatusEl.innerHTML = "No articles yet for " + escapeHtml(selectionLabel()) + ". New ones are added daily.";
+    } else {
+      finderStatusEl.innerHTML = escapeHtml(matchCount + (matchCount === 1 ? " story" : " stories") + " for " + selectionLabel() + ". ") +
+        '<button type="button" class="finder-see" id="finder-see">See ' + (matchCount === 1 ? "it" : "them") + "</button>";
+    }
+  }
+
+  if (finderGroupsEl) {
+    finderGroupsEl.addEventListener("click", function (event) {
+      var btn = event.target.closest(".chip--filter");
+      if (btn) {
+        toggleFilter(btn.getAttribute("data-fkey"), btn.getAttribute("data-fval"));
+      }
+    });
+    finderClearBtn.addEventListener("click", clearFilters);
+    finderStatusEl.addEventListener("click", function (event) {
+      if (event.target.closest("#finder-see")) {
+        contentEl.scrollIntoView({ block: "start", behavior: REDUCED_MOTION ? "auto" : "smooth" });
+      }
+    });
+    window.addEventListener("hashchange", function () {
+      if (readHash()) {
+        render();
+      }
+    });
+  }
+
   function render() {
     var view = buildSections(articles);
     var needle = query.trim();
+    renderFinder(view.filteredCount);
 
     navEl.innerHTML = '<a href="#share" class="nav-share">Share Your Story</a>' +
       '<a href="#subscribe" class="nav-share">Subscribe</a>' +
@@ -419,7 +668,13 @@
       }).join("");
 
     if (!view.sections.length) {
-      contentEl.innerHTML = '<p class="empty">No stories match “' + escapeHtml(needle) + "”.</p>";
+      if (hasFilters()) {
+        contentEl.innerHTML = '<p class="empty">No articles yet for ' + escapeHtml(selectionLabel()) +
+          (needle ? " matching “" + escapeHtml(needle) + "”" : "") +
+          '. New ones are added daily.</p><p class="empty"><button type="button" class="finder-clear finder-clear-inline">Clear topics</button></p>';
+      } else {
+        contentEl.innerHTML = '<p class="empty">No stories match “' + escapeHtml(needle) + "”.</p>";
+      }
       countEl.textContent = "0 of " + articles.length + " stories";
       return;
     }
@@ -429,7 +684,7 @@
       if (section.kind === "top" || section.kind === "search") {
         deck = sortMode === "newest"
           ? "Sorted newest first"
-          : "Ranked by relevance score";
+          : "Most relevant first";
       } else if (section.kind === "latest") {
         deck = "Most recently published";
       } else if (section.kind === "trials") {
@@ -452,7 +707,7 @@
       );
     }).join("");
 
-    if (needle) {
+    if (needle || hasFilters()) {
       countEl.textContent = view.filteredCount + " of " + articles.length + (articles.length === 1 ? " story" : " stories");
     } else {
       var updated = articles.reduce(function (latest, article) {
@@ -478,6 +733,7 @@
         throw new Error("Story file is not a list.");
       }
       articles = data;
+      readHash();
       render();
     })
     .catch(function (error) {
