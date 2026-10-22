@@ -1,7 +1,8 @@
 :root {
-  --parchment: #f3e7c9;
-  --parchment-deep: #e6d3a3;
-  --parchment-edge: #c9ad72;
+  --parchment: #f7f2e4;
+  --parchment-deep: #ebe3cd;
+  --parchment-edge: #d2c4a3;
+  --weave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.35 0 0 0 0 0.27 0 0 0 0 0.15 0 0 0 0.2 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --parchment-ink: #2b2115;
   --rod: #8a6a3c;
   --rod-dark: #5b4325;
@@ -552,9 +553,13 @@ a:hover {
   font-family: var(--serif);
   background-color: var(--parchment);
   background-image:
-    radial-gradient(ellipse at 12% 18%, rgba(255, 250, 235, 0.65), transparent 55%),
-    radial-gradient(ellipse at 88% 82%, rgba(190, 150, 80, 0.18), transparent 60%),
-    linear-gradient(90deg, rgba(150, 110, 50, 0.16), transparent 7%, transparent 93%, rgba(150, 110, 50, 0.16));
+    radial-gradient(ellipse at 12% 18%, rgba(255, 253, 247, 0.7), transparent 55%),
+    radial-gradient(ellipse at 88% 82%, rgba(180, 150, 95, 0.09), transparent 60%),
+    linear-gradient(90deg, rgba(140, 115, 70, 0.09), transparent 7%, transparent 93%, rgba(140, 115, 70, 0.09)),
+    repeating-linear-gradient(0deg, rgba(120, 95, 50, 0.028) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(120, 95, 50, 0.024) 0 1px, transparent 1px 3px),
+    var(--weave);
+  background-size: auto, auto, auto, auto, auto, 160px 160px;
   border-left: 1px solid var(--parchment-edge);
   border-right: 1px solid var(--parchment-edge);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04), 0 6px 14px -10px rgba(60, 40, 10, 0.45);
@@ -568,11 +573,11 @@ a:hover {
   border-radius: 0.55rem;
   background:
     linear-gradient(180deg,
-      #f8efd6 0%,
+      #fcfaf3 0%,
       var(--parchment-deep) 30%,
       var(--parchment-edge) 62%,
-      #a8884f 88%,
-      #8f7240 100%);
+      #b5a47f 88%,
+      #9e8b66 100%);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.6),
     0 2px 3px rgba(60, 40, 10, 0.28);
@@ -840,7 +845,7 @@ a:hover {
 }
 
 .section--trials .scroll-sheet {
-  background-color: #f1e3c0;
+  background-color: #f4eedd;
 }
 
 @media (max-width: 600px) {
@@ -1268,6 +1273,61 @@ a:hover {
 
 @media print {
   .subscribe {
+    display: none;
+  }
+}
+
+/* ---------- Close the Scroll ---------- */
+
+.scroll-close {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  min-height: 88px;
+  margin: 1.2rem 0 0.1rem;
+  padding: 0.85rem 1rem 0.7rem;
+  color: var(--ink);
+  background: transparent;
+  border: none;
+  border-top: 1px dotted rgba(90, 60, 20, 0.45);
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(18, 18, 18, 0.06);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.scroll-close-text {
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  font-variant: small-caps;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.14em;
+}
+
+.scroll-close-mark {
+  display: block;
+  width: 2.9rem;
+  height: 2.9rem;
+  color: var(--ink);
+  transition: transform 200ms ease;
+}
+
+.scroll-close:hover .scroll-close-mark,
+.scroll-close:focus-visible .scroll-close-mark {
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-close-mark {
+    transition: none;
+  }
+}
+
+@media print {
+  .scroll-close {
     display: none;
   }
 }

@@ -6,6 +6,22 @@
   var sortMode = "relevance";
   var query = "";
   var openEntries = {};
+  var REDUCED_MOTION = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var HANDS_SVG =
+    '<svg class="scroll-close-mark" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' +
+      '<path d="M24 4.5c-3.4 1.6-5.8 6-6.8 11.6l-1.5 8.6c-2.6 3.2-4.1 7.1-4.1 11.3V43"/>' +
+      '<path d="M24 4.5c3.4 1.6 5.8 6 6.8 11.6l1.5 8.6c2.6 3.2 4.1 7.1 4.1 11.3V43"/>' +
+      '<path d="M24 5.5v28"/>' +
+      '<path d="M24 33c-3.6-.5-5.4-3.6-4.9-8.6"/>' +
+      '<path d="M24 33c3.6-.5 5.4-3.6 4.9-8.6"/>' +
+      '<path d="M20.9 10.5l-.9 5.5M27.1 10.5l.9 5.5"/>' +
+      '<path d="M9.5 43h13M25.5 43h13"/>' +
+    "</svg>";
+  var CLOSE_HTML =
+    '<button type="button" class="scroll-close" aria-label="Close the scroll">' +
+      '<span class="scroll-close-text" aria-hidden="true">Close the Scroll</span>' +
+      HANDS_SVG +
+    "</button>";
 
   var contentEl = document.getElementById("content");
   var navEl = document.getElementById("jump-nav");
@@ -271,6 +287,7 @@
     if (article.url) {
       detail += '<p class="source-link"><a href="' + escapeHtml(article.url) + '" target="_blank" rel="noopener noreferrer">Read the original article<span class="sr-only"> (opens in a new tab)</span></a></p>';
     }
+    detail += CLOSE_HTML;
 
     return (
       '<article class="entry scroll' + (isOpen ? " is-open" : "") + '" id="' + escapeHtml(key) + '" data-key="' + escapeHtml(key) + '" aria-labelledby="' + escapeHtml(headId) + '">' +
@@ -317,6 +334,22 @@
   contentEl.addEventListener("click", function (event) {
     var target = event.target;
     if (target.closest("a")) {
+      return;
+    }
+    var closer = target.closest(".scroll-close");
+    if (closer) {
+      var entry = closer.closest(".entry");
+      if (entry && entry.classList.contains("is-open")) {
+        toggleEntry(entry);
+        var toggle = entry.querySelector(".entry-toggle");
+        if (toggle) {
+          toggle.focus({ preventScroll: true });
+        }
+        var rect = entry.getBoundingClientRect();
+        if (rect.top < 0 || rect.top > window.innerHeight * 0.4) {
+          entry.scrollIntoView({ block: "start", behavior: REDUCED_MOTION ? "auto" : "smooth" });
+        }
+      }
       return;
     }
     var area = target.closest("[data-toggle-area]");
