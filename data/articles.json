@@ -26,7 +26,11 @@
       "location": "Columbia University Irving Medical Center, New York, NY, USA",
       "key_eligibility": "Ages 22-65; surgical removal of a brain tumor (biopsy alone does not qualify); motor weakness of MRC 3/5 or less, or a sustained drop of one MRC point, 1-2 weeks after surgery, or persistent motor deficits within 3 years of surgery. Excludes any history of seizures, implanted devices, MMSE below 26, prior TMS, other structural brain conditions such as stroke, and pregnancy (see registry for full criteria)."
     },
-    "date_note": "date_published is the registry's first-posted date (2026-04-15), which is also its last update. Recruiting status was checked on 2026-10-22."
+    "date_note": "date_published is the registry's first-posted date (2026-04-15), which is also its last update. Recruiting status was checked on 2026-10-22.",
+    "related_body_areas": [
+      "Hand",
+      "Arm"
+    ]
   },
   {
     "id": "nrtms-postsurgical-paresis-brain-tumor-multicenter-j-neurooncol",
@@ -48,7 +52,11 @@
     "relevance_score": 9,
     "relevance_reason": "Multicenter human data on a rehab-boosting treatment for arm weakness caused by brain tumor surgery.",
     "evidence_level": "Human study (secondary analysis of 2 RCTs and 3 single-arm studies, 135 patients)",
-    "date_note": "Published online 2025-01-23; print issue April 2025."
+    "date_note": "Published online 2025-01-23; print issue April 2025.",
+    "related_body_areas": [
+      "Hand",
+      "Brain"
+    ]
   },
   {
     "id": "hf-nrtms-hand-knob-glioma-motor-deficits-rct-neuroimage-clin",
@@ -376,5 +384,150 @@
       "location": "10 sites in the United States",
       "key_eligibility": "Ages 12 to 80 with a single fully transected peripheral nerve below the brachial plexus that can be repaired end to end within 48 hours of injury. Nerve gaps needing a graft were excluded. Tumor-related compression was not part of this trial, which only covered acute cuts."
     }
+  },
+  {
+    "id": "hand-rehab-glioma-edema-cureus-2025",
+    "title": "Hand use improved during continued rehabilitation after glioma surgery: one patient's recovery",
+    "source": "Cureus (Kyoto University Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12095610/",
+    "date_published": "2025-04-21",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "After glioma surgery, one man's hand function worsened while brain swelling increased. His rehabilitation included repeated use of the affected hand, everyday tasks, stretching and occupational therapy. As swelling subsided, grip and dexterity improved; by day 134 he could hang laundry using that hand. This is one case, so it cannot establish which part of treatment caused recovery.",
+    "summary": "Clinicians followed a 43-year-old man after surgery for recurrent glioma. They tracked brain imaging, grip strength and a block-moving dexterity test. Supervised rehabilitation began in hospital and continued with home practice. Motor performance and imaging measures deteriorated early, then improved as edema decreased. There was no comparison group.",
+    "why_it_matters": "Useful background for discussions about hand control, task-focused occupational therapy and potentially reversible postoperative swelling. It does not promise recovery or provide a home exercise prescription.",
+    "relevance_score": 10,
+    "evidence_level": "Single adult case report; no control group",
+    "date_note": "Older research added for its direct relevance to hand function, not a new breakthrough."
+  },
+  {
+    "id": "cimt-hand-ataxia-cerebellar-tumor-2019",
+    "title": "Writing and daily hand use improved after targeted practice following cerebellar tumor surgery: a case report",
+    "source": "Fisioterapia em Movimento",
+    "url": "https://www.scielo.br/j/fm/a/xhtzJ9cGJ3zj8qtvfhgmhyF/?lang=en",
+    "date_published": "2019-05-30",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "A woman had difficulty writing and typing after a cerebellar tumor was removed, despite relatively preserved muscle strength. A supervised program practiced useful movements with the affected hand. Writing, task speed and reported daily use improved. This report concerns coordination problems and illustrates that useful hand function involves more than strength alone.",
+    "summary": "The 42-year-old participant received constraint-induced movement therapy for three hours daily over ten treatment days. Tasks included writing, handling small objects and everyday activities. Standard arm-function measures and her signature improved after treatment. This uncontrolled, single-patient study cannot establish effectiveness for other patients.",
+    "why_it_matters": "Especially relevant to hand clumsiness, accuracy and coordination after tumor surgery. A rehabilitation specialist must assess suitability; restricting the stronger hand is not an unsupervised exercise recommendation.",
+    "relevance_score": 9,
+    "evidence_level": "Single adult case report; no control group",
+    "date_note": "Published in 2019; added as directly relevant background, not recent news."
+  },
+  {
+    "id": "low-frequency-rtms-hand-recovery-rct-2024",
+    "title": "Magnetic stimulation trial found an early hand-strength benefit, but no clear overall advantage at three months",
+    "source": "Frontiers in Oncology (Charité)",
+    "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1368924/full",
+    "date_published": "2024-04-26",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "Thirty people with new arm weakness after brain tumor surgery entered a trial of magnetic brain stimulation or sham stimulation, followed by physical therapy. Hand strength was better in the stimulation group at one month. The main measure of arm recovery at three months did not differ significantly. This suggests a possible early benefit, not a proven lasting recovery treatment.",
+    "summary": "Participants received seven days of low-frequency stimulation over the unaffected motor cortex or sham treatment. The trial missed its primary three-month Fugl-Meyer outcome. Other functional benefits were limited. This trial also contributes patients to the multicenter analysis already covered on this site, so those reports are not independent evidence.",
+    "why_it_matters": "Helps readers weigh encouraging hand results against a negative primary outcome when discussing experimental stimulation with clinicians.",
+    "relevance_score": 9,
+    "evidence_level": "Randomized, double-blind, sham-controlled trial; 30 participants",
+    "date_note": "Foundational 2024 trial. Its participants overlap with the 2025 multicenter report."
+  },
+  {
+    "id": "cimt-children-brain-tumors-pilot-2017",
+    "title": "Nine children completed intensive affected-arm training after brain tumors, with gains maintained at three months",
+    "source": "Pediatric Physical Therapy (St. Jude Children's Research Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5172401/",
+    "date_published": "2017-01-01",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "A small study tested a three-week constraint-induced movement therapy program in children with one-sided arm impairment related to brain tumors. All nine children completed it. The amount and quality of affected-arm use improved, with gains still present at the three-month check. The program was demanding for some families.",
+    "summary": "Researchers measured arm use, quality of life and parent-reported feasibility before treatment, afterward and at follow-up. There was no randomized comparison group. The results support feasibility in selected children, not proof of effectiveness in adults or everyone with tumor-related hand problems.",
+    "why_it_matters": "Adds tumor-specific evidence about intensive practice of the affected arm and hand. Age and study size limit how broadly the findings apply.",
+    "relevance_score": 8,
+    "evidence_level": "Pediatric before-and-after pilot; 9 participants; no control group",
+    "date_note": "The journal gives January 2017 without a specific day; January 1 is used for sorting. Older background research."
+  },
+  {
+    "id": "glioma-pt-ot-randomized-trial-2020",
+    "title": "Physical and occupational therapy during glioma treatment: some benefits, but the main quality-of-life result was inconclusive",
+    "source": "Physical Therapy / University of Southern Denmark",
+    "url": "https://portal.findresearcher.sdu.dk/en/publications/effectiveness-of-physical-therapy-and-occupational-therapy-based-/",
+    "date_published": "2020-03-10",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "quick_read": "A Danish trial compared supervised physical and occupational therapy with usual rehabilitation during glioma treatment. It enrolled 64 people who were functionally independent. After six weeks, the main overall quality-of-life measure was not significantly better with the program. Some secondary measures, including fatigue, thinking-related functioning and aerobic capacity, favored rehabilitation.",
+    "summary": "Thirty-two participants were assigned to each group. Recruitment and follow-up were insufficient to determine superiority for the primary outcome. The study supports further evaluation of rehabilitation during cancer treatment but does not establish a specific treatment for loss of hand control.",
+    "why_it_matters": "Rehabilitation can be considered during ongoing treatment, with goals matched to the person's abilities. Promising secondary results should not be confused with a positive primary endpoint.",
+    "relevance_score": 7,
+    "evidence_level": "Single-blind randomized controlled trial; 64 participants",
+    "date_note": "Older controlled research added as background."
+  },
+  {
+    "id": "intensive-rehab-brain-tumor-surgery-cohort-2019",
+    "title": "Motor skills and daily activities improved during intensive rehabilitation after brain tumor surgery",
+    "source": "Annals of Rehabilitation Medicine",
+    "url": "https://www.e-arm.org/journal/view.php?number=4076",
+    "date_published": "2019-04-30",
+    "date_added": "2026-10-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "A hospital reviewed 35 adults receiving intensive rehabilitation after brain tumor surgery. Movement, thinking and everyday-function measures improved during their stay, with gains similar to those seen in a stroke rehabilitation comparison group. Both benign and malignant tumor groups improved. Because everyone received rehabilitation, the study cannot separate treatment effects from natural recovery.",
+    "summary": "Therapy included physical and occupational rehabilitation, with upper-limb and everyday-task training. The retrospective analysis compared tumor patients with 108 stroke patients receiving similar care. Family caregivers generally reported satisfaction later. There was no untreated brain-tumor comparison group.",
+    "why_it_matters": "Supports considering a rehabilitation assessment after tumor surgery, including goals for useful arm function and independence. It does not predict an individual's outcome.",
+    "relevance_score": 8,
+    "evidence_level": "Retrospective cohort; 35 brain-tumor patients and 108 stroke comparators",
+    "date_note": "Published online April 30, 2019; added as background research."
   }
 ]

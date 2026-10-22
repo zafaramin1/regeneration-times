@@ -1,260 +1,51 @@
-/*
- * Share Your Story form.
- * Change ONE line below to set where submissions go:
- *   SUBMIT_TO     editors' email for the pre-filled mailto: fallback. Stored encoded so
- *                 scrapers cannot read it: reversed character codes, each shifted by +7.
- *                 To change it, run in a browser console:
- *                   "new@address.com".split("").reverse().map(c => c.charCodeAt(0) + 7).join(",")
- *                 and paste the numbers between the brackets.
- *   FORM_ENDPOINT URL of a form service (for example Formspree or a Google Apps Script).
- *                 When set, the form POSTs there instead of opening the email app.
- */
-var SUBMIT_TO = [116,118,106,53,126,118,117,108,116,108,115,107,117,104,106,71,121,104,109,104,129];
-var FORM_ENDPOINT = "";
-
 (function () {
   "use strict";
+  var dialog = document.getElementById("reader-form-dialog");
+  var frame = document.getElementById("reader-form-frame");
+  var heading = document.getElementById("reader-form-heading");
+  var fallback = document.getElementById("reader-form-fallback");
+  var returnFocus = null;
 
-  var form = document.getElementById("share-form");
-  if (!form) {
-    return;
-  }
-  var statusEl = document.getElementById("share-status");
-  var thanksEl = document.getElementById("share-thanks");
-  var submitBtn = document.getElementById("share-submit");
-  var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  function field(name) {
-    return form.elements[name];
-  }
-
-  function value(name) {
-    var el = field(name);
-    return el ? String(el.value || "").trim() : "";
-  }
-
-  function setError(name, message) {
-    var el = field(name);
-    var err = document.getElementById("err-" + name);
-    if (el) {
-      if (message) {
-        el.setAttribute("aria-invalid", "true");
-      } else {
-        el.removeAttribute("aria-invalid");
-      }
-    }
-    if (err) {
-      err.textContent = message || "";
+  function openPanelFromHash() {
+    var id = window.location.hash.slice(1);
+    if (["share", "ideas", "subscribe"].indexOf(id) !== -1) {
+      var panel = document.getElementById(id);
+      if (panel) { panel.open = true; }
     }
   }
-
-  function validate() {
-    var ok = true;
-    var first = null;
-    var email = value("email");
-    if (!email) {
-      setError("email", "Please enter your email so the editors can reply.");
-      ok = false;
-      first = first || field("email");
-    } else if (!EMAIL_RE.test(email)) {
-      setError("email", "That email address does not look right.");
-      ok = false;
-      first = first || field("email");
-    } else {
-      setError("email", "");
-    }
-    if (!value("message")) {
-      setError("message", "Please write a few words before sending.");
-      ok = false;
-      first = first || field("message");
-    } else {
-      setError("message", "");
-    }
-    var consent = field("consent");
-    if (!consent.checked) {
-      setError("consent", "Please tick this box so we can share your submission.");
-      ok = false;
-      first = first || consent;
-    } else {
-      setError("consent", "");
-    }
-    if (first) {
-      first.focus();
-    }
-    return ok;
-  }
-
-  function collect() {
-    return {
-      form: "share",
-      name: value("name"),
-      email: value("email"),
-      type: value("type"),
-      title: value("title"),
-      message: value("message"),
-      link: value("link"),
-      consent: field("consent").checked ? "yes" : "no",
-      page: window.location.href,
-      sent_at: new Date().toISOString()
-    };
-  }
-
-  function submitAddress() {
-    return SUBMIT_TO.map(function (n) {
-      return String.fromCharCode(n - 7);
-    }).reverse().join("");
-  }
-
-  function mailtoHref(data) {
-    var subject = "Share Your Story: " + (data.type || "Submission") + (data.title ? " | " + data.title : "");
-    var body = [
-      "Name / credit as: " + (data.name || "(not given)"),
-      "Email: " + data.email,
-      "Type: " + data.type,
-      "Title: " + (data.title || "(none)"),
-      "Link: " + (data.link || "(none)"),
-      "Agrees to editing and publishing with credit: " + data.consent,
-      "",
-      "Message:",
-      data.message
-    ].join("\n");
-    return "mailto:" + encodeURIComponent(submitAddress()) +
-      "?subject=" + encodeURIComponent(subject) +
-      "&body=" + encodeURIComponent(body);
-  }
-
-  function showThanks(viaEmail) {
-    thanksEl.querySelector(".share-thanks-extra").textContent = viaEmail
-      ? "Your email app should open with your message ready. Please press Send there to deliver it to the editors."
-      : "Your message has reached the editors.";
-    form.hidden = true;
-    thanksEl.hidden = false;
-    thanksEl.focus();
-  }
-
-  form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    statusEl.textContent = "";
-    if (!validate()) {
-      statusEl.textContent = "Please check the highlighted fields.";
-      return;
-    }
-    var data = collect();
-
-    if (FORM_ENDPOINT) {
-      submitBtn.disabled = true;
-      statusEl.textContent = "Sending…";
-      var body = new FormData();
-      Object.keys(data).forEach(function (key) {
-        body.append(key, data[key]);
-      });
-      fetch(FORM_ENDPOINT, {
-        method: "POST",
-        body: body,
-        headers: { Accept: "application/json" }
-      })
-        .then(function (response) {
-          if (!response.ok) {
-            throw new Error("Send failed (" + response.status + ")");
-          }
-          form.reset();
-          showThanks(false);
-        })
-        .catch(function () {
-          statusEl.textContent = "We could not send that just now. Opening your email app instead.";
-          window.location.href = mailtoHref(data);
-          showThanks(true);
-        })
-        .then(function () {
-          submitBtn.disabled = false;
-        });
-      return;
-    }
-
-    window.location.href = mailtoHref(data);
-    showThanks(true);
-  });
-
-  document.getElementById("share-again").addEventListener("click", function () {
-    form.reset();
-    thanksEl.hidden = true;
-    form.hidden = false;
-    statusEl.textContent = "";
-    field("name").focus();
-  });
-
-  /* ---------- Subscribe forms (top and footer) ---------- */
-
-  function subscribeMailto(name, email) {
-    var body = [
-      "Please add me to The Regeneration Times email list.",
-      "",
-      "Name: " + (name || "(not given)"),
-      "Email: " + email
-    ].join("\n");
-    return "mailto:" + encodeURIComponent(submitAddress()) +
-      "?subject=" + encodeURIComponent("Subscribe me to The Regeneration Times") +
-      "&body=" + encodeURIComponent(body);
-  }
-
-  Array.prototype.forEach.call(document.querySelectorAll(".subscribe-form"), function (subForm) {
-    var box = subForm.closest(".subscribe");
-    var emailEl = subForm.querySelector('input[name="email"]');
-    var nameEl = subForm.querySelector('input[name="name"]');
-    var errEl = subForm.querySelector(".err");
-    var btn = subForm.querySelector('button[type="submit"]');
-    var thanks = box.querySelector(".subscribe-thanks");
-
-    function done(viaEmail) {
-      thanks.querySelector(".subscribe-thanks-extra").textContent = viaEmail
-        ? "Your email app should open with the request ready. Please press Send to finish."
-        : "You are on the list.";
-      subForm.hidden = true;
-      thanks.hidden = false;
-      thanks.focus();
-    }
-
-    subForm.addEventListener("submit", function (event) {
+  document.addEventListener("click", function (event) {
+    var action = event.target.closest("[data-reader-form]");
+    if (action && dialog && typeof dialog.showModal === "function") {
       event.preventDefault();
-      var email = String(emailEl.value || "").trim();
-      var name = nameEl ? String(nameEl.value || "").trim() : "";
-      if (!email || !EMAIL_RE.test(email)) {
-        emailEl.setAttribute("aria-invalid", "true");
-        errEl.textContent = email ? "That email address does not look right." : "Please enter your email.";
-        emailEl.focus();
-        return;
-      }
-      emailEl.removeAttribute("aria-invalid");
-      errEl.textContent = "";
-
-      if (FORM_ENDPOINT) {
-        btn.disabled = true;
-        var body = new FormData();
-        body.append("type", "subscribe");
-        body.append("name", name);
-        body.append("email", email);
-        body.append("page", window.location.href);
-        body.append("sent_at", new Date().toISOString());
-        fetch(FORM_ENDPOINT, { method: "POST", body: body, headers: { Accept: "application/json" } })
-          .then(function (response) {
-            if (!response.ok) {
-              throw new Error("Send failed");
-            }
-            subForm.reset();
-            done(false);
-          })
-          .catch(function () {
-            window.location.href = subscribeMailto(name, email);
-            done(true);
-          })
-          .then(function () {
-            btn.disabled = false;
-          });
-        return;
-      }
-
-      window.location.href = subscribeMailto(name, email);
-      done(true);
-    });
+      returnFocus = action;
+      var kind = action.getAttribute("data-reader-form");
+      heading.textContent = kind === "subscribe" ? "Stay connected" : kind === "idea" ? "Share an idea" : "Share Your Story";
+      frame.title = heading.textContent;
+      frame.src = action.href + (action.href.indexOf("?") === -1 ? "?" : "&") + "embedded=true";
+      fallback.href = action.href;
+      dialog.showModal();
+      document.getElementById("reader-form-close").focus();
+      return;
+    }
+    var link = event.target.closest('a[href^="#"]');
+    if (link) {
+      var panel = document.getElementById(link.getAttribute("href").slice(1));
+      if (panel && panel.classList.contains("community-panel")) { panel.open = true; }
+    }
   });
+  if (dialog) {
+    document.getElementById("reader-form-close").addEventListener("click", function () { dialog.close(); });
+    dialog.addEventListener("click", function (event) {
+      if (event.target === dialog) {
+        var rect = dialog.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) { dialog.close(); }
+      }
+    });
+    dialog.addEventListener("close", function () {
+      frame.removeAttribute("src");
+      if (returnFocus) { returnFocus.focus(); }
+    });
+  }
+  window.addEventListener("hashchange", openPanelFromHash);
+  openPanelFromHash();
 })();

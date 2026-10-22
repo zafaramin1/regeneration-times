@@ -20,6 +20,7 @@ Fields the page uses:
 | `date_added` | yes | `YYYY-MM-DD`; the newest value is shown as the file date |
 | `category` | yes | Becomes its own section. `Clinical Trials & Experimental Opportunities` is listed separately |
 | `tags` | yes | Object with four short tags (one or two words each), always in this order: `body_area`, `cause`, `approach`, `stage`. Shown under the headline on the closed scroll. Use the vocabulary below |
+| `related_body_areas` | no | Array of additional body-area values explicitly supported by the source. Included in search, filter matching and filter counts, while the primary body-area tag remains on the closed scroll. Never infer a connection from unrelated research. |
 | `quick_read` | yes | One plain-English paragraph (3 to 5 sentences) for non-experts: what the study or trial is, what it does, and what it could mean for people with nerve damage. Base it only on the source; no invented facts or numbers, no hype, no em dashes. Shown on the first tap |
 | `summary` | yes | What the source reports (shown in the full details) |
 | `why_it_matters` | yes | Short note under the summary |
@@ -51,6 +52,8 @@ Latest stays ordered by `date_published`. Top Stories is ordered by `relevance_s
 
 Each story renders as a parchment scroll with three levels:
 
+Only one scroll is open at a time. Opening a scroll closes the previous one and centers the new scroll in the viewport (or aligns its top when it is taller than the viewport). A discreet burgundy Close control is available at its top right. Escape closes the active scroll.
+
 1. Closed (default): headline, a small date on the right, and the four tags as smooth pewter pill capsules. Tapping a tag shows every story with that tag.
 2. First tap (on the headline or entry): the Quick Read unrolls, with a "Read full details" control.
 3. Second tap (or that control): the full details unroll: summary, why it matters, section, source, evidence level, date note, trial status and eligibility, trial link, and the link to the original article. It ends with the Close the Scroll emblem button, which rolls the scroll fully closed and brings its headline into view. Tapping the headline while fully open also closes it.
@@ -65,14 +68,22 @@ The headline button and the "Read full details" button carry `aria-expanded`. Th
 
 When you change `styles.css`, `share.js` or `app.js`, bump the `?v=` version string on all three asset links in `index.html` so phones load the new files.
 
-## Share Your Story form
+## Reader guide, subscriptions, ideas and stories
 
-The form at the top of the page has no backend. Its settings are the two constants at the top of [`share.js`](share.js):
+A visible reading guide sits before the articles. The side rail has three fully collapsible panels: Share Your Story, Have an idea?, and Stay connected. Founder credit is in the footer.
 
-- `SUBMIT_TO`: the editors' email address, stored encoded (reversed character codes shifted by +7) so it never appears as plain text; the comment in `share.js` shows how to encode a new one. On submit the form checks that an email and message are filled in and the consent box is ticked, then opens a pre-filled `mailto:` to this address.
-- `FORM_ENDPOINT`: empty by default. Set it to a form service URL and the form will POST its fields there as FormData instead (falling back to `mailto:` if the request fails). Share submissions carry `form=share`.
+Signup and community submissions open real Google Forms in a dismissible dialog, with a direct-link fallback if embedding fails. No email application or mailto fallback is used. Google handles field validation and shows its own success confirmation; the website never claims success merely because a request was sent.
 
-The two Subscribe boxes (below Share Your Story and in the footer) use the same constants. With `FORM_ENDPOINT` set they POST `type=subscribe`, `name` and `email`; while it is empty they open a `mailto:` to `SUBMIT_TO` with the subject "Subscribe me to The Regeneration Times".
+Both forms collect a required responder-entered email without requiring a Google sign-in. The community form requires a submission type, message and explicit permission-to-publish choice, including a private-feedback option. Name is optional. Do not publish submitter email addresses or submissions marked private.
+
+The private workbook is **Regeneration Times — Subscribers and Ideas** in the user's **Regeneration Times** Drive folder, with tabs **Subscribers** and **Ideas and Stories**. Responses are collected, not automatically emailed or published. Do not put the workbook's private response data into this repository, expose it in the website, or change its sharing permissions. Form destinations are ordinary public responder URLs in index.html, not credentials.
+
+Subscriber form: https://docs.google.com/forms/d/e/1FAIpQLScNjbh3MGGJ4XBbH-c5XoxSv6GKkKhMehFoVSpKusRleDggYw/viewform
+Community form: https://docs.google.com/forms/d/e/1FAIpQLSdw9bXOQK1V2egSt2itsixRUxW39B0M6kInhjCutJ3d8m4pWw/viewform
+
+When replacing either form, use its actual published responder URL, retain required-email validation and private response storage, and test the real submission-to-sheet path. Changes to a Google Form do not require a new site deployment unless its URL changes.
+
+share.js handles the form dialog, focus restoration and opening side panels from navigation. The newspaper design remains in styles.css; the article interactions and topic filtering remain in app.js.
 
 ## Run locally
 
@@ -95,7 +106,7 @@ For information only. Not medical advice. Talk to your doctor before considering
 
 ## Layout and shared editorial workflow
 
-Topic buttons use three rectangular columns on desktop and two on phones. Closed story scrolls use three columns on desktop, two on tablets, and one on phones. An opened scroll spans the entire grid width, with following stories flowing below it. Fine crosshatched paper texture, serif typography, parchment, and restrained wooden ends preserve the newspaper style.
+Topic buttons are compact word-sized rectangles that wrap across rows. Selected topics are black. Closed story scrolls use three columns on desktop, two on tablets, and one on phones. An opened scroll spans the entire grid width, with following stories flowing below it. Fine crosshatched paper texture, serif typography, parchment, and restrained wooden ends preserve the newspaper style.
 
 Multiple editors or bots may add stories. Before every write:
 1. Read the current `data/articles.json` and its blob SHA.

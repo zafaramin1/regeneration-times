@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261022b">
+  <link rel="stylesheet" href="styles.css?v=20261022c">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -20,7 +20,6 @@
     <p class="dateline" id="dateline">Thursday, October 22, 2026</p>
     <h1>The Regeneration Times</h1>
     <p class="tagline">Nerve repair and regeneration breakthroughs, every day.</p>
-    <p class="founder">Founded by Zafar Amin</p>
     <nav class="jump-nav" id="jump-nav" aria-label="Jump to section"></nav>
     <div class="tools">
       <form id="search-form" class="search" role="search" autocomplete="off">
@@ -38,101 +37,45 @@
         <h2 class="finder-head" id="finder-heading">Find what matters to you</h2>
         <button type="button" class="finder-clear" id="finder-clear" disabled>Clear</button>
       </div>
-      <p class="finder-lede">Tap a topic to see only those stories. Tap more to narrow it down. The number shows how many stories match.</p>
+      <p class="finder-lede">Choose any topics. Choices in one group mean either; choices across groups must all match. For example: Hand + Brain tumor. Numbers show matching stories.</p>
       <div class="finder-groups" id="finder-groups"></div>
       <p class="finder-status" id="finder-status" aria-live="polite"></p>
     </section>
     <p class="result-count" id="result-count" aria-live="polite"></p>
   </header>
 
-  <section class="share" id="share" aria-labelledby="share-heading">
-    <h2 class="share-head" id="share-heading">Share Your Story</h2>
-    <p class="share-lede">Everyone is welcome here, whatever your race, religion, background or means. If you have something that adds value, a personal story, a recovery, a treatment that helped, a solution or a resource, please share it. It is always free.</p>
-    <p class="share-lede">You can also write a full article, and if we publish it, you will get full credit. Every submission is read by a moderator before anything is posted. We publish only positive, real experiences that help others. No profanity, rudeness or negativity. Together we can help people heal.</p>
-
-    <details class="share-open">
-      <summary><span class="when-closed">Open the form</span><span class="when-open">Hide the form</span></summary>
-      <form id="share-form" class="share-form" novalidate>
-        <div class="share-grid">
-          <div class="f">
-            <label for="share-name">Name <span class="hint">(or how you want to be credited)</span></label>
-            <input id="share-name" name="name" type="text" autocomplete="name" maxlength="120">
-          </div>
-          <div class="f">
-            <label for="share-email">Email <span class="req">Required</span> <span class="hint">Never shown publicly</span></label>
-            <input id="share-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="err-email" maxlength="200">
-            <p class="err" id="err-email" aria-live="polite"></p>
-          </div>
-          <div class="f">
-            <label for="share-type">Type</label>
-            <select id="share-type" name="type">
-              <option>Story</option>
-              <option>Solution or treatment that helped</option>
-              <option>Article to publish</option>
-              <option>Comment or question</option>
-            </select>
-          </div>
-          <div class="f">
-            <label for="share-title">Title</label>
-            <input id="share-title" name="title" type="text" maxlength="200">
-          </div>
-          <div class="f f--wide">
-            <label for="share-message">Message <span class="req">Required</span></label>
-            <textarea id="share-message" name="message" rows="6" required aria-describedby="err-message" maxlength="8000"></textarea>
-            <p class="err" id="err-message" aria-live="polite"></p>
-          </div>
-          <div class="f f--wide">
-            <label for="share-link">Link <span class="hint">(optional)</span></label>
-            <input id="share-link" name="link" type="url" inputmode="url" placeholder="https://" maxlength="500">
-          </div>
-          <div class="f f--wide f--check">
-            <input id="share-consent" name="consent" type="checkbox" required aria-describedby="err-consent">
-            <label for="share-consent">I agree my submission may be edited and published with credit <span class="req">Required</span></label>
-            <p class="err" id="err-consent" aria-live="polite"></p>
-          </div>
-        </div>
-        <p class="share-note">Please do not share private medical records. This site is not medical advice.</p>
-        <button type="submit" class="share-submit" id="share-submit">Send to the Editors</button>
-        <p class="share-status" id="share-status" role="status" aria-live="polite"></p>
-      </form>
-      <div class="share-thanks" id="share-thanks" tabindex="-1" hidden>
-        <p class="share-thanks-head">Thank you for sharing.</p>
-        <p>A moderator will read your submission with care. <span class="share-thanks-extra"></span></p>
-        <button type="button" class="share-again" id="share-again">Share something else</button>
-      </div>
-    </details>
-  </section>
-
-  <section class="subscribe subscribe--top" id="subscribe" aria-labelledby="subscribe-heading">
-    <h2 class="subscribe-head" id="subscribe-heading">Subscribe</h2>
-    <p class="subscribe-lede">Get new breakthroughs by email. Free, no spam, unsubscribe anytime.</p>
-    <form class="subscribe-form" novalidate>
-      <div class="subscribe-fields">
-        <div class="f">
-          <label for="subscribe-name">Name <span class="hint">(optional)</span></label>
-          <input id="subscribe-name" name="name" type="text" autocomplete="name" maxlength="120">
-        </div>
-        <div class="f">
-          <label for="subscribe-email">Email <span class="req">Required</span></label>
-          <input id="subscribe-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="subscribe-err" maxlength="200">
-        </div>
-        <button type="submit" class="subscribe-submit">Subscribe</button>
-      </div>
-      <p class="err" id="subscribe-err" aria-live="polite"></p>
-    </form>
-    <div class="subscribe-thanks" tabindex="-1" hidden>
-      <p class="subscribe-thanks-head">Thank you for subscribing.</p>
-      <p class="subscribe-thanks-extra"></p>
+  <section class="reading-desk" aria-label="Reader guide and community">
+    <div class="reading-guide" id="how-to">
+      <h2>How to read this page</h2>
+      <p class="desk-lede">Research, recovery and clinical trials, explained in plain English. Start with a topic above, or browse the stories below.</p>
+      <ol class="reading-steps">
+        <li><strong>Open a scroll</strong>Tap a headline for the Quick Read. It opens in the center; the previous scroll closes.</li>
+        <li><strong>Go a little deeper</strong>Choose Read full details for the evidence, limitations and original source.</li>
+        <li><strong>Close and explore</strong>Use the burgundy Close button at the top right, or tap a topic tag to find related stories.</li>
+      </ol>
+      <a class="reader-shortcut" data-hand-focus href="#body_area=Hand&amp;cause=Brain%20tumor">Explore hand recovery after a brain tumor →</a>
     </div>
+    <aside class="community-rail" aria-label="Join the conversation">
+      <details class="community-panel" id="share">
+        <summary>Share Your Story</summary>
+        <p>A recovery experience, a helpful resource or an article of your own? Everyone is welcome. Submissions are reviewed before anything is published.</p>
+        <a class="reader-action" data-reader-form="story" href="https://docs.google.com/forms/d/e/1FAIpQLSdw9bXOQK1V2egSt2itsixRUxW39B0M6kInhjCutJ3d8m4pWw/viewform" target="_blank" rel="noopener">Share with the editors</a>
+        <p class="community-note">Email required so we can reply. Your email stays private.</p>
+      </details>
+      <details class="community-panel" id="ideas">
+        <summary>Have an idea?</summary>
+        <p>We would love to hear it. Suggest a topic, a useful feature or a better way to help readers.</p>
+        <a class="reader-action" data-reader-form="idea" href="https://docs.google.com/forms/d/e/1FAIpQLSdw9bXOQK1V2egSt2itsixRUxW39B0M6kInhjCutJ3d8m4pWw/viewform" target="_blank" rel="noopener">Share an idea</a>
+        <p class="community-note">Please leave your email so we can follow up.</p>
+      </details>
+      <details class="community-panel" id="subscribe">
+        <summary>Stay connected</summary>
+        <p>Join our free email list for research and recovery updates.</p>
+        <a class="reader-action" data-reader-form="subscribe" href="https://docs.google.com/forms/d/e/1FAIpQLScNjbh3MGGJ4XBbH-c5XoxSv6GKkKhMehFoVSpKusRleDggYw/viewform" target="_blank" rel="noopener">Join the email list</a>
+        <p class="community-note">Your address is kept private. No email app needed.</p>
+      </details>
+    </aside>
   </section>
-
-  <p class="intro" id="intro">
-    This site tracks the latest research, clinical trials, and experimental options in nerve regeneration in one place, from spinal cord and nerve-root repair to peripheral nerve repair and therapies still being tested. Each entry summarizes a published source and links out to it.
-  </p>
-  <p class="how-to" id="how-to">
-    <span class="how-to-label">How to read this page.</span>
-    Browse the scrolls across each row. Each story starts rolled up, showing only its headline and a line of tags: body area, cause, treatment and stage. Tap a tag to see every story with that tag. Tap the headline once to expand the scroll across the page and unroll a one-paragraph Quick Read in plain English. Tap again, or choose Read full details, to see everything. Close the Scroll at the bottom rolls it back up.
-  </p>
 
   <main id="content">
     <p class="loading" id="loading">Loading stories…</p>
@@ -140,33 +83,19 @@
 
   <footer class="colophon">
     <p class="disclaimer">For information only. Not medical advice. Talk to your doctor before considering any treatment or trial.</p>
-    <section class="subscribe subscribe--footer" id="subscribe-footer" aria-labelledby="subscribe-footer-heading">
-      <h2 class="subscribe-head" id="subscribe-footer-heading">Subscribe</h2>
-      <p class="subscribe-lede">Get new breakthroughs by email. Free, no spam, unsubscribe anytime.</p>
-      <form class="subscribe-form" novalidate>
-        <div class="subscribe-fields">
-          <div class="f">
-            <label for="subscribe-footer-name">Name <span class="hint">(optional)</span></label>
-            <input id="subscribe-footer-name" name="name" type="text" autocomplete="name" maxlength="120">
-          </div>
-          <div class="f">
-            <label for="subscribe-footer-email">Email <span class="req">Required</span></label>
-            <input id="subscribe-footer-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="subscribe-footer-err" maxlength="200">
-          </div>
-          <button type="submit" class="subscribe-submit">Subscribe</button>
-        </div>
-        <p class="err" id="subscribe-footer-err" aria-live="polite"></p>
-      </form>
-      <div class="subscribe-thanks" tabindex="-1" hidden>
-        <p class="subscribe-thanks-head">Thank you for subscribing.</p>
-        <p class="subscribe-thanks-extra"></p>
-      </div>
-    </section>
-    <p class="colophon-founder">Founder: Zafar Amin</p>
-    <p class="colophon-meta"><a href="#top">Back to top</a></p>
+    <p class="colophon-founder">Founded by Zafar Amin</p>
+    <p class="colophon-meta"><a href="#top">Back to top</a> · <a href="#subscribe">Stay connected</a> · <a href="#ideas">Share an idea</a></p>
   </footer>
 
-  <script src="share.js?v=20261022b"></script>
-  <script src="app.js?v=20261022b"></script>
+  <dialog class="form-dialog" id="reader-form-dialog" aria-labelledby="reader-form-heading">
+    <div class="form-dialog-head">
+      <h2 id="reader-form-heading">Stay connected</h2>
+      <button type="button" class="form-dialog-close" id="reader-form-close" aria-label="Close form">× Close</button>
+    </div>
+    <iframe id="reader-form-frame" title="Reader form" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <p class="form-dialog-fallback">Trouble loading? <a id="reader-form-fallback" target="_blank" rel="noopener">Open the form in a new tab</a>.</p>
+  </dialog>
+  <script src="share.js?v=20261022c"></script>
+  <script src="app.js?v=20261022c"></script>
 </body>
 </html>

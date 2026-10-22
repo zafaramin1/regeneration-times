@@ -6,6 +6,7 @@
   var sortMode = "relevance";
   var query = "";
   var openEntries = {};
+  var centerTimer = null;
   var REDUCED_MOTION = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   var CLOSE_HTML =
     '<button type="button" class="scroll-close" aria-label="Close the scroll">' +
@@ -61,7 +62,7 @@
 
   navEl.addEventListener("click", function (event) {
     if (event.target.closest('a[href="#share"]')) {
-      var box = document.querySelector("#share details");
+      var box = document.getElementById("share");
       if (box) {
         box.open = true;
       }
@@ -277,7 +278,18 @@
     var tags = article.tags || {};
     return TAG_KEYS.map(function (k) {
       return tags[k];
-    }).filter(Boolean);
+    }).filter(Boolean).concat(article.related_body_areas || []);
+  }
+
+  function tagValues(article, key) {
+    var primary = article.tags && article.tags[key];
+    var values = primary ? [primary] : [];
+    if (key === "body_area") {
+      (article.related_body_areas || []).forEach(function (value) {
+        if (values.indexOf(value) === -1) { values.push(value); }
+      });
+    }
+    return values;
   }
 
   function entryHtml(article, section, index) {
@@ -338,6 +350,7 @@
       '<article class="entry scroll" data-level="' + level + '" id="' + escapeHtml(key) + '" data-key="' + escapeHtml(key) + '" aria-labelledby="' + escapeHtml(headId) + '">' +
         '<div class="scroll-rod scroll-rod--top" aria-hidden="true"></div>' +
         '<div class="scroll-sheet">' +
+          '<button type="button" class="scroll-close-top" aria-label="Close story"><span aria-hidden="true">×</span> Close</button>' +
           '<div class="entry-row" data-advance>' +
             '<h3 class="entry-head">' +
               '<button type="button" class="entry-headbtn" id="' + escapeHtml(headId) + '" aria-expanded="' + (level > 0 ? "true" : "false") + '" aria-controls="' + escapeHtml(qrId) + '">' +
@@ -365,7 +378,30 @@
     );
   }
 
-  function setLevel(entry, level) {
+  function centerEntry(entry) {
+    if (centerTimer) { window.clearTimeout(centerTimer); }
+    centerTimer = window.setTimeout(function () {
+      if (!document.documentElement.contains(entry) || levelOf(entry) === 0) { return; }
+      var rect = entry.getBoundingClientRect();
+      var gap = Math.max(24, (window.innerHeight - rect.height) / 2);
+      window.scrollTo({
+        top: Math.max(0, window.scrollY + rect.top - gap),
+        behavior: REDUCED_MOTION ? "auto" : "smooth"
+      });
+      centerTimer = null;
+    }, REDUCED_MOTION ? 0 : 540);
+  }
+
+  function setLevel(entry, level, skipCenter) {
+    if (level > 0) {
+      Array.prototype.forEach.call(contentEl.querySelectorAll('.entry:not([data-level="0"])'), function (other) {
+        if (other !== entry) { setLevel(other, 0, true); }
+      });
+      openEntries = {};
+    } else if (!skipCenter && centerTimer) {
+      window.clearTimeout(centerTimer);
+      centerTimer = null;
+    }
     var key = entry.getAttribute("data-key");
     entry.setAttribute("data-level", String(level));
     entry.querySelector(".entry-headbtn").setAttribute("aria-expanded", level > 0 ? "true" : "false");
@@ -384,6 +420,7 @@
     }
     if (level) {
       openEntries[key] = level;
+      if (!skipCenter) { centerEntry(entry); }
     } else {
       delete openEntries[key];
     }
@@ -411,7 +448,7 @@
     if (!entry) {
       return;
     }
-    if (target.closest(".scroll-close")) {
+    if (target.closest(".scroll-close, .scroll-close-top")) {
       setLevel(entry, 0);
       var head = entry.querySelector(".entry-headbtn");
       if (head) {
@@ -436,6 +473,15 @@
     }
     // Closed -> Quick Read -> full details -> closed.
     setLevel(entry, (levelOf(entry) + 1) % 3);
+  });
+
+  contentEl.addEventListener("keydown", function (event) {
+    if (event.key !== "Escape") { return; }
+    var entry = event.target.closest(".entry");
+    if (entry && levelOf(entry) > 0) {
+      setLevel(entry, 0);
+      entry.querySelector(".entry-headbtn").focus({ preventScroll: true });
+    }
   });
 
   function emptyFilters() {
@@ -476,17 +522,18 @@
       if (g.key === except || !chosen.length) {
         return true;
       }
-      return chosen.indexOf(tags[g.key]) !== -1;
+      return tagValues(article, g.key).some(function (value) {
+        return chosen.indexOf(value) !== -1;
+      });
     });
   }
 
   function groupValues(key) {
     var values = VOCAB[key].slice();
     articles.forEach(function (article) {
-      var v = article.tags && article.tags[key];
-      if (v && values.indexOf(v) === -1) {
-        values.push(v);
-      }
+      tagValues(article, key).forEach(function (v) {
+        if (values.indexOf(v) === -1) { values.push(v); }
+      });
     });
     filters[key].forEach(function (v) {
       if (values.indexOf(v) === -1) {
@@ -572,6 +619,20 @@
     render();
   }
 
+  document.addEventListener("click", function (event) {
+    var shortcut = event.target.closest("[data-hand-focus]");
+    if (!shortcut) { return; }
+    event.preventDefault();
+    filters = emptyFilters();
+    filters.body_area = ["Hand"];
+    filters.cause = ["Brain tumor"];
+    query = "";
+    searchInput.value = "";
+    writeHash();
+    render();
+    contentEl.scrollIntoView({ block: "start", behavior: REDUCED_MOTION ? "auto" : "smooth" });
+  });
+
   function showOnly(key, value) {
     filters = emptyFilters();
     filters[key] = [value];
@@ -601,7 +662,7 @@
     finderGroupsEl.innerHTML = FILTER_GROUPS.map(function (g) {
       var chips = groupValues(g.key).map(function (value) {
         var count = articles.filter(function (article) {
-          return article.tags && article.tags[g.key] === value && passesFilters(article, g.key) && matches(article, needle);
+          return tagValues(article, g.key).indexOf(value) !== -1 && passesFilters(article, g.key) && matches(article, needle);
         }).length;
         var on = filters[g.key].indexOf(value) !== -1;
         return '<button type="button" class="chip chip--filter' + (count ? "" : " is-empty") + '" data-fkey="' + escapeHtml(g.key) + '" data-fval="' + escapeHtml(value) + '" aria-pressed="' + (on ? "true" : "false") + '">' +
