@@ -1,11 +1,15 @@
 /*
  * Share Your Story form.
  * Change ONE line below to set where submissions go:
- *   SUBMIT_TO     email address used for the pre-filled mailto: fallback
+ *   SUBMIT_TO     editors' email for the pre-filled mailto: fallback. Stored encoded so
+ *                 scrapers cannot read it: reversed character codes, each shifted by +7.
+ *                 To change it, run in a browser console:
+ *                   "new@address.com".split("").reverse().map(c => c.charCodeAt(0) + 7).join(",")
+ *                 and paste the numbers between the brackets.
  *   FORM_ENDPOINT URL of a form service (for example Formspree or a Google Apps Script).
  *                 When set, the form POSTs there instead of opening the email app.
  */
-var SUBMIT_TO = "zafar@candlemenow.com";
+var SUBMIT_TO = [116,118,106,53,126,118,117,108,116,108,115,107,117,104,106,71,121,104,109,104,129];
 var FORM_ENDPOINT = "";
 
 (function () {
@@ -94,6 +98,12 @@ var FORM_ENDPOINT = "";
     };
   }
 
+  function submitAddress() {
+    return SUBMIT_TO.map(function (n) {
+      return String.fromCharCode(n - 7);
+    }).reverse().join("");
+  }
+
   function mailtoHref(data) {
     var subject = "Share Your Story: " + (data.type || "Submission") + (data.title ? " | " + data.title : "");
     var body = [
@@ -107,7 +117,7 @@ var FORM_ENDPOINT = "";
       "Message:",
       data.message
     ].join("\n");
-    return "mailto:" + encodeURIComponent(SUBMIT_TO) +
+    return "mailto:" + encodeURIComponent(submitAddress()) +
       "?subject=" + encodeURIComponent(subject) +
       "&body=" + encodeURIComponent(body);
   }

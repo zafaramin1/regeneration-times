@@ -1147,3 +1147,21 @@ a:hover {
     display: none;
   }
 }
+
+.founder {
+  margin: 0.3rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.colophon-founder {
+  margin: 0.7rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
