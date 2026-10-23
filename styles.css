@@ -1747,7 +1747,7 @@ body:has(.form-dialog[open]) { overflow: hidden; }
 .editorial-note { width: min(var(--measure), calc(100% - 2rem)); margin: 2rem auto 0; padding: 1.2rem 0; border-top: 3px double var(--ink); }
 .editorial-note summary { cursor: pointer; font-size: 1.25rem; font-weight: 600; }
 .editorial-note p { max-width: 56rem; font-size: 1rem; line-height: 1.6; }
-.form-dialog { width: min(35rem, calc(100% - 2rem)); height: auto; max-height: calc(100dvh - 3rem); overflow: auto; padding: 1.4rem; }
+.form-dialog { width: min(35rem, calc(100% - 2rem)); height: fit-content; max-height: calc(100dvh - 3rem); overflow: auto; padding: 1.4rem; }
 .reader-native-form { display: block; }
 .reader-native-form > p:first-child { margin-top: 0; }
 .reader-native-form label { display: block; margin: .9rem 0 .3rem; font: 600 .8rem/1.5 var(--sans); }
