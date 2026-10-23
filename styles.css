@@ -1847,3 +1847,8 @@ body:has(dialog[open]) { overflow:hidden; }
 @media (max-width:430px) { .dialog-body { padding:1rem; } .choice-grid { grid-template-columns:1fr; gap:.45rem; } .form-dialog-head { gap:.5rem; } .form-dialog-close { flex-shrink:0; } .guided-result-head h2 { font-size:1.55rem; } .guided-results { margin-inline:1rem; } }
 @media print { dialog, .guided-results .guide-actions { display:none !important; } }
 [hidden] { display:none !important; }
+/* Keep the short questionnaire usable with touch and limited hand control. */
+.guided-dialog .reader-action, .guided-dialog .quiet-button, .guided-dialog .form-dialog-close, .choice-grid label { min-height:2.75rem; }
+.guide-step-actions { position:sticky; bottom:-1.4rem; background:#faf8f1; padding-block:.85rem; margin-bottom:-1.4rem; z-index:1; }
+@media (max-width:430px) { .choice-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .guided-dialog select, .guided-dialog textarea { font-size:1rem; } .guide-step-actions { bottom:-1rem; margin-bottom:-1rem; } }
+@media (max-width:360px) { .choice-grid { grid-template-columns:1fr; } }
