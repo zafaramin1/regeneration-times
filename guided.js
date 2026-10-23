@@ -73,15 +73,18 @@
     var support = answers.interests.indexOf("nutrition") !== -1 ? '<p>Nutrition is supportive care, not evidence of nerve regrowth or restored hand control. Ask an oncology dietitian about adequate energy, protein and fluids for your situation. Check herbs, supplements and restrictive diets with the care team because interactions and nutritional risks matter.</p><p><a href="https://tischbraintumorcenter.duke.edu/blog/brain-tumor-diet-tips-foods-brain-tumor-patients" target="_blank" rel="noopener noreferrer">Duke: brain tumor nutrition, June 3, 2026 ↗</a><br><a href="https://www.cancer.gov/about-cancer/treatment/side-effects/nutrition" target="_blank" rel="noopener noreferrer">NCI: nutrition during cancer ↗</a><br><a href="https://www.cancer.gov/about-cancer/treatment/cam" target="_blank" rel="noopener noreferrer">NCI: complementary approaches and safety ↗</a></p>' : '<p>Bring a small number of useful sources and a practical goal to your team. Ask what is established care, what is experimental, and which outcomes matter for everyday life.</p><button type="button" class="quiet-button" data-open-learn>Food, stem cells and reading the evidence</button>';
     return '<details open><summary>01 · Assessment &amp; care</summary><p>' + escape(assessment) + '</p></details><details><summary>02 · Research &amp; trials</summary>' + research + '</details><details><summary>03 · ' + (answers.interests.indexOf("nutrition") !== -1 ? 'Food &amp; supportive care' : 'Prepare for a useful conversation') + '</summary>' + support + '</details>';
   }
-  form.addEventListener("submit",function (event) {
-    event.preventDefault();
-    if (step < 2) { showStep(step + 1); return; }
-    answers = collect();
+  function publishContext() { window.dispatchEvent(new CustomEvent("rt-care-context", {detail:answers ? JSON.parse(JSON.stringify(answers)) : null})); }
+  function updateRoute() {
+    publishContext();
     document.getElementById("guided-route-summary").textContent = "Starting topics: " + (answers.cause || "cause not specified") + " · " + (answers.areas.length ? answers.areas.join(" / ") : "body area not specified") + ". Timing: " + timingLabels[answers.timing] + ".";
     document.getElementById("guided-route-scope").textContent = "These are educational leads based on your answers, not a diagnosis or a confirmed match. The initial search uses body area and cause only. Age is applied to care resources only; services marked ‘confirm age’ are excluded when an age group is selected. Use the buttons below to reapply this route after changing filters.";
     document.getElementById("guided-route-grid").innerHTML = routeDetails();
     result.hidden = false;
-    apply(); guide.close("applied");
+  }
+  form.addEventListener("submit",function (event) {
+    event.preventDefault();
+    if (step < 2) { showStep(step + 1); return; }
+    answers = collect(); updateRoute(); apply(); guide.close("applied");
     document.getElementById("guided-results-heading").focus();
     result.scrollIntoView({block:"start",behavior:"auto"});
   });
@@ -103,12 +106,25 @@
     if (!navigator.clipboard || !navigator.clipboard.writeText) { document.getElementById("guided-feedback").textContent = "Clipboard is unavailable. Your answers are still available under Edit answers."; return; }
     navigator.clipboard.writeText(note).then(function () { document.getElementById("guided-feedback").textContent = "Discussion note copied. Review the personal details before sharing it. Nothing was sent to the site."; }).catch(function () { document.getElementById("guided-feedback").textContent = "Could not copy. Your answers remain under Edit answers."; });
   });
-  function clearAnswers() {
+  function clearAnswers(keepSearch) {
     answers = null; form.reset(); document.getElementById("guide-injury-site").hidden = true;
     document.getElementById("guided-route-grid").replaceChildren(); document.getElementById("guided-route-summary").textContent = ""; document.getElementById("guided-feedback").textContent = "Answers stay in this page until you clear them or reload. No questionnaire answers are submitted.";
     result.hidden = true; showStep(0); document.querySelector("[data-open-guide]").focus();
-    window.dispatchEvent(new CustomEvent("rt-guided-clear"));
+    publishContext();
+    if (keepSearch !== true) { window.dispatchEvent(new CustomEvent("rt-guided-clear")); }
   }
+  window.addEventListener("rt-care-context-request",publishContext);
+  window.addEventListener("rt-care-use-context",function () { apply(); });
+  window.addEventListener("rt-care-clear-context",function () { clearAnswers(true); });
+  window.addEventListener("rt-care-restore-context",function (event) {
+    var restored = event.detail;
+    if (!restored) { clearAnswers(true); return; }
+    form.reset();
+    ["cause","age","timing","site","context"].forEach(function (key) { form.elements.namedItem(key).value = restored[key]; });
+    [["area","areas"],["function","functions"],["interest","interests"]].forEach(function (pair) { form.querySelectorAll('input[name="' + pair[0] + '"]').forEach(function (input) { input.checked = restored[pair[1]].indexOf(input.value) !== -1; }); });
+    document.getElementById("guide-injury-site").hidden = restored.cause !== "Trauma";
+    answers = collect(); updateRoute();
+  });
   document.getElementById("guided-clear").addEventListener("click",clearAnswers);
   document.getElementById("guide-reset").addEventListener("click", function () { clearAnswers(); guide.querySelector("[data-close-dialog]").focus(); });
 })();

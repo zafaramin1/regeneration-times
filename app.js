@@ -3,6 +3,7 @@
 
   var TRIALS = "Clinical Trials & Experimental Opportunities";
   var articles = [];
+  var articlesReady = false;
   var careResources = [];
   var careResourcesLoaded = false;
   var careResourceError = false;
@@ -803,7 +804,18 @@
     query = ""; searchInput.value = ""; filters = emptyFilters(); publicationWindow = "all"; humanOnly = false; savedOnly = false; announce(""); writeHash(); render();
   }
   contentEl.addEventListener("click", function (event) { if (event.target.closest("[data-reset-search]")) { resetSearch(); searchInput.focus(); } });
+  function publishDeskReading() {
+    window.dispatchEvent(new CustomEvent("rt-care-reading", {detail:{loaded:articlesReady, stories:articles.filter(function (article) { return savedIds.indexOf(article.id) !== -1; })}}));
+  }
+  window.addEventListener("rt-care-reading-request",publishDeskReading);
+  window.addEventListener("rt-care-restore-reading",function (event) {
+    if (!articlesReady || !Array.isArray(event.detail)) { return; }
+    event.detail.forEach(function (id) { if (articles.some(function (a) { return a.id === id; }) && savedIds.indexOf(id) === -1) { savedIds.push(id); } });
+    try { localStorage.setItem("rt-saved-stories", JSON.stringify(savedIds)); } catch (e) { announce("Imported reading is available for this visit only; browser storage is unavailable."); }
+    render();
+  });
   function render() {
+    publishDeskReading();
     document.getElementById("publication-window").value = publicationWindow;
     document.getElementById("human-only").checked = humanOnly;
     document.getElementById("saved-only").setAttribute("aria-pressed", String(savedOnly));
@@ -956,7 +968,7 @@
       if (!Array.isArray(data)) {
         throw new Error("Story file is not a list.");
       }
-      articles = data;
+      articles = data; articlesReady = true;
       readHash();
       render();
     })
