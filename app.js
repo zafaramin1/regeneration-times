@@ -33,7 +33,7 @@
   var FILTER_GROUPS = [
     { key: "body_area", label: "Body area" },
     { key: "cause", label: "Cause" },
-    { key: "approach", label: "Treatment" },
+    { key: "approach", label: "Approach" },
     { key: "stage", label: "Stage" }
   ];
   var VOCAB = {
@@ -796,7 +796,7 @@
     query = example.getAttribute("data-search-example"); searchInput.value = query; writeHash(); render();
   });
   function resetSearch() {
-    query = ""; searchInput.value = ""; filters = emptyFilters(); publicationWindow = "all"; humanOnly = false; savedOnly = false; writeHash(); render();
+    query = ""; searchInput.value = ""; filters = emptyFilters(); publicationWindow = "all"; humanOnly = false; savedOnly = false; announce(""); writeHash(); render();
   }
   contentEl.addEventListener("click", function (event) { if (event.target.closest("[data-reset-search]")) { resetSearch(); searchInput.focus(); } });
   function render() {
