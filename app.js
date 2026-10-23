@@ -921,6 +921,23 @@
     writeHash(); render();
     document.getElementById("care-directory").scrollIntoView({block:"start",behavior:REDUCED_MOTION ? "auto" : "smooth"});
   });
+  window.addEventListener("rt-guided-search", function (event) {
+    var detail = event.detail || {};
+    filters = emptyFilters(); query = detail.query || ""; searchInput.value = query;
+    filters.body_area = (detail.areas || []).filter(function (v) { return VOCAB.body_area.indexOf(v) !== -1; });
+    filters.cause = VOCAB.cause.indexOf(detail.cause) !== -1 ? [detail.cause] : [];
+    filters.approach = (detail.approaches || []).filter(function (v) { return VOCAB.approach.indexOf(v) !== -1; });
+    filters.stage = (detail.stages || []).filter(function (v) { return VOCAB.stage.indexOf(v) !== -1; });
+    publicationWindow = "all"; humanOnly = false; savedOnly = false;
+    document.getElementById("care-age").value = ["adult", "pediatric"].indexOf(detail.age) !== -1 ? detail.age : "all";
+    document.getElementById("care-region").value = "all";
+    document.getElementById("care-directory-panel").open = detail.target === "care";
+    writeHash(); render();
+    if (detail.target === "care") { document.getElementById("care-directory").scrollIntoView({block:"start",behavior:"auto"}); }
+    else if (document.getElementById("guided-dialog").open === false) { contentEl.scrollIntoView({block:"start",behavior:"auto"}); }
+  });
+  window.addEventListener("rt-guided-clear", function () { document.getElementById("care-age").value = "all"; document.getElementById("care-region").value = "all"; resetSearch(); });
+
   fetch("data/resources.json", {cache:"no-cache"}).then(function (response) {
     if (!response.ok) { throw new Error("Resources unavailable"); } return response.json();
   }).then(function (data) {

@@ -66,17 +66,29 @@ The filter is kept in the URL hash so a topic can be shared or bookmarked, for e
 
 The headline button and the "Read full details" button carry `aria-expanded`. The animation is CSS only and is turned off under `prefers-reduced-motion`.
 
-When you change `styles.css`, `share.js` or `app.js`, bump the `?v=` version string on all three asset links in `index.html` so phones load the new files.
+When you change `styles.css`, `share.js` or `app.js`, bump the `?v=` version string on all asset links in `index.html` so phones load the new files.
 
 ## Reader guide, subscriptions, ideas and stories
 
 A visible reading guide sits before the articles. The side rail has three fully collapsible panels: Share Your Story, Have an idea?, and Stay connected. Founder credit is in the footer.
 
-Signup and community submissions use native forms in a dismissible dialog, styled to match the paper. Google embeds and their account banners have been removed. Connection to a collection backend is deliberately deferred at the owner's request. Submit buttons remain disabled and the form clearly states that nothing is sent or stored. Do not enable collection or claim a signup succeeded until the chosen Google Sheets or Zoho endpoint confirms it. Never store submission emails or messages in localStorage, the public repository or URL parameters.
+Signup and community submissions use native POST forms in a dismissible dialog. They submit directly to the existing Google Forms, which write to the owner's private response workbook. The Google form is not embedded while the reader enters data, so no signed-in account banner appears in the native form. The Google response page is displayed in a visible iframe after submission. The site must not claim success merely because the POST was sent or the iframe loaded: only Google's explicit confirmation confirms recording. Required email, consent and community publication choices are validated before sending. Close clears local entries. Do not store emails or submissions in localStorage, public files or URL parameters.
 
-The existing private workbook **Regeneration Times — Subscribers and Ideas** and its Google Forms are preserved. Do not expose response data or change sharing permissions. Future connection work must test actual submission-to-private-storage and confirmed success/error handling, with required email validation and explicit publication permission for stories.
+Signup and community connection tests on October 23, 2026 were confirmed in the private response sheet and test cell values were cleared. Google Forms retains labeled test responses. Keep the workbook and upload folder restricted. Never publish response data or widen their sharing permissions. The Google Forms owner account email is absent from the anonymous responder and confirmation HTML checked that day. A separately opened Google service may show the current visitor's own signed-in account.
 
-share.js handles the native dialog, required fields, focus restoration and side panels. The form currently resets on close; it does not retain personal information.
+share.js handles the native dialog, consent, POST destinations, field mapping, return-to-form recovery and focus restoration. Field IDs and option text must match the published Google Forms schema. Recheck a real response-to-sheet and Google confirmation after changing the forms. If collection fails, say the response is unconfirmed and retain the user's fields for retry; never fabricate success.
+
+## Guided reading and private context
+
+guided.js provides an optional three-step questionnaire and a Learn more dialog with generic examples. No personal family history is published. Before-treatment, after-treatment, both and uncertain timing are separate answers. An accident does not automatically imply a peripheral-nerve injury. Self-entered context is not a diagnosis.
+
+The initial guided search uses body-area and cause choices. Optional refinements use known approach/stage tags or one function keyword at a time. Age applies only to the care directory. Symptoms, exact age, injury site and treatment timing do not establish an article match or trial eligibility, and are not represented as validated filters. The discussion note explicitly retains timing and uncertainty. Original papers and registries still need an individual check, including exclusions. Do not infer benefit from a different underlying condition.
+
+Questionnaire answers remain in page memory and form controls for this visit. They are not submitted, added to URLs, saved to localStorage, sent to Google Forms or used by AI. Only the generic search topics and deliberately selected keyword refinements are reflected in the shareable search URL. Clear answers resets both questionnaire and search; reload clears page memory. Copying the discussion note requires an explicit click and may include the reader's optional context, so remind them to review it before sharing.
+
+Food/nutrition is presented as supportive care, with NCI and Duke source links, separately from experimental cell research and clinical trials. No claim is made that a food, supplement or cell product restores hand function. Background explanations link to NCI and FDA; sources were checked October 23, 2026. Keep adult/pediatric evidence and before/after treatment distinctions visible.
+
+The Documents & AI review dialog describes a separate, voluntary Google Forms document route. No document is attached from the questionnaire automatically. AI review is not connected, and file storage consent does not authorize AI processing or publication. Do not add medical documents, response data, API keys or private upload links to this public repository. A future AI service needs private processing, explicit separate consent, an accurate privacy notice and human review; do not claim diagnosis, scan interpretation, trial eligibility or regulated-record compliance.
 
 ## Search and reader tools
 

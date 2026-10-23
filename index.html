@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261023d">
+  <link rel="stylesheet" href="styles.css?v=20261023e">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -26,13 +26,13 @@
   <section class="reading-desk" aria-label="Reader guide and community">
     <div class="reading-guide" id="how-to">
       <h2>How to read this page</h2>
-      <p class="desk-lede">Research, recovery and clinical trials, explained in plain English. Choose a topic below, search in your own words, or browse the latest research.</p>
+      <p class="desk-lede">Find research and care resources in plain English. Start with a topic, or let three short steps help you find a starting point.</p>
       <ol class="reading-steps">
-        <li><strong>Open a scroll</strong>Tap a headline for the Quick Read. It opens in the center; the previous scroll closes.</li>
-        <li><strong>Go a little deeper</strong>Choose Read full details for the evidence, limitations and original source.</li>
-        <li><strong>Close and explore</strong>Use the burgundy Close button at the top right, or tap a topic tag to find related stories.</li>
+        <li><strong>Find a topic</strong>Search or choose a few relevant filters.</li>
+        <li><strong>Open a story</strong>Read the summary, evidence and original source.</li>
+        <li><strong>Explore with care</strong>Check who was studied and discuss the fit with your team.</li>
       </ol>
-      <a class="reader-shortcut" data-hand-focus href="#body_area=Hand&amp;cause=Brain%20tumor">Explore hand recovery after a brain tumor →</a>
+      <div class="guide-actions"><button type="button" class="reader-action" data-open-guide>Help me find a starting point</button><button type="button" class="quiet-button" data-open-learn>Learn more</button></div>
       <p class="reader-promise">Original sources. Plain English. Clear limits on what the evidence shows.</p>
     </div>
     <aside class="community-rail" aria-label="Join the conversation">
@@ -50,9 +50,9 @@
       </details>
       <details class="community-panel" id="subscribe">
         <summary>Stay connected</summary>
-        <p>Research and recovery updates, free. Our new signup is coming soon.</p>
+        <p>Research and recovery updates, free. Leave your email to join the list.</p>
         <button type="button" class="reader-action" data-reader-form="subscribe">Join the email list</button>
-        <p class="community-note">Your email stays private. Signup opens soon.</p>
+        <p class="community-note">Your email stays private and is used for these updates.</p>
       </details>
     </aside>
   </section>
@@ -101,6 +101,15 @@
     <p class="result-count" id="result-count" aria-live="polite"></p>
   </section>
 
+  <section class="guided-results" id="guided-results" aria-labelledby="guided-results-heading" hidden>
+    <div class="guided-result-head"><div><p class="small-kicker">Your reading route</p><h2 id="guided-results-heading" tabindex="-1">A starting point, in three parts</h2></div><button type="button" class="quiet-button" data-open-guide>Edit answers</button></div>
+    <p id="guided-route-summary"></p>
+    <p class="guided-scope" id="guided-route-scope"></p>
+    <div class="guided-route-grid" id="guided-route-grid"></div>
+    <div class="guide-actions"><button type="button" class="reader-action" id="guided-view-stories">See matching stories</button><button type="button" class="quiet-button" id="guided-view-care">See care resources</button><button type="button" class="quiet-button" id="guided-copy-note">Copy my discussion note</button><button type="button" class="quiet-button" data-open-records>Documents &amp; AI review</button><button type="button" class="quiet-button" id="guided-clear">Clear answers</button></div>
+    <p class="community-note" id="guided-feedback" role="status">Answers stay in this page until you clear them or reload. No questionnaire answers are submitted.</p>
+  </section>
+
   <section class="care-directory" id="care-directory" aria-label="Find care resources">
     <details id="care-directory-panel">
       <summary><span>Find care &amp; specialists</span><span id="care-resource-count">Loading verified resources…</span></summary>
@@ -142,24 +151,90 @@
       <h2 id="reader-form-heading">Stay connected</h2>
       <button type="button" class="form-dialog-close" id="reader-form-close" aria-label="Close form">× Close</button>
     </div>
-    <form id="reader-native-form" class="reader-native-form">
+    <form id="reader-native-form" class="reader-native-form" method="POST" target="reader-google-confirmation">
       <p id="reader-form-description">Free research and recovery updates.</p>
       <label for="reader-email">Email <span>(required)</span></label>
-      <input id="reader-email" name="email" type="email" autocomplete="email" required maxlength="254">
+      <input id="reader-email" name="emailAddress" type="email" autocomplete="email" required maxlength="254">
       <label for="reader-name">Name <span>(optional)</span></label>
-      <input id="reader-name" name="name" type="text" autocomplete="name" maxlength="100">
+      <input id="reader-name" name="entry.1567179684" type="text" autocomplete="name" maxlength="100">
       <div id="reader-message-fields" hidden>
         <label for="reader-message">Your idea or story <span>(required)</span></label>
-        <textarea id="reader-message" name="message" rows="5" maxlength="6000"></textarea>
+        <textarea id="reader-message" name="entry.881307721" rows="5" maxlength="6000"></textarea>
         <label for="reader-permission">Permission to publish</label>
-        <select id="reader-permission" name="permission"><option value="private">Private feedback only</option><option value="ask">Please ask me before publishing</option><option value="publish">You may publish my submission without my email</option></select>
+        <select id="reader-permission" name="entry.1824596049"><option value="No, this is private feedback for the editors.">Private feedback only</option><option value="Yes, you may edit and publish it with credit; keep my email private.">You may edit and publish this with credit; keep my email private</option></select>
       </div>
-      <p class="form-connection-note" role="status">This new form is not connected yet. Submissions are temporarily unavailable; nothing entered here is sent or stored.</p>
-      <button type="submit" class="reader-action" disabled id="reader-submit">Signup opens soon</button>
-      <p class="community-note">When signup opens, your email will be private and used only for the updates you request. Ideas and stories will be reviewed before publication.</p>
+      <input type="hidden" name="entry.25366126" id="reader-submission-type" value="Idea or feedback">
+      <input type="hidden" name="fvv" value="1"><input type="hidden" name="pageHistory" value="0">
+      <label class="form-consent"><input type="checkbox" id="reader-consent" required> <span id="reader-consent-text">I agree to send these details to The Regeneration Times through Google Forms.</span></label>
+      <p class="form-connection-note">Sent to a private Google Sheet. Please do not include medical records or identifying patient details here.</p>
+      <button type="submit" class="reader-action" id="reader-submit">Join the email list</button>
+      <p class="community-note">Your email is used for the updates or reply you request. Ideas and stories are reviewed before publication. Do not submit someone else’s details without permission.</p>
+    </form>
+    <div id="reader-confirmation-panel" hidden>
+      <p class="form-confirmation-instruction" id="reader-confirmation-status" role="status">Check Google’s confirmation below. Sending alone does not confirm that your response was recorded.</p>
+      <iframe name="reader-google-confirmation" id="reader-google-confirmation" title="Google Forms submission result" referrerpolicy="no-referrer"></iframe>
+      <p class="form-dialog-fallback">If no confirmation appears, your submission is unconfirmed. <button type="button" class="quiet-button" id="reader-try-again">Return to form</button></p>
+    </div>
+  </dialog>
+  <dialog class="form-dialog learn-dialog" id="learn-dialog" aria-labelledby="learn-heading">
+    <div class="form-dialog-head"><h2 id="learn-heading">A little context makes a better search</h2><button type="button" class="form-dialog-close" data-close-dialog aria-label="Close explanation">× Close</button></div>
+    <div class="dialog-body">
+      <p>You do not need a medical vocabulary to begin. Choose what is affected, what is known about the cause, and what you hope to learn. “Not sure” is a useful answer.</p>
+      <div class="learn-examples">
+        <article><p class="small-kicker">Example · before treatment</p><h3>A hand becomes difficult to use as a brain tumor grows</h3><p>Start with <strong>Brain tumor + Hand</strong>. Record that the change began before treatment. Tumors can affect nearby brain tissue; symptoms are not limited to surgical side effects. Pressure is one possible explanation, not a diagnosis from a description.</p><p>A study of postoperative rehabilitation may still be useful background, but it does not prove the same result for symptoms that began before surgery.</p></article>
+        <article><p class="small-kicker">Example · after an accident</p><h3>An arm loses function after an injury</h3><p>Start with <strong>Trauma + Arm or Hand</strong>. If the injury location is unknown, keep it unknown. Brain, spinal cord, brachial plexus and individual nerve injuries need different assessment and may have different research options.</p><p>A matching keyword is a reading lead. It does not establish the injury site, diagnosis or trial eligibility.</p></article>
+      </div>
+      <details class="learn-detail"><summary>Why function and timing matter</summary><p>Difficulty opening a hand, weakness, altered sensation, poor coordination and difficulty planning a movement describe different problems. Several may occur together. A clinician can assess whether muscle overactivity, fixed shortening, weakness or another mechanism is limiting use. Choose everyday goals such as grasping and releasing, rather than assuming that every hand problem is tremor.</p><p>Record whether changes began before treatment, afterward, both, or at an uncertain time. The questionnaire keeps this context in your discussion note. It cannot filter study timing or confirm eligibility because the current index does not consistently encode those details.</p></details>
+      <details class="learn-detail"><summary>Stem cells, food and natural approaches</summary><p><strong>Stem cells:</strong> Read the exact condition, age, study type and regulatory status. A stroke or spinal-cord study does not establish hand-recovery benefit for a person with a brain tumor. FDA cautions that regenerative medicine therapies have not been approved to treat neurological disorders.</p><p><strong>Food and nutrition:</strong> Nutrition can support strength and treatment tolerance. It is not evidence that a food will regrow nerves, restore hand control or cure a tumor. An oncology dietitian can tailor advice. Check herbs, supplements and restrictive diets with your team; “natural” does not guarantee safety or freedom from interactions.</p><p><a href="https://tischbraintumorcenter.duke.edu/blog/brain-tumor-diet-tips-foods-brain-tumor-patients" target="_blank" rel="noopener noreferrer">Duke: brain tumor nutrition, June 3, 2026 ↗</a><br><a href="https://www.cancer.gov/about-cancer/treatment/side-effects/nutrition" target="_blank" rel="noopener noreferrer">NCI: nutrition during cancer ↗</a><br><a href="https://www.cancer.gov/about-cancer/treatment/cam" target="_blank" rel="noopener noreferrer">NCI: complementary approaches and safety ↗</a></p></details>
+      <p class="guided-scope">Educational resource matching only. No diagnosis, treatment recommendation or guarantee of recovery. Sudden new weakness, numbness, vision or walking changes need urgent medical assessment.</p>
+      <p class="source-note">Background checked October 23, 2026. <a href="https://www.cancer.gov/types/brain/patient/adult-brain-treatment-pdq" target="_blank" rel="noopener noreferrer">NCI: adult CNS tumors</a> · <a href="https://www.fda.gov/vaccines-blood-biologics/consumers-biologics/important-patient-and-consumer-information-about-regenerative-medicine-therapies" target="_blank" rel="noopener noreferrer">FDA: regenerative medicine cautions</a>. Adult evidence is not assumed to apply to children.</p>
+      <button type="button" class="reader-action" id="learn-start-guide">Start the three steps</button>
+    </div>
+  </dialog>
+
+  <dialog class="form-dialog guided-dialog" id="guided-dialog" aria-labelledby="guided-heading">
+    <div class="form-dialog-head"><h2 id="guided-heading">Find a starting point</h2><button type="button" class="form-dialog-close" data-close-dialog aria-label="Close questionnaire">× Close</button></div>
+    <form id="guided-form" class="dialog-body" autocomplete="off">
+      <p class="small-kicker" id="guided-progress" aria-live="polite">Step 1 of 3 · The situation</p>
+      <p class="community-note">No name, email or date of birth needed. Answers stay on this page; they are not submitted. Skip anything you do not know.</p>
+      <fieldset data-guide-step="0"><legend>What would you like help exploring?</legend>
+        <label class="field-label" for="guide-cause">Known condition or event</label><select id="guide-cause" name="cause"><option value="">Not sure / not listed</option><option value="Brain tumor">Brain tumor</option><option value="Trauma">Accident or physical injury</option><option value="Spine tumor">Spinal tumor</option><option value="Stroke">Stroke</option><option value="Chemotherapy">Chemotherapy-related nerve problems</option><option value="Disease">Another diagnosed disease</option></select>
+        <p class="field-label" id="guide-area-label">Areas affected <span>(choose any, or skip)</span></p><div class="choice-grid" role="group" aria-labelledby="guide-area-label">
+          <label><input type="checkbox" name="area" value="Hand">Hand / fingers</label><label><input type="checkbox" name="area" value="Arm">Arm</label><label><input type="checkbox" name="area" value="Leg">Leg / walking</label><label><input type="checkbox" name="area" value="Eye">Eye / vision</label><label><input type="checkbox" name="area" value="Brain">Other brain function</label><label><input type="checkbox" name="area" value="Peripheral nerve">Peripheral nerve</label>
+        </div>
+        <label class="field-label" for="guide-age">Age group <span>(for care resources)</span></label><select id="guide-age" name="age"><option value="all">Not specified / any age</option><option value="adult">Adult, 18 or older</option><option value="pediatric">Child or adolescent, under 18</option></select>
+      </fieldset>
+      <fieldset data-guide-step="1" hidden><legend>What is difficult, and when did it begin?</legend>
+        <div class="choice-grid" role="group" aria-label="Functions to explore">
+          <label><input type="checkbox" name="function" value="grasp">Holding or releasing</label><label><input type="checkbox" name="function" value="dexterity">Precise finger movements</label><label><input type="checkbox" name="function" value="clench">Clenching / hard to open</label><label><input type="checkbox" name="function" value="weak">Weakness / loss of use</label><label><input type="checkbox" name="function" value="sensation">Numbness / less feeling</label><label><input type="checkbox" name="function" value="walking">Walking / balance</label><label><input type="checkbox" name="function" value="vision">Eye movement / vision</label><label><input type="checkbox" name="function" value="planning">Planning a movement</label>
+        </div>
+        <label class="field-label" for="guide-timing">When did the difficulty first appear?</label><select id="guide-timing" name="timing"><option value="unknown">Not sure</option><option value="before">Before any surgery or other treatment</option><option value="after">After surgery or another treatment</option><option value="both">Before treatment, with later changes too</option><option value="injury">At or after an accident / injury</option></select>
+        <div id="guide-injury-site" hidden><label class="field-label" for="guide-site">Injury site, if confirmed by the clinical team</label><select id="guide-site" name="site"><option value="">Not known / not confirmed</option><option value="Brain">Brain</option><option value="Spine">Spinal cord</option><option value="Peripheral nerve">Brachial plexus</option><option value="Peripheral nerve-individual">Individual peripheral nerve</option><option value="multiple">More than one site</option></select><p class="community-note">Do not guess from the symptom. This records context for discussion, not a diagnosis.</p></div>
+        <details class="learn-detail"><summary>Add context for my discussion note <span>(optional)</span></summary><label class="field-label" for="guide-context">Known diagnosis, approximate timeline or a practical goal</label><textarea id="guide-context" name="context" rows="3" maxlength="1200" placeholder="For example: difficulty opening the hand began before treatment; goal is holding a cup."></textarea><p class="community-note">Avoid names, contact details, exact birth dates and record numbers. This text is not used in the public search link or sent anywhere.</p></details>
+      </fieldset>
+      <fieldset data-guide-step="2" hidden><legend>What would be most useful?</legend>
+        <div class="choice-grid" role="group" aria-label="Reading interests">
+          <label><input type="checkbox" name="interest" value="rehab">Rehabilitation &amp; daily function</label><label><input type="checkbox" name="interest" value="care">Care teams &amp; assessment</label><label><input type="checkbox" name="interest" value="trials">Clinical trials</label><label><input type="checkbox" name="interest" value="cells">Stem cells &amp; regeneration research</label><label><input type="checkbox" name="interest" value="nutrition">Food, nutrition &amp; natural approaches</label>
+        </div>
+        <p class="guided-scope">We will start with your body-area and cause choices, then offer optional ways to narrow. Timing, symptoms and age are context, not proof that a study fits. Article age and treatment timing still need to be checked in the source. No suitable match is guaranteed.</p>
+        <p class="community-note">Educational information only, not medical advice. No AI diagnosis or automated document review. For new or worsening symptoms, contact your treating team; sudden neurological changes need urgent assessment.</p>
+      </fieldset>
+      <div class="guide-step-actions"><button type="button" class="quiet-button" id="guide-reset">Clear answers</button><button type="button" class="quiet-button" id="guide-back" hidden>Back</button><button type="button" class="reader-action" id="guide-next">Continue</button><button type="submit" class="reader-action" id="guide-submit" hidden>Show my starting point</button></div>
     </form>
   </dialog>
-  <script src="share.js?v=20261023d"></script>
-  <script src="app.js?v=20261023d"></script>
+
+  <dialog class="form-dialog" id="records-dialog" aria-labelledby="records-heading">
+    <div class="form-dialog-head"><h2 id="records-heading">Documents &amp; AI review</h2><button type="button" class="form-dialog-close" data-close-dialog aria-label="Close document information">× Close</button></div>
+    <div class="dialog-body"><p>An MRI report, operative report or rehabilitation assessment can add useful context. Share only what you are authorized to share, preferably with identifying details removed.</p>
+      <p><strong>Private document submission:</strong> A separate Google Form can accept a redacted PDF. It requires Google sign-in and explicit consent to private storage and editor access. A Google account banner, if shown there, identifies the signed-in visitor. It does not publish the site owner’s account.</p>
+      <p><strong>AI review is not connected.</strong> Uploading does not trigger AI analysis. An AI feature would need a private processing service and separate permission. It could organize report findings, flag missing context and suggest sources, with source citations and human checks. It should not make a diagnosis, interpret scan images or declare trial eligibility.</p>
+      <p class="guided-scope">This is a voluntary editorial resource-research channel, not a clinical portal. Do not use it for urgent concerns. We make no claim that it meets the requirements for a regulated medical-record system. Your clinical team’s secure portal remains the route for medical care.</p>
+      <p id="records-link-slot">The document submission link is being prepared. No file is uploaded from this page.</p>
+      <p class="community-note">Questionnaire answers are not attached automatically. Documents are never added to the public website or repository. Consent to storage does not authorize publication or AI processing.</p>
+    </div>
+  </dialog>
+  <script src="guided.js?v=20261023e"></script>
+  <script src="share.js?v=20261023e"></script>
+  <script src="app.js?v=20261023e"></script>
 </body>
 </html>
