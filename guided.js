@@ -14,6 +14,7 @@
   function escape(text) { return String(text || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
   function open(dialog) {
     focusBefore.set(dialog, document.activeElement);
+    dialog.returnValue = "";
     dialog.showModal();
     dialog.querySelector("[data-close-dialog]").focus();
   }
@@ -24,7 +25,7 @@
       var rect = dialog.getBoundingClientRect();
       if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) { dialog.close(); }
     });
-    dialog.addEventListener("close", function () { var prior = focusBefore.get(dialog); if (prior && prior.isConnected) { prior.focus(); } });
+    dialog.addEventListener("close", function () { if (dialog.returnValue === "applied") { document.getElementById("guided-results-heading").focus(); return; } var prior = focusBefore.get(dialog); if (prior && prior.isConnected) { prior.focus(); } });
   });
   document.addEventListener("click",function (event) {
     if (event.target.closest("[data-open-guide]")) { showStep(0); open(guide); }
@@ -80,7 +81,7 @@
     document.getElementById("guided-route-scope").textContent = "These are educational leads based on your answers, not a diagnosis or a confirmed match. The initial search uses body area and cause only. Age is applied to care resources only; services marked ‘confirm age’ are excluded when an age group is selected. Use the buttons below to reapply this route after changing filters.";
     document.getElementById("guided-route-grid").innerHTML = routeDetails();
     result.hidden = false;
-    apply(); guide.close();
+    apply(); guide.close("applied");
     document.getElementById("guided-results-heading").focus();
     result.scrollIntoView({block:"start",behavior:"auto"});
   });
@@ -97,8 +98,8 @@
   document.getElementById("guided-view-care").addEventListener("click",function () { apply({target:"care"}); });
   document.getElementById("guided-copy-note").addEventListener("click",function () {
     if (!answers) { return; }
-    var site = document.getElementById("guide-site");
-    var note = "Discussion note prepared with The Regeneration Times. Self-entered context, not a diagnosis.\n\nKnown condition/event: " + (answers.cause || "Not specified") + "\nAreas: " + (answers.areas.join(", ") || "Not specified") + "\nAge group: " + (answers.age === "all" ? "Not specified" : answers.age) + "\nFunction: " + (answers.functions.map(function (k) { return functionLabels[k]; }).join(", ") || "Not specified") + "\nFirst appeared: " + timingLabels[answers.timing] + (answers.site ? "\nReported injury site: " + site.options[site.selectedIndex].text : "") + (answers.context ? "\nAdditional context: " + answers.context : "") + "\n\nQuestions for my team:\nWhat does the examination and imaging suggest is limiting function?\nWhich rehabilitation or specialist assessment fits this mechanism?\nDoes a study include this diagnosis, age and symptom/treatment timing?\nWhat are realistic functional goals and the main risks?\n\nThis note does not establish eligibility or recommend a treatment.";
+    var siteLabels = {Brain:"Brain",Spine:"Spinal cord","Peripheral nerve":"Brachial plexus","Peripheral nerve-individual":"Individual peripheral nerve",multiple:"More than one site"};
+    var note = "Discussion note prepared with The Regeneration Times. Self-entered context, not a diagnosis.\n\nKnown condition/event: " + (answers.cause || "Not specified") + "\nAreas: " + (answers.areas.join(", ") || "Not specified") + "\nAge group: " + (answers.age === "all" ? "Not specified" : answers.age) + "\nFunction: " + (answers.functions.map(function (k) { return functionLabels[k]; }).join(", ") || "Not specified") + "\nFirst appeared: " + timingLabels[answers.timing] + (answers.site ? "\nReported injury site: " + siteLabels[answers.site] : "") + (answers.context ? "\nAdditional context: " + answers.context : "") + "\n\nQuestions for my team:\nWhat does the examination and imaging suggest is limiting function?\nWhich rehabilitation or specialist assessment fits this mechanism?\nDoes a study include this diagnosis, age and symptom/treatment timing?\nWhat are realistic functional goals and the main risks?\n\nThis note does not establish eligibility or recommend a treatment.";
     if (!navigator.clipboard || !navigator.clipboard.writeText) { document.getElementById("guided-feedback").textContent = "Clipboard is unavailable. Your answers are still available under Edit answers."; return; }
     navigator.clipboard.writeText(note).then(function () { document.getElementById("guided-feedback").textContent = "Discussion note copied. Review the personal details before sharing it. Nothing was sent to the site."; }).catch(function () { document.getElementById("guided-feedback").textContent = "Could not copy. Your answers remain under Edit answers."; });
   });

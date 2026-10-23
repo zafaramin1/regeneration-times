@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261023e">
+  <link rel="stylesheet" href="styles.css?v=20261023f">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -40,7 +40,7 @@
         <summary>Share Your Story</summary>
         <p>A recovery experience, a helpful resource or an article of your own? Everyone is welcome. Submissions are reviewed before anything is published.</p>
         <button type="button" class="reader-action" data-reader-form="story">Share with the editors</button>
-        <p class="community-note">Email required so we can reply. Your email stays private.</p>
+        <p class="community-note">Email required so we can reply. Your email stays private.</p><button type="button" class="quiet-button" data-open-records>Documents &amp; AI review</button>
       </details>
       <details class="community-panel" id="ideas">
         <summary>Have an idea?</summary>
@@ -226,15 +226,15 @@
   <dialog class="form-dialog" id="records-dialog" aria-labelledby="records-heading">
     <div class="form-dialog-head"><h2 id="records-heading">Documents &amp; AI review</h2><button type="button" class="form-dialog-close" data-close-dialog aria-label="Close document information">× Close</button></div>
     <div class="dialog-body"><p>An MRI report, operative report or rehabilitation assessment can add useful context. Share only what you are authorized to share, preferably with identifying details removed.</p>
-      <p><strong>Private document submission:</strong> A separate Google Form can accept a redacted PDF. It requires Google sign-in and explicit consent to private storage and editor access. A Google account banner, if shown there, identifies the signed-in visitor. It does not publish the site owner’s account.</p>
+      <p><strong>Private document submission:</strong> A separate Google Form can accept a redacted PDF. It requires Google sign-in and explicit consent to private storage and editor access. Google records the uploader’s account name, email and photo with the submission. An account banner identifies the signed-in visitor; it does not publish the site owner’s account.</p>
       <p><strong>AI review is not connected.</strong> Uploading does not trigger AI analysis. An AI feature would need a private processing service and separate permission. It could organize report findings, flag missing context and suggest sources, with source citations and human checks. It should not make a diagnosis, interpret scan images or declare trial eligibility.</p>
       <p class="guided-scope">This is a voluntary editorial resource-research channel, not a clinical portal. Do not use it for urgent concerns. We make no claim that it meets the requirements for a regulated medical-record system. Your clinical team’s secure portal remains the route for medical care.</p>
-      <p id="records-link-slot">The document submission link is being prepared. No file is uploaded from this page.</p>
+      <p id="records-link-slot"><a class="reader-action" href="https://docs.google.com/forms/d/e/1FAIpQLSc9Tb1GeVk26as79zPBFfq9zcWz8_v7JnMt0WS4BRPqLEM5oQ/viewform" target="_blank" rel="noopener noreferrer">Open private document form ↗</a></p><p class="community-note">Google sign-in required · One PDF, up to 10 MB · No automatic AI processing. Only upload if you agree to the form’s storage and access terms.</p>
       <p class="community-note">Questionnaire answers are not attached automatically. Documents are never added to the public website or repository. Consent to storage does not authorize publication or AI processing.</p>
     </div>
   </dialog>
-  <script src="guided.js?v=20261023e"></script>
-  <script src="share.js?v=20261023e"></script>
-  <script src="app.js?v=20261023e"></script>
+  <script src="guided.js?v=20261023f"></script>
+  <script src="share.js?v=20261023f"></script>
+  <script src="app.js?v=20261023f"></script>
 </body>
 </html>
