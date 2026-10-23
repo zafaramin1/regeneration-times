@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261022e">
+  <link rel="stylesheet" href="styles.css?v=20261023a">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -26,32 +26,33 @@
   <section class="reading-desk" aria-label="Reader guide and community">
     <div class="reading-guide" id="how-to">
       <h2>How to read this page</h2>
-      <p class="desk-lede">Research, recovery and clinical trials, explained in plain English. Start with a topic below, or browse the stories below.</p>
+      <p class="desk-lede">Research, recovery and clinical trials, explained in plain English. Choose a topic below, search in your own words, or browse the latest research.</p>
       <ol class="reading-steps">
         <li><strong>Open a scroll</strong>Tap a headline for the Quick Read. It opens in the center; the previous scroll closes.</li>
         <li><strong>Go a little deeper</strong>Choose Read full details for the evidence, limitations and original source.</li>
         <li><strong>Close and explore</strong>Use the burgundy Close button at the top right, or tap a topic tag to find related stories.</li>
       </ol>
       <a class="reader-shortcut" data-hand-focus href="#body_area=Hand&amp;cause=Brain%20tumor">Explore hand recovery after a brain tumor →</a>
+      <p class="reader-promise">Original sources. Plain English. Clear limits on what the evidence shows.</p>
     </div>
     <aside class="community-rail" aria-label="Join the conversation">
       <details class="community-panel" id="share">
         <summary>Share Your Story</summary>
         <p>A recovery experience, a helpful resource or an article of your own? Everyone is welcome. Submissions are reviewed before anything is published.</p>
-        <a class="reader-action" data-reader-form="story" href="https://docs.google.com/forms/d/e/1FAIpQLSdw9bXOQK1V2egSt2itsixRUxW39B0M6kInhjCutJ3d8m4pWw/viewform" target="_blank" rel="noopener">Share with the editors</a>
+        <button type="button" class="reader-action" data-reader-form="story">Share with the editors</button>
         <p class="community-note">Email required so we can reply. Your email stays private.</p>
       </details>
       <details class="community-panel" id="ideas">
         <summary>Have an idea?</summary>
         <p>We would love to hear it. Suggest a topic, a useful feature or a better way to help readers.</p>
-        <a class="reader-action" data-reader-form="idea" href="https://docs.google.com/forms/d/e/1FAIpQLSdw9bXOQK1V2egSt2itsixRUxW39B0M6kInhjCutJ3d8m4pWw/viewform" target="_blank" rel="noopener">Share an idea</a>
+        <button type="button" class="reader-action" data-reader-form="idea">Share an idea</button>
         <p class="community-note">Please leave your email so we can follow up.</p>
       </details>
       <details class="community-panel" id="subscribe">
         <summary>Stay connected</summary>
-        <p>Join our free email list for research and recovery updates.</p>
-        <a class="reader-action" data-reader-form="subscribe" href="https://docs.google.com/forms/d/e/1FAIpQLScNjbh3MGGJ4XBbH-c5XoxSv6GKkKhMehFoVSpKusRleDggYw/viewform" target="_blank" rel="noopener">Join the email list</a>
-        <p class="community-note">Your address is kept private. No email app needed.</p>
+        <p>Research and recovery updates, free. Our new signup is coming soon.</p>
+        <button type="button" class="reader-action" data-reader-form="subscribe">Join the email list</button>
+        <p class="community-note">No Google account banner. No sign-in required.</p>
       </details>
     </aside>
   </section>
@@ -60,7 +61,7 @@
     <div class="tools">
       <form id="search-form" class="search" role="search" autocomplete="off">
         <label for="q">Search</label>
-        <input id="q" name="q" type="search" placeholder="Title, tag, Quick Read, summary, or source" enterkeyhint="search">
+        <input id="q" name="q" type="search" placeholder="Try hand weakness after brain tumour" aria-describedby="search-help" enterkeyhint="search">
       </form>
       <div class="sort" role="group" aria-label="Sort stories">
         <span class="sort-label" id="sort-label">Sort</span>
@@ -68,6 +69,21 @@
         <button type="button" id="sort-newest" aria-pressed="false">Newest</button>
       </div>
     </div>
+    <p class="search-help" id="search-help">Search in your own words. Words can appear anywhere in a story; common spellings and related terms are matched.</p>
+    <div class="search-suggestions" aria-label="Search examples"><span>Try</span>
+      <button type="button" data-search-example="hand brain tumor">Hand + brain tumor</button>
+      <button type="button" data-search-example="dexterity">Dexterity</button>
+      <button type="button" data-search-example="occupational therapy">Occupational therapy</button>
+      <button type="button" data-search-example="nerve repair">Nerve repair</button>
+    </div>
+    <div class="search-refine" aria-label="Refine your reading">
+      <label for="publication-window">Published <select id="publication-window"><option value="all">Any time</option><option value="365">Past year</option><option value="90">Past 90 days</option></select></label>
+      <label><input type="checkbox" id="human-only"> Exclude lab &amp; animal studies</label>
+      <button type="button" id="saved-only" aria-pressed="false">Saved reading <span id="saved-count">0</span></button>
+      <button type="button" id="copy-search">Copy search link</button>
+      <button type="button" id="reset-search">Reset all</button>
+    </div>
+    <p class="reader-feedback" id="reader-feedback" role="status"></p>
     <section class="finder" id="finder" aria-labelledby="finder-heading">
       <div class="finder-top">
         <h2 class="finder-head" id="finder-heading">Find what matters to you</h2>
@@ -84,6 +100,14 @@
     <p class="loading" id="loading">Loading stories…</p>
   </main>
 
+  <section class="editorial-note" aria-label="About our research coverage">
+    <details><summary>How we choose and explain research</summary>
+      <p>We link to original papers and trial registries, keep their publication dates, and identify the type of evidence. A laboratory finding, a single-person report and a controlled human trial answer different questions. A study being published does not mean a treatment is approved or available.</p>
+      <p>Brain tumor recovery, particularly hand use, coordination and daily independence, is a priority. Research in stroke or spinal cord injury is labelled for that population; it is not assumed to apply to brain tumors. Reviews may discuss studies already covered here.</p>
+      <p>Saved reading stays in this browser on this device. We do not upload your saved list or search terms. Use the original source to check details and discuss relevance with your care team.</p>
+    </details>
+  </section>
+
   <footer class="colophon">
     <p class="disclaimer">For information only. Not medical advice. Talk to your doctor before considering any treatment or trial.</p>
     <p class="colophon-founder">Founded by Zafar Amin</p>
@@ -95,10 +119,24 @@
       <h2 id="reader-form-heading">Stay connected</h2>
       <button type="button" class="form-dialog-close" id="reader-form-close" aria-label="Close form">× Close</button>
     </div>
-    <iframe id="reader-form-frame" title="Reader form" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    <p class="form-dialog-fallback">Trouble loading? <a id="reader-form-fallback" target="_blank" rel="noopener">Open the form in a new tab</a>.</p>
+    <form id="reader-native-form" class="reader-native-form">
+      <p id="reader-form-description">Free research and recovery updates.</p>
+      <label for="reader-email">Email <span>(required)</span></label>
+      <input id="reader-email" name="email" type="email" autocomplete="email" required maxlength="254">
+      <label for="reader-name">Name <span>(optional)</span></label>
+      <input id="reader-name" name="name" type="text" autocomplete="name" maxlength="100">
+      <div id="reader-message-fields" hidden>
+        <label for="reader-message">Your idea or story <span>(required)</span></label>
+        <textarea id="reader-message" name="message" rows="5" maxlength="6000"></textarea>
+        <label for="reader-permission">Permission to publish</label>
+        <select id="reader-permission" name="permission"><option value="private">Private feedback only</option><option value="ask">Please ask me before publishing</option><option value="publish">You may publish my submission without my email</option></select>
+      </div>
+      <p class="form-connection-note" role="status">This new form is not connected yet. Submissions are temporarily unavailable; nothing entered here is sent or stored.</p>
+      <button type="submit" class="reader-action" disabled id="reader-submit">Signup opens soon</button>
+      <p class="community-note">When signup opens, your email will be private and used only for the updates you request. Ideas and stories will be reviewed before publication.</p>
+    </form>
   </dialog>
-  <script src="share.js?v=20261022e"></script>
-  <script src="app.js?v=20261022e"></script>
+  <script src="share.js?v=20261023a"></script>
+  <script src="app.js?v=20261023a"></script>
 </body>
 </html>

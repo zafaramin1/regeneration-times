@@ -37,9 +37,9 @@ Pick one value per key. Derive it honestly from the source; if the cause is not 
 
 | Key | Allowed values |
 | --- | --- |
-| `body_area` | Brain, Neck spine, Back spine, Spine, Nerve root, Peripheral nerve, Arm, Hand, Leg, Face |
+| `body_area` | Brain, Neck spine, Back spine, Spine, Nerve root, Peripheral nerve, Arm, Hand, Leg, Face, Eye |
 | `cause` | Trauma, Brain tumor, Spine tumor, Stroke, Diabetes, Chemotherapy, Disease, Surgery, Nerve gap, Any cause |
-| `approach` | Drug, Stem cells, Scaffold, Nerve transfer, Stimulation, Surgery, Device, Rehab, Review |
+| `approach` | Drug, Stem cells, Scaffold, Nerve transfer, Stimulation, Surgery, Device, Rehab, Review, Assessment, Cell therapy, Gene therapy |
 | `stage` | Lab study, Animal study, Human study, Human trial, Recruiting trial, Approved, Review |
 
 Example:
@@ -48,7 +48,7 @@ Example:
 "tags": { "body_area": "Neck spine", "cause": "Trauma", "approach": "Drug", "stage": "Recruiting trial" }
 ```
 
-Latest stays ordered by `date_published`. Top Stories is ordered by `relevance_score` behind the scenes (no score, rank number or score label is ever shown); the Relevance / Newest toggle reorders Top Stories, each category, and search results. Search matches title, tags, quick read, summary, source, and category, and shows one results list.
+Latest stays ordered by `date_published`. Top Stories is ordered by `relevance_score` behind the scenes (no score, rank number or score label is ever shown); the Relevance / Newest toggle reorders Top Stories, each category, and search results. Search matches significant words across title, tags, quick read, summary, source, evidence level, why it matters, and category, and shows one results list.
 
 Each story renders as a parchment scroll with three levels:
 
@@ -72,18 +72,19 @@ When you change `styles.css`, `share.js` or `app.js`, bump the `?v=` version str
 
 A visible reading guide sits before the articles. The side rail has three fully collapsible panels: Share Your Story, Have an idea?, and Stay connected. Founder credit is in the footer.
 
-Signup and community submissions open real Google Forms in a dismissible dialog, with a direct-link fallback if embedding fails. No email application or mailto fallback is used. Google handles field validation and shows its own success confirmation; the website never claims success merely because a request was sent.
+Signup and community submissions use native forms in a dismissible dialog, styled to match the paper. Google embeds and their account banners have been removed. Connection to a collection backend is deliberately deferred at the owner's request. Submit buttons remain disabled and the form clearly states that nothing is sent or stored. Do not enable collection or claim a signup succeeded until the chosen Google Sheets or Zoho endpoint confirms it. Never store submission emails or messages in localStorage, the public repository or URL parameters.
 
-Both forms collect a required responder-entered email without requiring a Google sign-in. The community form requires a submission type, message and explicit permission-to-publish choice, including a private-feedback option. Name is optional. Do not publish submitter email addresses or submissions marked private.
+The existing private workbook **Regeneration Times — Subscribers and Ideas** and its Google Forms are preserved. Do not expose response data or change sharing permissions. Future connection work must test actual submission-to-private-storage and confirmed success/error handling, with required email validation and explicit publication permission for stories.
 
-The private workbook is **Regeneration Times — Subscribers and Ideas** in the user's **Regeneration Times** Drive folder, with tabs **Subscribers** and **Ideas and Stories**. Responses are collected, not automatically emailed or published. Do not put the workbook's private response data into this repository, expose it in the website, or change its sharing permissions. Form destinations are ordinary public responder URLs in index.html, not credentials.
+share.js handles the native dialog, required fields, focus restoration and side panels. The form currently resets on close; it does not retain personal information.
 
-Subscriber form: https://docs.google.com/forms/d/e/1FAIpQLScNjbh3MGGJ4XBbH-c5XoxSv6GKkKhMehFoVSpKusRleDggYw/viewform
-Community form: https://docs.google.com/forms/d/e/1FAIpQLSdw9bXOQK1V2egSt2itsixRUxW39B0M6kInhjCutJ3d8m4pWw/viewform
+## Search and reader tools
 
-When replacing either form, use its actual published responder URL, retain required-email validation and private response storage, and test the real submission-to-sheet path. Changes to a Google Form do not require a new site deployment unless its URL changes.
+Search normalizes tumour/tumor, common movement and rehabilitation terms, and matches every significant query word anywhere in a story. It is deterministic keyword search, not diagnosis or an AI medical advisor. Synonyms must not turn a different underlying cause into a match. URL hash parameters include `q`, `published=90|365`, `human=1`, `saved=1`, and the existing topic groups. The publication window uses the original source date, not the date added. Lab and animal study exclusion does not imply that remaining research is established or approved.
 
-share.js handles the form dialog, focus restoration and opening side panels from navigation. The newspaper design remains in styles.css; the article interactions and topic filtering remain in app.js.
+Save buttons store only stable article IDs in this browser's localStorage. Saved reading is device-specific, and storage failures are announced. Search links do not transfer a user's saved list. Discussion notes copy a source, date, evidence type and a question for a care team, never personalized treatment instructions. Top Stories and Latest each preview six entries to reduce repetition; topic sections and search retain all entries.
+
+Optional editorial fields: `limitation` (what the study does not establish), `care_question` (a discussion prompt), `verified_on` (date the source was checked, not a guarantee of clinical review). Evidence type is visible on closed cards. Original dates are retained for all backfilled coverage. Reviews may synthesize studies already covered; do not count a review as a distinct clinical trial.
 
 ## Run locally
 

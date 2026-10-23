@@ -1718,3 +1718,52 @@ body:has(.form-dialog[open]) { overflow: hidden; }
   .form-dialog iframe { min-height: 21rem; }
 }
 @media print { .community-rail, .scroll-close-top, .form-dialog { display: none !important; } .reading-desk { display: block; } }
+
+/* Reader tools: newspaper typography, compact controls, quiet burgundy accents. */
+.reader-promise { margin: .8rem 0 0; font: .7rem/1.5 var(--sans); color: var(--muted); letter-spacing: .025em; }
+.reader-index .tools { align-items: center; gap: 1.5rem; margin-top: 1.4rem; }
+.reader-index .search label { font-size: .8rem; color: var(--ink); opacity: 1; }
+.reader-index .search input { width: 100%; padding: .7rem .8rem; background: #fffaf080; border: 1px solid var(--ink); border-radius: 2px; font-size: 1.1rem; }
+.search-help { margin: .55rem 0; color: var(--muted); font: .76rem/1.6 var(--sans); }
+.search-suggestions { display: flex; align-items: center; flex-wrap: wrap; gap: .35rem .8rem; margin-bottom: .9rem; font: .74rem var(--sans); }
+.search-suggestions span { color: var(--muted); }
+.search-suggestions button { border: 0; padding: .3rem 0; background: transparent; font: inherit; color: #702c3a; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.search-refine { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; padding: .8rem 0; border-block: 1px solid var(--hairline); font: .75rem/1.5 var(--sans); }
+.search-refine label { display: flex; align-items: center; gap: .4rem; }
+.search-refine select, .search-refine button, .care-team-note button, .no-match-help button { font: inherit; padding: .4rem .6rem; color: var(--ink); border: 1px solid var(--hairline); background: transparent; border-radius: 2px; cursor: pointer; }
+.search-refine button[aria-pressed=true] { background: #121212; color: #fff; border-color: #121212; }
+.search-refine input { accent-color: #702c3a; }
+.reader-feedback { font: .75rem/1.5 var(--sans); color: #702c3a; }
+.reader-feedback:empty { display: none; }
+.story-tools { display: flex; align-items: center; justify-content: space-between; gap: .6rem; margin: .5rem 0 .2rem; font: .65rem/1.4 var(--sans); }
+.evidence-marker { color: #665b4a; text-transform: uppercase; letter-spacing: .06em; }
+.story-tools button { flex: 0 0 auto; color: #702c3a; border: 1px solid #702c3a55; border-radius: 2px; padding: .35rem .65rem; background: transparent; font: inherit; cursor: pointer; }
+.story-tools button[aria-pressed=true] { color: #fff; background: #702c3a; }
+.care-team-note { border-left: 2px solid #702c3a; padding: .4rem 1rem; margin: 1.4rem 0; background: #fffaf040; }
+.care-team-note button { font: .72rem/1.5 var(--sans); }
+.study-limit { color: #655447; }
+.no-match-help { max-width: 40rem; margin: 1rem 0 2rem; }
+.no-match-help button { font: .8rem var(--sans); }
+.editorial-note { width: min(var(--measure), calc(100% - 2rem)); margin: 2rem auto 0; padding: 1.2rem 0; border-top: 3px double var(--ink); }
+.editorial-note summary { cursor: pointer; font-size: 1.25rem; font-weight: 600; }
+.editorial-note p { max-width: 56rem; font-size: 1rem; line-height: 1.6; }
+.form-dialog { width: min(35rem, calc(100% - 2rem)); height: auto; max-height: calc(100dvh - 3rem); overflow: auto; padding: 1.4rem; }
+.reader-native-form { display: block; }
+.reader-native-form > p:first-child { margin-top: 0; }
+.reader-native-form label { display: block; margin: .9rem 0 .3rem; font: 600 .8rem/1.5 var(--sans); }
+.reader-native-form label span { font-weight: 400; color: var(--muted); }
+.reader-native-form input, .reader-native-form textarea, .reader-native-form select { display: block; width: 100%; padding: .7rem; background: #fffaf0; color: var(--ink); border: 1px solid #b6ab9a; border-radius: 2px; font: 1rem/1.4 var(--sans); }
+.reader-native-form textarea { resize: vertical; }
+.reader-native-form [hidden] { display: none; }
+.form-connection-note { padding: .8rem; border-left: 2px solid #702c3a; font: .8rem/1.6 var(--sans); background: #702c3a08; }
+.reader-native-form button:disabled { opacity: .55; cursor: not-allowed; }
+button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #702c3a; outline-offset: 3px; }
+@media (max-width: 600px) {
+  .reader-index .tools { display: block; }
+  .reader-index .sort { margin-top: .8rem; }
+  .search-refine { gap: .6rem .8rem; }
+  .search-refine label:first-child { flex-basis: 100%; }
+  .reader-index .search input { font-size: 1rem; }
+  .form-dialog { padding: 1rem; }
+}
+@media print { .story-tools button, .search-suggestions, .search-refine, .care-team-note button { display: none; } }

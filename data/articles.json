@@ -529,5 +529,254 @@
     "relevance_score": 8,
     "evidence_level": "Retrospective cohort; 35 brain-tumor patients and 108 stroke comparators",
     "date_note": "Published online April 30, 2019; added as background research."
+  },
+  {
+    "id": "brain-tumor-hand-dexterity-connectivity-2026",
+    "title": "Hand dexterity after brain tumor surgery was linked to changes in brain-network connections",
+    "source": "Neural Plasticity",
+    "url": "https://doi.org/10.1155/np/3255120",
+    "date_published": "2026-09-21",
+    "date_added": "2026-10-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "A small study followed hand coordination and brain scans before and after surgery in 16 people with brain lesions. Better and worse dexterity recovery were associated with different patterns of communication between brain networks. This concerns skilled hand use, not just shaking or muscle strength. It suggests research targets, rather than a proven new treatment.",
+    "summary": "Researchers used the nine-hole peg test and resting-state MRI. Changes in connections within and between movement and attention networks differed between recovery groups.",
+    "why_it_matters": "Useful for understanding why fine hand control can remain difficult even when strength is relatively preserved.",
+    "evidence_level": "Observational cohort, 16 participants",
+    "limitation": "Association cannot establish cause or show that changing these connections improves recovery.",
+    "care_question": "Could we measure my dexterity separately from strength and set specific occupational-therapy goals?",
+    "relevance_score": 10,
+    "verified_on": "2026-10-23",
+    "related_body_areas": [
+      "Brain"
+    ]
+  },
+  {
+    "id": "brain-tumor-early-ntms-sma-cohort-2026",
+    "title": "Early magnetic stimulation was associated with faster recovery after surgery in the supplementary motor area",
+    "source": "Brain and Spine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42502367/",
+    "date_published": "2026-07-13",
+    "date_added": "2026-10-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "quick_read": "Researchers reviewed recovery in 14 people after tumor surgery in a brain region involved in movement. Starting navigated magnetic stimulation within five days was associated with faster recovery from temporary weakness. This was a small retrospective study. It cannot establish that stimulation caused the improvement.",
+    "summary": "The authors compared postoperative recovery trajectories and reported an association between earlier stimulation and accelerated motor recovery.",
+    "why_it_matters": "Adds tumor-specific evidence, while leaving the best timing and effectiveness unresolved.",
+    "evidence_level": "Retrospective observational cohort, 14 participants",
+    "limitation": "Temporary postoperative weakness may improve naturally; a controlled prospective trial is needed.",
+    "care_question": "Is my movement difficulty related to the supplementary motor area, and is specialist rehabilitation or a trial appropriate?",
+    "relevance_score": 9,
+    "verified_on": "2026-10-23",
+    "related_body_areas": [
+      "Arm"
+    ]
+  },
+  {
+    "id": "brain-tumor-high-frequency-rtms-safety-2026",
+    "title": "Small brain tumor study examines the safety of high-frequency magnetic stimulation after surgery",
+    "source": "Frontiers in Neurology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42358930/",
+    "date_published": "2026-06-10",
+    "date_added": "2026-10-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "quick_read": "Ten people received magnetic stimulation after surgery near movement-related brain areas. Four received high-frequency stimulation on the operated side and six received a different protocol. No seizures or heating effects were reported. The small sample cannot rule out uncommon risks or prove treatment effectiveness.",
+    "summary": "Strength and daily-function scores improved in both groups. Reported events included a wound revision, a brief fainting episode and temporary altered sensation.",
+    "why_it_matters": "Safety questions matter before a promising rehabilitation technique can be tested more widely.",
+    "evidence_level": "Small nonrandomized clinical series, 10 participants",
+    "limitation": "This is preliminary safety evidence, not proof that the treatment is safe or effective for everyone.",
+    "care_question": "Would my seizure history, surgical wound or implanted devices affect eligibility for stimulation research?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-23",
+    "related_body_areas": [
+      "Arm"
+    ]
+  },
+  {
+    "id": "brain-tumor-exercise-systematic-review-2026",
+    "title": "Review of 31 studies finds exercise feasible after brain tumors, with effectiveness still uncertain",
+    "source": "Frontiers in Oncology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42769179/",
+    "date_published": "2026-09-07",
+    "date_added": "2026-10-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "quick_read": "A review gathered 31 studies of exercise in people with brain tumors. Participants could take part in strength, aerobic, balance and other programs, with possible benefits for function and quality of life. Most studies were small or at high risk of bias. The review supports more research and individually planned rehabilitation, not a single exercise prescription.",
+    "summary": "Studies were identified through December 2025. Their varied methods and outcomes prevented a simple pooled answer about clinical effectiveness.",
+    "why_it_matters": "Provides a broader view than one positive exercise study.",
+    "evidence_level": "Systematic review, 31 heterogeneous studies",
+    "limitation": "Feasibility does not establish the best program or guarantee improvement.",
+    "care_question": "Can a rehabilitation professional adapt exercise around my weakness, fatigue and treatment schedule?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-23"
+  },
+  {
+    "id": "brain-tumor-rehabilitation-guidelines-scoping-2026",
+    "title": "Brain tumor rehabilitation review calls for earlier referrals and continuing support",
+    "source": "Neurological Sciences",
+    "url": "https://doi.org/10.1007/s10072-026-09226-7",
+    "date_published": "2026-07-09",
+    "date_added": "2026-10-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "quick_read": "Researchers reviewed 17 documents about rehabilitation after a primary brain tumor. Recommendations generally supported multidisciplinary care for movement, thinking and communication difficulties. They also identified inconsistent referrals and a shortage of tumor-specific pathways. This is a review of guidance, not a test of a new treatment.",
+    "summary": "The review included five guideline or consensus documents and twelve contextual sources, searched through December 2025.",
+    "why_it_matters": "Helps readers ask about rehabilitation as part of ongoing care rather than only immediately after surgery.",
+    "evidence_level": "Scoping review of guidelines and supporting evidence",
+    "limitation": "Recommendations are broader than the limited evidence for individual rehabilitation techniques.",
+    "care_question": "Could I have a rehabilitation assessment and a plan for reassessment as my needs change?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-23"
+  },
+  {
+    "id": "pbmc-mitochondria-peripheral-nerve-repair-2026",
+    "title": "Blood-cell mitochondria improved nerve repair in rat experiments",
+    "source": "Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-026-73623-3",
+    "date_published": "2026-10-14",
+    "date_added": "2026-10-23",
+    "category": "Breakthroughs",
+    "tags": {
+      "body_area": "Peripheral nerve",
+      "cause": "Trauma",
+      "approach": "Cell therapy",
+      "stage": "Animal study"
+    },
+    "quick_read": "Researchers isolated mitochondria, the energy-producing parts of cells, from blood immune cells. They tested them in rats with crushed nerves or surgically bridged nerve gaps. Several measures of nerve and muscle recovery improved. This is laboratory and animal research, with no demonstrated treatment benefit in patients.",
+    "summary": "Rat experiments assessed nerve structure, electrical responses and walking. Human-derived mitochondria were also studied experimentally, not as a clinical treatment.",
+    "why_it_matters": "Blood could be a less invasive source than harvesting muscle or other tissue if the approach eventually proves useful.",
+    "evidence_level": "Preclinical cell experiments and rat injury models",
+    "limitation": "Human safety, dosing and clinical effectiveness remain unknown.",
+    "care_question": "Is there any registered human trial for this approach, or is it still preclinical?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-23"
+  },
+  {
+    "id": "hand-nerve-repair-digit-maps-2026",
+    "title": "After hand nerve repair, brain maps changed without a clear link to functional impairment",
+    "source": "Nature Human Behaviour",
+    "url": "https://www.nature.com/articles/s41562-026-02548-8",
+    "date_published": "2026-08-13",
+    "date_added": "2026-10-23",
+    "category": "Breakthroughs",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Trauma",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "quick_read": "MRI mapped finger responses in 21 people with repaired hand nerves and 30 controls. Brain representations of the fingers were less orderly after repair. Importantly, the researchers found no credible link between these map changes and functional impairment. A different-looking scan does not by itself explain how well a hand works.",
+    "summary": "Changes appeared in the brain representation of the repaired hand and, unexpectedly, the uninjured hand.",
+    "why_it_matters": "Shows why direct measures of sensation and hand use matter alongside imaging.",
+    "evidence_level": "Human observational imaging study, 21 patients and 30 controls",
+    "limitation": "The study did not test a rehabilitation treatment.",
+    "care_question": "Which practical tests can track sensation and hand function during my recovery?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-23",
+    "related_body_areas": [
+      "Peripheral nerve"
+    ]
+  },
+  {
+    "id": "double-neural-bypass-hand-sensation-2026",
+    "title": "Experimental neural bypass enabled hand movement and sensation in one person with tetraplegia",
+    "source": "Nature Medicine",
+    "url": "https://www.nature.com/articles/s41591-026-04498-0",
+    "date_published": "2026-07-16",
+    "date_added": "2026-10-23",
+    "category": "Breakthroughs",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Trauma",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "quick_read": "An experimental system combined implanted brain electrodes, muscle stimulation and brain-and-spinal neuromodulation. One person with complete tetraplegia could perform assisted tasks including self-feeding and delicate object handling. Some elbow-strength and wrist-sensation improvements persisted without stimulation. This is an early demonstration in spinal cord injury, not evidence for brain tumor recovery.",
+    "summary": "The hybrid system linked movement intention to assistance and provided sensory feedback.",
+    "why_it_matters": "Explores both immediate assistance and lasting recovery rather than treating them as the same result.",
+    "evidence_level": "First-in-human experimental study, one participant",
+    "limitation": "One participant cannot establish general effectiveness; the system requires invasive and specialized technology.",
+    "care_question": "Does this research address my diagnosis, and what registered trials have eligibility criteria relevant to me?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-23",
+    "related_body_areas": [
+      "Neck spine",
+      "Arm"
+    ]
+  },
+  {
+    "id": "soft-exosuit-brachial-plexus-2026",
+    "title": "Soft wearable robot helped arm movement during use after brachial plexus injury",
+    "source": "Nature Communications",
+    "url": "https://www.nature.com/articles/s41467-026-76824-6",
+    "date_published": "2026-08-24",
+    "date_added": "2026-10-23",
+    "category": "Breakthroughs",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Trauma",
+      "approach": "Device",
+      "stage": "Human study"
+    },
+    "quick_read": "A soft shoulder-and-elbow exosuit was tested in 14 adults with longstanding traumatic brachial plexus injury. Movement range and endurance improved while assistance was active. A subgroup of four also improved on functional tasks. The study assessed immediate help, not lasting recovery after the device was removed.",
+    "summary": "Six participants had complete lesions and ten had previously undergone nerve transfer surgery.",
+    "why_it_matters": "Assistive technology may help everyday movement even when it has not been shown to regenerate nerves.",
+    "evidence_level": "Single-session human feasibility study, 14 participants",
+    "limitation": "Long-term rehabilitation effects and independent everyday use were not evaluated.",
+    "care_question": "Would an assistive device help my daily tasks, and how would we distinguish assistance from recovery?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-23",
+    "related_body_areas": [
+      "Peripheral nerve"
+    ]
+  },
+  {
+    "id": "pou2f2-optic-nerve-regeneration-2026",
+    "title": "Gene-regulation target improved optic-nerve cell survival in preclinical research",
+    "source": "npj Regenerative Medicine",
+    "url": "https://www.nature.com/articles/s41536-026-00519-1",
+    "date_published": "2026-10-14",
+    "date_added": "2026-10-23",
+    "category": "Breakthroughs",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Trauma",
+      "approach": "Gene therapy",
+      "stage": "Animal study"
+    },
+    "quick_read": "Researchers investigated a gene-regulating protein called Pou2f2 in retinal nerve cells. Increasing its activity improved cell survival and nerve-fiber growth after experimental optic-nerve injury. Retinal function was partly preserved in the model. This is preclinical work, not a therapy shown to restore human vision.",
+    "summary": "The work combined retinal-cell experiments, gene-expression analyses and experimental optic-nerve injury.",
+    "why_it_matters": "Identifies a possible target for future nerve-protection and regeneration research.",
+    "evidence_level": "Preclinical retinal-cell and animal injury research",
+    "limitation": "No human treatment benefit has been established.",
+    "care_question": "Has this approach reached a registered human study for my specific eye condition?",
+    "relevance_score": 6,
+    "verified_on": "2026-10-23"
   }
 ]

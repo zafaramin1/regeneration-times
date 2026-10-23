@@ -5,6 +5,12 @@
   var articles = [];
   var sortMode = "relevance";
   var query = "";
+  var publicationWindow = "all";
+  var humanOnly = false;
+  var savedOnly = false;
+  var savedIds = [];
+  try { var stored = JSON.parse(localStorage.getItem("rt-saved-stories") || "[]"); if (Array.isArray(stored)) { savedIds = stored.filter(function (id) { return typeof id === "string"; }); } } catch (e) { /* Reading works without storage. */ }
+
   var openEntries = {};
   var centerTimer = null;
   var REDUCED_MOTION = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -31,9 +37,9 @@
     { key: "stage", label: "Stage" }
   ];
   var VOCAB = {
-    body_area: ["Brain", "Neck spine", "Back spine", "Spine", "Nerve root", "Peripheral nerve", "Arm", "Hand", "Leg", "Face"],
+    body_area: ["Brain", "Neck spine", "Back spine", "Spine", "Nerve root", "Peripheral nerve", "Arm", "Hand", "Leg", "Face", "Eye"],
     cause: ["Trauma", "Brain tumor", "Spine tumor", "Stroke", "Diabetes", "Chemotherapy", "Disease", "Surgery", "Nerve gap", "Any cause"],
-    approach: ["Drug", "Stem cells", "Scaffold", "Nerve transfer", "Stimulation", "Surgery", "Device", "Rehab", "Review"],
+    approach: ["Drug", "Stem cells", "Scaffold", "Nerve transfer", "Stimulation", "Surgery", "Device", "Rehab", "Review", "Assessment", "Cell therapy", "Gene therapy"],
     stage: ["Lab study", "Animal study", "Human study", "Human trial", "Recruiting trial", "Approved", "Review"]
   };
   var HASH_KEYS = {
@@ -57,6 +63,7 @@
 
   searchInput.addEventListener("input", function () {
     query = searchInput.value;
+    writeHash();
     render();
   });
 
@@ -125,14 +132,54 @@
     });
   }
 
+  function normalizeSearch(text) {
+    return String(text || "").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/tumours?/g, "tumor").replace(/tumors/g, "tumor")
+      .replace(/\b(weakness|paresis|hemiparesis|hemiplegia|paralysis|paralyzed|paralysed)\b/g, "weak")
+      .replace(/\b(dexterity|coordination|coordinated|clumsy|clumsiness)\b/g, "dexterity")
+      .replace(/\b(rehabilitation|rehab|occupational therapy|physiotherapy|physical therapy)\b/g, "rehab")
+      .replace(/\b(fingers|finger|hands)\b/g, "hand")
+      .replace(/\b(repairing|repaired|regeneration|regenerative|regrowth)\b/g, "repair")
+      .replace(/[^a-z0-9]+/g, " ").trim();
+  }
+  function searchTerms(needle) {
+    return normalizeSearch(needle).split(/\s+/).filter(function (word) {
+      return word && ["a", "an", "the", "and", "or", "for", "of", "in", "on", "to", "after", "with", "my", "i", "have", "having", "how", "can", "help", "me", "is", "from"].indexOf(word) === -1;
+    });
+  }
   function matches(article, needle) {
-    if (!needle) {
-      return true;
+    var terms = searchTerms(needle);
+    var haystack = normalizeSearch([article.title, article.quick_read, article.summary, article.source, article.category, article.why_it_matters, article.evidence_level].concat(tagList(article)).join(" "));
+    return terms.every(function (term) { return haystack.indexOf(term) !== -1; });
+  }
+  function passesReadingOptions(article) {
+    if (savedOnly && savedIds.indexOf(article.id) === -1) { return false; }
+    if (humanOnly && ["Lab study", "Animal study"].indexOf(article.tags.stage) !== -1) { return false; }
+    if (publicationWindow !== "all") {
+      var cutoff = new Date(); cutoff.setHours(0, 0, 0, 0); cutoff.setDate(cutoff.getDate() - Number(publicationWindow));
+      if (new Date(article.date_published + "T12:00:00") < cutoff) { return false; }
     }
-    var haystack = [article.title, article.quick_read, article.summary, article.source, article.category].concat(tagList(article))
-      .join("\n")
-      .toLowerCase();
-    return haystack.indexOf(needle) !== -1;
+    return true;
+  }
+  function hasReadingOptions() { return savedOnly || humanOnly || publicationWindow !== "all"; }
+  function announce(message) { document.getElementById("reader-feedback").textContent = message; }
+  function saveStory(id) {
+    var at = savedIds.indexOf(id);
+    if (at === -1) { savedIds.push(id); } else { savedIds.splice(at, 1); }
+    var persistent = true;
+    try { localStorage.setItem("rt-saved-stories", JSON.stringify(savedIds)); }
+    catch (e) { persistent = false; }
+    render();
+    var focusButton = Array.prototype.find.call(contentEl.querySelectorAll("[data-save-story]"), function (button) { return button.getAttribute("data-save-story") === id; });
+    (focusButton || document.getElementById("saved-only")).focus({ preventScroll: true });
+    announce(!persistent ? "Saved list changed for this visit only. Persistent storage is unavailable." : at === -1 ? "Added to saved reading on this device." : "Removed from saved reading.");
+  }
+  function careNote(article) {
+    return article.title + "\nPublished: " + article.date_published + "\nEvidence: " + article.evidence_level + "\nSource: " + article.url + "\n\nQuestion for my care team: " + (article.care_question || "Does this research apply to my diagnosis and current stage of recovery? What are its limitations, and is there a suitable rehabilitation assessment or registered trial?") + "\n\nResearch summary, not a treatment recommendation.";
+  }
+  function copyText(text, message) {
+    if (!navigator.clipboard) { announce("Copy is unavailable in this browser. You can select and copy the source link from the story."); return; }
+    navigator.clipboard.writeText(text).then(function () { announce(message); }, function () { announce("Copy was blocked by your browser. Please copy the source link directly."); });
   }
 
   function compare(a, b, mode) {
@@ -167,15 +214,15 @@
   function buildSections(list) {
     var needle = query.trim().toLowerCase();
     var filtered = list.filter(function (article) {
-      return matches(article, needle) && passesFilters(article, null);
+      return matches(article, needle) && passesFilters(article, null) && passesReadingOptions(article);
     });
-    if (needle || hasFilters()) {
+    if (needle || hasFilters() || hasReadingOptions()) {
       return {
         filteredCount: filtered.length,
         sections: filtered.length
           ? [{
               id: "search-results",
-              title: needle ? "Search results" : "Stories for " + selectionLabel(),
+              title: savedOnly ? "Saved reading" : needle ? "Search results" : hasFilters() ? "Stories for " + selectionLabel() : "Filtered research",
               kind: "search",
               items: filtered.slice().sort(function (a, b) {
                 return compare(a, b, sortMode);
@@ -192,7 +239,7 @@
         kind: "top",
         items: filtered.slice().sort(function (a, b) {
           return compare(a, b, sortMode);
-        })
+        }).slice(0, 6)
       },
       {
         id: "latest",
@@ -200,7 +247,7 @@
         kind: "latest",
         items: filtered.slice().sort(function (a, b) {
           return compare(a, b, "newest");
-        })
+        }).slice(0, 6)
       }
     ];
 
@@ -310,6 +357,8 @@
           return '<button type="button" class="chip chip--tag" data-fkey="' + escapeHtml(k) + '" data-fval="' + escapeHtml(t) + '" title="Show all stories tagged ' + escapeHtml(t) + '">' + escapeHtml(t) + "</button>";
         }).join('<span class="dot" aria-hidden="true"> · </span>') + "</p>"
       : "";
+    var saved = savedIds.indexOf(article.id) !== -1;
+    var readingActions = '<div class="story-tools"><span class="evidence-marker">' + escapeHtml(article.tags.stage) + '</span><button type="button" data-save-story="' + escapeHtml(article.id) + '" aria-pressed="' + saved + '" aria-label="' + (saved ? 'Unsave: ' : 'Save: ') + escapeHtml(article.title) + '">' + (saved ? 'Saved' : 'Save') + '</button></div>';
     var quick = article.quick_read
       ? '<div class="quick-read" data-advance><p class="qr-label">Quick Read</p><p class="qr-text">' + escapeHtml(article.quick_read) + "</p></div>"
       : "";
@@ -321,13 +370,16 @@
     if (article.why_it_matters) {
       detail += '<h4 class="d-label">Why it matters</h4><p class="why">' + escapeHtml(article.why_it_matters) + "</p>";
     }
+    if (article.limitation) { detail += '<h4 class="d-label">What this does not show</h4><p class="study-limit">' + escapeHtml(article.limitation) + '</p>'; }
+    detail += '<div class="care-team-note"><h4 class="d-label">A question for your care team</h4><p>' + escapeHtml(article.care_question || "Does this research apply to my diagnosis and recovery? What are its limitations, and what rehabilitation assessment or registered trial would be appropriate?") + '</p><button type="button" data-copy-note="' + escapeHtml(article.id) + '">Copy discussion note with source</button></div>';
     var facts = "";
     [
       ["Section", article.category],
       ["Source", article.source],
       ["Published", article.date_published ? formatDate(article.date_published) : ""],
       ["Evidence level", article.evidence_level],
-      ["Date note", article.date_note]
+      ["Date note", article.date_note],
+      ["Source checked", article.verified_on ? formatDate(article.verified_on) : ""]
     ].forEach(function (pair) {
       if (!pair[1]) {
         return;
@@ -359,7 +411,7 @@
             "</h3>" +
             (date ? '<p class="head-meta">' + date + "</p>" : "") +
           "</div>" +
-          tagLine +
+          tagLine + readingActions +
           '<div class="stage stage--qr" id="' + escapeHtml(qrId) + '"' + (level >= 1 ? "" : " inert") + ">" +
             '<div class="stage-inner">' +
               quick +
@@ -432,6 +484,10 @@
 
   contentEl.addEventListener("click", function (event) {
     var target = event.target;
+    var save = target.closest("[data-save-story]");
+    if (save) { saveStory(save.getAttribute("data-save-story")); return; }
+    var note = target.closest("[data-copy-note]");
+    if (note) { var item = articles.find(function (a) { return a.id === note.getAttribute("data-copy-note"); }); if (item) { copyText(careNote(item), "Discussion note copied with its original source."); } return; }
     if (target.closest("a")) {
       return;
     }
@@ -560,12 +616,19 @@
       return false;
     }
     var next = emptyFilters();
+    query = ""; publicationWindow = "all"; humanOnly = false; savedOnly = false;
     raw.split("&").forEach(function (part) {
       var eq = part.indexOf("=");
       if (eq < 1) {
         return;
       }
-      var key = HASH_KEYS[decodePart(part.slice(0, eq)).toLowerCase()];
+      var rawKey = decodePart(part.slice(0, eq)).toLowerCase();
+      var rawValue = decodePart(part.slice(eq + 1));
+      if (rawKey === "q") { query = rawValue; return; }
+      if (rawKey === "published" && ["90", "365"].indexOf(rawValue) !== -1) { publicationWindow = rawValue; return; }
+      if (rawKey === "human") { humanOnly = rawValue === "1"; return; }
+      if (rawKey === "saved") { savedOnly = rawValue === "1"; return; }
+      var key = HASH_KEYS[rawKey];
       if (!key) {
         return;
       }
@@ -581,6 +644,7 @@
       });
     });
     filters = next;
+    searchInput.value = query;
     return true;
   }
 
@@ -599,6 +663,10 @@
         parts.push(g.key + "=" + filters[g.key].map(encodeURIComponent).join(","));
       }
     });
+    if (query.trim()) { parts.push("q=" + encodeURIComponent(query.trim())); }
+    if (publicationWindow !== "all") { parts.push("published=" + publicationWindow); }
+    if (humanOnly) { parts.push("human=1"); }
+    if (savedOnly) { parts.push("saved=1"); }
     var url = window.location.pathname + window.location.search + (parts.length ? "#" + parts.join("&") : "");
     if (window.history && window.history.replaceState) {
       window.history.replaceState(null, "", url);
@@ -662,7 +730,7 @@
     finderGroupsEl.innerHTML = FILTER_GROUPS.map(function (g) {
       var chips = groupValues(g.key).map(function (value) {
         var count = articles.filter(function (article) {
-          return tagValues(article, g.key).indexOf(value) !== -1 && passesFilters(article, g.key) && matches(article, needle);
+          return tagValues(article, g.key).indexOf(value) !== -1 && passesFilters(article, g.key) && matches(article, needle) && passesReadingOptions(article);
         }).length;
         var on = filters[g.key].indexOf(value) !== -1;
         return '<button type="button" class="chip chip--filter' + (count ? "" : " is-empty") + '" data-fkey="' + escapeHtml(g.key) + '" data-fval="' + escapeHtml(value) + '" aria-pressed="' + (on ? "true" : "false") + '">' +
@@ -717,15 +785,33 @@
     });
   }
 
+  document.getElementById("publication-window").addEventListener("change", function (event) { publicationWindow = event.target.value; writeHash(); render(); });
+  document.getElementById("human-only").addEventListener("change", function (event) { humanOnly = event.target.checked; writeHash(); render(); });
+  document.getElementById("saved-only").addEventListener("click", function () { savedOnly = !savedOnly; writeHash(); render(); });
+  document.getElementById("reset-search").addEventListener("click", resetSearch);
+  document.getElementById("copy-search").addEventListener("click", function () { copyText(window.location.href, "Search link copied. The recipient uses their own saved reading list."); });
+  document.querySelector(".search-suggestions").addEventListener("click", function (event) {
+    var example = event.target.closest("[data-search-example]"); if (!example) { return; }
+    filters = emptyFilters(); publicationWindow = "all"; humanOnly = false; savedOnly = false;
+    query = example.getAttribute("data-search-example"); searchInput.value = query; writeHash(); render();
+  });
+  function resetSearch() {
+    query = ""; searchInput.value = ""; filters = emptyFilters(); publicationWindow = "all"; humanOnly = false; savedOnly = false; writeHash(); render();
+  }
+  contentEl.addEventListener("click", function (event) { if (event.target.closest("[data-reset-search]")) { resetSearch(); searchInput.focus(); } });
   function render() {
+    document.getElementById("publication-window").value = publicationWindow;
+    document.getElementById("human-only").checked = humanOnly;
+    document.getElementById("saved-only").setAttribute("aria-pressed", String(savedOnly));
+    document.getElementById("saved-count").textContent = savedIds.filter(function (id) { return articles.some(function (a) { return a.id === id; }); }).length;
+
     var view = buildSections(articles);
     var needle = query.trim();
     renderFinder(view.filteredCount);
 
-    navEl.innerHTML = '<a href="#share" class="nav-share">Share Your Story</a>' +
-      '<a href="#subscribe" class="nav-share">Subscribe</a>' +
-      view.sections.map(function (section) {
-        return '<a href="#' + escapeHtml(section.id) + '">' + escapeHtml(section.title) + "</a>";
+    navEl.innerHTML = '<a href="#how-to">How to read</a><a href="#finder">Find research</a>' +
+      view.sections.filter(function (section) { return ["top", "latest", "search", "trials"].indexOf(section.kind) !== -1 || section.id === "brain-tumor-recovery"; }).map(function (section) {
+        return '<a href="#' + escapeHtml(section.id) + '">' + escapeHtml(section.title) + '</a>';
       }).join("");
 
     if (!view.sections.length) {
@@ -734,8 +820,9 @@
           (needle ? " matching “" + escapeHtml(needle) + "”" : "") +
           '. New ones are added daily.</p><p class="empty"><button type="button" class="finder-clear finder-clear-inline">Clear topics</button></p>';
       } else {
-        contentEl.innerHTML = '<p class="empty">No stories match “' + escapeHtml(needle) + "”.</p>";
+        contentEl.innerHTML = '<p class="empty">' + (needle ? "No stories match “" + escapeHtml(needle) + "”." : savedOnly ? "No saved stories match these filters." : "No stories match these reading filters.") + "</p>";
       }
+      contentEl.innerHTML += '<div class="no-match-help"><p>' + (savedOnly ? 'Save stories using the Save button. Other active filters also apply to saved reading.' : 'Try fewer words, remove a topic, or widen the publication date. We do not substitute a different diagnosis when there is no match.') + '</p><button type="button" data-reset-search>Reset search and topics</button></div>';
       countEl.textContent = "0 of " + articles.length + " stories";
       return;
     }
@@ -768,7 +855,7 @@
       );
     }).join("");
 
-    if (needle || hasFilters()) {
+    if (needle || hasFilters() || hasReadingOptions()) {
       countEl.textContent = view.filteredCount + " of " + articles.length + (articles.length === 1 ? " story" : " stories");
     } else {
       var updated = articles.reduce(function (latest, article) {
