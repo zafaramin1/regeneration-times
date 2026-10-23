@@ -1,0 +1,243 @@
+[
+  {
+    "id": "moffitt-neuro-oncology",
+    "name": "Moffitt Cancer Center: Neuro-Oncology",
+    "kind": "Care program",
+    "location": "Tampa, Florida, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor"
+    ],
+    "focus": "Brain and spinal cord tumors; multidisciplinary tumor assessment.",
+    "why_relevant": "A route for a tumor-focused second opinion. Ask specifically for assessment of neurological deficits and coordination with rehabilitation.",
+    "url": "https://www.moffitt.org/for-healthcare-professionals/clinical-programs-and-services/neuro-oncology-program/",
+    "search_terms": "brain tumor diagnosis second opinion movement hand weakness sensation numbness gait balance",
+    "caution": "Confirm tumor type, age eligibility and referral requirements. A tumor consultation is different from a dedicated hand-function assessment.",
+    "phone": "",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.moffitt.org/for-healthcare-professionals/clinical-programs-and-services/neuro-oncology-program/"
+    ]
+  },
+  {
+    "id": "mcw-brain-tumor-rehab",
+    "name": "Froedtert & Medical College of Wisconsin: Tumor Rehabilitation",
+    "kind": "Care program",
+    "location": "Milwaukee, Wisconsin, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Spine tumor"
+    ],
+    "focus": "Rehabilitation after brain and spine tumor treatment.",
+    "why_relevant": "The program describes physical and occupational therapy for tumor-related functional difficulties, including weakness and spasticity.",
+    "url": "https://www.froedtert.com/brain-spine-tumor/rehabilitation",
+    "search_terms": "brain tumor hand arm weakness spasticity clenching clenched numbness hemiplegia coordination rehab occupational therapy balance walking",
+    "caution": "Ask which clinic assesses upper-limb tone and hand use, and whether a separate movement-disorders consultation is appropriate.",
+    "phone": "",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.froedtert.com/brain-spine-tumor/rehabilitation"
+    ]
+  },
+  {
+    "id": "sralab-spasticity",
+    "name": "Shirley Ryan AbilityLab: Spasticity Management",
+    "kind": "Care program",
+    "location": "Chicago, Illinois, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg",
+      "Spine"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Spasticity, muscle tightness, contracture and functional rehabilitation.",
+    "why_relevant": "A problem-focused service for evaluating muscle overactivity and its effect on function. Includes adult and pediatric services.",
+    "url": "https://www.sralab.org/services/spasticity-clinic",
+    "search_terms": "spasticity dystonia clenched clenching hand arm brain tumor trauma brain injury spinal cord injury rehab occupational therapy contracture gait walking",
+    "caution": "Its page describes neurological conditions broadly, not a tumor-specific pathway. Confirm acceptance of the particular diagnosis and age. Matching here does not establish that clenching is spasticity.",
+    "phone": "1-844-355-ABLE",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.sralab.org/services/spasticity-clinic"
+    ]
+  },
+  {
+    "id": "mayo-brachial-plexus",
+    "name": "Mayo Clinic: Brachial Plexus Team",
+    "kind": "Care program",
+    "location": "Rochester, Minnesota, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Peripheral nerve",
+      "Nerve root",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Trauma"
+    ],
+    "focus": "Multidisciplinary assessment and reconstruction of brachial plexus injuries.",
+    "why_relevant": "Relevant when arm loss after trauma is attributed to the brachial plexus or needs specialist localization. The team describes care from infancy through adulthood.",
+    "url": "https://www.mayoclinic.org/medical-professionals/neurology-neurosurgery/news/brachial-plexus-injuries-seamless-pediatric-and-adult-care/mac-20547828",
+    "search_terms": "accident trauma arm hand brachial plexus nerve injury avulsion paralysis weakness nerve transfer nerve graft muscle transfer repair EMG",
+    "caution": "An accident can also injure the brain or spinal cord. Confirm the injury site; some nerve reconstruction decisions are time-sensitive.",
+    "phone": "",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.mayoclinic.org/medical-professionals/neurology-neurosurgery/news/brachial-plexus-injuries-seamless-pediatric-and-adult-care/mac-20547828"
+    ]
+  },
+  {
+    "id": "hopkins-neuro-visual",
+    "name": "Johns Hopkins: Neuro-Ophthalmology / Neuro-Visual Clinic",
+    "kind": "Care program",
+    "location": "Baltimore, Maryland, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Eye",
+      "Brain"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Neurological causes of abnormal eye movements, double vision and other visual symptoms.",
+    "why_relevant": "A specialist assessment route for eye movement or alignment problems alongside neurological symptoms.",
+    "url": "https://www.hopkinsmedicine.org/neurology-neurosurgery/specialty-areas/vestibular/clinical-programs",
+    "search_terms": "eye vision alignment deviation outward eye double vision brain tumor numbness balance gait",
+    "caution": "The page describes neuro-visual disorders generally. Confirm age acceptance and suitability for the specific tumor history; a visible eye change alone does not identify its cause.",
+    "phone": "",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.hopkinsmedicine.org/neurology-neurosurgery/specialty-areas/vestibular/clinical-programs"
+    ]
+  },
+  {
+    "id": "hopkins-allchildrens-rehab",
+    "name": "Johns Hopkins All Children’s: Pediatric Rehabilitation Medicine",
+    "kind": "Care program",
+    "location": "St. Petersburg, Florida, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Disease"
+    ],
+    "focus": "Pediatric rehabilitation and spasticity management.",
+    "why_relevant": "A pediatric rehabilitation entry point for assessment of function and muscle tone, with related specialty services.",
+    "url": "https://www.hopkinsmedicine.org/all-childrens-hospital/services/institute-brain-protection-sciences/programs-and-services/pediatric-rehabilitation-medicine",
+    "search_terms": "child pediatric hand clenching clenched spasticity dystonia weakness rehab brain injury brain tumor arm gait occupational therapy",
+    "caution": "This is a general pediatric rehabilitation service, not a confirmed tumor-specific hand clinic. Ask about diagnosis eligibility and age limits.",
+    "phone": "",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.hopkinsmedicine.org/all-childrens-hospital/services/institute-brain-protection-sciences/programs-and-services/pediatric-rehabilitation-medicine"
+    ]
+  },
+  {
+    "id": "mayo-nicholas-pulos",
+    "name": "Nicholas A. Pulos, MD: Mayo Clinic",
+    "kind": "Specialist profile",
+    "location": "Rochester, Minnesota, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Peripheral nerve",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Trauma"
+    ],
+    "focus": "Hand and microvascular surgery, including traumatic and birth-related brachial plexus injuries.",
+    "why_relevant": "An official specialist profile to explore if a brachial plexus or peripheral nerve injury has been identified.",
+    "url": "https://www.mayoclinic.org/biographies/pulos-nicholas-a-m-d/bio-20447301",
+    "search_terms": "brachial plexus peripheral nerve trauma accident hand arm nerve transfer reconstruction surgery",
+    "caution": "Listed for documented clinical focus, not as a ranked best doctor. Confirm current availability, age eligibility and the appropriate team before travel.",
+    "phone": "",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.mayoclinic.org/biographies/pulos-nicholas-a-m-d/bio-20447301"
+    ]
+  },
+  {
+    "id": "columbia-postoperative-motor-trial",
+    "name": "Columbia University: Postoperative Motor Recovery Study",
+    "kind": "Research study",
+    "location": "New York, New York, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm"
+    ],
+    "causes": [
+      "Brain tumor"
+    ],
+    "focus": "Pilot rTMS study after surgical removal of a brain tumor, NCT07530536.",
+    "why_relevant": "A research contact for postoperative movement deficits. The registry lists recruiting; the site must confirm current openings and eligibility.",
+    "url": "https://www.cancer.columbia.edu/cancer-types-care/clinical-trials/find-clinical-trial/repetitive-transcranial-magnetic-stimulation-enhancing-motor-recovery-post-operative-brain-tumor-patients",
+    "search_terms": "brain tumor hand weakness motor movement rehab magnetic stimulation TMS clinical trial surgery",
+    "caution": "Ages 22–65; surgical resection required; chronic deficits must be within three years of surgery. Any clinical seizure history is excluded. Not established treatment and not an eligibility determination.",
+    "phone": "212-342-5162",
+    "email": "cancerclinicaltrials@cumc.columbia.edu",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://www.cancer.columbia.edu/cancer-types-care/clinical-trials/find-clinical-trial/repetitive-transcranial-magnetic-stimulation-enhancing-motor-recovery-post-operative-brain-tumor-patients",
+      "https://clinicaltrials.gov/study/NCT07530536"
+    ]
+  }
+]

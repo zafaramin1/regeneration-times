@@ -3,6 +3,9 @@
 
   var TRIALS = "Clinical Trials & Experimental Opportunities";
   var articles = [];
+  var careResources = [];
+  var careResourcesLoaded = false;
+  var careResourceError = false;
   var sortMode = "relevance";
   var query = "";
   var publicationWindow = "all";
@@ -138,6 +141,7 @@
       .replace(/\b(weakness|paresis|hemiparesis|hemiplegia|paralysis|paralyzed|paralysed)\b/g, "weak")
       .replace(/\b(dexterity|coordination|coordinated|clumsy|clumsiness)\b/g, "dexterity")
       .replace(/\b(rehabilitation|rehab|occupational therapy|physiotherapy|physical therapy)\b/g, "rehab")
+      .replace(/\b(clenches|clenching|clenched)\b/g, "clench")
       .replace(/\b(fingers|finger|hands)\b/g, "hand")
       .replace(/\b(repairing|repaired|regeneration|regenerative|regrowth)\b/g, "repair")
       .replace(/[^a-z0-9]+/g, " ").trim();
@@ -805,11 +809,12 @@
     document.getElementById("saved-only").setAttribute("aria-pressed", String(savedOnly));
     document.getElementById("saved-count").textContent = savedIds.filter(function (id) { return articles.some(function (a) { return a.id === id; }); }).length;
 
+    renderCareResources();
     var view = buildSections(articles);
     var needle = query.trim();
     renderFinder(view.filteredCount);
 
-    navEl.innerHTML = '<a href="#how-to">How to read</a><a href="#finder">Find research</a>' +
+    navEl.innerHTML = '<a href="#how-to">How to read</a><a href="#finder">Find research</a><a href="#care-directory" data-open-care>Find care</a>' +
       view.sections.filter(function (section) { return ["top", "latest", "search", "trials"].indexOf(section.kind) !== -1 || section.id === "brain-tumor-recovery"; }).map(function (section) {
         return '<a href="#' + escapeHtml(section.id) + '">' + escapeHtml(section.title) + '</a>';
       }).join("");
@@ -868,6 +873,60 @@
         (updated ? " · file updated " + formatDate(updated) : "");
     }
   }
+
+  function matchesCareResource(resource) {
+    var areaMatch = !filters.body_area.length || filters.body_area.some(function (area) { return resource.body_areas.indexOf(area) !== -1; });
+    var causeMatch = !filters.cause.length || filters.cause.some(function (cause) { return resource.causes.indexOf(cause) !== -1; });
+    var text = normalizeSearch([resource.name, resource.focus, resource.why_relevant, resource.search_terms, resource.location].join(" "));
+    var wordsMatch = searchTerms(query).every(function (term) { return text.indexOf(term) !== -1; });
+    var age = document.getElementById("care-age").value;
+    var region = document.getElementById("care-region").value;
+    var ageMatch = age === "all" || resource.age_groups.indexOf(age) !== -1;
+    var inFlorida = resource.location.indexOf("Florida") !== -1;
+    var regionMatch = region === "all" || (region === "Florida" ? inFlorida : !inFlorida);
+    return areaMatch && causeMatch && wordsMatch && ageMatch && regionMatch;
+  }
+  function renderCareResources() {
+    if (!careResourcesLoaded) { return; }
+    var grid = document.getElementById("care-resource-grid");
+    var count = document.getElementById("care-resource-count");
+    var status = document.getElementById("care-resource-status");
+    if (careResourceError) { count.textContent = "Directory temporarily unavailable"; status.textContent = "We could not load care resources. Article search remains available."; grid.innerHTML = ""; return; }
+    var matches = careResources.filter(matchesCareResource);
+    count.textContent = matches.length + (matches.length === 1 ? " resource" : " resources");
+    status.textContent = matches.length ? matches.length + " of " + careResources.length + " listed resources. Confirm suitability, appointments and trial openings directly." : "No listed care resources match this combination yet. Try fewer search words or a different age/location filter. This does not mean no suitable care exists.";
+    grid.innerHTML = matches.map(function (resource) {
+      var age = resource.age_groups.indexOf("confirm") !== -1 ? "Age eligibility: confirm with program" : resource.age_groups.map(function (a) { return a === "adult" ? "Adults" : "Children / adolescents"; }).join(" · ");
+      var contact = (resource.phone ? '<p class="resource-contact">Public contact: ' + escapeHtml(resource.phone) + '</p>' : '') +
+        (resource.email ? '<p class="resource-contact">Research email: <a href="mailto:' + escapeHtml(resource.email) + '">' + escapeHtml(resource.email) + '</a></p>' : '');
+      return '<details class="care-resource"><summary><span class="resource-kind">' + escapeHtml(resource.kind) + '</span><span class="resource-name">' + escapeHtml(resource.name) + '</span><span class="resource-location">' + escapeHtml(resource.location) + '</span></summary>' +
+        '<p class="resource-age">' + escapeHtml(age) + '</p><p><strong>Focus:</strong> ' + escapeHtml(resource.focus) + '</p><p>' + escapeHtml(resource.why_relevant) + '</p>' +
+        '<p class="resource-caution">' + escapeHtml(resource.caution) + '</p>' + contact +
+        '<p><a class="resource-official" href="' + escapeHtml(resource.url) + '" target="_blank" rel="noopener noreferrer">Official program / contact page ↗</a></p>' +
+        '<p class="resource-checked">Source checked ' + escapeHtml(formatDate(resource.verified_on)) + '. Not confirmation of appointment availability.</p></details>';
+    }).join("");
+  }
+  document.getElementById("care-age").addEventListener("change", renderCareResources);
+  document.getElementById("care-region").addEventListener("change", renderCareResources);
+  document.addEventListener("click", function (event) {
+    if (event.target.closest("[data-open-care]")) { document.getElementById("care-directory-panel").open = true; }
+    var button = event.target.closest("[data-care-path]");
+    if (!button) { return; }
+    filters = emptyFilters(); query = ""; searchInput.value = ""; publicationWindow = "all"; humanOnly = false; savedOnly = false;
+    if (button.getAttribute("data-care-path") === "tumor") { filters.body_area = ["Hand"]; filters.cause = ["Brain tumor"]; }
+    else { filters.body_area = ["Arm", "Hand"]; filters.cause = ["Trauma"]; }
+    document.getElementById("care-age").value = "all";
+    document.getElementById("care-region").value = "all";
+    document.getElementById("care-directory-panel").open = true;
+    writeHash(); render();
+    document.getElementById("care-directory").scrollIntoView({block:"start",behavior:REDUCED_MOTION ? "auto" : "smooth"});
+  });
+  fetch("data/resources.json", {cache:"no-cache"}).then(function (response) {
+    if (!response.ok) { throw new Error("Resources unavailable"); } return response.json();
+  }).then(function (data) {
+    if (!Array.isArray(data)) { throw new Error("Invalid resources"); }
+    careResources = data; careResourcesLoaded = true; renderCareResources();
+  }).catch(function () { careResourcesLoaded = true; careResourceError = true; renderCareResources(); });
 
   fetch("data/articles.json", { cache: "no-cache" })
     .then(function (response) {

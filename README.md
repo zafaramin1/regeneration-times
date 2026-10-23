@@ -117,3 +117,14 @@ Multiple editors or bots may add stories. Before every write:
 5. Confirm that the result is valid JSON with unique IDs. Story-only contributors should not change presentation files.
 
 Prioritize neurological problems and recovery associated with brain tumors. Clearly identify the evidence level and actual source publication date. Recheck trial recruitment status from its registry. A daily search is a target, not a reason to invent news, overstate results, or publish an unverified claim.
+
+
+## Verified care resources
+
+`data/resources.json` holds public program pages, specialist profiles and research contacts. The care directory is a separate, collapsible section connected to query words, body-area and cause selections. Article publication-date, approach, stage, saved-reading and animal-exclusion settings do not imply a filter on medical services. Age and location filters inside the directory apply only to resources. Services with unconfirmed age acceptance appear only under All ages. Recovery shortcuts set generic topic filters; they never publish a patient's history or diagnose the cause of symptoms.
+
+Required resource fields: `id`, `name`, `kind` (Care program, Specialist profile, Research study), `location`, `age_groups` (adult, pediatric, or confirm), `body_areas`, `causes`, `focus`, `why_relevant`, `url`, `search_terms`, `caution`, `verified_on`, `source_urls`. Optional public `phone` and `email` must appear in an official institutional page or registry. Use the registry's research-contact email, not a guessed doctor's address. Match fields can indicate a potential assessment route for a symptom even when a general clinic has not explicitly confirmed the underlying diagnosis; the caution must state that distinction. Never say acceptance, availability, eligibility or clinical benefit is confirmed from a keyword match.
+
+The directory is an initial curated list, not a top-ten ranking or endorsement. Do not manufacture best-doctor scores or infer a doctor's fit from a hospital's general ranking. Expand by demonstrated condition-specific clinical focus, adult/pediatric population, access route and geography. Source-check dates mean a page was reviewed, not that the program was contacted. Do not claim an email or phone works without testing it, and do not contact providers without the owner's explicit request.
+
+Resource curation may update `data/resources.json` alongside article data. Before each write, fetch the current files and SHAs, deduplicate stable IDs, institutional programs and canonical URLs, preserve others' entries and use a branch-head lease. Do not add private patient information. Do not diagnose symptoms from descriptions. Trial indexing must inspect inclusion AND exclusion criteria, because a condition mentioned only as an exclusion is not a match; provide the exact registry link, source update date and caveats. Unproven cell products must not be presented as established nerve-repair treatments.

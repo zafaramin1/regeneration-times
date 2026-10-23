@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261023c">
+  <link rel="stylesheet" href="styles.css?v=20261023d">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -70,6 +70,11 @@
       </div>
     </div>
     <p class="search-help" id="search-help">Search in your own words. Words can appear anywhere in a story; common spellings and related terms are matched.</p>
+    <div class="recovery-paths" aria-label="Recovery starting points">
+      <span>Start with a situation</span>
+      <button type="button" data-care-path="tumor">Brain tumor + hand function</button>
+      <button type="button" data-care-path="injury">Arm or hand loss after an accident</button>
+    </div>
     <div class="search-suggestions" aria-label="Search examples"><span>Try</span>
       <button type="button" data-search-example="hand brain tumor">Hand + brain tumor</button>
       <button type="button" data-search-example="dexterity">Dexterity</button>
@@ -94,6 +99,24 @@
       <p class="finder-status" id="finder-status" aria-live="polite"></p>
     </section>
     <p class="result-count" id="result-count" aria-live="polite"></p>
+  </section>
+
+  <section class="care-directory" id="care-directory" aria-label="Find care resources">
+    <details id="care-directory-panel">
+      <summary><span>Find care &amp; specialists</span><span id="care-resource-count">Loading verified resources…</span></summary>
+      <p class="care-directory-lede">Programs, specialist profiles and research contacts to explore with your care team. These are starting points based on documented services, not a ranked list or a diagnosis.</p>
+      <p class="care-directory-scope">Matches your search words, body area and cause. Publication date and study-stage filters apply to articles only. A match does not confirm that a program will accept a patient.</p>
+      <div class="care-directory-controls">
+        <label for="care-age">Age group <select id="care-age"><option value="all">All / not specified</option><option value="adult">Adult services</option><option value="pediatric">Pediatric services</option></select></label>
+        <label for="care-region">Location <select id="care-region"><option value="all">All listed locations</option><option value="Florida">Florida</option><option value="other">Other US locations</option></select></label>
+      </div>
+      <p id="care-resource-status" role="status"></p>
+      <div class="care-resource-grid" id="care-resource-grid"></div>
+      <details class="care-next-step"><summary>Not sure which specialist to look for?</summary>
+        <p>Ask your treating team to identify whether the main problem is in the brain or spinal cord, the brachial plexus or an individual nerve, and whether muscle overactivity or fixed shortening also limits movement. A rehabilitation physician can help assess function; a movement-disorders neurologist may assess abnormal postures; a peripheral-nerve team evaluates nerve injury. Eye-movement concerns may need neuro-ophthalmology.</p>
+        <p>These are assessment routes, not a diagnosis from symptoms. Sudden new weakness, numbness, vision or walking changes require urgent medical assessment.</p>
+      </details>
+    </details>
   </section>
 
   <main id="content">
@@ -136,7 +159,7 @@
       <p class="community-note">When signup opens, your email will be private and used only for the updates you request. Ideas and stories will be reviewed before publication.</p>
     </form>
   </dialog>
-  <script src="share.js?v=20261023c"></script>
-  <script src="app.js?v=20261023c"></script>
+  <script src="share.js?v=20261023d"></script>
+  <script src="app.js?v=20261023d"></script>
 </body>
 </html>
