@@ -778,5 +778,30 @@
     "care_question": "Has this approach reached a registered human study for my specific eye condition?",
     "relevance_score": 6,
     "verified_on": "2026-10-23"
+  },
+  {
+    "id": "meningioma-multidisciplinary-inpatient-rehab-2026",
+    "title": "Daily independence improved during rehabilitation after meningioma treatment, adult study finds",
+    "source": "Brain Sciences",
+    "url": "https://doi.org/10.3390/brainsci16030263",
+    "date_published": "2026-02-26",
+    "date_added": "2026-10-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "quick_read": "Researchers reviewed 151 adults receiving rehabilitation after treatment for a meningioma, a type of brain tumor; most had surgery. Functional outcomes were analyzed in 53 with measurable daily-living limitations on admission. Their independence scores improved during rehabilitation. Without an untreated comparison group, the study cannot separate rehabilitation effects from natural recovery.",
+    "summary": "In the 53-person subgroup, average Barthel Index scores rose from 66.8 to 75.2. Improvements in dressing, mobility and stair climbing remained significant after adjustment for multiple comparisons.",
+    "why_it_matters": "Adds tumor-specific evidence about daily independence after treatment.",
+    "evidence_level": "Adult single-center retrospective cohort; 151 reviewed, 53 in functional-outcome analysis",
+    "limitation": "No untreated comparison group. This does not establish a specific treatment for hand clenching or demonstrate nerve regeneration.",
+    "care_question": "Could multidisciplinary neurorehabilitation address my daily-function goals, and how would improvement be measured?",
+    "date_note": "Background research published February 26, 2026, added October 23, 2026. This is not a new study announcement today.",
+    "verified_on": "2026-10-23",
+    "relevance_score": 8,
+    "relevance_reason": "Tumor-specific rehabilitation and daily-function outcomes; observational evidence, not a hand-specific intervention."
   }
 ]

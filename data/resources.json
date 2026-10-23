@@ -239,5 +239,36 @@
       "https://www.cancer.columbia.edu/cancer-types-care/clinical-trials/find-clinical-trial/repetitive-transcranial-magnetic-stimulation-enhancing-motor-recovery-post-operative-brain-tumor-patients",
       "https://clinicaltrials.gov/study/NCT07530536"
     ]
+  },
+  {
+    "id": "brooks-brain-tumor-rehabilitation",
+    "name": "Brooks Rehabilitation: Brain Tumor Rehabilitation",
+    "kind": "Care program",
+    "location": "Jacksonville and other Florida locations, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor"
+    ],
+    "focus": "Rehabilitation for brain tumor related movement, coordination, daily-living and cognitive difficulties before, during or after treatment.",
+    "why_relevant": "The program explicitly describes brain tumor rehabilitation with physical, occupational and speech therapy, plus balance and vestibular services. A cancer rehabilitation navigator helps coordinate with cancer care providers.",
+    "url": "https://brooksrehab.org/conditions/brain-tumor/",
+    "search_terms": "brain tumor meningioma hand arm weakness motor coordination rehab occupational therapy gait balance walking",
+    "caution": "Confirm age eligibility, the appropriate location, referral and insurance requirements, and availability of a hand-function or spasticity assessment. The program page does not confirm that every site offers every service. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "(904) 345-7277 (outpatient new-patient scheduling; referral)",
+    "email": "",
+    "verified_on": "2026-10-23",
+    "source_urls": [
+      "https://brooksrehab.org/conditions/brain-tumor/",
+      "https://brooksrehab.org/contact-us/",
+      "https://brooksrehab.org/become-a-patient/"
+    ]
   }
 ]
