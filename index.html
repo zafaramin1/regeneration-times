@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261023h">
+  <link rel="stylesheet" href="styles.css?v=20261023i">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -62,7 +62,7 @@
     <div class="tools">
       <form id="search-form" class="search" role="search" autocomplete="off">
         <label for="q">Search</label>
-        <input id="q" name="q" type="search" placeholder="Try hand weakness after brain tumour" aria-describedby="search-help" enterkeyhint="search">
+        <div class="search-entry"><input id="q" name="q" type="search" placeholder="Try hand weakness after brain tumour" aria-describedby="search-help search-status" enterkeyhint="search"><button class="search-submit" type="submit">Search</button></div>
       </form>
       <div class="sort" role="group" aria-label="Sort stories">
         <span class="sort-label" id="sort-label">Sort</span>
@@ -70,6 +70,7 @@
         <button type="button" id="sort-newest" aria-pressed="false">Newest</button>
       </div>
     </div>
+    <div class="search-response"><p id="search-status" role="status" aria-atomic="true">Loading stories…</p><a id="search-view" href="#content" hidden>View results ↓</a></div>
     <p class="search-help" id="search-help">Search in your own words. Words can appear anywhere in a story; common spellings and related terms are matched.</p>
     <div class="recovery-paths" aria-label="Recovery starting points">
       <span>Start with a situation</span>
@@ -99,7 +100,7 @@
       <div class="finder-groups" id="finder-groups"></div>
       <p class="finder-status" id="finder-status" aria-live="polite"></p>
     </section>
-    <p class="result-count" id="result-count" aria-live="polite"></p>
+    <p class="result-count" id="result-count"></p>
   </section>
 
   <section class="guided-results" id="guided-results" aria-labelledby="guided-results-heading" hidden>
@@ -129,7 +130,7 @@
     </details>
   </section>
 
-  <main id="content">
+  <main id="content" tabindex="-1" aria-label="Research stories">
     <p class="loading" id="loading">Loading stories…</p>
   </main>
 
@@ -262,9 +263,9 @@
     </div>
   </dialog>
 
-  <script src="guided.js?v=20261023h"></script>
-  <script src="share.js?v=20261023h"></script>
-  <script src="care-desk.js?v=20261023h"></script>
-  <script src="app.js?v=20261023h"></script>
+  <script src="guided.js?v=20261023i"></script>
+  <script src="share.js?v=20261023i"></script>
+  <script src="care-desk.js?v=20261023i"></script>
+  <script src="app.js?v=20261023i"></script>
 </body>
 </html>

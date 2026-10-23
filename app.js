@@ -63,6 +63,19 @@
 
   document.getElementById("search-form").addEventListener("submit", function (event) {
     event.preventDefault();
+    query = searchInput.value;
+    writeHash();
+    render();
+    viewSearchResults();
+  });
+
+  function viewSearchResults() {
+    contentEl.focus({ preventScroll: true });
+    contentEl.scrollIntoView({ block: "start", behavior: REDUCED_MOTION ? "auto" : "smooth" });
+  }
+  document.getElementById("search-view").addEventListener("click", function (event) {
+    event.preventDefault();
+    viewSearchResults();
   });
 
   searchInput.addEventListener("input", function () {
@@ -825,6 +838,12 @@
     var view = buildSections(articles);
     var needle = query.trim();
     renderFinder(view.filteredCount);
+    var activeSearch = !!needle || hasFilters() || hasReadingOptions();
+    document.getElementById("search-status").textContent = !articlesReady ? "Loading stories…" :
+      activeSearch ? (view.filteredCount ? view.filteredCount + (view.filteredCount === 1 ? " matching story" : " matching stories") : "No matching stories") +
+        (needle ? ' for “' + needle + '”' : "") + (hasFilters() || hasReadingOptions() ? " with your selected filters." : ".") :
+        articles.length + " stories available. Results update as you type.";
+    document.getElementById("search-view").hidden = !articlesReady || !activeSearch;
 
     navEl.innerHTML = '<a href="#how-to">How to read</a><a href="#finder">Find research</a><a href="#care-directory" data-open-care>Find care</a>' +
       view.sections.filter(function (section) { return ["top", "latest", "search", "trials"].indexOf(section.kind) !== -1 || section.id === "brain-tumor-recovery"; }).map(function (section) {
@@ -975,5 +994,7 @@
     .catch(function (error) {
       contentEl.innerHTML = '<p class="empty">' + escapeHtml(error.message || "Could not load stories.") + " Open this site over a local server, not as a file on disk.</p>";
       countEl.textContent = "";
+      document.getElementById("search-status").textContent = "Stories could not load. Please reload the page to try again.";
+      document.getElementById("search-view").hidden = true;
     });
 })();

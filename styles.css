@@ -1873,3 +1873,15 @@ body.care-desk-open { overflow: hidden; }
 @media (max-width: 540px) { .care-desk-dialog { width: calc(100% - .7rem); height: calc(100dvh - .7rem); max-height: calc(100dvh - .7rem); margin: .35rem; }.care-desk-body { padding: 1rem; }.care-desk-dialog .form-dialog-head { padding: .85rem 1rem; }.care-desk-launcher { right: .75rem; bottom: .75rem; }.care-desk-body .quiet-button,.care-desk-body .reader-action { min-height: 2.6rem; display: inline-flex; align-items: center; }.care-desk-tabs button { min-height: 2.75rem; } }
 @media print { .care-desk-launcher,.care-desk-dialog,.masthead-care-desk { display: none !important; } }
 .desk-backup-controls { border-top: 3px double #121212; padding-top: .9rem; margin-top: 1.2rem; }.desk-backup-controls > summary { cursor: pointer; font: 600 .72rem/1.6 var(--sans); color: #702c3a; }.desk-backup-controls .desk-transfer { margin-top: .7rem; padding-top: 0; border: 0; }
+
+/* Keep live search feedback next to the input, with an explicit route to results. */
+.search-entry { display: flex; align-items: stretch; gap: .55rem; }
+.reader-index .search-entry input { flex: 1 1 0; width: 0; min-width: 0; }
+.search-submit { flex: 0 0 auto; padding: .65rem 1rem; border: 1px solid var(--ink); border-radius: 2px; background: var(--ink); color: var(--paper); font: 600 .85rem var(--sans); cursor: pointer; }
+.search-response { display: flex; align-items: baseline; flex-wrap: wrap; gap: .25rem 1rem; margin: .6rem 0; font: .8rem/1.5 var(--sans); }
+.search-response p { margin: 0; }
+.search-response a { color: var(--accent); text-underline-offset: 3px; font-weight: 600; }
+#content { scroll-margin-top: 1rem; }
+#content:focus { outline: none; }
+@media (max-width: 480px) { .search-submit { padding-inline: .65rem; } }
+@media print { .search-submit, .search-response { display: none; } }
