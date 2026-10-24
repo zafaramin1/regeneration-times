@@ -376,7 +376,7 @@
         }).join('<span class="dot" aria-hidden="true"> · </span>') + "</p>"
       : "";
     var saved = savedIds.indexOf(article.id) !== -1;
-    var readingActions = '<div class="story-tools"><span class="evidence-marker">' + escapeHtml(article.tags.stage) + '</span><button type="button" data-save-story="' + escapeHtml(article.id) + '" aria-pressed="' + saved + '" aria-label="' + (saved ? 'Unsave: ' : 'Save: ') + escapeHtml(article.title) + '">' + (saved ? 'Saved' : 'Save') + '</button></div>';
+    var readingActions = '<div class="story-tools"><span class="evidence-marker">' + escapeHtml(article.tags.stage) + '</span><button type="button" data-save-story="' + escapeHtml(article.id) + '" aria-pressed="' + saved + '" aria-label="' + (saved ? 'Unsave: ' : 'Save: ') + escapeHtml(article.title) + '">' + (saved ? 'Saved' : 'Save') + '</button><button type="button" data-prepare-inquiry="' + escapeHtml(article.id) + '">Prepare an inquiry</button></div>';
     var quick = article.quick_read
       ? '<div class="quick-read" data-advance><p class="qr-label">Quick Read</p><p class="qr-text">' + escapeHtml(article.quick_read) + "</p></div>"
       : "";
@@ -502,6 +502,8 @@
 
   contentEl.addEventListener("click", function (event) {
     var target = event.target;
+    var inquiry = target.closest("[data-prepare-inquiry]");
+    if (inquiry) { var story=articles.find(function(a){return a.id===inquiry.getAttribute("data-prepare-inquiry");}); if(story) { var resource=careResources.find(function(r){return r.url.replace(/\/$/,"")===(story.trial_url||story.url).replace(/\/$/,"");}); window.dispatchEvent(new CustomEvent("rt-prepare-inquiry",{detail:{story:story,resource:resource||null}})); } return; }
     var save = target.closest("[data-save-story]");
     if (save) { saveStory(save.getAttribute("data-save-story")); return; }
     var note = target.closest("[data-copy-note]");
@@ -934,12 +936,14 @@
         '<p class="resource-age">' + escapeHtml(age) + '</p><p><strong>Focus:</strong> ' + escapeHtml(resource.focus) + '</p><p>' + escapeHtml(resource.why_relevant) + '</p>' +
         '<p class="resource-caution">' + escapeHtml(resource.caution) + '</p>' + contact +
         '<p><a class="resource-official" href="' + escapeHtml(resource.url) + '" target="_blank" rel="noopener noreferrer">Official program / contact page ↗</a></p>' +
-        '<p class="resource-checked">Source checked ' + escapeHtml(formatDate(resource.verified_on)) + '. Not confirmation of appointment availability.</p></details>';
+        '<button type="button" class="quiet-button" data-resource-inquiry="' + escapeHtml(resource.id) + '">Prepare an inquiry</button><p class="resource-checked">Source checked ' + escapeHtml(formatDate(resource.verified_on)) + '. Not confirmation of appointment availability.</p></details>';
     }).join("");
   }
   document.getElementById("care-age").addEventListener("change", renderCareResources);
   document.getElementById("care-region").addEventListener("change", renderCareResources);
   document.addEventListener("click", function (event) {
+    var request=event.target.closest("[data-resource-inquiry]");
+    if(request){var selected=careResources.find(function(r){return r.id===request.getAttribute("data-resource-inquiry");});if(selected)window.dispatchEvent(new CustomEvent("rt-prepare-inquiry",{detail:{resource:selected}}));return;}
     if (event.target.closest("[data-open-care]")) { document.getElementById("care-directory-panel").open = true; }
     var button = event.target.closest("[data-care-path]");
     if (!button) { return; }

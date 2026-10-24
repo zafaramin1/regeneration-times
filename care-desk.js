@@ -12,7 +12,7 @@
   function emit(name, detail) { window.dispatchEvent(new CustomEvent(name,{detail:detail})); }
   function notify(message) { feedback.textContent=message; }
   function switchPanel(name) {
-    if (["context","notes","files"].indexOf(name)===-1)name="context";
+    if (["context","notes","inquiries","files"].indexOf(name)===-1)name="context";
     dialog.querySelectorAll("[data-desk-panel]").forEach(function(panel){panel.hidden=panel.getAttribute("data-desk-panel")!==name;});
     dialog.querySelectorAll("[data-desk-tab]").forEach(function(button){button.setAttribute("aria-pressed",String(button.getAttribute("data-desk-tab")===name));});
     document.getElementById("desk-clear-confirm").hidden=true;
@@ -27,6 +27,7 @@
   dialog.addEventListener("close",function(){document.body.classList.remove("care-desk-open");document.getElementById("desk-clear-confirm").hidden=true;if(returnFocus&&returnFocus.isConnected)returnFocus.focus({preventScroll:true});});
   dialog.addEventListener("click",function(event){if(event.target!==dialog)return;var box=dialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.close();});
   dialog.querySelectorAll("[data-desk-tab]").forEach(function(button){button.addEventListener("click",function(){switchPanel(button.getAttribute("data-desk-tab"));});});
+  window.addEventListener("rt-open-inquiries",function(){open("inquiries");});
   function contextLines() {
     if(!context)return ["No questionnaire answers entered."];
     return ["Known condition/event: "+(context.cause||"Not known / not specified"),"Areas: "+(context.areas.join(", ")||"Not specified"),"Age group: "+(context.age==="all"?"Not specified":context.age),"Function: "+(context.functions.map(function(key){return functions[key];}).join(", ")||"Not specified"),"First appeared: "+timing[context.timing]].concat(context.site?["Reported injury site: "+site[context.site]]:[]).concat(context.context?["Additional context: "+context.context]:[]);

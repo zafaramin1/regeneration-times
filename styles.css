@@ -1885,3 +1885,17 @@ body.care-desk-open { overflow: hidden; }
 #content:focus { outline: none; }
 @media (max-width: 480px) { .search-submit { padding-inline: .65rem; } }
 @media print { .search-submit, .search-response { display: none; } }
+
+/* Inquiry workflow uses the journal typography and restrained burgundy actions. */
+.care-desk-tabs { flex-wrap: wrap; }
+#inquiry-form { border-top: 3px double var(--ink); padding-top: 1rem; margin-top: 1rem; }
+#inquiry-form input:not([type=checkbox]), #inquiry-form textarea { box-sizing: border-box; width: 100%; padding: .65rem; border: 1px solid var(--hairline); background: #fffaf0; color: var(--ink); font: .85rem/1.5 var(--sans); }
+#inquiry-form .field-label { margin-top: .9rem; }
+#inquiry-source-title { font: 600 1.25rem/1.3 var(--serif); margin: .5rem 0; }
+#inquiry-history { padding-left: 1.2rem; font: .74rem/1.6 var(--sans); }
+#inquiry-status { color: #702c3a; font: .8rem/1.5 var(--sans); }
+.inquiry-remember { display: flex; gap: .6rem; align-items: flex-start; font: .8rem/1.5 var(--sans); }
+.inquiry-list-item { display: block; width: 100%; padding: .7rem; margin: .4rem 0; text-align: left; border: 1px solid var(--hairline); background: transparent; font: .78rem/1.5 var(--sans); color: var(--ink); cursor: pointer; }
+#inquiry-contacts { display: flex; flex-wrap: wrap; gap: .4rem; margin: .6rem 0; }
+.story-tools { flex-wrap: wrap; gap: .45rem; }
+.story-tools button[data-prepare-inquiry] { color: #702c3a; }

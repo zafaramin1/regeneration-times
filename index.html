@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261023i">
+  <link rel="stylesheet" href="styles.css?v=20261024j">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -240,8 +240,8 @@
     <div class="form-dialog-head"><div><p class="small-kicker">Alongside your journal</p><h2 id="care-desk-heading">My care desk</h2></div><button type="button" class="form-dialog-close" id="care-desk-close" aria-label="Close my care desk">× Close</button></div>
     <div class="care-desk-body">
       <p class="care-desk-intro">Your context, reading and questions, here on the same page.</p>
-      <p class="care-desk-privacy"><strong>This visit only.</strong> Personal entries stay in page memory. Export a backup before reloading or closing. They are not sent to the editors, Microsoft or GPT.</p>
-      <div class="care-desk-tabs" role="group" aria-label="Care desk sections"><button type="button" data-desk-tab="context" aria-pressed="true">My context</button><button type="button" data-desk-tab="notes" aria-pressed="false">Notes &amp; reading</button><button type="button" data-desk-tab="files" aria-pressed="false">Files &amp; AI</button></div>
+      <p class="care-desk-privacy"><strong>This visit only.</strong> Personal entries stay in page memory. Export a backup before reloading or closing. They are not sent to the editors, Microsoft or GPT automatically. Inquiries have a separate optional device history.</p>
+      <div class="care-desk-tabs" role="group" aria-label="Care desk sections"><button type="button" data-desk-tab="context" aria-pressed="true">My context</button><button type="button" data-desk-tab="notes" aria-pressed="false">Notes &amp; reading</button><button type="button" data-desk-tab="inquiries" aria-pressed="false">Inquiries</button><button type="button" data-desk-tab="files" aria-pressed="false">Files &amp; AI</button></div>
       <section id="desk-context-panel" data-desk-panel="context" aria-labelledby="desk-context-heading">
         <h3 id="desk-context-heading">Start with what you know</h3><p>Use the journal’s short questionnaire. Unknowns are welcome. Changes before treatment stay distinct from changes after it.</p>
         <div id="desk-context-summary"><p class="community-note">No questionnaire answers entered yet.</p></div>
@@ -254,8 +254,33 @@
         <div class="desk-reading-head"><h4>Saved reading for my note</h4><button type="button" class="quiet-button" id="desk-find-reading">Browse this journal</button></div><p class="community-note">Use Save on any story. Article IDs use the journal’s existing browser saved list; personal notes do not.</p><div id="desk-reading-list"><p class="community-note">Loading the journal’s saved reading…</p></div>
         <button type="button" class="reader-action" id="desk-download-note">Download appointment note</button><p class="community-note">Includes your entered context, questions, timeline and saved source links. Review personal details before sharing. Nothing is emailed or submitted.</p>
       </section>
+      <section data-desk-panel="inquiries" hidden aria-labelledby="inquiry-heading">
+        <h3 id="inquiry-heading">From finding to follow-up</h3>
+        <p>Use Prepare an inquiry on a story or care resource. Review a draft, open it in your email app, then record what you actually sent.</p>
+        <p class="guided-scope">Nothing is sent automatically. Replies and sent status are recorded by you. Email and Microsoft synchronization are not connected.</p>
+        <label class="inquiry-remember"><input type="checkbox" id="inquiry-remember"> Remember inquiry history in this browser</label><p class="community-note">Optional device storage, separate from your visit-only care notes. Anyone using this browser profile may be able to read it. It is not encrypted or shared with your assistant. Export a copy to keep or share privately.</p>
+        <div class="guide-actions"><button type="button" class="quiet-button" id="inquiry-export">Export inquiry log</button><label class="quiet-button" for="inquiry-import">Open inquiry log</label><input id="inquiry-import" type="file" accept=".json,application/json" hidden><button type="button" class="quiet-button" id="inquiry-clear">Clear inquiry log</button><button type="button" class="quiet-button" id="inquiry-new">New inquiry</button></div>
+        <div id="inquiry-clear-confirm" hidden><p>Clear all inquiries from this page and this browser? Export a copy first if needed.</p><button type="button" class="quiet-button" id="inquiry-clear-yes">Clear inquiries now</button><button type="button" class="quiet-button" id="inquiry-clear-no">Keep inquiries</button></div><p id="inquiry-status" role="status"></p><div id="inquiry-list"></div>
+        <form id="inquiry-form" autocomplete="off" hidden>
+          <h4 id="inquiry-source-title"></h4><p id="inquiry-source-note" class="community-note"></p>
+          <a id="inquiry-source-link" target="_blank" rel="noopener noreferrer">Check original source ↗</a>
+          <label class="field-label" for="inquiry-recipient">Recipient email</label><input id="inquiry-recipient" type="email" maxlength="200" placeholder="Published research or program contact">
+          <p id="inquiry-contact-note" class="community-note"></p><div id="inquiry-contacts" aria-label="Published contacts"></div>
+          <label class="field-label" for="inquiry-subject">Subject</label><input id="inquiry-subject" maxlength="250" required>
+          <label class="field-label" for="inquiry-question">What would you like to ask? (optional)</label><textarea id="inquiry-question" rows="3" maxlength="2000" placeholder="Ask about assessment, study criteria, availability or a secure referral route. Avoid names and identifying medical details."></textarea>
+          <div class="guide-actions"><button type="button" class="quiet-button" id="inquiry-template">Use standard draft</button><button type="button" class="reader-action" id="inquiry-ai">Draft with AI</button></div>
+          <p class="community-note">AI opens a small private drafting window for sign-in and review. Only your selected source and question are shown for consent. No documents or other care-desk notes are attached. Currently available to the site owner only.</p>
+          <label class="field-label" for="inquiry-body">Email draft</label><textarea id="inquiry-body" rows="12" maxlength="6000" required></textarea>
+          <label class="field-label" for="inquiry-due">Follow-up date (optional)</label><input id="inquiry-due" type="date">
+          <div class="guide-actions"><button type="submit" class="reader-action">Save inquiry</button><button type="button" class="quiet-button" id="inquiry-email">Open in email app</button><button type="button" class="quiet-button" id="inquiry-copy">Copy email</button></div>
+          <p class="community-note">Opening your email app does not confirm sending. Check the recipient and text there, then return to record Sent.</p>
+          <div class="guide-actions"><button type="button" class="quiet-button" id="inquiry-sent">Record sent</button><button type="button" class="quiet-button" id="inquiry-replied">Record reply</button><button type="button" class="quiet-button" id="inquiry-close">Close inquiry</button><button type="button" class="quiet-button" id="inquiry-reminder">Download calendar reminder</button></div>
+          <label class="field-label" for="inquiry-reply">Reply or next-step note (optional)</label><textarea id="inquiry-reply" rows="3" maxlength="3000" placeholder="Record a reply or next step. Use the provider’s secure portal for clinical documents."></textarea><button type="button" class="quiet-button" id="inquiry-add-note">Add to history</button>
+          <h4>History</h4><ol id="inquiry-history"></ol>
+        </form>
+      </section>
       <section id="desk-files-panel" data-desk-panel="files" hidden aria-labelledby="desk-files-heading">
-        <h3 id="desk-files-heading">Keep control of your documents</h3><p><strong>Document uploads, automatic cloud saving and GPT review are not connected to this page yet.</strong></p><p>For now, export your care-desk backup and keep it in a private folder you control, such as your OneDrive. To return to it, download that file and choose Open backup here. Opening a cloud folder does not save this page.</p><p>A later protected connection can let you choose which records to review and explain what is sent to GPT before you agree. Uploading for storage will not automatically authorize AI review.</p><p class="guided-scope">This desk organizes questions and reading. It does not diagnose, interpret scan images, prescribe treatment or confirm trial eligibility. Use your clinical team’s secure portal for medical care.</p>
+        <h3 id="desk-files-heading">Keep control of your documents</h3><p><strong>Document uploads, automatic cloud saving and document review are not connected to this page yet.</strong> AI inquiry drafting is available from Inquiries through a private owner-only window.</p><p>For now, export your care-desk backup and keep it in a private folder you control, such as your OneDrive. To return to it, download that file and choose Open backup here. Opening a cloud folder does not save this page.</p><p>A later protected connection can let you choose which records to review and explain what is sent to GPT before you agree. Uploading for storage will not automatically authorize AI review.</p><p class="guided-scope">This desk organizes questions and reading. It does not diagnose, interpret scan images, prescribe treatment or confirm trial eligibility. Use your clinical team’s secure portal for medical care.</p>
       </section>
       <details class="desk-backup-controls"><summary>Keep a copy, restore or clear this visit</summary><div class="desk-transfer"><button type="button" class="quiet-button" id="desk-export">Export backup</button><button type="button" class="quiet-button" id="desk-import">Open backup</button><button type="button" class="quiet-button" id="desk-clear">Clear personal entries</button><input type="file" id="desk-backup-file" accept=".json,application/json" hidden></div>
       <p class="community-note">A backup contains personal entries and is not encrypted by this page. Opening a backup replaces those entries and merges its saved story IDs with your saved reading. Export first if you need to keep the current version.</p></details><p class="care-desk-feedback" id="desk-feedback" role="status" aria-live="polite"></p>
@@ -263,9 +288,10 @@
     </div>
   </dialog>
 
-  <script src="guided.js?v=20261023i"></script>
-  <script src="share.js?v=20261023i"></script>
-  <script src="care-desk.js?v=20261023i"></script>
-  <script src="app.js?v=20261023i"></script>
+  <script src="guided.js?v=20261024j"></script>
+  <script src="share.js?v=20261024j"></script>
+  <script src="care-desk.js?v=20261024j"></script>
+  <script src="inquiry.js?v=20261024j"></script>
+  <script src="app.js?v=20261024j"></script>
 </body>
 </html>

@@ -302,6 +302,22 @@
       "https://clinicaltrials.gov/study/NCT07642856",
       "https://clinicaltrials.gov/api/v2/studies/NCT07642856",
       "https://www.kennedykrieger.org/patient-care/faculty-staff/amy-bastian"
+    ],
+    "contacts": [
+      {
+        "name": "Derek J Eversley, BS",
+        "email": "eversley@kennedykrieger.org",
+        "phone": "443-923-2716",
+        "role": "Central research contact",
+        "source_url": "https://clinicaltrials.gov/study/NCT07642856#contacts-and-locations"
+      },
+      {
+        "name": "Anthony J Gonzalez, BS",
+        "email": "gonzalezan@kennedykrieger.org",
+        "phone": "443-923-2716",
+        "role": "Central and Baltimore site research contact",
+        "source_url": "https://clinicaltrials.gov/study/NCT07642856#contacts-and-locations"
+      }
     ]
   }
 ]
