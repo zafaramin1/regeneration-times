@@ -1899,3 +1899,5 @@ body.care-desk-open { overflow: hidden; }
 #inquiry-contacts { display: flex; flex-wrap: wrap; gap: .4rem; margin: .6rem 0; }
 .story-tools { flex-wrap: wrap; gap: .45rem; }
 .story-tools button[data-prepare-inquiry] { color: #702c3a; }
+
+.inquiry-remember input[type="checkbox"] { width: auto; flex: 0 0 auto; margin-top: .25rem; }
