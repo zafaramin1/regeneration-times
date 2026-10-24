@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261024k">
+  <link rel="stylesheet" href="styles.css?v=20261024l">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -255,7 +255,7 @@
         <button type="button" class="reader-action" id="desk-download-note">Download appointment note</button><p class="community-note">Includes your entered context, questions, timeline and saved source links. Review personal details before sharing. Nothing is emailed or submitted.</p>
       </section>
       <section data-desk-panel="inquiries" hidden aria-labelledby="inquiry-heading">
-        <h3 id="inquiry-heading">From finding to follow-up</h3>
+        <h3 id="inquiry-heading">Prepare your inquiry</h3><button type="button" class="reader-action" id="inquiry-ai">Draft with AI</button>
         <p>Use Prepare an inquiry on a story or care resource. Review a draft, open it in your email app, then record what you actually sent.</p>
         <p class="guided-scope">Nothing is sent automatically. Replies and sent status are recorded by you. Email and Microsoft synchronization are not connected.</p>
         <label class="inquiry-remember"><input type="checkbox" id="inquiry-remember"> Remember inquiry history in this browser</label><p class="community-note">Optional device storage, separate from your visit-only care notes. Anyone using this browser profile may be able to read it. It is not encrypted or shared with your assistant. Export a copy to keep or share privately.</p>
@@ -268,7 +268,7 @@
           <p id="inquiry-contact-note" class="community-note"></p><div id="inquiry-contacts" aria-label="Published contacts"></div>
           <label class="field-label" for="inquiry-subject">Subject</label><input id="inquiry-subject" maxlength="250" required>
           <label class="field-label" for="inquiry-question">What would you like to ask? (optional)</label><textarea id="inquiry-question" rows="3" maxlength="2000" placeholder="Ask about assessment, study criteria, availability or a secure referral route. Avoid names and identifying medical details."></textarea>
-          <div class="guide-actions"><button type="button" class="quiet-button" id="inquiry-template">Use standard draft</button><button type="button" class="reader-action" id="inquiry-ai">Draft with AI</button></div>
+          <div class="guide-actions"><button type="button" class="quiet-button" id="inquiry-template">Use standard draft</button></div>
           <p class="community-note">AI opens a small private drafting window for sign-in and review. Only your selected source and question are shown for consent. No documents or other care-desk notes are attached. Currently available to the site owner only.</p>
           <label class="field-label" for="inquiry-body">Email draft</label><textarea id="inquiry-body" rows="12" maxlength="6000" required></textarea>
           <label class="field-label" for="inquiry-due">Follow-up date (optional)</label><input id="inquiry-due" type="date">
@@ -288,10 +288,10 @@
     </div>
   </dialog>
 
-  <script src="guided.js?v=20261024k"></script>
-  <script src="share.js?v=20261024k"></script>
-  <script src="care-desk.js?v=20261024k"></script>
-  <script src="inquiry.js?v=20261024k"></script>
-  <script src="app.js?v=20261024k"></script>
+  <script src="guided.js?v=20261024l"></script>
+  <script src="share.js?v=20261024l"></script>
+  <script src="care-desk.js?v=20261024l"></script>
+  <script src="inquiry.js?v=20261024l"></script>
+  <script src="app.js?v=20261024l"></script>
 </body>
 </html>

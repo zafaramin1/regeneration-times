@@ -973,12 +973,23 @@
   });
   window.addEventListener("rt-guided-clear", function () { document.getElementById("care-age").value = "all"; document.getElementById("care-region").value = "all"; resetSearch(); });
 
+  var requestedInquiryOpened = false;
+  function openRequestedInquiry() {
+    if (requestedInquiryOpened || !articlesReady || !careResourcesLoaded) return;
+    var id = new URLSearchParams(window.location.search).get("inquiry");
+    if (!id) return;
+    requestedInquiryOpened = true;
+    var story = articles.find(function (item) { return item.id === id; });
+    if (!story) { announce("That inquiry link does not match a story. Choose Prepare an inquiry on a listed story."); return; }
+    var resource = careResources.find(function (item) { return item.url.replace(/\/$/, "") === (story.trial_url || story.url).replace(/\/$/, ""); });
+    window.dispatchEvent(new CustomEvent("rt-prepare-inquiry", {detail:{story:story,resource:resource || null}}));
+  }
   fetch("data/resources.json", {cache:"no-cache"}).then(function (response) {
     if (!response.ok) { throw new Error("Resources unavailable"); } return response.json();
   }).then(function (data) {
     if (!Array.isArray(data)) { throw new Error("Invalid resources"); }
-    careResources = data; careResourcesLoaded = true; renderCareResources();
-  }).catch(function () { careResourcesLoaded = true; careResourceError = true; renderCareResources(); });
+    careResources = data; careResourcesLoaded = true; renderCareResources(); openRequestedInquiry();
+  }).catch(function () { careResourcesLoaded = true; careResourceError = true; renderCareResources(); openRequestedInquiry(); });
 
   fetch("data/articles.json", { cache: "no-cache" })
     .then(function (response) {
@@ -994,6 +1005,7 @@
       articles = data; articlesReady = true;
       readHash();
       render();
+      openRequestedInquiry();
     })
     .catch(function (error) {
       contentEl.innerHTML = '<p class="empty">' + escapeHtml(error.message || "Could not load stories.") + " Open this site over a local server, not as a file on disk.</p>";
