@@ -270,5 +270,38 @@
       "https://brooksrehab.org/contact-us/",
       "https://brooksrehab.org/become-a-patient/"
     ]
+  },
+  {
+    "id": "kennedy-krieger-impact-cerebellar-trial",
+    "name": "Kennedy Krieger Institute: IMPACT cerebellar rehabilitation study",
+    "kind": "Research study",
+    "location": "Baltimore, Maryland, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Research screening for personalized tDCS plus rehabilitation for cerebellar damage; participants choose hand dexterity/arm control, walking/balance, or speech therapy.",
+    "why_relevant": "The registry explicitly includes tumor-related cerebellar damage and a hand/arm therapy track. This is a study-specific assessment route for adults aged 18–75, not a general diagnosis or routine-care referral service.",
+    "url": "https://clinicaltrials.gov/study/NCT07642856",
+    "search_terms": "brain tumor cerebellar ataxia hand dexterity arm control coordination gait walking balance rehabilitation stimulation tDCS IMPACT NCT07642856",
+    "caution": "Recruiting according to registry and listed Baltimore site, checked 2026-10-24; sponsor last verified status June 2026 and last update posted 2026-06-11. No results posted. Ages 18–75; children are not eligible. Excludes seizure history, specified medications, MRI safety/tolerance problems, task-interfering impairments and conditions preventing safe exercise; see full criteria. No explicit tumor-treatment or symptom-onset window is listed, so confirm directly. Protocol describes MRI-response/tolerability screening and has inconsistent masking descriptions. Listing does not confirm current openings, acceptance of any tumor type, or suitability for unexplained clenching, sensory loss or peripheral-nerve injury. Contact details are published for research inquiries, not emergencies, and were not tested.",
+    "phone": "443-923-2716",
+    "email": "eversley@kennedykrieger.org",
+    "verified_on": "2026-10-24",
+    "source_urls": [
+      "https://clinicaltrials.gov/study/NCT07642856",
+      "https://clinicaltrials.gov/api/v2/studies/NCT07642856",
+      "https://www.kennedykrieger.org/patient-care/faculty-staff/amy-bastian"
+    ]
   }
 ]

@@ -942,5 +942,42 @@
     "verified_on": "2026-10-24",
     "relevance_score": 6,
     "relevance_reason": "Covers a movement problem that can follow deep brain lesions including tumors; mixed causes and case-report evidence."
+  },
+  {
+    "id": "impact-cerebellar-tumor-hand-rehab-nct07642856",
+    "title": "Recruiting Baltimore trial tests personalized stimulation with hand, arm or walking therapy for cerebellar damage, including tumors",
+    "source": "ClinicalTrials.gov (Kennedy Krieger Institute)",
+    "url": "https://clinicaltrials.gov/study/NCT07642856",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07642856",
+    "date_published": "2026-06-11",
+    "date_added": "2026-10-24",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Brain",
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "A Baltimore study is testing whether personalized, non-invasive electrical brain stimulation adds benefit to intensive rehabilitation for adults with damage mainly affecting the cerebellum, the brain region important for coordination. The registry explicitly includes damage from tumors, as well as stroke or degeneration, and participants choose a therapy focus such as hand dexterity and arm control, walking and balance, or speech. It plans to compare active stimulation with sham stimulation in 30 adults aged 18–75; both groups receive therapy. No results are posted, and a history of seizures is an exclusion, so this is an experimental research option rather than a proven way to restore hand use.",
+    "summary": "IMPACT (NCT07642856) at the Motion Analysis Lab in Kennedy Krieger Institute, Baltimore, is a randomized, parallel-group study of personalized transcranial direct current stimulation (tDCS) paired with individualized rehabilitation for cerebellar damage. The protocol describes neuroimaging and electric-field modeling to choose stimulation sites, then checking tolerance and MRI response before proceeding to training. Active and sham arms each include one hour of therapy twice daily, up to 30 sessions over three weeks, with 20 minutes of active or sham stimulation daily. Participants choose walking/balance, hand dexterity/arm control, or speech as a therapy domain. The two primary outcomes are the Scale for the Assessment and Rating of Ataxia (SARA) and patient-reported PROM-Ataxia, measured before and after treatment and at three and six months. These include hand-coordination or dexterity components but are broader ataxia outcomes, not an isolated grasp/release endpoint. Estimated enrollment is 30, with no results posted. The structured design field specifies participant-only masking, while the narrative calls the trial double-blind; that inconsistency needs clarification from the study team.",
+    "why_it_matters": "This is a tumor-inclusive rehabilitation study that explicitly addresses hand dexterity and arm control, rather than tremor alone. It is a potential research route only when cerebellar involvement is established; hand clenching, numbness or weakness alone does not establish that diagnosis or eligibility.",
+    "relevance_score": 10,
+    "relevance_reason": "Explicit tumor-related cerebellar eligibility and a hand-dexterity/arm-control therapy track; registered US research contact.",
+    "evidence_level": "Recruiting randomized, sham-controlled trial; 30 adults planned; no results posted",
+    "trial_status": {
+      "status": "Recruiting in registry and Baltimore location; checked 2026-10-24. Sponsor status verification: June 2026; last update posted 2026-06-11.",
+      "phase": "Not applicable",
+      "location": "Motion Analysis Lab, Kennedy Krieger Institute, Baltimore, Maryland, USA",
+      "key_eligibility": "Ages 18–75; disorder predominantly affecting the cerebellum due to stroke, tumor or degeneration, including congenital hypoplasia. The listed criteria do not specify a tumor-treatment or symptom-onset window; confirm this directly. Exclusions include impairments interfering with tasks/data interpretation, seizures or seizure-disorder history, MRI-incompatible implants or metal, severe claustrophobia or MRI discomfort, alcohol/substance use disorder, severe psychiatric history as described in the registry, tricyclic antidepressants or neuroleptic medication, and any condition limiting safe exercise. The protocol also describes MRI-response and tolerability screening before training. Full registry and study-team screening apply."
+    },
+    "date_note": "Background trial listing added on 2026-10-24, not new efficacy news. date_published is the registry first-posted date, 2026-06-11, also its last posted update. Source checked 2026-10-24; the sponsor last verified status in June 2026. The estimated start date remains 2026-06-30, not a confirmed actual start.",
+    "limitation": "No results or benefit estimates are available, including no positive or negative primary-outcome result. This is mixed-cause adult cerebellar research, not pediatric evidence or evidence for all brain tumors. The record has inconsistent masking descriptions. A registry listing does not confirm current openings or individual eligibility.",
+    "care_question": "Does my diagnosis involve the cerebellum, and would a coordination-focused rehabilitation assessment or screening for this study be relevant? How do seizure history, medications, MRI safety and tumor-treatment timing affect eligibility?",
+    "verified_on": "2026-10-24"
   }
 ]
