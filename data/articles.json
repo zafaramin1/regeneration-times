@@ -1312,14 +1312,325 @@
     "relevance_score": 8,
     "evidence_level": "Recruiting randomized, blinded, active-controlled phase 2 feasibility pilot; no results posted",
     "trial_status": {
-      "status": "Recruiting in registry and Toronto site, checked 2026-10-25. Last update posted 2026-07-29; sponsor status-verification field remains October 2025.",
+      "status": "Recruiting in registry and at the St. Michael's Hospital site, rechecked on ClinicalTrials.gov 2026-10-25. Last update posted 2026-07-29; sponsor status-verification field remains October 2025.",
       "phase": "Phase 2",
       "location": "St. Michael's Hospital, Toronto, Ontario, Canada",
-      "key_eligibility": "Adults 18 or older with clinician-confirmed neuropathic pain longer than three months, specified moderate-to-severe pain thresholds, and inadequate benefit from at least two guideline-recommended medications; sufficient English for psychotherapy. Excludes seizure disorders, prior MDMA use, certain psychiatric conditions, pregnancy/breastfeeding, significant cardiovascular or organ disease, recent stroke/brain hemorrhage and numerous interacting medicines, including current SSRIs/SNRIs and specified anticonvulsants. Current psychotherapy specifically for chronic neuropathic pain is excluded. No upper time-since-injury limit or specific brain-tumor recovery indication is stated. Full registry and individual study-team screening apply."
+      "key_eligibility": "Adults 18 or older with clinician-confirmed neuropathic pain longer than three months, specified moderate-to-severe pain thresholds, and inadequate benefit from at least two guideline-recommended medications; sufficient English for psychotherapy. Excludes seizure disorders, prior MDMA use, certain psychiatric conditions, pregnancy/breastfeeding, significant cardiovascular or organ disease, recent stroke/brain hemorrhage and numerous interacting medicines, including current SSRIs/SNRIs and specified anticonvulsants. Current psychotherapy specifically for chronic neuropathic pain is excluded. No upper time-since-injury limit or specific brain-tumor recovery indication is stated. The registry does not restrict neuropathic pain to peripheral-nerve causes; diagnosis must be made by a clinician trained in chronic pain and confirmed with the LANSS questionnaire. Full registry and individual study-team screening apply."
     },
     "date_note": "Background trial listing: first posted 2025-12-24, last update posted 2026-07-29. No benefit result is implied by recruitment status.",
     "limitation": "Not a depression-primary, brain-tumor hand rehabilitation or nerve-reconstruction trial. Trial listing does not confirm current spaces, travel eligibility or individual suitability. Do not stop prescribed medicines to try to qualify; ask the study team and treating clinician.",
     "care_question": "Is the pain clinically neuropathic, and do its severity, treatment history and current medicines permit screening?",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "posterior-fossa-tumor-children-coordination-training-rct-2022",
+    "title": "Randomized trial in children after posterior fossa tumors: added coordination training improved upper-limb coordination scores",
+    "source": "Journal of Cancer Research and Clinical Oncology (Cairo University; Children's Cancer Hospital Egypt 57357)",
+    "url": "https://link.springer.com/article/10.1007/s00432-022-04490-4",
+    "trial_url": "https://clinicaltrials.gov/study/NCT04528316",
+    "date_published": "2022-12-16",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Brain",
+      "Leg"
+    ],
+    "quick_read": "Children treated for tumors at the back of the brain (posterior fossa) often have trouble with balance and coordination. In this Egyptian trial, 60 children aged 5 to 12 were randomly assigned to a core exercise program alone, or the same program plus balance training or plus coordination training. After 12 weeks, the coordination group scored higher than the core-only group on tests of two-handed and upper-limb coordination, and the balance group did better on balance tests. The study was small, single-center, and did not report side effects or how much each child improved from baseline.",
+    "summary": "A three-arm randomized controlled trial (registered NCT04528316) enrolled 60 children aged 5 to 12 in the maintenance phase of posterior fossa tumor treatment at Children's Cancer Hospital Egypt 57357. All groups did Pilates-based core stability exercise (60 minutes per session); one group added 30 minutes of HUMAC balance and tilt training and another added 30 minutes of BOT-2 based coordination exercises. At week 12, the coordination group had higher BOT-2 upper-limb coordination (median 36 vs 25, p<0.0001) and bilateral coordination (22 vs 18, p<0.0001) scores than controls. The balance group outperformed controls on nearly all postural stability measures and also scored higher on upper-limb coordination (30 vs 25, p=0.005). Coordination training did not clearly improve postural measures. Only post-treatment medians are reported, session frequency is not stated, and adverse events are not reported.",
+    "why_it_matters": "It is one of the few randomized trials in children with brain tumors that measured arm and hand coordination as a target of therapy. It suggests task-specific coordination practice improves coordination test scores more than general core exercise, though it does not measure everyday hand use, grasp or release.",
+    "relevance_score": 8,
+    "relevance_reason": "Randomized pediatric brain tumor trial with an upper-limb coordination outcome.",
+    "evidence_level": "Human trial (randomized, three parallel groups, 60 children, single center)",
+    "date_note": "Background research: published online 2022-12-16 (print 2023, volume 149). Older than 2024, included because tumor-specific arm coordination trials are rare. Registry NCT04528316 lists the study as completed (ages 5 to 12, checked 2026-10-25).",
+    "limitation": "Single center; active comparison group; tumor subtypes, dose and adverse events not reported; outcomes are test scores at 12 weeks only, with no long-term follow-up or measure of daily hand use.",
+    "care_question": "Would a coordination-focused program (not only general exercise or balance work) be appropriate for my child's arm and hand difficulties after posterior fossa tumor treatment?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "childhood-brain-tumor-outpatient-rehab-systematic-review-2026",
+    "title": "Systematic review of outpatient rehabilitation after childhood brain tumors: function improved most often, but evidence is thin",
+    "source": "Frontiers in Rehabilitation Sciences (University of Nottingham, Children's Brain Tumour Research Centre)",
+    "url": "https://www.frontiersin.org/journals/rehabilitation-sciences/articles/10.3389/fresc.2026.1819083/full",
+    "date_published": "2026-06-01",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "Researchers in Nottingham pulled together 8 studies of outpatient rehabilitation for people who had a brain tumor in childhood. Physical therapy approaches, including intensive affected-arm training, balance and coordination programs, and video gaming, were the most common. Functional outcomes such as motor skills, balance and daily activities improved most often, but one gaming study found no gain in hand or manual coordination. The studies were small and short, so the authors say no firm conclusions can be drawn about which approach works best.",
+    "summary": "This PROSPERO-registered systematic review (searches through November 2024) included 8 studies of 9 to 60 participants with childhood brain tumors, mostly randomized trials plus one quasi-experimental study and one case series. Interventions included constraint-induced movement therapy, dual-task and balance/coordination training, active video gaming, cognitive/academic programs, a problem-solving program and musical instrument training. Functional outcomes showed the most frequent significant improvements; arm-relevant findings included gains in motor skills and daily activities after constraint-induced therapy in a 9-child uncontrolled study, upper-limb coordination gains in a 60-child posterior fossa trial, and no significant change in manual or fine manual coordination with video gaming (13 children). Psychological and quality-of-life results were mixed, and fatigue and sleep were never assessed. Synthesis used vote counting because about 50 different outcome scales were used.",
+    "why_it_matters": "It is a recent, structured overview of what has actually been tested for function after childhood brain tumors, including hand and arm approaches, and it makes clear how limited and mixed the evidence still is.",
+    "relevance_score": 8,
+    "relevance_reason": "Brain-tumor-specific review that includes upper-limb and hand-coordination outcomes in children.",
+    "evidence_level": "Systematic review (8 small studies, high risk of bias in several, no meta-analysis)",
+    "date_note": "Published 2026-06-01. Includes studies already listed separately on this site (for example the 2017 pediatric constraint-induced therapy pilot); the review itself is new.",
+    "limitation": "Small, heterogeneous studies; short follow-up; vote-counting synthesis cannot estimate effect sizes; English-language only; some internal inconsistencies noted in the review's reporting.",
+    "care_question": "Which of these rehabilitation approaches fits my child's specific problems (arm use, coordination, balance), and how will progress be measured?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "skull-base-tumor-eye-movement-nerve-palsy-outcomes-plos-2024",
+    "title": "About two in three people with eye-movement nerve palsy from skull base tumors improved, with earlier treatment linked to recovery",
+    "source": "PLOS ONE (Asan Medical Center, University of Ulsan, Seoul)",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0309686",
+    "date_published": "2024-08-29",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Tumors at the base of the skull can damage the nerves that move the eyes, causing double vision or an eye that turns in or out. This Seoul study reviewed 56 adults with third or sixth nerve palsy from such tumors. About two thirds improved by at least one grade, and those treated sooner after symptoms began were more likely to recover. Pituitary tumors recovered most often, while palsies from meningiomas often persisted. The study did not look at glasses with prisms, eye muscle surgery or similar eye treatments.",
+    "summary": "A single-center retrospective cohort included 56 adults with MRI-confirmed third, fourth or sixth cranial nerve palsy due to primary skull base tumors (meningioma 23, pituitary adenoma 17, chordoma 7, others) with at least 6 months of follow-up. Recovery, defined as at least one grade of improvement without worsening, occurred in 37 of 56 (66.1%), with 33 reaching normal function; 7 worsened. A shorter interval from symptoms to treatment was associated with recovery (p=0.001). Pituitary adenoma palsies recovered in 15 of 17 (88.2%), while 13 of 23 meningioma palsies persisted or worsened. Patients in the non-recovery group had mostly received radiosurgery or radiotherapy rather than surgery, but treatment was not randomized. The abstract and discussion quote slightly different recovery percentages from the results table.",
+    "why_it_matters": "It gives realistic expectations for eye turning and double vision caused by tumor-related nerve palsy and suggests the timing of tumor treatment matters. It describes tumor treatment, not eye-specific rehabilitation.",
+    "relevance_score": 6,
+    "relevance_reason": "Brain-tumor population with vision/eye-alignment outcomes (cranial nerve palsy).",
+    "evidence_level": "Human study (retrospective cohort, 56 adults, single center, no multivariable analysis)",
+    "date_note": "Background research: published 2024-08-29.",
+    "limitation": "Retrospective; small groups per tumor type; treatment chosen clinically so comparisons between surgery and radiation may be confounded; inconsistent percentages within the paper; adult skull base tumors only.",
+    "care_question": "Given my tumor type and how long the eye-movement problem has lasted, what are the chances it improves, and when should an orthoptist or strabismus specialist be involved?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "strabismus-surgery-cranial-nerve-palsy-vienna-jcm-2025",
+    "title": "Eye muscle surgery straightened eye alignment in most people with nerve palsy, a third of whom had brain tumors",
+    "source": "Journal of Clinical Medicine (Medical University of Vienna)",
+    "url": "https://www.mdpi.com/2077-0383/14/20/7221",
+    "date_published": "2025-10-13",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Any cause",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "quick_read": "When a nerve that moves the eye is damaged, the eye can drift inward, outward or up and down, causing double vision. This Vienna study looked back at 57 people who had eye muscle (strabismus) surgery for such palsies; brain tumors were the single most common known cause, in 19 people. After surgery, about 81% had their eye misalignment reduced to 10 degrees or less. Sixth nerve palsies did best and third nerve palsies worst, and eight people needed another operation. Double vision itself was not measured.",
+    "summary": "A retrospective single-center review (2009 to 2023) of 57 patients undergoing strabismus surgery for third, fourth, sixth or combined cranial nerve palsy. Causes included brain neoplasm in 19 (33% of all patients), vascular disease 14, trauma 13 and others. Success, defined as a postoperative angle of deviation of 10 degrees or less, was achieved in 46 of 57 (80.7%): 90% for isolated sixth nerve palsy, 87.5% for fourth, 71.4% for combined and 58.3% for third nerve palsy. Mean horizontal deviation fell from about 17 to 7 degrees at near and distance (p<0.001); vertical deviation did not change significantly overall. Eight reoperations were needed. No predictor, including cause, was significantly associated with success. Mean follow-up was about 11 months.",
+    "why_it_matters": "For people left with a persistent eye turn after a brain tumor or its treatment, it shows that eye muscle surgery can often improve alignment, while being clear that third nerve palsies are harder to correct.",
+    "relevance_score": 5,
+    "relevance_reason": "Eye-alignment treatment in a mixed population where brain tumor was the most common cause; not tumor-only.",
+    "evidence_level": "Human study (retrospective case series, 57 patients, single center)",
+    "date_note": "Published 2025-10-13.",
+    "limitation": "Mixed causes, with no outcomes reported separately for tumor patients; alignment-only success definition; no double vision or quality-of-life measures; short and variable follow-up.",
+    "care_question": "Has my eye alignment been stable long enough to consider strabismus surgery, and which nerve is involved?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "post-craniotomy-headache-review-weill-cornell-2026",
+    "title": "Review of headache after brain surgery: common, sometimes long-lasting, with few treatment trials so far",
+    "source": "Current Pain and Headache Reports (Weill Cornell Medicine)",
+    "url": "https://link.springer.com/article/10.1007/s11916-026-01541-0",
+    "date_published": "2026-08-05",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Surgery",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Face",
+      "Neck spine"
+    ],
+    "quick_read": "Headache after a craniotomy is common, and in some people it continues for months. This review from Weill Cornell summarizes how often it happens, who is at higher risk, and which treatments have been tried. Scalp nerve blocks during surgery reduce pain in the first day, while longer-term options such as botulinum toxin injections and neck nerve blocks are supported only by small case series and observational studies. There are no clinical trials designed specifically for persistent post-craniotomy headache. This is about pain, not about movement or nerve recovery.",
+    "summary": "A narrative review focused on 2021 to 2026 literature. It cites headache in roughly 60 to 70% of craniotomy patients, with about a quarter developing persistent headache, and quotes a 17% rate after tumor resection in one series (higher after microvascular decompression and suboccipital approaches). Risk factors include younger age, female sex, prior headache, muscle dissection and longer surgery. Intraoperative scalp blocks have moderate evidence for reducing early pain and analgesic use. For persistent headache, evidence is weak: drugs such as tricyclics and antiseizure medicines are supported mainly by anecdote; botulinum toxin case reports and series total 21 patients, 6 of whom became pain-free; two observational studies support cervical nerve blocks for neck-related headache. The authors stress small retrospective studies, inconsistent definitions and a lack of headache-specific trials.",
+    "why_it_matters": "It gives a current, practical map of what is known about chronic head pain after brain surgery, including tumor surgery, and shows where evidence is still missing.",
+    "relevance_score": 6,
+    "relevance_reason": "Covers chronic post-craniotomy pain, which applies to many brain tumor survivors; not tumor-specific.",
+    "evidence_level": "Narrative review (no formal evidence grading; underlying studies mostly small and observational)",
+    "date_note": "Published 2026-08-05 (volume 30, article 103).",
+    "limitation": "Narrative review rather than systematic; brain tumor patients are not analyzed separately; treatment evidence for persistent headache is low quality.",
+    "care_question": "Is my ongoing head pain after surgery a recognized post-craniotomy headache type, and would a headache or pain specialist consider nerve blocks or other options?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "botulinum-toxin-spasticity-pain-pontine-glioma-case-2025",
+    "title": "Case report: botulinum toxin injections eased painful arm and leg stiffness in a teenager with an advanced brainstem tumor",
+    "source": "Clinical Medicine Insights: Case Reports (Nara Prefectural General Medical Center, Japan)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11700401/",
+    "date_published": "2025-01-04",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "A 15-year-old with a recurrent tumor in the brainstem (pons) developed painful muscle stiffness (spasticity) in her arms and legs. Doctors injected botulinum toxin into stiff muscles in the upper arm, forearm flexors, thigh and lower leg over three sessions. Her pain score fell from 7.5 to 1 out of 10 and stayed low for months, and therapists reported easier stretching and more time for movement practice. This is a single case in a very advanced illness; it shows pain relief, not recovery of hand function.",
+    "summary": "Single case report of a 15-year-old with diffuse intrinsic pontine glioma who, about three years after radiotherapy, developed recurrent tumor with painful spasticity (Modified Ashworth 3) in the upper and lower limbs. She declined opioid-type analgesics because of breathing concerns. Intramuscular botulinum toxin was given in three sessions (upper arm and thigh first, then forearm flexors and lower leg added; body text reports 200, 400 and 500 units, while the abstract lists different doses). Pain fell from NRS 7.5 to 1.0 and SF-MPQ-2 from 119 to 19 after the third session, with no injection-related adverse events reported. Passive range of motion became quicker to achieve. No hand-specific function, post-treatment spasticity score or caregiving measures were reported. She died at 27 weeks of disease-related respiratory failure. Concurrent bevacizumab, radiotherapy and other medicines may have contributed to the pain change.",
+    "why_it_matters": "Spasticity in the arm after a brain tumor can be painful, and this case shows botulinum toxin, an established spasticity treatment, being used for tumor-related arm stiffness and pain. It should be read as pain and stiffness management, not as evidence of regained grasp or dexterity.",
+    "relevance_score": 7,
+    "relevance_reason": "Brain tumor patient with upper-limb spasticity (forearm flexors injected); outcome is pain, not hand function.",
+    "evidence_level": "Case report (one patient)",
+    "date_note": "Published online 2025-01-04.",
+    "limitation": "Single advanced-stage case; confounding treatments; internal inconsistencies in reported doses and scores; no hand function or spasticity outcome after treatment.",
+    "care_question": "Is arm or hand stiffness part of my symptoms, and would a spasticity assessment (including whether botulinum toxin could help comfort, positioning or hand opening) be appropriate?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "peri-rolandic-glioma-awake-vs-asleep-motor-mapping-jno-2026",
+    "title": "Houston study of 130 glioma surgeries near movement areas: lasting new weakness in about 5%, with awake and asleep mapping similar",
+    "source": "Journal of Neuro-Oncology (UTHealth Houston)",
+    "url": "https://link.springer.com/article/10.1007/s11060-026-05693-2",
+    "date_published": "2026-07-13",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "quick_read": "Removing a glioma next to the brain's movement strip risks causing weakness, so surgeons map movement areas during the operation, either with the patient awake or under anesthesia. This Houston study reviewed 130 adults operated on between 2008 and 2024. About 5% had new or worse weakness still present at three months, with similar rates for awake and asleep mapping. Tumor removal amounts were also similar. The study did not report hand-specific outcomes or graded strength.",
+    "summary": "A retrospective single-institution cohort of 130 adults with diffuse glioma in peri-Rolandic (motor/sensory cortex) regions, resected with awake (54) or asleep (76) motor mapping. New or worsened motor deficits persisting at 3 months occurred in 7 of 130 (5.4%): 5.6% awake vs 5.3% asleep (p=1.0). All persistent deficits occurred in glioblastoma patients; none in IDH-mutant tumors. Median extent of resection was about 95 to 98% in both groups, and mapping type did not predict extent of resection after adjusting for tumor volume. Glioblastoma survival did not differ significantly. Early postoperative deficit rates, hand-specific results and graded strength were not reported, and the groups differed at baseline (asleep patients were older with lower performance status).",
+    "why_it_matters": "It gives a current estimate of how often surgery near the motor strip leaves lasting weakness when mapping is used, helpful context for people facing or recovering from this surgery.",
+    "relevance_score": 6,
+    "relevance_reason": "Brain tumor motor outcomes after surgery near motor cortex; no hand-specific data.",
+    "evidence_level": "Human study (retrospective cohort, 130 patients, non-randomized)",
+    "date_note": "Published online 2026-07-13 (volume 178, article 100).",
+    "limitation": "Retrospective and non-randomized with baseline imbalances; small subgroups; no early-deficit, hand-specific or strength-grade data; some denominators unclear.",
+    "care_question": "Was mapping used in my surgery, and does my current weakness fit the temporary or lasting pattern described in studies like this?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "neurofeedback-after-brain-tumor-resection-case-series-2025",
+    "title": "Seven inpatients after brain tumor surgery tried EEG neurofeedback alongside rehab, with improvements but no comparison group",
+    "source": "Applied Psychophysiology and Biofeedback (ICS Maugeri IRCCS, Bari, Italy)",
+    "url": "https://link.springer.com/article/10.1007/s10484-025-09743-9",
+    "date_published": "2025-11-04",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "quick_read": "Neurofeedback uses real-time brain wave (EEG) readings to train people to shift their own brain activity. In this Italian rehabilitation unit, seven adults recovering from surgery for meningiomas or a glioma did 15 neurofeedback sessions over three weeks on top of usual physical and occupational therapy. All seven showed reliable gains on memory, thinking or language tests, and daily independence scores improved. Without a comparison group, it is impossible to tell how much came from neurofeedback rather than usual rehab and natural recovery.",
+    "summary": "Prospective case series of 7 consecutive inpatients (aged 46 to 76; six meningiomas, one glioma) after tumor resection. Each received 15 sessions of 35 minutes of individualized EEG neurofeedback (theta/beta or SMR/theta protocols at sites chosen from lesion location and quantitative EEG) five days a week, plus about one hour daily of conventional motor rehabilitation and occupational training. Reliable change was reported in cognitive measures for all participants and in FIM and Modified Barthel scores for most. No hand or upper-limb specific measure was used. No adverse events occurred. The authors list no control group, no correction for multiple comparisons, heterogeneity and no follow-up after discharge as key limitations.",
+    "why_it_matters": "It is one of very few reports of neurofeedback specifically in brain tumor rehabilitation, so it flags a feasible add-on worth proper trials. It does not show that neurofeedback restores arm or hand movement.",
+    "relevance_score": 5,
+    "relevance_reason": "Brain tumor population; general function and cognition outcomes, no hand data.",
+    "evidence_level": "Human study (uncontrolled case series, 7 patients)",
+    "date_note": "Published online 2025-11-04 (print 2026, volume 51, issue 2).",
+    "limitation": "Tiny uncontrolled series; concurrent rehabilitation and spontaneous recovery cannot be separated; no hand outcomes; no follow-up.",
+    "care_question": "Is neurofeedback offered in a research setting near me, and would it replace or only add to standard rehabilitation?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "paired-vns-cervical-sci-pilot-rct-houston-2026",
+    "title": "Pilot trial: implanted vagus nerve stimulation paired with arm therapy was feasible in chronic neck spinal cord injury",
+    "source": "Frontiers in Rehabilitation Sciences (UTHealth Houston and TIRR Memorial Hermann)",
+    "url": "https://www.frontiersin.org/journals/rehabilitation-sciences/articles/10.3389/fresc.2026.1805955/full",
+    "trial_url": "https://clinicaltrials.gov/study/NCT05601661",
+    "date_published": "2026-05-22",
+    "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Neck spine",
+      "cause": "Trauma",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Hand"
+    ],
+    "quick_read": "Vagus nerve stimulation (VNS) gives brief pulses through an implanted device in the neck while a person practices movements, aiming to strengthen the brain and spinal pathways being used. In this Houston pilot, six adults with long-standing incomplete spinal cord injury in the neck received either real or sham stimulation during 18 arm and hand therapy sessions plus home exercise. There were no serious complications, and all three people with real stimulation improved on a hand and arm test right after therapy, two of them meaningfully at 90 days. With only six people, these results are a safety and feasibility signal, not proof that it works. This is a spinal cord injury study and does not apply directly to brain tumor or nerve injuries.",
+    "summary": "Single-site, triple-blind, sham-controlled pilot RCT (NCT05601661) in 6 adults with chronic traumatic incomplete cervical SCI (AIS B to D, C3 to C5, 16 to 61 months after injury). All were implanted with the Vivistim system and randomized 1:1 to active VNS (0.8 mA, paired with movement attempts) or 0 mA sham during 18 in-clinic 90-minute sessions over 6 to 8 weeks, followed by a 90-day home program. No serious adverse events or unresolved device complications occurred; cough during stimulation and mild neck pain were reported. Four of six completed all sessions; home adherence averaged 59%. Exploratory GRASSP scores of the trained arm improved in all three active participants immediately after therapy and in none of the sham participants; at 90 days two active participants met a 6-point threshold. Results were descriptive only, and enrollment stopped at six for budget reasons.",
+    "why_it_matters": "It extends paired VNS, already approved for arm rehabilitation after stroke, into spinal cord injury with a sham control, keeping the spinal cord evidence distinct from brain and peripheral nerve injury.",
+    "relevance_score": 5,
+    "relevance_reason": "Post-accident arm and hand recovery after cervical spinal cord injury (priority 3, spinal cord category).",
+    "evidence_level": "Human trial (pilot randomized, sham-controlled, 6 participants; exploratory efficacy)",
+    "date_note": "Published online 2026-05-22; final version 2026-06-11. Registry NCT05601661 lists the study as completed (checked 2026-10-25); it is not a recruitment opportunity.",
+    "limitation": "Six participants; descriptive analysis only; baseline heterogeneity; some participants received spasticity injections; reporting inconsistencies in adverse-event percentages.",
+    "care_question": "For neck spinal cord injury, are there larger paired VNS studies I could be screened for, and what surgery and therapy commitment does it involve?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "radial-to-infraspinatus-nerve-transfer-upper-plexus-2026",
+    "title": "Small Brazilian series: extra nerve transfer to a shoulder-rotating muscle gave useful outward rotation after upper brachial plexus injury",
+    "source": "Brain & Spine (University of Sao Paulo Medical School)",
+    "url": "https://doi.org/10.1016/j.bas.2026.106114",
+    "date_published": "2026-06-10",
+    "category": "Peripheral Nerve Repair",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Any cause",
+      "approach": "Nerve transfer",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Peripheral nerve"
+    ],
+    "quick_read": "Injuries to the upper part of the brachial plexus (the C5 and C6 nerve roots) make it hard to lift the arm and turn it outward. Surgeons in Sao Paulo added a transfer of a small nerve branch from the triceps directly to the infraspinatus, a muscle that rotates the shoulder outward, alongside other standard transfers. Seven adults were followed for a median of almost five years, and five reached at least 45 degrees of outward rotation, with no complications reported. This is a peripheral nerve study, separate from spinal cord or brain injury, and too small to prove the extra transfer is better.",
+    "summary": "Retrospective case series from the University of Sao Paulo. Of 11 consecutive adults with complete C5/C6 brachial plexus lesions operated within a year of injury (mean 6.5 months), 7 were evaluable (one died of cancer, three lost to follow-up). In addition to ulnar fascicle to biceps, medial pectoral to axillary and spinal accessory to suprascapular transfers, a radial branch to the triceps was transferred directly to the infraspinatus branch. At median 4.7 years, mean external rotation was 62 degrees (95% CI 37 to 86), with 5 of 7 reaching the authors' 45-degree good-result threshold. Recovery began after 4 months, once as late as month 14. Comparisons with the authors' unpublished historical data are not independently validated. Cause of injury was not stated and strength was not reported.",
+    "why_it_matters": "Shoulder outward rotation is often weak after upper plexus repair; this adds long-term follow-up for one technique aimed at that specific gap, clearly within the peripheral nerve (not spinal cord or brain) category.",
+    "relevance_score": 4,
+    "relevance_reason": "Post-injury arm dysfunction from brachial plexus (peripheral nerve) injury.",
+    "evidence_level": "Human study (retrospective case series, 7 evaluated patients, no control group)",
+    "date_note": "Published 2026-06-10 (Brain & Spine volume 6, article 106114).",
+    "limitation": "Very small, uncontrolled, with substantial loss to follow-up; non-standard success threshold; injury mechanism and strength not reported.",
+    "care_question": "After a brachial plexus injury, which nerve transfers are being considered for shoulder rotation, and what is the timing window for surgery?",
+    "date_added": "2026-10-25",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "psilocybin-chronic-stroke-phase1-johns-hopkins-nct07053917",
+    "title": "Johns Hopkins recruiting a small Phase 1 psilocybin safety study in chronic stroke, with arm function as a secondary measure",
+    "source": "ClinicalTrials.gov (Johns Hopkins University)",
+    "url": "https://clinicaltrials.gov/study/NCT07053917",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07053917",
+    "date_published": "2025-07-08",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Stroke",
+      "approach": "Drug",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "Johns Hopkins is testing whether psilocybin, the active compound in 'magic mushrooms', is safe for people at least a year after a stroke. About 20 adults will receive either a single 25 mg dose or two 12.5 mg doses two hours apart, with blood pressure stability as the main measure. Arm and hand tests are collected as secondary measures, but the study is not designed to show whether movement improves. It is for stroke only, not brain tumors, and many common medicines (including several antidepressants and seizure medicines) exclude people.",
+    "summary": "NCT07053917 (PHATHOM) is an open-label Phase 1 study at Johns Hopkins, Baltimore, with a target of 20 adults with CT- or MRI-confirmed ischemic or hemorrhagic stroke at least 12 months earlier. Two psilocybin regimens (Usona Institute product) are compared: 25 mg once, or 12.5 mg followed by 12.5 mg two hours later. The primary outcome is blood pressure staying within set limits for 24 hours after dosing; motor outcomes reported in the listing include the Fugl-Meyer upper extremity, ARAT and nine-hole peg test. Exclusions include recent use of SSRIs, SNRIs, MAOIs, bupropion, lithium, trazodone and several anticonvulsants, psychosis or bipolar I history, suicidality, substance use disorders, and neurological conditions that interfere with motor assessment. The listing does not describe a paired rehabilitation program. Start date 2026-02-09; primary completion estimated 2027-02-01.",
+    "why_it_matters": "It is the first registered human study we found that collects arm and hand measures after psilocybin in people with brain injury, following animal plasticity research. It is a safety study in stroke and says nothing yet about recovery, and stroke findings should not be assumed to apply to brain tumors.",
+    "relevance_score": 3,
+    "relevance_reason": "Genuinely new experimental psilocybin trial with upper-limb measures; stroke only, not tumor.",
+    "evidence_level": "Recruiting Phase 1 open-label safety study; 20 planned; no results",
+    "trial_status": {
+      "status": "Recruiting in registry and at the Johns Hopkins site, checked on ClinicalTrials.gov 2026-10-25. Last update posted 2026-02-13; status verified February 2026. No results posted.",
+      "phase": "Phase 1",
+      "location": "Johns Hopkins, Baltimore, Maryland, USA",
+      "key_eligibility": "Adults over 18 with ischemic or hemorrhagic stroke confirmed by CT or MRI at least 12 months earlier; English speaking; consent to recorded sessions. Excludes recent serotonergic antidepressants, lithium, trazodone and several anticonvulsants, psychosis or bipolar I history, suicidality, substance use disorder, uncontrolled blood pressure or cardiac problems, weight under 48 kg, pregnancy, and conditions interfering with motor assessment. Brain tumor is not a listed condition."
+    },
+    "date_note": "Registry first posted 2025-07-08; study start 2026-02-09; last update posted 2026-02-13. Checked directly on ClinicalTrials.gov 2026-10-25.",
+    "limitation": "Safety study without a placebo group; motor outcomes are secondary and exploratory; stroke only; registry details verified through third-party mirrors, not ClinicalTrials.gov itself.",
+    "care_question": "Not applicable to brain tumor patients; for stroke, would my current medicines exclude me, and is any rehabilitation paired with dosing?",
+    "date_added": "2026-10-25",
     "verified_on": "2026-10-25"
   }
 ]
