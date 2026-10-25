@@ -389,5 +389,457 @@
         "source_url": "https://clinicaltrials.gov/study/NCT07301632#contacts-and-locations"
       }
     ]
+  },
+  {
+    "id": "barrow-brain-tumor-rehabilitation",
+    "name": "Barrow Neurological Institute: Brain Tumor Rehabilitation",
+    "kind": "Care program",
+    "location": "Phoenix, Arizona, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor"
+    ],
+    "focus": "Physical, occupational and speech therapy for people recovering from brain tumor treatment, across hospital, inpatient rehabilitation and outpatient settings.",
+    "why_relevant": "The page describes brain tumor rehabilitation that addresses lost motor skills, strength, balance, walking, self care and upper body strengthening, with inpatient and outpatient neuro-rehabilitation centers.",
+    "url": "https://www.barrowneuro.org/resource/brain-tumor-rehabilitation/",
+    "search_terms": "brain tumor rehab arm hand leg weakness walking balance occupational therapy physical therapy speech inpatient outpatient neuro-rehabilitation Arizona",
+    "caution": "The page does not state age limits or describe dedicated hand therapy or spasticity treatment. Confirm age acceptance, referral and insurance requirements. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "(602) 406-3747 (inpatient neuro-rehabilitation); (602) 406-1600 (outpatient neuro-rehabilitation)",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.barrowneuro.org/resource/brain-tumor-rehabilitation/"
+    ]
+  },
+  {
+    "id": "holland-bloorview-brain-injury-rehab",
+    "name": "Holland Bloorview Kids Rehabilitation Hospital: Brain Injury Rehab",
+    "kind": "Care program",
+    "location": "Toronto, Ontario, Canada",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Inpatient, day patient and outpatient rehabilitation for children and youth after acquired brain injury.",
+    "why_relevant": "The program lists brain tumours among the conditions it serves, alongside traumatic and non-traumatic injury and stroke, for clients aged 3 months to 18 years.",
+    "url": "https://hollandbloorview.ca/services/programs-services/brain-injury-rehab",
+    "search_terms": "child pediatric brain tumour tumor acquired brain injury rehab inpatient day patient outpatient Toronto Ontario Canada",
+    "caution": "Admission depends on the program's published criteria and a referral form; Ontario health coverage and residency rules may apply. The page lists two different fax numbers. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "416-425-6220 ext. 3167 (brain injury rehab team, access and flow)",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://hollandbloorview.ca/services/programs-services/brain-injury-rehab"
+    ]
+  },
+  {
+    "id": "nationwide-childrens-neuro-oncology-comprehensive-clinic",
+    "name": "Nationwide Children's Hospital: Neuro-Oncology Comprehensive Clinic",
+    "kind": "Care program",
+    "location": "Columbus, Ohio, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Spine tumor"
+    ],
+    "focus": "Multispecialty clinic for children, adolescents and young adults with brain or spinal cord cancers, including physical medicine and rehabilitation.",
+    "why_relevant": "The clinic brings endocrinology, neurology, neurosurgery and physical medicine and rehabilitation specialists together for young people with central nervous system tumors.",
+    "url": "https://www.nationwidechildrens.org/specialties/neuro-oncology/neuro-oncology-comprehensive-clinic",
+    "search_terms": "child pediatric adolescent young adult brain tumor spinal cord tumor survivor late effects rehabilitation PM&R endocrinology neurology Ohio",
+    "caution": "The page does not use the words survivorship or late effects and does not list therapy services; it documents a rehabilitation specialist presence, not a full rehab program. Confirm upper age limit, referral and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "(614) 722-3250",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.nationwidechildrens.org/specialties/neuro-oncology/neuro-oncology-comprehensive-clinic"
+    ]
+  },
+  {
+    "id": "childrens-colorado-spasticity-management",
+    "name": "Children's Hospital Colorado: Spasticity Management Clinic",
+    "kind": "Care program",
+    "location": "Aurora, Colorado, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Leg",
+      "Arm"
+    ],
+    "causes": [
+      "Trauma",
+      "Disease"
+    ],
+    "focus": "Assessment and treatment of spasticity and dystonia in children and adolescents, including botulinum toxin and phenol injections, baclofen pumps and rhizotomy.",
+    "why_relevant": "A pediatric route for muscle stiffness or involuntary contractions after spinal cord injury, severe brain injury or other neurological disorders.",
+    "url": "https://www.childrenscolorado.org/doctors-and-departments/departments/pediatric-rehabilitation/spasticity-management-clinic/",
+    "search_terms": "child pediatric spasticity dystonia stiffness tight muscles clenched hand botox botulinum phenol baclofen pump rhizotomy brain injury spinal cord injury Colorado",
+    "caution": "The page names cerebral palsy, spinal cord injury and severe brain injury; it does not mention brain tumors or describe upper limb or hand treatment, so suitability for a clenched hand after tumor treatment is unconfirmed. Confirm referral and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "720-777-2806",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.childrenscolorado.org/doctors-and-departments/departments/pediatric-rehabilitation/spasticity-management-clinic/"
+    ]
+  },
+  {
+    "id": "baycrest-spasticity-management",
+    "name": "Baycrest: Spasticity Management Clinic",
+    "kind": "Care program",
+    "location": "Toronto, Ontario, Canada",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Face"
+    ],
+    "causes": [
+      "Stroke",
+      "Trauma",
+      "Disease"
+    ],
+    "focus": "Assessment and treatment of spasticity and involuntary muscle postures in adults, with botulinum toxin injections given in clinic.",
+    "why_relevant": "An adult route for tight or contracted muscles after stroke, brain injury, spinal cord injury or multiple sclerosis; eligibility also covers dystonia.",
+    "url": "https://www.baycrest.org/all-clinics-services/spasticity-management-clinic/",
+    "search_terms": "adult spasticity dystonia stiffness clenched hand contracture botox botulinum toxin stroke brain injury spinal cord injury Toronto Ontario Canada",
+    "caution": "The clinic describes its focus as older adults, with eligibility over 18. It does not mention brain tumors or upper limb treatment specifically. A health-care provider referral is required. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "647-788-2730",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.baycrest.org/all-clinics-services/spasticity-management-clinic/"
+    ]
+  },
+  {
+    "id": "bascom-palmer-pediatric-neuro-ophthalmology",
+    "name": "Bascom Palmer Eye Institute: Pediatric Neuro-Ophthalmology",
+    "kind": "Care program",
+    "location": "Miami, Florida, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Eye",
+      "Brain"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Disease"
+    ],
+    "focus": "Diagnosis and treatment of children's vision and eye movement problems linked to the optic nerve and brain.",
+    "why_relevant": "The page lists brain tumor related vision loss, double vision and eye movement disorders among the conditions treated in infants and children.",
+    "url": "https://umiamihealth.org/bascom-palmer-eye-institute/specialties/neuro-ophthalmology/pediatric-neuro-ophthalmology",
+    "search_terms": "child pediatric eye turning outward double vision eye movement brain tumor vision loss optic nerve neuro-ophthalmology Miami Florida",
+    "caution": "Strabismus surgery is listed as a separate specialty, not on this page. Locations are on a separate page; confirm which site sees pediatric neuro-ophthalmology patients, plus referral and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "800-329-7000",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://umiamihealth.org/bascom-palmer-eye-institute/specialties/neuro-ophthalmology/pediatric-neuro-ophthalmology"
+    ]
+  },
+  {
+    "id": "stanford-neuro-ophthalmology",
+    "name": "Stanford Health Care: Neuro-Ophthalmology Clinic",
+    "kind": "Care program",
+    "location": "Palo Alto, California, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Eye",
+      "Brain"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Evaluation of vision loss, double vision and eye movement abnormalities with neurological causes, including tumor and head trauma.",
+    "why_relevant": "The clinic page describes care for double vision, eye movement abnormalities and eye alignment, and names tumor and head trauma among related conditions.",
+    "url": "https://stanfordhealthcare.org/medical-clinics/neuro-ophthalmology.html",
+    "search_terms": "eye turning outward double vision eye alignment eye movement brain tumor head trauma neuro-ophthalmology California",
+    "caution": "The page does not state an age range and does not say whether it treats strabismus surgically. Children may need a pediatric service instead. Confirm age, referral and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "650-723-6995",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://stanfordhealthcare.org/medical-clinics/neuro-ophthalmology.html"
+    ]
+  },
+  {
+    "id": "dell-childrens-neuro-ophthalmology",
+    "name": "Dell Children's Medical Center: Pediatric Neuro-Ophthalmology",
+    "kind": "Care program",
+    "location": "Austin, Texas, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Eye",
+      "Brain"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Pediatric neuro-ophthalmology covering double vision from eye misalignment, optic nerve disease, nystagmus and strabismus surgery.",
+    "why_relevant": "The page lists double vision due to eye misalignment, visual field loss due to tumor or stroke, and surgical management of strabismus, for patients from birth through young adulthood.",
+    "url": "https://healthcare.ascension.org/locations/texas/txaus/dcmc/departments-and-services/departments/pediatric-neurosciences/pediatric-neuro-ophthalmology?sc_lang=en",
+    "search_terms": "child pediatric eye turning outward double vision misalignment strabismus surgery visual field tumor optic nerve nystagmus Austin Texas",
+    "caution": "Brain tumors are named only in relation to visual field loss; confirm suitability for eye misalignment after tumor treatment, plus referral and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "512-628-1855",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://healthcare.ascension.org/locations/texas/txaus/dcmc/departments-and-services/departments/pediatric-neurosciences/pediatric-neuro-ophthalmology?sc_lang=en"
+    ]
+  },
+  {
+    "id": "barnes-jewish-nerve-injury-paralysis",
+    "name": "Barnes-Jewish Hospital and Washington University: Center for Nerve Injury and Paralysis",
+    "kind": "Care program",
+    "location": "St. Louis, Missouri, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Peripheral nerve",
+      "Nerve root",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Trauma",
+      "Nerve gap",
+      "Any cause"
+    ],
+    "focus": "Evaluation and surgical treatment of peripheral nerve injuries, including brachial plexus and lumbosacral plexus injuries, with nerve grafting and nerve transfer.",
+    "why_relevant": "A post-accident nerve route: the page covers individual nerve injuries causing numbness or paralysis in the shoulder, arms and legs, and states treatment is available for adult and pediatric conditions.",
+    "url": "https://www.barnesjewish.org/Medical-Services/Neurology-Neurosurgery/Peripheral-Nerve-Injuries",
+    "search_terms": "accident trauma peripheral nerve injury brachial plexus lumbosacral plexus paralysis numbness nerve graft nerve transfer arm hand leg St. Louis Missouri",
+    "caution": "An accident can also injure the brain or spinal cord; confirm the injury site. Some nerve reconstruction decisions are time-sensitive. Confirm referral and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "866-867-3627 (find a doctor or make an appointment)",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.barnesjewish.org/Medical-Services/Neurology-Neurosurgery/Peripheral-Nerve-Injuries"
+    ]
+  },
+  {
+    "id": "cincinnati-childrens-brachial-plexus",
+    "name": "Cincinnati Children's: Brachial Plexus Center",
+    "kind": "Care program",
+    "location": "Cincinnati, Ohio, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Peripheral nerve",
+      "Nerve root",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Trauma"
+    ],
+    "focus": "Care for infants, children and young adults with brachial plexus birth injury, traumatic brachial plexus injury and thoracic outlet syndrome.",
+    "why_relevant": "A pediatric post-accident route for arm and hand weakness from brachial plexus injury, with nerve, shoulder and thoracic outlet surgery listed in its activity figures.",
+    "url": "https://www.cincinnatichildrens.org/service/b/brachial-plexus",
+    "search_terms": "child pediatric young adult accident trauma brachial plexus injury birth injury arm hand weakness nerve surgery shoulder thoracic outlet Ohio",
+    "caution": "The page names young adults but gives no upper age limit; confirm age acceptance. An accident can also injure the brain or spinal cord; confirm the injury site. Nerve timing can matter. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "513-636-7539",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.cincinnatichildrens.org/service/b/brachial-plexus"
+    ]
+  },
+  {
+    "id": "shepherd-center-sci-rehabilitation",
+    "name": "Shepherd Center: Spinal Cord Injury Rehabilitation",
+    "kind": "Care program",
+    "location": "Atlanta, Georgia, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Neck spine",
+      "Back spine",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Trauma",
+      "Any cause"
+    ],
+    "focus": "Adult inpatient rehabilitation for spinal cord injury, including paraplegia, tetraplegia and combined spinal cord and brain injury.",
+    "why_relevant": "A spinal cord injury route after an accident. Shepherd describes itself as both a Spinal Cord Injury Model System and a Traumatic Brain Injury Model System.",
+    "url": "https://shepherd.org/treatment/conditions/spinal-cord-injury/treatment-programs/adult-rehabilitation/",
+    "search_terms": "accident spinal cord injury SCI paraplegia tetraplegia quadriplegia rehab model system brain injury dual diagnosis Atlanta Georgia",
+    "caution": "This page covers adults; Shepherd lists a separate adolescent program not reviewed here. The page does not say whether non-traumatic injuries are accepted. Confirm admission criteria and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "404-350-7345 (admissions)",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://shepherd.org/treatment/conditions/spinal-cord-injury/treatment-programs/adult-rehabilitation/",
+      "https://shepherd.org/about/about-shepherd"
+    ]
+  },
+  {
+    "id": "craig-hospital-sci-brain-injury-rehab",
+    "name": "Craig Hospital: Spinal Cord and Brain Injury Rehabilitation",
+    "kind": "Care program",
+    "location": "Englewood, Colorado, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Neck spine",
+      "Back spine",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Trauma",
+      "Any cause"
+    ],
+    "focus": "Inpatient and outpatient rehabilitation for spinal cord injuries, brain injuries and related neurological disorders, for patients 16 and older.",
+    "why_relevant": "A post-accident route for spinal cord or brain injury, with spinal cord injury occupational therapy that addresses daily activities and outpatient re-evaluation of arm and hand issues.",
+    "url": "https://craighospital.org/admissions/inpatient",
+    "search_terms": "accident spinal cord injury brain injury TBI rehab occupational therapy arm hand inpatient outpatient teen 16 Colorado",
+    "caution": "Programs are for ages 16 and older, with limited exceptions for age 15. The pages reviewed do not mention Model Systems designation. Confirm admission criteria and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "303-789-8344 (admissions)",
+    "email": "admissions@craighospital.org",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://craighospital.org/admissions/inpatient",
+      "https://craighospital.org/inpatient/occupational-therapy/spinal-cord-injury-ot"
+    ]
+  },
+  {
+    "id": "tirr-memorial-hermann-brain-injury",
+    "name": "TIRR Memorial Hermann: Brain Injury Rehabilitation",
+    "kind": "Care program",
+    "location": "Houston, Texas, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain"
+    ],
+    "causes": [
+      "Trauma",
+      "Disease"
+    ],
+    "focus": "Rehabilitation for traumatic and non-traumatic brain injuries of all severity levels, including brain injury combined with other bodily injury.",
+    "why_relevant": "A traumatic brain injury route after an accident, with separate adult and pediatric rehabilitation inquiry options listed on the page.",
+    "url": "https://memorialhermann.org/services/treatments/brain-injury-rehabilitation",
+    "search_terms": "accident traumatic brain injury TBI non-traumatic brain injury rehab adult pediatric Houston Texas",
+    "caution": "The page does not mention brain tumors and does not state age limits directly. Confirm age, admission criteria and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "1-800-44-REHAB (73422) (referrals and appointments)",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://memorialhermann.org/services/treatments/brain-injury-rehabilitation"
+    ]
+  },
+  {
+    "id": "kessler-brain-injury-rehabilitation",
+    "name": "Kessler Institute for Rehabilitation: Brain Injury Rehabilitation",
+    "kind": "Care program",
+    "location": "West Orange and other New Jersey locations, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain"
+    ],
+    "causes": [
+      "Trauma"
+    ],
+    "focus": "Inpatient brain injury rehabilitation with follow-up into outpatient care, at a federally designated Traumatic Brain Injury Model System.",
+    "why_relevant": "A traumatic brain injury route after an accident. The brain injury program is accredited at the Chester, Saddle Brook, West Orange and Marlton locations.",
+    "url": "https://www.kessler-rehab.com/conditions-and-services/brain-injury-rehabilitation/",
+    "search_terms": "accident traumatic brain injury TBI model system inpatient rehab outpatient follow-up New Jersey",
+    "caution": "The page does not state age limits or mention brain tumors. Confirm age, location, admission criteria and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "888-537-7537 (888.KESSLER)",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.kessler-rehab.com/conditions-and-services/brain-injury-rehabilitation/",
+      "https://www.kessler-rehab.com/professionals/research-and-innovation/tbims-research-page/"
+    ]
+  },
+  {
+    "id": "ucsf-pain-management-center",
+    "name": "UCSF Pain Management Center",
+    "kind": "Care program",
+    "location": "San Francisco, California, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Peripheral nerve",
+      "Nerve root",
+      "Spine"
+    ],
+    "causes": [
+      "Surgery",
+      "Trauma",
+      "Any cause"
+    ],
+    "focus": "Pain medicine clinic whose listed conditions include neuropathic pain, spinal cord injury central pain and post-surgical pain.",
+    "why_relevant": "The page explicitly lists neuropathic pain conditions (including nerve entrapment, peripheral neuropathy, radiculopathy and complex regional pain syndrome), central pain after spinal cord injury and post-surgical pain.",
+    "url": "https://anesthesia.ucsf.edu/specialties/pain-medicine/ucsf-pain-management-center",
+    "search_terms": "neuropathic pain nerve pain central pain spinal cord injury post-surgical pain radiculopathy CRPS burning pain San Francisco California",
+    "caution": "Central pain is listed only for spinal cord injury; central pain after brain tumor or stroke is not named. Age range is not stated. Confirm referral and insurance. Contact details were not tested and no provider was contacted. A listing is not confirmation of acceptance or treatment benefit.",
+    "phone": "415-885-7246 (415.885.PAIN)",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://anesthesia.ucsf.edu/specialties/pain-medicine/ucsf-pain-management-center"
+    ]
   }
 ]
