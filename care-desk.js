@@ -5,7 +5,7 @@
   var questions = document.getElementById("desk-questions");
   var feedback = document.getElementById("desk-feedback");
   var backupInput = document.getElementById("desk-backup-file");
-  var functions = {grasp:"holding or releasing",dexterity:"precise finger movements",clench:"clenching / hard to open",weak:"weakness / loss of use",sensation:"numbness / less feeling",walking:"walking / balance",vision:"eye movement / vision",planning:"planning a movement"};
+  var functions = {grasp:"holding or releasing",dexterity:"precise finger movements",clench:"clenching / hard to open",weak:"weakness / loss of use",sensation:"numbness / less feeling",walking:"walking / balance",vision:"eye movement / vision",planning:"planning a movement",pain:"ongoing pain"};
   var timing = {unknown:"not sure",before:"before any surgery or other treatment",after:"after surgery or another treatment",both:"before treatment, with later changes too",injury:"at or after an accident / injury"};
   var site = {Brain:"Brain",Spine:"Spinal cord","Peripheral nerve":"Brachial plexus","Peripheral nerve-individual":"Individual peripheral nerve",multiple:"More than one site"};
   function el(tag, text, className) { var node=document.createElement(tag); if(text!==undefined)node.textContent=text; if(className)node.className=className; return node; }

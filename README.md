@@ -92,7 +92,7 @@ The Documents & AI review dialog links to a separate, voluntary Google Forms doc
 
 ## Search and reader tools
 
-Search normalizes tumour/tumor, common movement and rehabilitation terms, and matches every significant query word anywhere in a story. It is deterministic keyword search, not diagnosis or an AI medical advisor. Synonyms must not turn a different underlying cause into a match. URL hash parameters include `q`, `published=90|365`, `human=1`, `saved=1`, and the existing topic groups. The publication window uses the original source date, not the date added. Lab and animal study exclusion does not imply that remaining research is established or approved.
+Search normalizes tumour/tumor, common movement and rehabilitation terms, craniotomy (searched as brain plus surgery), eye-alignment words (double vision, strabismus, exotropia, squint, as eye), vision/visual, and numbness/sensory/sensation, and matches every significant query word anywhere in a story. It is deterministic keyword search, not diagnosis or an AI medical advisor. Synonyms must not turn a different underlying cause into a match. URL hash parameters include `q`, `published=90|365`, `human=1`, `saved=1`, and the existing topic groups. The publication window uses the original source date, not the date added. Lab and animal study exclusion does not imply that remaining research is established or approved.
 
 Save buttons store only stable article IDs in this browser's localStorage. Saved reading is device-specific, and storage failures are announced. Search links do not transfer a user's saved list. Discussion notes copy a source, date, evidence type and a question for a care team, never personalized treatment instructions. Top Stories and Latest each preview six entries to reduce repetition; topic sections and search retain all entries.
 
@@ -133,7 +133,7 @@ Prioritize neurological problems and recovery associated with brain tumors. Clea
 
 ## Verified care resources
 
-`data/resources.json` holds public program pages, specialist profiles and research contacts. The care directory is a separate, collapsible section connected to query words, body-area and cause selections. Article publication-date, approach, stage, saved-reading and animal-exclusion settings do not imply a filter on medical services. Age and location filters inside the directory apply only to resources. Services with unconfirmed age acceptance appear only under All ages. Recovery shortcuts set generic topic filters; they never publish a patient's history or diagnose the cause of symptoms.
+`data/resources.json` holds public program pages, specialist profiles and research contacts. The care directory is a separate, collapsible section connected to query words, body-area and cause selections. Article publication-date, approach, stage, saved-reading and animal-exclusion settings do not imply a filter on medical services. Age and location filters inside the directory apply only to resources. Location choices are Florida, Other US states and Canada, read from the end of each `location` value (`USA` or `Canada`). Services with unconfirmed age acceptance appear only under All ages. Recovery shortcuts set generic topic filters; they never publish a patient's history or diagnose the cause of symptoms.
 
 Required resource fields: `id`, `name`, `kind` (Care program, Specialist profile, Research study), `location`, `age_groups` (adult, pediatric, or confirm), `body_areas`, `causes`, `focus`, `why_relevant`, `url`, `search_terms`, `caution`, `verified_on`, `source_urls`. Optional public `phone` and `email` must appear in an official institutional page or registry. Use the registry's research-contact email, not a guessed doctor's address. Match fields can indicate a potential assessment route for a symptom even when a general clinic has not explicitly confirmed the underlying diagnosis; the caution must state that distinction. Never say acceptance, availability, eligibility or clinical benefit is confirmed from a keyword match.
 
@@ -169,3 +169,12 @@ A public `?inquiry=<stable-story-id>` link opens that story’s inquiry after bo
 
 
 AI drafting recovery on October 25, 2026 keeps only a public story or resource ID in the private helper URL so the selected public source can be reloaded after sign-in. Patient questions and drafts never go into URLs. Normal postMessage return remains origin, window and token checked; the helper also provides Copy draft and Return to the journal if sign-in severs the window connection. Re-enter an optional question in that recovery path and paste the completed draft into the journal. Check AI connection sends only a fixed synthetic inquiry, not patient data, through the owner-private service. This does not add document review or permanent profiles.
+
+## Changes on October 25, 2026 (audit pass)
+
+- Questionnaire adds an "Ongoing pain, including nerve pain" function. Its guidance keeps pain relief, sensation and movement recovery separate and states that a pain study is not evidence of restored hand use.
+- The sensation refinement now searches "sensation" (numbness and sensory are normalized to it), so it finds sensory stories instead of almost none.
+- Care directory location filter: Florida, Other US states, Canada. Contact email is labeled "Research email" only for research studies and "Public email" otherwise.
+- Inquiry drafts use American spelling. When a new inquiry is prepared, the page reminds the reader to open an exported log from another device first, because inquiry history is per browser and cannot detect outreach made elsewhere.
+- Calendar reminder lines are folded to the iCalendar line-length limit.
+- Care-desk backup export and restore were verified end to end in a headless browser with synthetic entries.

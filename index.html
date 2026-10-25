@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261025n">
+  <link rel="stylesheet" href="styles.css?v=20261025p">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -62,7 +62,7 @@
     <div class="tools">
       <form id="search-form" class="search" role="search" autocomplete="off">
         <label for="q">Search</label>
-        <div class="search-entry"><input id="q" name="q" type="search" placeholder="Try hand weakness after brain tumour" aria-describedby="search-help search-status" enterkeyhint="search"><button class="search-submit" type="submit">Search</button></div>
+        <div class="search-entry"><input id="q" name="q" type="search" placeholder="Try hand weakness after brain tumor" aria-describedby="search-help search-status" enterkeyhint="search"><button class="search-submit" type="submit">Search</button></div>
       </form>
       <div class="sort" role="group" aria-label="Sort stories">
         <span class="sort-label" id="sort-label">Sort</span>
@@ -119,7 +119,7 @@
       <p class="care-directory-scope">Matches your search words, body area and cause. Publication date and study-stage filters apply to articles only. A match does not confirm that a program will accept a patient.</p>
       <div class="care-directory-controls">
         <label for="care-age">Age group <select id="care-age"><option value="all">All / not specified</option><option value="adult">Adult services</option><option value="pediatric">Pediatric services</option></select></label>
-        <label for="care-region">Location <select id="care-region"><option value="all">All listed locations</option><option value="Florida">Florida</option><option value="other">Outside Florida</option></select></label>
+        <label for="care-region">Location <select id="care-region"><option value="all">All listed locations</option><option value="Florida">Florida</option><option value="us-other">Other US states</option><option value="canada">Canada</option></select></label>
       </div>
       <p id="care-resource-status" role="status"></p>
       <div class="care-resource-grid" id="care-resource-grid"></div>
@@ -208,7 +208,7 @@
       </fieldset>
       <fieldset data-guide-step="1" hidden><legend>What is difficult, and when did it begin?</legend>
         <div class="choice-grid" role="group" aria-label="Functions to explore">
-          <label><input type="checkbox" name="function" value="grasp">Holding or releasing</label><label><input type="checkbox" name="function" value="dexterity">Precise finger movements</label><label><input type="checkbox" name="function" value="clench">Clenching / hard to open</label><label><input type="checkbox" name="function" value="weak">Weakness / loss of use</label><label><input type="checkbox" name="function" value="sensation">Numbness / less feeling</label><label><input type="checkbox" name="function" value="walking">Walking / balance</label><label><input type="checkbox" name="function" value="vision">Eye movement / vision</label><label><input type="checkbox" name="function" value="planning">Planning a movement</label>
+          <label><input type="checkbox" name="function" value="grasp">Holding or releasing</label><label><input type="checkbox" name="function" value="dexterity">Precise finger movements</label><label><input type="checkbox" name="function" value="clench">Clenching / hard to open</label><label><input type="checkbox" name="function" value="weak">Weakness / loss of use</label><label><input type="checkbox" name="function" value="sensation">Numbness / less feeling</label><label><input type="checkbox" name="function" value="walking">Walking / balance</label><label><input type="checkbox" name="function" value="vision">Eye movement / vision</label><label><input type="checkbox" name="function" value="planning">Planning a movement</label><label><input type="checkbox" name="function" value="pain">Ongoing pain, including nerve pain</label>
         </div>
         <label class="field-label" for="guide-timing">When did the difficulty first appear?</label><select id="guide-timing" name="timing"><option value="unknown">Not sure</option><option value="before">Before any surgery or other treatment</option><option value="after">After surgery or another treatment</option><option value="both">Before treatment, with later changes too</option><option value="injury">At or after an accident / injury</option></select>
         <div id="guide-injury-site" hidden><label class="field-label" for="guide-site">Injury site, if confirmed by the clinical team</label><select id="guide-site" name="site"><option value="">Not known / not confirmed</option><option value="Brain">Brain</option><option value="Spine">Spinal cord</option><option value="Peripheral nerve">Brachial plexus</option><option value="Peripheral nerve-individual">Individual peripheral nerve</option><option value="multiple">More than one site</option></select><p class="community-note">Do not guess from the symptom. This records context for discussion, not a diagnosis.</p></div>
@@ -282,16 +282,16 @@
       <section id="desk-files-panel" data-desk-panel="files" hidden aria-labelledby="desk-files-heading">
         <h3 id="desk-files-heading">Keep control of your documents</h3><p><a class="reader-action" href="https://regeneration-family-companion.zafaramin.chatgpt.site/" target="_blank" rel="noopener noreferrer">Open my private care desk</a></p><p>Owner-only sign-in opens a private profile and inquiry tracker with an explicit Save to my account button. Saved entries restore there after sign-in. Entries in this public care desk do not transfer automatically.</p><p><strong>Document uploads, automatic cloud saving and document review are not connected to this public page.</strong> AI inquiry drafting is available from Inquiries through a private owner-only window.</p><p>For now, export your care-desk backup and keep it in a private folder you control, such as your OneDrive. To return to it, download that file and choose Open backup here. Opening a cloud folder does not save this page.</p><p>A later protected connection can let you choose which records to review and explain what is sent to GPT before you agree. Uploading for storage will not automatically authorize AI review.</p><p class="guided-scope">This desk organizes questions and reading. It does not diagnose, interpret scan images, prescribe treatment or confirm trial eligibility. Use your clinical team’s secure portal for medical care.</p>
       </section>
-      <details class="desk-backup-controls"><summary>Keep a copy, restore or clear this visit</summary><div class="desk-transfer"><button type="button" class="quiet-button" id="desk-export">Export backup</button><button type="button" class="quiet-button" id="desk-import">Open backup</button><button type="button" class="quiet-button" id="desk-clear">Clear personal entries</button><input type="file" id="desk-backup-file" accept=".json,application/json" hidden></div>
+      <details class="desk-backup-controls"><summary>Keep a copy, restore or clear this visit</summary><div class="desk-transfer"><button type="button" class="quiet-button" id="desk-export">Export backup</button><button type="button" class="quiet-button" id="desk-import">Open backup</button><button type="button" class="quiet-button" id="desk-clear">Clear personal entries</button><input type="file" id="desk-backup-file" accept=".json,application/json" aria-label="Choose a care desk backup file" hidden></div>
       <p class="community-note">A backup contains personal entries and is not encrypted by this page. Opening a backup replaces those entries and merges its saved story IDs with your saved reading. Export first if you need to keep the current version.</p></details><p class="care-desk-feedback" id="desk-feedback" role="status" aria-live="polite"></p>
       <div id="desk-clear-confirm" class="desk-clear-confirm" hidden><p>Clear your questionnaire answers, notes and timeline from this page? Saved story IDs and downloaded copies will remain.</p><div class="guide-actions"><button type="button" class="reader-action" id="desk-clear-yes">Clear personal entries now</button><button type="button" class="quiet-button" id="desk-clear-no">Keep working</button></div></div>
     </div>
   </dialog>
 
-  <script src="guided.js?v=20261025n"></script>
-  <script src="share.js?v=20261025n"></script>
-  <script src="care-desk.js?v=20261025n"></script>
-  <script src="inquiry.js?v=20261025n"></script>
-  <script src="app.js?v=20261025n"></script>
+  <script src="guided.js?v=20261025p"></script>
+  <script src="share.js?v=20261025p"></script>
+  <script src="care-desk.js?v=20261025p"></script>
+  <script src="inquiry.js?v=20261025p"></script>
+  <script src="app.js?v=20261025p"></script>
 </body>
 </html>

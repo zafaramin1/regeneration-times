@@ -152,6 +152,11 @@
   function normalizeSearch(text) {
     return String(text || "").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
       .replace(/tumours?/g, "tumor").replace(/tumors/g, "tumor")
+      .replace(/\bcraniotom(y|ies)\b/g, "brain surgery")
+      .replace(/\b(double vision|diplopia|strabismus|exotropia|esotropia|squint|eye turning|eyes|ocular)\b/g, "eye")
+      .replace(/\b(visual|vision|sight)\b/g, "vision")
+      .replace(/\b(numbness|numb|sensory|sensations|sensation)\b/g, "sensation")
+      .replace(/\b(spasticity|spastic)\b/g, "spasticity")
       .replace(/\b(weakness|paresis|hemiparesis|hemiplegia|paralysis|paralyzed|paralysed)\b/g, "weak")
       .replace(/\b(dexterity|coordination|coordinated|clumsy|clumsiness)\b/g, "dexterity")
       .replace(/\b(rehabilitation|rehab|occupational therapy|physiotherapy|physical therapy)\b/g, "rehab")
@@ -916,7 +921,9 @@
     var region = document.getElementById("care-region").value;
     var ageMatch = age === "all" || resource.age_groups.indexOf(age) !== -1;
     var inFlorida = resource.location.indexOf("Florida") !== -1;
-    var regionMatch = region === "all" || (region === "Florida" ? inFlorida : !inFlorida);
+    var inUS = /USA$/.test(resource.location);
+    var inCanada = /Canada$/.test(resource.location);
+    var regionMatch = region === "all" || (region === "Florida" ? inFlorida : region === "canada" ? inCanada : region === "us-other" ? (inUS && !inFlorida) : !inFlorida);
     return areaMatch && causeMatch && wordsMatch && ageMatch && regionMatch;
   }
   function renderCareResources() {
@@ -931,7 +938,7 @@
     grid.innerHTML = matches.map(function (resource) {
       var age = resource.age_groups.indexOf("confirm") !== -1 ? "Age eligibility: confirm with program" : resource.age_groups.map(function (a) { return a === "adult" ? "Adults" : "Children / adolescents"; }).join(" · ");
       var contact = (resource.phone ? '<p class="resource-contact">Public contact: ' + escapeHtml(resource.phone) + '</p>' : '') +
-        (resource.email ? '<p class="resource-contact">Research email: <a href="mailto:' + escapeHtml(resource.email) + '">' + escapeHtml(resource.email) + '</a></p>' : '');
+        (resource.email ? '<p class="resource-contact">' + (resource.kind === "Research study" ? "Research email" : "Public email") + ': <a href="mailto:' + escapeHtml(resource.email) + '">' + escapeHtml(resource.email) + '</a></p>' : '');
       return '<details class="care-resource"><summary><span class="resource-kind">' + escapeHtml(resource.kind) + '</span><span class="resource-name">' + escapeHtml(resource.name) + '</span><span class="resource-location">' + escapeHtml(resource.location) + '</span></summary>' +
         '<p class="resource-age">' + escapeHtml(age) + '</p><p><strong>Focus:</strong> ' + escapeHtml(resource.focus) + '</p><p>' + escapeHtml(resource.why_relevant) + '</p>' +
         '<p class="resource-caution">' + escapeHtml(resource.caution) + '</p>' + contact +
