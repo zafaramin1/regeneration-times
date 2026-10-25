@@ -353,5 +353,41 @@
       "https://www.uwmedicine.org/specialties/rehabilitation-medicine",
       "https://www.uwmedicine.org/bios/ny-ying-lam"
     ]
+  },
+  {
+    "id": "unity-health-toronto-ease-pain",
+    "name": "Unity Health Toronto: EASE Pain MDMA trial",
+    "kind": "Research study",
+    "location": "Toronto, Ontario, Canada",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Peripheral nerve"
+    ],
+    "causes": [
+      "Any cause"
+    ],
+    "focus": "Screening for MDMA-assisted therapy research in severe chronic neuropathic pain, NCT07301632.",
+    "why_relevant": "The registry explicitly includes clinician-confirmed neuropathic pain lasting over three months despite inadequate benefit from at least two recommended medications. It is a research screening route, not a general hand rehabilitation service.",
+    "url": "https://clinicaltrials.gov/study/NCT07301632",
+    "search_terms": "MDMA EASEPain EASE Pain neuropathic nerve pain chronic severe trial Toronto Akash Goel",
+    "caution": "Recruiting in registry and Toronto site, checked 2026-10-25; last update posted 2026-07-29, sponsor status-verification field October 2025. Adults 18 or older; specified pain thresholds and extensive medical/medication exclusions apply, including seizure disorders, prior MDMA use and current SSRI/SNRI treatment. No results posted. Does not establish nerve regrowth, hand-motor recovery, tumor eligibility or acceptance. Openings, travel requirements and individual eligibility must be confirmed. Do not alter medicines to qualify. Public contact details were not tested; no provider was contacted.",
+    "phone": "416-864-5071",
+    "email": "Akash.Goel@unityhealth.to",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://clinicaltrials.gov/study/NCT07301632",
+      "https://clinicaltrials.gov/api/v2/studies/NCT07301632"
+    ],
+    "contacts": [
+      {
+        "name": "Akash Goel, MD, MPH, FRCPC",
+        "email": "Akash.Goel@unityhealth.to",
+        "phone": "416-864-5071",
+        "role": "Central research contact and principal investigator",
+        "source_url": "https://clinicaltrials.gov/study/NCT07301632#contacts-and-locations"
+      }
+    ]
   }
 ]

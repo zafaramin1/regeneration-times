@@ -1266,5 +1266,60 @@
     "date_note": "Background research published 2019-04-03; added 2026-10-25. This is the original MDMA study, not a new clinical success or an additional human trial.",
     "limitation": "One type of learning in mice does not establish general brain rejuvenation, nerve repair or benefit after brain tumors. No human safety or clinical eligibility is established.",
     "care_question": "Has a proposed plasticity effect translated into meaningful function in people with the relevant condition?"
+  },
+  {
+    "id": "mdma-depression-proof-principle-2025",
+    "title": "Small MDMA-assisted therapy study reported substantial depression improvement, with controlled trials still needed",
+    "source": "The British Journal of Psychiatry (Østfold Hospital Trust)",
+    "url": "https://doi.org/10.1192/bjp.2025.10320",
+    "date_published": "2025-07-11",
+    "date_added": "2026-10-25",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Disease",
+      "approach": "Drug",
+      "stage": "Human trial"
+    },
+    "quick_read": "Twelve adults with moderate to severe major depression received MDMA-assisted psychotherapy in a Norwegian study. Depression scores improved after treatment. Everyone received the intervention, so the study cannot separate drug effects from psychotherapy, expectations or natural improvement. This is an encouraging early signal rather than proof of effectiveness.",
+    "summary": "Participants received two MDMA sessions a month apart with surrounding psychotherapy. Mean depression severity fell from 29.6 to 9.7 on the MADRS scale eight weeks after the second session; functional impairment also improved. No unexpected or serious adverse events were reported, although transient increases in blood pressure, heart rate and temperature occurred.",
+    "why_it_matters": "Direct depression research, rather than assuming PTSD results apply to a different diagnosis.",
+    "relevance_score": 6,
+    "evidence_level": "Open-label uncontrolled study; 12 adults; preliminary safety and feasibility evidence",
+    "date_note": "Background research published online 2025-07-11. Registered as EudraCT 2021-000805-26; the paper describes historical recruitment during 2023–2024, not a current opening.",
+    "limitation": "No placebo or comparison group. Not evidence for brain tumor recovery, hand control or nerve regrowth. Not a pediatric study or established depression treatment.",
+    "care_question": "What controlled evidence and supervised research options exist for the actual depression diagnosis?",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "mdma-ease-pain-toronto-nct07301632",
+    "title": "Recruiting in Toronto: MDMA-assisted therapy pilot for severe chronic neuropathic pain",
+    "source": "ClinicalTrials.gov (Unity Health Toronto)",
+    "url": "https://clinicaltrials.gov/study/NCT07301632",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07301632",
+    "date_published": "2025-12-24",
+    "date_added": "2026-10-25",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Peripheral nerve",
+      "cause": "Any cause",
+      "approach": "Drug",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "EASE Pain is a Toronto pilot testing MDMA-assisted therapy for severe chronic neuropathic pain. It compares MDMA with methylphenidate as an active control, with psychological support in both groups. The main purpose is to determine whether a larger trial is feasible; pain and daily-function outcomes are also measured. No results are posted, and it is not a study of restoring hand movement or regrowing nerves.",
+    "summary": "NCT07301632 plans 50 adults at St. Michael's Hospital, sponsored by Unity Health Toronto. The randomized, blinded phase 2 pilot includes preparation, one dosing session and integration sessions across a 16-week participant schedule. Primary outcomes concern feasibility, retention, data completion, blinding and adverse events. Clinical measures include pain interference, physical function, depression and anxiety. Published research contact: Akash Goel, MD, MPH, FRCPC; Akash.Goel@unityhealth.to; 416-864-5071. No contact has been made.",
+    "why_it_matters": "A legitimate nerve-pain research route when clinically confirmed neuropathic pain is the problem. Sensory loss, clenching or weakness without qualifying pain does not establish a match.",
+    "relevance_score": 8,
+    "evidence_level": "Recruiting randomized, blinded, active-controlled phase 2 feasibility pilot; no results posted",
+    "trial_status": {
+      "status": "Recruiting in registry and Toronto site, checked 2026-10-25. Last update posted 2026-07-29; sponsor status-verification field remains October 2025.",
+      "phase": "Phase 2",
+      "location": "St. Michael's Hospital, Toronto, Ontario, Canada",
+      "key_eligibility": "Adults 18 or older with clinician-confirmed neuropathic pain longer than three months, specified moderate-to-severe pain thresholds, and inadequate benefit from at least two guideline-recommended medications; sufficient English for psychotherapy. Excludes seizure disorders, prior MDMA use, certain psychiatric conditions, pregnancy/breastfeeding, significant cardiovascular or organ disease, recent stroke/brain hemorrhage and numerous interacting medicines, including current SSRIs/SNRIs and specified anticonvulsants. Current psychotherapy specifically for chronic neuropathic pain is excluded. No upper time-since-injury limit or specific brain-tumor recovery indication is stated. Full registry and individual study-team screening apply."
+    },
+    "date_note": "Background trial listing: first posted 2025-12-24, last update posted 2026-07-29. No benefit result is implied by recruitment status.",
+    "limitation": "Not a depression-primary, brain-tumor hand rehabilitation or nerve-reconstruction trial. Trial listing does not confirm current spaces, travel eligibility or individual suitability. Do not stop prescribed medicines to try to qualify; ask the study team and treating clinician.",
+    "care_question": "Is the pain clinically neuropathic, and do its severity, treatment history and current medicines permit screening?",
+    "verified_on": "2026-10-25"
   }
 ]
