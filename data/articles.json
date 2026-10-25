@@ -1108,5 +1108,33 @@
     "limitation": "A review, not new trial data. It focuses on tumor control and drug side effects, not on recovering movement or nerve function.",
     "care_question": "If a BRAF-targeted drug was stopped or paused, what is the plan if the tumor changes, and would rechallenge be an option?",
     "verified_on": "2026-10-25"
+  },
+  {
+    "id": "pediatric-brain-tumor-balance-exergaming-rct-2024",
+    "title": "Small pediatric brain tumor trial found mixed balance results with supervised exercise games",
+    "source": "Virtual Reality",
+    "url": "https://link.springer.com/article/10.1007/s10055-024-00988-z",
+    "date_published": "2024-04-10",
+    "date_added": "2026-10-25",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Supervised balance games were compared with conventional exercises in childhood brain tumor survivors. Walking and one balance test favored games after eight weeks. Another primary balance measure did not show a statistically clear advantage.",
+    "summary": "Thirty children were randomized; 23 completed treatment, 13 with games and 10 with conventional exercises. Eligibility was ages 6–15. Both groups received twice-weekly physiotherapist-supervised sessions. Timed Up and Go favored games, but the between-group center-of-gravity change was nonsignificant (p=0.075).",
+    "why_it_matters": "Supports discussing individualized balance rehabilitation, without assuming that games improve every movement problem.",
+    "relevance_score": 7,
+    "relevance_reason": "Tumor-specific pediatric balance rehabilitation.",
+    "evidence_level": "Small randomized controlled trial; pediatric evidence",
+    "date_note": "Background research, published 2024-04-10; added 2026-10-25.",
+    "limitation": "Unequal dropout, baseline balance imbalance and no long-term follow-up limit confidence. Hand recovery was not tested. The paper gives a placeholder registry ID, so registration and recruitment could not be verified; this is not a recruiting opportunity.",
+    "care_question": "Could supervised balance training address walking difficulties safely?",
+    "verified_on": "2026-10-25"
   }
 ]

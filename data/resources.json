@@ -319,5 +319,39 @@
         "source_url": "https://clinicaltrials.gov/study/NCT07642856#contacts-and-locations"
       }
     ]
+  },
+  {
+    "id": "uw-montlake-neurorehabilitation",
+    "name": "UW Medical Center - Montlake: Rehabilitation Medicine Clinic",
+    "kind": "Care program",
+    "location": "Seattle, Washington, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg",
+      "Spine"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke"
+    ],
+    "focus": "Rehabilitation assessment for cancer-related neurological disability, brain injury, spinal cord injury and movement problems.",
+    "why_relevant": "The clinic explicitly includes neuro-oncology and evaluation for occupational and physical therapy. UW also lists spasticity management; clinic physiatrist Ny-Ying Lam's official profile confirms neurorehabilitation and spasticity interests.",
+    "url": "https://www.uwmedicine.org/locations/rehabilitation-medicine-uwmc",
+    "search_terms": "brain tumor hand arm weakness clenching clenched spasticity tone sensation numbness coordination grasp release gait balance walking rehabilitation occupational therapy trauma brain injury spinal cord injury",
+    "caution": "A general assessment route, not a confirmed tumor-specific hand clinic or acceptance of any individual diagnosis. Confirm age eligibility, referral requirements, appropriate clinician and availability. Clenching does not establish spasticity or dystonia. After an accident, confirm whether the injury involves brain, spinal cord or peripheral nerves; this listing does not establish the injury site. Published phone was not tested; no provider was contacted.",
+    "phone": "206-598-4295",
+    "email": "",
+    "verified_on": "2026-10-25",
+    "source_urls": [
+      "https://www.uwmedicine.org/locations/rehabilitation-medicine-uwmc",
+      "https://www.uwmedicine.org/specialties/rehabilitation-medicine",
+      "https://www.uwmedicine.org/bios/ny-ying-lam"
+    ]
   }
 ]
