@@ -1136,5 +1136,135 @@
     "limitation": "Unequal dropout, baseline balance imbalance and no long-term follow-up limit confidence. Hand recovery was not tested. The paper gives a placeholder registry ID, so registration and recruitment could not be verified; this is not a recruiting opportunity.",
     "care_question": "Could supervised balance training address walking difficulties safely?",
     "verified_on": "2026-10-25"
+  },
+  {
+    "id": "psilocybin-layer5-synapse-remodeling-mice-2026",
+    "title": "Psilocybin reshaped mouse brain connections through a pathway distinct from a hallucination-related behavior",
+    "source": "Nature Neuroscience; UC Santa Cruz",
+    "url": "https://www.nature.com/articles/s41593-026-02490-y",
+    "date_published": "2026-10-15",
+    "date_added": "2026-10-25",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Any cause",
+      "approach": "Drug",
+      "stage": "Animal study"
+    },
+    "quick_read": "Researchers watched psilocybin alter connections between brain cells in living mice. It promoted new connections and their maturation while also increasing removal of some older connections. Genetic experiments separated this remodeling from the mouse head-twitch response, a laboratory proxy for psychedelic activity. This is a mechanism study, not evidence that psilocybin restores hand function or treats brain tumors.",
+    "summary": "Baker, Kogan and colleagues manipulated serotonin 5-HT2A receptors in cortical layer 5 pyramidal neurons. Restoring receptors only in these cells restored structural remodeling without restoring head-twitch behavior; deleting them prevented remodeling while preserving that behavior. The findings distinguish cellular pathways in mice. University explanation: https://news.ucsc.edu/2026/10/how-psilocybin-reshapes-brain-circuits/",
+    "why_it_matters": "Helps researchers investigate whether future compounds could promote plasticity with fewer perceptual effects. New synapses are not proof of useful functional recovery.",
+    "relevance_score": 6,
+    "evidence_level": "Peer-reviewed mouse imaging and genetic experiments; no human recovery trial",
+    "date_note": "Original paper published 2026-10-15; university report dated 2026-10-22. Earlier preprint DOI 10.64898/2026.04.06.716778 concerns the same work, not independent replication.",
+    "limitation": "Head twitch cannot establish what mice perceive or prove hallucination-free treatment in humans. No tumor-related motor rehabilitation, grasp/release recovery or human safety benefit was established. Claims here were checked against the published abstract and university report; full journal text was inaccessible.",
+    "care_question": "What human functional outcomes would need testing before this mechanism could inform neurological rehabilitation?",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "psilocybin-healthy-adult-motor-dexterity-dose-study-2026",
+    "title": "Supervised psilocybin study found movement tasks feasible in healthy adults, with limits at higher exposure",
+    "source": "CNS Drugs; companion analysis in Psychopharmacology",
+    "url": "https://link.springer.com/article/10.1007/s40263-026-01326-4",
+    "date_published": "2026-08-07",
+    "date_added": "2026-10-25",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Any cause",
+      "approach": "Drug",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Arm"
+    ],
+    "quick_read": "A supervised study in 13 healthy adults tested whether people could complete movement tasks during psilocybin's acute effects. Tasks included hand dexterity, arm performance and mobility. Higher exposure impaired some tasks combining movement and thinking, and one participant could not complete several tasks. The study explored feasibility and safety, not whether the drug repairs an injured hand.",
+    "summary": "In this phase 1 study, dose order was randomized and participants, physiotherapists and statisticians were blinded. There was no placebo-only comparison. Tasks were generally feasible through 15 mg; impairment appeared at 20 mg. Nausea and headache were common; no serious adverse events or movement-task-related adverse events occurred. A companion subset analysis found small time-dependent dexterity changes without substantial changes in movement velocity or smoothness: https://link.springer.com/article/10.1007/s00213-026-07106-8",
+    "why_it_matters": "Directly examines hand coordination during drug exposure and cautions against equating plasticity with better dexterity or safe unsupervised exercise.",
+    "relevance_score": 7,
+    "evidence_level": "Phase 1 randomized dose-order study, 13 healthy adults; overlapping subset analysis, not two independent cohorts",
+    "date_note": "Main report published 2026-08-07. Companion hand analysis published 2026-06-17, using 11 participants for task performance and 10 for kinematics from the same parent project; its cited parent preprint DOI is 10.64898/2025.12.22.25342874.",
+    "limitation": "Small, young healthy-adult sample, no placebo-only condition, exploratory outcomes and possible practice effects. Not pediatric, brain tumor, stroke or injury-recovery evidence. Reported research doses are not treatment instructions. This is published research, not a verified recruiting opportunity.",
+    "care_question": "Has any controlled study demonstrated lasting hand-function gains in people with my actual diagnosis?",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "id": "psilocybin-chemo-neuropathy-prevention-mice-science-2026",
+    "title": "Psilocybin given before chemotherapy protected sensory nerves in mouse models, not yet proven in patients",
+    "source": "Science; UT MD Anderson Cancer Center",
+    "url": "https://doi.org/10.1126/science.aec6116",
+    "date_published": "2026-09-03",
+    "date_added": "2026-10-25",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Peripheral nerve",
+      "cause": "Chemotherapy",
+      "approach": "Drug",
+      "stage": "Animal study"
+    },
+    "quick_read": "MD Anderson researchers found that psilocybin given before chemotherapy prevented peripheral nerve injury in mouse models. Sensory nerve endings and touch sensitivity were preserved across several chemotherapy drugs and repeated treatment cycles. The experiments linked protection to the movement of energy-producing mitochondria inside nerve fibers. They do not establish prevention in people or reversal of longstanding nerve damage.",
+    "summary": "Heles and colleagues studied platinum- and taxane-related neuropathy. Pretreatment preserved nerve endings and mitochondrial trafficking without reducing antitumor effects in the tested models. Institutional publication record with original abstract: https://mdanderson.elsevierpure.com/en/publications/psilocybin-prevents-chemotherapy-induced-peripheral-neuropathy-th/ . Official explanation: https://www.mdanderson.org/newsroom/research-newsroom/psilocybin-prevents-chemotherapy-related-nerve-injury-and-associated-symptoms-in-preclinical-models.h00-159858501.html",
+    "why_it_matters": "A distinct nerve-protection research direction for chemotherapy-related sensory injury. It is not evidence for tumor-pressure-related hand weakness, clenching or traumatic nerve reconstruction.",
+    "relevance_score": 7,
+    "evidence_level": "Peer-reviewed preclinical mouse research; human preventive benefit unproven",
+    "date_note": "Science publication date 2026-09-03, confirmed by the institutional publication record and original abstract.",
+    "limitation": "Prevention before chemotherapy differs from treating established neuropathy or restoring motor function. Clinical safety, efficacy and individual eligibility are not established by these experiments. Full Science text was blocked; selected claims were verified in the original abstract and official institutional report. No recruitment claim is made.",
+    "care_question": "Is the problem chemotherapy-related sensory neuropathy, or a different neurological impairment requiring another assessment route?",
+    "verified_on": "2026-10-25"
+  },
+  {
+    "date_added": "2026-10-25",
+    "category": "Experimental Drug Research",
+    "verified_on": "2026-10-25",
+    "id": "mdma-ptsd-mapp2-phase3-2023",
+    "title": "MDMA-assisted therapy reduced PTSD symptoms more than therapy with placebo in a phase 3 trial",
+    "source": "Nature Medicine (MAPP2 study)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10579091/",
+    "date_published": "2023-09-14",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Disease",
+      "approach": "Drug",
+      "stage": "Human trial"
+    },
+    "quick_read": "A randomized study of 104 adults with moderate to severe PTSD found greater symptom improvement with MDMA-assisted therapy than identical therapy with placebo. Both groups received psychological support. This is a positive mental-health result, not evidence of repairing nerves or restoring hand movement.",
+    "summary": "The primary PTSD severity score fell by an estimated 23.7 points with MDMA plus therapy versus 14.8 with placebo plus therapy (p<0.001). The secondary disability measure also favored MDMA. Severe treatment-emergent adverse events occurred in five MDMA participants and two controls; no serious treatment-emergent events or deaths were reported.",
+    "why_it_matters": "Adds human evidence for psychological recovery, distinct from motor rehabilitation.",
+    "relevance_score": 6,
+    "evidence_level": "Randomized, double-blind phase 3 trial; 104 adults; psychological outcomes",
+    "date_note": "Background research, published 2023-09-14. Author-list correction dated 2024-10-07: https://www.nature.com/articles/s41591-024-03331-w",
+    "limitation": "Expectancy and difficulty maintaining blinding limit interpretation. Not tumor, pediatric or motor-recovery evidence. MDMA remains unapproved for clinical use by the FDA, per the VA page checked 2026-10-25: https://www.ptsd.va.gov/understand_tx/mdma_assisted_therapy.asp .",
+    "care_question": "What evidence-based support addresses psychological symptoms alongside neurological rehabilitation?",
+    "trial_url": "https://clinicaltrials.gov/study/NCT04077437",
+    "trial_status": {
+      "status": "Completed, checked 2026-10-25; registry last update posted 2025-06-06.",
+      "phase": "Phase 3",
+      "location": "Multisite study; see registry for historical locations.",
+      "key_eligibility": "Historical eligibility: adults 18 or older with PTSD. Exclusions included uncontrolled hypertension, significant cardiovascular or cerebrovascular disease, specified rhythm risks, symptomatic liver disease, pregnancy/nursing and active illicit or prescription drug use disorder. Full criteria apply; this completed study is not accepting new participants."
+    }
+  },
+  {
+    "date_added": "2026-10-25",
+    "category": "Experimental Drug Research",
+    "verified_on": "2026-10-25",
+    "id": "mdma-social-learning-critical-period-mice-2019",
+    "title": "MDMA reopened a social-learning window in adult mice in an early brain-plasticity study",
+    "source": "Nature (Johns Hopkins University)",
+    "url": "https://www.nature.com/articles/s41586-019-1075-9",
+    "date_published": "2019-04-03",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Any cause",
+      "approach": "Drug",
+      "stage": "Animal study"
+    },
+    "quick_read": "A mouse study found that MDMA restored an adult brain's ability to learn from social reward. This ability is normally strongest during a limited developmental window. The result helped establish a research direction on reopening learning windows, but it did not test hand or walking recovery.",
+    "summary": "Nardou and colleagues linked MDMA-induced reopening to oxytocin receptors in the nucleus accumbens, a reward-related brain region. Experiments showed changes in oxytocin-dependent synaptic plasticity alongside restored social reward learning.",
+    "why_it_matters": "A mechanistic foundation for investigating drugs paired with structured learning, without assuming that social learning predicts motor recovery.",
+    "relevance_score": 5,
+    "evidence_level": "Controlled mouse behavioral and synaptic experiments; no human rehabilitation outcomes",
+    "date_note": "Background research published 2019-04-03; added 2026-10-25. This is the original MDMA study, not a new clinical success or an additional human trial.",
+    "limitation": "One type of learning in mice does not establish general brain rejuvenation, nerve repair or benefit after brain tumors. No human safety or clinical eligibility is established.",
+    "care_question": "Has a proposed plasticity effect translated into meaningful function in people with the relevant condition?"
   }
 ]
