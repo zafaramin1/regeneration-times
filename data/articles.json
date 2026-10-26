@@ -1632,5 +1632,118 @@
     "care_question": "Not applicable to brain tumor patients; for stroke, would my current medicines exclude me, and is any rehabilitation paired with dosing?",
     "date_added": "2026-10-25",
     "verified_on": "2026-10-25"
+  },
+  {
+    "id": "bright-home-visual-training-trial-georgetown-2026",
+    "title": "Recruiting at Georgetown: home-based visual training study for vision loss from brain damage, including a stable brain tumor",
+    "source": "ClinicalTrials.gov (Georgetown University)",
+    "url": "https://clinicaltrials.gov/study/NCT07635329",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07635329",
+    "date_published": "2026-06-09",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "The BRIGHT study at Georgetown University in Washington, D.C. is testing whether training at home with visual exercises can help people who lost part of their field of vision because of damage inside the brain. Participants do vision tests, brain scans, and a home training program, and the team compares different kinds of visual training. People can join if the brain damage came from a stroke, a traumatic brain injury, or a brain tumor that has been stable within the past year. It is a behavioral training study, not a drug or surgery, and it does not promise that lost vision will return.",
+    "summary": "Prospective crossover study (NCT07635329, BRIGHT) evaluating image-guided, home-based perceptual training to improve visual performance in adults with visual field loss from focal brain damage. It combines visual behavioral testing, neuroimaging and a home intervention, aiming to identify neural pathways supporting training-induced visual plasticity and to compare different types of visual training. Estimated enrollment 100. Registry lists it as recruiting at Georgetown University Medical Center.",
+    "why_it_matters": "It is one of few open rehabilitation studies that explicitly accepts people whose vision loss comes from a stable brain tumor.",
+    "relevance_score": 8,
+    "relevance_reason": "Recruiting trial that explicitly admits brain tumor related visual field loss.",
+    "evidence_level": "Recruiting trial (crossover design, behavioral intervention)",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable",
+      "location": "Georgetown University Medical Center, Washington, D.C., United States",
+      "key_eligibility": "Adults 18 or older with visual field loss from focal brain damage, at least three months after stroke or traumatic brain injury, or a stable brain tumor within the past year; must be able to have MRI; excludes eye diseases and unrelated severe neurological or psychiatric conditions. Tumor-related damage is allowed."
+    },
+    "date_note": "First posted 2026-06-09; study start 2026-07-23. Registry status checked 2026-10-26.",
+    "care_question": "Is my visual field loss the kind this study treats, and is my tumor considered stable enough to qualify?",
+    "date_added": "2026-10-26",
+    "verified_on": "2026-10-26"
+  },
+  {
+    "id": "mescc-motor-recovery-phenotypes-vanderbilt-2026",
+    "title": "Vanderbilt study of 101 people with spinal cord compression from cancer: about 7 in 10 regained some strength after surgery",
+    "source": "Spine (Vanderbilt University Medical Center)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42910995/",
+    "date_published": "2026-10-19",
+    "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Spine",
+      "cause": "Spine tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg",
+      "Arm"
+    ],
+    "quick_read": "When cancer spreads to the spine, it can press on the spinal cord and cause weakness and numbness. Vanderbilt researchers looked back at 101 adults who had surgery for this and used a computer method to sort them into four groups based on how weak they were, how long the weakness had lasted, and whether they had lost feeling. About 71% of all patients regained at least some strength after surgery. People with long-lasting, severe weakness plus loss of feeling were the least likely to recover fully. The findings may help doctors explain to patients what recovery to expect.",
+    "summary": "Retrospective cohort of 101 adults who had surgery (2010 to 2021) for metastatic epidural spinal cord compression with preoperative motor deficits. Latent profile analysis grouped patients by preoperative motor scores, deficit duration and sensory deficits into four phenotypes (acute mild without sensory loss, acute mild with sensory loss, chronic mild without sensory loss, chronic severe with sensory loss). Overall, 72 (71.3%) had any postoperative motor improvement, similar across groups. Groups differed in absolute motor change and in rates of 50%, 75% and 100% recovery; 100% recovery occurred in 30.0% of the chronic mild group and 5.3% of the chronic severe group, which independently predicted lower recovery after adjustment. Mortality did not differ.",
+    "why_it_matters": "It shows how long and how severe the deficit was before surgery shapes how much strength comes back after tumor compression of the spinal cord.",
+    "relevance_score": 6,
+    "relevance_reason": "Spine tumor compression and motor recovery after surgery (focus category, spine).",
+    "evidence_level": "Human study (retrospective cohort, 101 patients, level 3)",
+    "date_note": "Published online ahead of print 2026-10-19; abstract only checked.",
+    "limitation": "Single center, retrospective, metastatic tumors only.",
+    "care_question": "Given how long my weakness lasted before surgery, what recovery is realistic and what therapy helps most?",
+    "date_added": "2026-10-26",
+    "verified_on": "2026-10-26"
+  },
+  {
+    "id": "aya-brain-tumor-survivors-symptom-network-2026",
+    "title": "Dutch study of young adult cancer survivors: brain tumor survivors carried more symptoms, with fatigue and physical function as key targets",
+    "source": "Neuro-Oncology Practice (Netherlands and Belgium centers)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13365141/",
+    "date_published": "2026-02-25",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "Researchers surveyed over 4,000 people in the Netherlands who had cancer between ages 18 and 39, about 12 years after diagnosis, including 164 brain tumor survivors. Brain tumor survivors reported more problems on most quality-of-life measures than survivors of other cancers. Mapping how symptoms connect, the team found that fatigue, physical functioning and work were linked to many other problems, so improving them may help across the board. The authors say this can guide rehabilitation programs for people living long term after a brain tumor. It is a survey study and did not test a treatment.",
+    "summary": "Cross-sectional network analysis of patient-reported outcomes (EORTC QLQ-SURV100) in 4,005 adolescent and young adult cancer survivors diagnosed 1999 to 2015 at ages 18 to 39 (median follow-up 12.31 years), comparing 164 primary CNS tumor survivors with 3,841 non-CNS survivors. CNS tumor survivors reported higher symptom burden on most scales and had a more diffuse symptom network with weaker within-domain cohesion and cross-domain integration. Fatigue, physical functioning, sexual problems and work showed higher bridge influence; negative health outlook, health distress and physical functioning were core targets in both groups.",
+    "why_it_matters": "It points long-term brain tumor survivorship care toward fatigue and physical function as priorities for rehabilitation.",
+    "relevance_score": 7,
+    "relevance_reason": "Long-term survivorship and functional burden after brain tumors.",
+    "evidence_level": "Human study (cross-sectional survey, network analysis)",
+    "date_note": "Published online 2026-02-25 in the August 2026 issue.",
+    "limitation": "Survey-based; only 164 brain tumor survivors; does not test interventions.",
+    "care_question": "Could a rehabilitation plan focused on fatigue and physical function help my long-term symptoms after a brain tumor?",
+    "date_added": "2026-10-26",
+    "verified_on": "2026-10-26"
+  },
+  {
+    "id": "trametinib-pediatric-lgg-lebanon-2026",
+    "title": "Lebanese case series: four children with low-grade glioma improved on long-term trametinib, with mostly skin and stomach side effects",
+    "source": "Child's Nervous System (LAU Medical Center Rizk Hospital, Beirut)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42720781/",
+    "date_published": "2026-09-10",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "quick_read": "Trametinib is a targeted pill (a MEK inhibitor) used for some low-grade brain tumors that keep growing despite chemotherapy. Doctors in Beirut reviewed four children with these tumors, including tumors with the BRAF V600E change, who took trametinib for about 22 to 35 months. All four improved clinically, and one tumor shrank partly on scans. Side effects were mostly skin and stomach problems, and family interviews showed physical and school function were the areas most affected in daily life. Four patients is a very small group, so this shows feasibility rather than proof.",
+    "summary": "Retrospective review of four pediatric patients with progressive low-grade gliomas (KIAA1549-BRAF, NF1 loss and BRAF V600E drivers) treated with trametinib obtained through a managed access program. Median treatment duration was 30.2 months (range 22 to 35.5). Clinical improvement was observed in all patients and partial radiographic response in one. Most common side effects were skin reactions and gastrointestinal complaints, with few interruptions. PedsQL 4.0 quality-of-life results varied widely, with physical and school functioning most affected.",
+    "why_it_matters": "It adds real-world data on long-term MEK inhibitor use for low-grade glioma, including daily function, outside major trial centers.",
+    "relevance_score": 7,
+    "relevance_reason": "Targeted MEK inhibitor therapy for BRAF-altered low-grade glioma; clinical and functional outcomes.",
+    "evidence_level": "Human study (retrospective case series, 4 patients)",
+    "date_note": "Published 2026-09-10; abstract only checked.",
+    "limitation": "Four patients, single center, retrospective; functional measures limited.",
+    "care_question": "If my tumor has a BRAF or MEK pathway change, how are physical function and side effects tracked during targeted therapy?",
+    "date_added": "2026-10-26",
+    "verified_on": "2026-10-26"
   }
 ]
