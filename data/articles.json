@@ -1873,5 +1873,31 @@
     "care_question": "Which of my chemotherapy drugs can affect nerves, and how will numbness or tingling be checked during treatment?",
     "date_added": "2026-10-26",
     "verified_on": "2026-10-26"
+  },
+  {
+    "id": "scct-vr-cerebellar-ataxia-childhood-brain-tumor-2026",
+    "title": "VR-guided reaching after childhood brain tumors: small pilot found walking and balance changes",
+    "source": "Pediatric Blood & Cancer",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/1545-5017.70449",
+    "date_published": "2026-07-29",
+    "date_added": "2026-10-26",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Researchers reviewed 12 brain tumor survivors receiving virtual-reality-guided reaching exercises. Walking and standing-balance scores improved, but speech changes were not statistically significant. This uncontrolled pilot cannot establish treatment benefit or hand recovery.",
+    "summary": "Participants were ages 6-24, treated in a pediatric service. Selected ataxia subscales were assessed, not hand dexterity. Two reported temporary fatigue; no serious therapy-related events occurred. One died from tumor progression, considered unrelated. Assessments were unblinded and follow-up varied.",
+    "why_it_matters": "Explores rehabilitation for persistent coordination problems after tumor treatment.",
+    "evidence_level": "Single-center retrospective uncontrolled pilot, 12 participants",
+    "relevance_score": 8,
+    "limitation": "No full ataxia scale or control group. One coauthor directs and owns equity in the device company. Earlier conference abstracts describe this work, not independent replication.",
+    "date_note": "First online July 29, 2026; September issue. Not a recruiting opportunity.",
+    "verified_on": "2026-10-26"
   }
 ]

@@ -841,5 +841,36 @@
     "source_urls": [
       "https://anesthesia.ucsf.edu/specialties/pain-medicine/ucsf-pain-management-center"
     ]
+  },
+  {
+    "id": "mass-general-brigham-spaulding-cancer-rehabilitation",
+    "name": "Mass General Brigham and Spaulding: Cancer Rehabilitation",
+    "kind": "Care program",
+    "location": "Greater Boston, Massachusetts, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Hand",
+      "Arm",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Surgery",
+      "Chemotherapy"
+    ],
+    "focus": "Rehabilitation assessment for weakness, balance, gait and daily-function difficulties during or after cancer treatment.",
+    "why_relevant": "The cancer program describes rehabilitation-physician assessment and occupational and physical therapy for weakness, mobility limitations and pain. Its linked occupational-therapy service addresses upper-extremity function, grip, daily tasks and neurological motor skills.",
+    "url": "https://www.massgeneralbrigham.org/en/services/cancer-rehabilitation",
+    "search_terms": "brain tumor cancer rehabilitation hand arm grasp grip occupational therapy weakness balance gait pain Boston Massachusetts Spaulding",
+    "caution": "General assessment route, not confirmation that a particular brain tumor, clenching, spasticity or sensory diagnosis is accepted. Confirm age eligibility, appropriate clinic, referral and insurance. The hand/grip description is from the broader occupational-therapy service, not a tumor-specific hand protocol. No provider was contacted and the number was not tested.",
+    "phone": "617-952-5050",
+    "verified_on": "2026-10-26",
+    "source_urls": [
+      "https://www.massgeneralbrigham.org/en/services/cancer-rehabilitation",
+      "https://www.massgeneralbrigham.org/en/services/occupational-therapy"
+    ]
   }
 ]
