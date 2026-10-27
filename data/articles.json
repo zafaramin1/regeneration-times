@@ -1899,5 +1899,94 @@
     "limitation": "No full ataxia scale or control group. One coauthor directs and owns equity in the device company. Earlier conference abstracts describe this work, not independent replication.",
     "date_note": "First online July 29, 2026; September issue. Not a recruiting opportunity.",
     "verified_on": "2026-10-26"
+  },
+  {
+    "id": "firefly1-tovorafenib-optic-pathway-glioma-vision-2025",
+    "title": "Tovorafenib trial in children with optic pathway glioma: vision stayed stable or improved in most",
+    "source": "Neuro-Oncology (FIREFLY-1 trial)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12187376/",
+    "date_published": "2024-12-19",
+    "date_added": "2026-10-27",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Optic pathway gliomas are low-grade brain tumors that grow along the nerves that carry vision, so surgery can rarely remove them without risking sight. This analysis looked at 42 children and young people in the FIREFLY-1 trial whose tumors had a BRAF change and had come back or not responded to earlier treatment, and who took tovorafenib, a once-weekly targeted pill. About half or more had their tumor shrink, depending on the measuring method, and vision was kept stable in about 80 percent of patients and improved in about 31 percent. It suggests a targeted drug can protect, and sometimes improve, vision damaged by this kind of tumor, though it was a single-arm trial with no comparison group.",
+    "summary": "Post hoc analysis of the optic pathway glioma subgroup (42 of 77 patients in arm 1) of the phase 2 FIREFLY-1 trial of tovorafenib, a type II RAF inhibitor, in BRAF-altered relapsed or refractory pediatric low-grade glioma. Overall response rates were 64%, 50% and 55% by RANO-HGG, RAPNO and RANO-LGG criteria. Of 35 patients with at least two visual acuity checks, vision per patient was preserved in 80% and improved in 31%; per eye it was preserved in 87% and improved in 27%. Safety was similar to the overall trial population.",
+    "why_it_matters": "Vision is one of the nerve functions most at risk from low-grade gliomas, and this is trial data showing a targeted pill mostly preserved it.",
+    "relevance_reason": "BRAF-targeted therapy for low-grade glioma with a nerve-function (vision) outcome.",
+    "relevance_score": 9,
+    "evidence_level": "Post hoc subgroup analysis of a single-arm phase 2 trial, 42 patients",
+    "limitation": "No control group; post hoc analysis; sponsored by Day One Biopharmaceuticals with medical writing support from the company. Children with relapsed or refractory tumors only.",
+    "date_note": "Published online December 19, 2024; May 2025 issue (27:5). Older than a few weeks but not previously on the site.",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "hype-hiit-young-adult-pediatric-brain-tumor-survivors-dfci",
+    "title": "Recruiting in Boston: home interval-exercise study for young adults who had a brain tumor as children",
+    "source": "ClinicalTrials.gov (Dana-Farber Cancer Institute)",
+    "url": "https://clinicaltrials.gov/study/NCT05740839",
+    "trial_url": "https://clinicaltrials.gov/study/NCT05740839",
+    "date_published": "2023-02-23",
+    "date_added": "2026-10-27",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "The HYPE study at Dana-Farber in Boston is testing a 16-week, home-based, virtual high-intensity interval exercise program for young adults who had a brain tumor in childhood. Participants are randomly placed in the exercise group or a waitlist group that can try the program later. The team wants to see whether the program is doable and whether it helps physical, thinking and emotional health. It is a small pilot about fitness and well-being, not a treatment designed to repair nerves, but it is one of few studies built specifically for adult survivors of childhood brain tumors.",
+    "summary": "Randomized pilot feasibility study (NCT05740839, HYPE) of a 16-week virtual, home-based high-intensity interval training program versus a waitlist control in young adult survivors of pediatric brain tumors, and adults with IDH-mutant glioma. Estimated enrollment 30. Primary outcomes are feasibility measures: session attendance, minutes completed, HIIT compliance, barriers to adherence and participant burden. Registry lists it as recruiting at Dana-Farber Cancer Institute.",
+    "why_it_matters": "Adult survivors of childhood brain tumors often live with long-term physical limits, and this study is designed specifically for them.",
+    "relevance_reason": "Recruiting trial that explicitly enrolls adult survivors of childhood brain tumors.",
+    "relevance_score": 7,
+    "evidence_level": "Recruiting randomized pilot feasibility trial (behavioral intervention)",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable",
+      "location": "Dana-Farber Cancer Institute, Boston, Massachusetts, United States",
+      "key_eligibility": "Ages 18 to 45 with a brain tumor diagnosed in childhood (at least 2 years after tumor treatment) or an adult IDH-mutant glioma (at least 1 year after last treatment); cleared by a doctor to exercise; currently doing 60 minutes or less of structured exercise a week; seizures well controlled; no progressive cancer in the last 3 months; no primary spinal cord tumor; must travel to Dana-Farber for testing. Tumor-related damage is allowed."
+    },
+    "date_note": "First posted 2023-02-23; registry last updated 2026-02-24 and still lists recruiting, though its estimated primary completion date (2026-09-24) has passed. Confirm with the study team.",
+    "care_question": "Would my current walking, balance or hand limits still let me safely join a home interval-exercise program?",
+    "verified_on": "2026-10-27"
+  },
+  {
+    "id": "et-neuro-exercise-together-brain-tumor-dyads-ohsu",
+    "title": "Recruiting in Portland: partnered strength-training study for adults with a brain tumor and their spouse or partner",
+    "source": "ClinicalTrials.gov (OHSU Knight Cancer Institute)",
+    "url": "https://clinicaltrials.gov/study/NCT07278440",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07278440",
+    "date_published": "2025-12-12",
+    "date_added": "2026-10-27",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "The ET-NEURO study at OHSU in Portland, Oregon is testing Exercise Together, a supervised group program where a person with a primary brain tumor and their live-in spouse or partner do strength exercises side by side over video. The exercises target muscles used in everyday activities, with the aim of improving daily functioning, mood and the couple's relationship. The study also uses special MRI scans to look at how the brain's fluid-clearing system changes with exercise. It is an early safety and feasibility pilot, so it will not show whether the program restores function, but it is open to many brain tumor types, including low-grade ones.",
+    "summary": "Single-arm pilot trial (NCT07278440, ET-NEURO) of the Exercise Together partnered functional resistance-training program, delivered by videoconference, for adults with a WHO grade 1 to 4 primary brain tumor and their co-residing spouse or partner caregiver. Estimated enrollment 36. Primary outcomes are enrollment, adherence, retention and adverse events; secondary outcomes cover relationship and quality of life; exploratory glymphatic MRI. Registry lists it as recruiting at OHSU Knight Cancer Institute.",
+    "why_it_matters": "It is a rare exercise study built specifically around people with primary brain tumors, and it accepts patients still on oral targeted therapy.",
+    "relevance_reason": "Recruiting brain tumor rehabilitation trial that allows low-grade tumors and oral targeted drugs.",
+    "relevance_score": 7,
+    "evidence_level": "Recruiting single-arm pilot feasibility trial (behavioral intervention)",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable",
+      "location": "OHSU Knight Cancer Institute, Portland, Oregon, United States",
+      "key_eligibility": "Adults 18 or older with a confirmed WHO grade 1 to 4 primary brain tumor and a co-residing spouse or partner caregiver; oral chemotherapy or targeted therapy allowed; at least 6 weeks after IV chemotherapy or radiation and 8 weeks after craniotomy; Karnofsky score 70 or higher (or ECOG 0 to 1); home internet for video; not already doing two or more strength or physical therapy sessions a week. Tumor-related damage is allowed."
+    },
+    "date_note": "First posted 2025-12-12; study start 2026-07-10. Registry status checked 2026-10-27.",
+    "care_question": "Does my current level of daily function meet the study's performance score, and does it matter that I am on a targeted pill?",
+    "verified_on": "2026-10-27"
   }
 ]
