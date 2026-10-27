@@ -872,5 +872,38 @@
       "https://www.massgeneralbrigham.org/en/services/cancer-rehabilitation",
       "https://www.massgeneralbrigham.org/en/services/occupational-therapy"
     ]
+  },
+  {
+    "id": "msk-cancer-rehabilitation-physical-occupational-therapy",
+    "name": "Memorial Sloan Kettering: Physical and Occupational Therapy",
+    "kind": "Care program",
+    "location": "New York City, New York, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Chemotherapy",
+      "Surgery"
+    ],
+    "focus": "Cancer rehabilitation assessment for arm and hand weakness, stiffness, sensation, coordination, balance and daily activities.",
+    "why_relevant": "Occupational therapy explicitly addresses hand/arm paralysis, joint stiffness, small movements and sensory difficulties. Pediatric therapy serves infants through adolescents. MSK's adult brain-metastasis survivorship page links physical and occupational therapy to recovery after treatment.",
+    "url": "https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/rehabilitation/medicine-therapy/rehabilitation-therapy",
+    "search_terms": "brain tumor cancer rehabilitation hand arm weakness fine motor coordination grasp stiffness sensation neuropathy balance mobility occupational therapy New York MSK",
+    "caution": "General assessment route. Confirm acceptance of the particular tumor diagnosis, age-specific service, referral, insurance and location. The brain-tumor source concerns adult brain metastases; it does not establish a protocol for all tumors or clenching/spasticity. A doctor referral is required. No provider contacted or phone tested.",
+    "phone": "646-888-1900",
+    "verified_on": "2026-10-27",
+    "source_urls": [
+      "https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/rehabilitation/medicine-therapy/rehabilitation-therapy",
+      "https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/rehabilitation/medicine-therapy/how-make-appointment-convenient-locations",
+      "https://www.mskcc.org/cancer-care/types/brain-tumors-metastatic/survivorship"
+    ]
   }
 ]

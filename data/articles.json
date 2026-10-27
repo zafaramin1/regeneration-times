@@ -1988,5 +1988,32 @@
     "date_note": "First posted 2025-12-12; study start 2026-07-10. Registry status checked 2026-10-27.",
     "care_question": "Does my current level of daily function meet the study's performance score, and does it matter that I am on a targeted pill?",
     "verified_on": "2026-10-27"
+  },
+  {
+    "id": "protein-supplement-brain-tumor-rehabilitation-rct-2024",
+    "title": "Protein during brain tumor rehabilitation: small trial found no clear advantage over placebo",
+    "source": "Scientific Reports (Cho and colleagues, Yonsei University)",
+    "url": "https://www.nature.com/articles/s41598-024-63551-5",
+    "date_published": "2024-06-05",
+    "date_added": "2026-10-27",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "Sixty adults with brain tumors were assigned protein supplements or placebo during six weeks of rehabilitation. Grip strength improved in both groups; pinch strength improved significantly only within the protein group. That does not prove superiority: overall strength, muscle mass and function did not differ significantly between groups.",
+    "summary": "Forty-four participants were analyzed, 20 receiving protein and 24 placebo. Both groups received rehabilitation, including occupational therapy. Strength measurements averaged both limbs. This completed study enrolled adults aged 18-80, not children.",
+    "why_it_matters": "Direct hand-strength measurements help distinguish nutritional support from proven recovery of dexterity.",
+    "relevance_score": 8,
+    "evidence_level": "Single-center randomized placebo-controlled trial; 60 randomized, 44 analyzed",
+    "limitation": "Attrition, mixed tumors and six-week follow-up limit conclusions. Retrospective registration (KCT0009113). Funded partly by Yonsei University Dairy. No demonstrated nerve regeneration.",
+    "date_note": "Background research, published June 5, 2024. Not a recruiting opportunity.",
+    "verified_on": "2026-10-27"
   }
 ]
