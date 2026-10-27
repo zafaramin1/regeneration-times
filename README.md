@@ -178,3 +178,8 @@ AI drafting recovery on October 25, 2026 keeps only a public story or resource I
 - Inquiry drafts use American spelling. When a new inquiry is prepared, the page reminds the reader to open an exported log from another device first, because inquiry history is per browser and cannot detect outreach made elsewhere.
 - Calendar reminder lines are folded to the iCalendar line-length limit.
 - Care-desk backup export and restore were verified end to end in a headless browser with synthetic entries.
+
+
+## Private journal save connection (October 27, 2026)
+
+`account-sync.js` connects the existing care desk to the owner-private `/journal-sync` helper. The helper requests explicit storage consent, then offers restore or replacement when a saved copy exists. No patient entries appear in URLs or this repository. The journal passes questionnaire context (including timing and interests), notes, timeline and saved article IDs through origin/source/token checked postMessage. The signed-in helper uses a same-origin authenticated API with encrypted account-keyed storage and revision conflict checks. Inquiry history remains separate. Autosave works only while the helper window remains open; connection loss and save errors are visible. Reloading requires reconnecting and restoring; no hidden cross-site sign-in or false claim of always-on cloud saving. Backups remain optional. AI processing is not implied by storage consent.

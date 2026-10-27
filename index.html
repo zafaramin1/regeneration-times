@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261025p">
+  <link rel="stylesheet" href="styles.css?v=20261027save">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -240,7 +240,7 @@
     <div class="form-dialog-head"><div><p class="small-kicker">Alongside your journal</p><h2 id="care-desk-heading">My care desk</h2></div><button type="button" class="form-dialog-close" id="care-desk-close" aria-label="Close my care desk">× Close</button></div>
     <div class="care-desk-body">
       <p class="care-desk-intro">Your context, reading and questions, here on the same page.</p>
-      <p class="care-desk-privacy"><strong>This visit only.</strong> Personal entries stay in page memory. Export a backup before reloading or closing. They are not sent to the editors, Microsoft or GPT automatically. Inquiries have a separate optional device history.</p>
+      <p class="care-desk-privacy"><strong>Keep your place.</strong> Use Save or restore to connect your private account. After connecting, questionnaire answers, interests, notes, timeline and saved reading save automatically while the connection window stays open. Wait for Saved before closing. Inquiries use their separate history. Nothing is sent to AI automatically.</p>
       <div class="care-desk-tabs" role="group" aria-label="Care desk sections"><button type="button" data-desk-tab="context" aria-pressed="true">My context</button><button type="button" data-desk-tab="notes" aria-pressed="false">Notes &amp; reading</button><button type="button" data-desk-tab="inquiries" aria-pressed="false">Inquiries</button><button type="button" data-desk-tab="files" aria-pressed="false">Files &amp; AI</button></div>
       <section id="desk-context-panel" data-desk-panel="context" aria-labelledby="desk-context-heading">
         <h3 id="desk-context-heading">Start with what you know</h3><p>Use the journal’s short questionnaire. Unknowns are welcome. Changes before treatment stay distinct from changes after it.</p>
@@ -280,18 +280,20 @@
         </form>
       </section>
       <section id="desk-files-panel" data-desk-panel="files" hidden aria-labelledby="desk-files-heading">
-        <h3 id="desk-files-heading">Keep control of your documents</h3><p><a class="reader-action" href="https://regeneration-family-companion.zafaramin.chatgpt.site/" target="_blank" rel="noopener noreferrer">Open my private care desk</a></p><p>Owner-only sign-in opens a private profile and inquiry tracker with an explicit Save to my account button. Saved entries restore there after sign-in. Entries in this public care desk do not transfer automatically.</p><p><strong>Document uploads, automatic cloud saving and document review are not connected to this public page.</strong> AI inquiry drafting is available from Inquiries through a private owner-only window.</p><p>For now, export your care-desk backup and keep it in a private folder you control, such as your OneDrive. To return to it, download that file and choose Open backup here. Opening a cloud folder does not save this page.</p><p>A later protected connection can let you choose which records to review and explain what is sent to GPT before you agree. Uploading for storage will not automatically authorize AI review.</p><p class="guided-scope">This desk organizes questions and reading. It does not diagnose, interpret scan images, prescribe treatment or confirm trial eligibility. Use your clinical team’s secure portal for medical care.</p>
+        <h3 id="desk-files-heading">Your private place to return to</h3><p>Use <strong>Save or restore my care desk</strong> below. A small owner-only sign-in window connects account storage to this journal. No export is required. After connection, changes save automatically; the status confirms successful saves.</p><p>Next time, open this journal, connect your account and choose <strong>Restore my saved care desk</strong>. Keep the connection window open while editing. If it closes, the journal tells you to reconnect.</p><p>Your questionnaire answers, research interests, notes, timeline and saved-story IDs are stored in your private account’s encrypted database. This is separate from Microsoft OneDrive. Document uploads and AI review of records remain unconnected. AI inquiry drafting is available from Inquiries through its private window.</p><p class="guided-scope">This desk organizes questions and reading. It does not diagnose, interpret scan images, prescribe treatment or confirm trial eligibility. Use your clinical team’s secure portal for medical care.</p>
       </section>
+      <section class="desk-account-controls" aria-label="Private account saving"><button type="button" class="reader-action" id="desk-account-connect">Save or restore my care desk</button><p id="desk-account-status" role="status" aria-live="polite">Not connected. Connect once to save here and restore on your next visit. Owner-only access.</p></section>
       <details class="desk-backup-controls"><summary>Keep a copy, restore or clear this visit</summary><div class="desk-transfer"><button type="button" class="quiet-button" id="desk-export">Export backup</button><button type="button" class="quiet-button" id="desk-import">Open backup</button><button type="button" class="quiet-button" id="desk-clear">Clear personal entries</button><input type="file" id="desk-backup-file" accept=".json,application/json" aria-label="Choose a care desk backup file" hidden></div>
       <p class="community-note">A backup contains personal entries and is not encrypted by this page. Opening a backup replaces those entries and merges its saved story IDs with your saved reading. Export first if you need to keep the current version.</p></details><p class="care-desk-feedback" id="desk-feedback" role="status" aria-live="polite"></p>
       <div id="desk-clear-confirm" class="desk-clear-confirm" hidden><p>Clear your questionnaire answers, notes and timeline from this page? Saved story IDs and downloaded copies will remain.</p><div class="guide-actions"><button type="button" class="reader-action" id="desk-clear-yes">Clear personal entries now</button><button type="button" class="quiet-button" id="desk-clear-no">Keep working</button></div></div>
     </div>
   </dialog>
 
-  <script src="guided.js?v=20261025p"></script>
-  <script src="share.js?v=20261025p"></script>
-  <script src="care-desk.js?v=20261025p"></script>
-  <script src="inquiry.js?v=20261025p"></script>
-  <script src="app.js?v=20261025p"></script>
+  <script src="guided.js?v=20261027save"></script>
+  <script src="share.js?v=20261027save"></script>
+  <script src="care-desk.js?v=20261027save"></script>
+  <script src="account-sync.js?v=20261027save"></script>
+  <script src="inquiry.js?v=20261027save"></script>
+  <script src="app.js?v=20261027save"></script>
 </body>
 </html>
