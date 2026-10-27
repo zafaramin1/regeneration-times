@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,650&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261027save">
+  <link rel="stylesheet" href="styles.css?v=20261027notices">
 </head>
 <body>
   <a class="skip" href="#content">Skip to stories</a>
@@ -138,14 +138,14 @@
     <details><summary>How we choose and explain research</summary>
       <p>We link to original papers and trial registries, keep their publication dates, and identify the type of evidence. A laboratory finding, a single-person report and a controlled human trial answer different questions. A study being published does not mean a treatment is approved or available.</p>
       <p>Brain tumor recovery, particularly hand use, coordination and daily independence, is a priority. Research in stroke or spinal cord injury is labelled for that population; it is not assumed to apply to brain tumors. Reviews may discuss studies already covered here.</p>
-      <p>Saved reading stays in this browser on this device. We do not upload your saved list or search terms. Use the original source to check details and discuss relevance with your care team.</p>
+      <p>Saved reading stays in this browser unless you explicitly connect private account saving, which also saves its article IDs. Search terms are not included in that account save. Use the original source to check details and discuss relevance with your care team.</p>
     </details>
   </section>
 
   <footer class="colophon">
     <p class="disclaimer">For information only. Not medical advice. Talk to your doctor before considering any treatment or trial.</p>
     <p class="colophon-founder">Founded by Zafar Amin</p>
-    <p class="colophon-meta"><a href="#top">Back to top</a> · <a href="#subscribe">Stay connected</a> · <a href="#ideas">Share an idea</a></p>
+    <p class="colophon-meta"><a href="#top">Back to top</a> · <a href="#subscribe">Stay connected</a> · <a href="#ideas">Share an idea</a> · <a href="terms.html">Terms of Use</a> · <a href="privacy.html">Privacy Notice</a></p>
   </footer>
 
   <dialog class="form-dialog" id="reader-form-dialog" aria-labelledby="reader-form-heading">
@@ -167,7 +167,7 @@
       </div>
       <input type="hidden" name="entry.25366126" id="reader-submission-type" value="Idea or feedback">
       <input type="hidden" name="fvv" value="1"><input type="hidden" name="pageHistory" value="0">
-      <label class="form-consent"><input type="checkbox" id="reader-consent" required> <span id="reader-consent-text">I agree to send these details to The Regeneration Times through Google Forms.</span></label>
+      <p class="community-note">See our <a href="terms.html" target="_blank" rel="noopener noreferrer">Terms of Use</a> and <a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Notice</a> before submitting. Please do not include medical records in an idea or signup.</p><label class="form-consent"><input type="checkbox" id="reader-consent" required> <span id="reader-consent-text">I agree to send these details to The Regeneration Times through Google Forms.</span></label>
       <p class="form-connection-note">Sent to a private Google Sheet. Please do not include medical records or identifying patient details here.</p>
       <button type="submit" class="reader-action" id="reader-submit">Join the email list</button>
       <p class="community-note">Your email is used for the updates or reply you request. Ideas and stories are reviewed before publication. Do not submit someone else’s details without permission.</p>
@@ -198,7 +198,7 @@
     <div class="form-dialog-head"><h2 id="guided-heading">Find a starting point</h2><button type="button" class="form-dialog-close" data-close-dialog aria-label="Close questionnaire">× Close</button></div>
     <form id="guided-form" class="dialog-body" autocomplete="off">
       <p class="small-kicker" id="guided-progress" aria-live="polite">Step 1 of 3 · The situation</p>
-      <p class="community-note">No name, email or date of birth needed. Answers stay on this page; they are not submitted. Skip anything you do not know.</p>
+      <p class="community-note">No name, email or date of birth needed. Answers stay on this page unless you explicitly connect private account saving. Skip anything you do not know.</p>
       <fieldset data-guide-step="0"><legend>What would you like help exploring?</legend>
         <label class="field-label" for="guide-cause">Known condition or event</label><select id="guide-cause" name="cause"><option value="">Not sure / not listed</option><option value="Brain tumor">Brain tumor</option><option value="Trauma">Accident or physical injury</option><option value="Spine tumor">Spinal tumor</option><option value="Stroke">Stroke</option><option value="Chemotherapy">Chemotherapy-related nerve problems</option><option value="Disease">Another diagnosed disease</option></select>
         <p class="field-label" id="guide-area-label">Areas affected <span>(choose any, or skip)</span></p><div class="choice-grid" role="group" aria-labelledby="guide-area-label">
@@ -212,7 +212,7 @@
         </div>
         <label class="field-label" for="guide-timing">When did the difficulty first appear?</label><select id="guide-timing" name="timing"><option value="unknown">Not sure</option><option value="before">Before any surgery or other treatment</option><option value="after">After surgery or another treatment</option><option value="both">Before treatment, with later changes too</option><option value="injury">At or after an accident / injury</option></select>
         <div id="guide-injury-site" hidden><label class="field-label" for="guide-site">Injury site, if confirmed by the clinical team</label><select id="guide-site" name="site"><option value="">Not known / not confirmed</option><option value="Brain">Brain</option><option value="Spine">Spinal cord</option><option value="Peripheral nerve">Brachial plexus</option><option value="Peripheral nerve-individual">Individual peripheral nerve</option><option value="multiple">More than one site</option></select><p class="community-note">Do not guess from the symptom. This records context for discussion, not a diagnosis.</p></div>
-        <details class="learn-detail"><summary>Add context for my discussion note <span>(optional)</span></summary><label class="field-label" for="guide-context">Known diagnosis, approximate timeline or a practical goal</label><textarea id="guide-context" name="context" rows="3" maxlength="1200" placeholder="For example: difficulty opening the hand began before treatment; goal is holding a cup."></textarea><p class="community-note">Avoid names, contact details, exact birth dates and record numbers. This text is not used in the public search link or sent anywhere.</p></details>
+        <details class="learn-detail"><summary>Add context for my discussion note <span>(optional)</span></summary><label class="field-label" for="guide-context">Known diagnosis, approximate timeline or a practical goal</label><textarea id="guide-context" name="context" rows="3" maxlength="1200" placeholder="For example: difficulty opening the hand began before treatment; goal is holding a cup."></textarea><p class="community-note">Avoid names, contact details, exact birth dates and record numbers. This text is not included in public search links. It is saved privately only when you connect account saving.</p></details>
       </fieldset>
       <fieldset data-guide-step="2" hidden><legend>What would be most useful?</legend>
         <div class="choice-grid" role="group" aria-label="Reading interests">
@@ -240,7 +240,7 @@
     <div class="form-dialog-head"><div><p class="small-kicker">Alongside your journal</p><h2 id="care-desk-heading">My care desk</h2></div><button type="button" class="form-dialog-close" id="care-desk-close" aria-label="Close my care desk">× Close</button></div>
     <div class="care-desk-body">
       <p class="care-desk-intro">Your context, reading and questions, here on the same page.</p>
-      <p class="care-desk-privacy"><strong>Keep your place.</strong> Use Save or restore to connect your private account. After connecting, questionnaire answers, interests, notes, timeline and saved reading save automatically while the connection window stays open. Wait for Saved before closing. Inquiries use their separate history. Nothing is sent to AI automatically.</p>
+      <p class="community-note"><strong>Information organized for easier research, not medical advice.</strong> Read our <a href="terms.html" target="_blank" rel="noopener noreferrer">Terms of Use</a> and <a href="privacy.html" target="_blank" rel="noopener noreferrer">Privacy Notice</a>. Account saving and AI processing have separate choices.</p><p class="care-desk-privacy"><strong>Keep your place.</strong> Use Save or restore to connect your private account. After connecting, questionnaire answers, interests, notes, timeline and saved reading save automatically while the connection window stays open. Wait for Saved before closing. Inquiries use their separate history. Nothing is sent to AI automatically.</p>
       <div class="care-desk-tabs" role="group" aria-label="Care desk sections"><button type="button" data-desk-tab="context" aria-pressed="true">My context</button><button type="button" data-desk-tab="notes" aria-pressed="false">Notes &amp; reading</button><button type="button" data-desk-tab="inquiries" aria-pressed="false">Inquiries</button><button type="button" data-desk-tab="files" aria-pressed="false">Files &amp; AI</button></div>
       <section id="desk-context-panel" data-desk-panel="context" aria-labelledby="desk-context-heading">
         <h3 id="desk-context-heading">Start with what you know</h3><p>Use the journal’s short questionnaire. Unknowns are welcome. Changes before treatment stay distinct from changes after it.</p>
@@ -289,11 +289,11 @@
     </div>
   </dialog>
 
-  <script src="guided.js?v=20261027save"></script>
-  <script src="share.js?v=20261027save"></script>
-  <script src="care-desk.js?v=20261027save"></script>
-  <script src="account-sync.js?v=20261027save"></script>
-  <script src="inquiry.js?v=20261027save"></script>
-  <script src="app.js?v=20261027save"></script>
+  <script src="guided.js?v=20261027notices"></script>
+  <script src="share.js?v=20261027notices"></script>
+  <script src="care-desk.js?v=20261027notices"></script>
+  <script src="account-sync.js?v=20261027notices"></script>
+  <script src="inquiry.js?v=20261027notices"></script>
+  <script src="app.js?v=20261027notices"></script>
 </body>
 </html>

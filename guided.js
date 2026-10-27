@@ -109,7 +109,7 @@
   });
   function clearAnswers(keepSearch) {
     answers = null; form.reset(); document.getElementById("guide-injury-site").hidden = true;
-    document.getElementById("guided-route-grid").replaceChildren(); document.getElementById("guided-route-summary").textContent = ""; document.getElementById("guided-feedback").textContent = "Answers stay in this page until you clear them or reload. No questionnaire answers are submitted.";
+    document.getElementById("guided-route-grid").replaceChildren(); document.getElementById("guided-route-summary").textContent = ""; document.getElementById("guided-feedback").textContent = "Answers stay on this page unless you connect private saving. Check My care desk for the actual save status.";
     result.hidden = true; showStep(0); document.querySelector("[data-open-guide]").focus();
     publishContext();
     if (keepSearch !== true) { window.dispatchEvent(new CustomEvent("rt-guided-clear")); }
