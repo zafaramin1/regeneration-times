@@ -2015,5 +2015,90 @@
     "limitation": "Attrition, mixed tumors and six-week follow-up limit conclusions. Retrospective registration (KCT0009113). Funded partly by Yonsei University Dairy. No demonstrated nerve regeneration.",
     "date_note": "Background research, published June 5, 2024. Not a recruiting opportunity.",
     "verified_on": "2026-10-27"
+  },
+  {
+    "id": "pnoc002-vemurafenib-braf-v600e-pediatric-brain-tumors-2026",
+    "title": "Multicenter trial of the BRAF-targeted pill vemurafenib in young people with BRAF V600E brain tumors: most low-grade gliomas stopped growing",
+    "source": "JCO Precision Oncology (Pediatric Neuro-Oncology Consortium, PNOC002)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13623076/",
+    "date_published": "2026-09-23",
+    "date_added": "2026-10-28",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human trial"
+    },
+    "quick_read": "This study tested vemurafenib, a pill that blocks the faulty BRAF V600E switch that drives some brain tumors, in children and young adults under 25 whose tumors had come back or kept growing. Among 22 people with low-grade glioma, 86% had no tumor growth after six months, and many tumors held steady or shrank, with fluid-filled (cystic) tumors shrinking the most. When some people stopped the drug, about one in four of those followed with scans saw the tumor grow back quickly. The study measured tumor control, not recovery of movement or nerve function, but keeping a tumor in check is often the first step that makes rehab and recovery possible.",
+    "summary": "PNOC002 was a combined phase 0/1 multicenter trial in patients younger than 25 with recurrent or progressive BRAF V600E- or BRAF InsT-mutant brain tumors. Thirty patients aged 3 to 23 were treated at the recommended phase II dose of 550 mg/m2 twice a day: 22 with low-grade glioma and 8 with high-grade glioma. Six-month progression-free survival was 80% overall, 86% for low-grade glioma and 63% for high-grade glioma. Best responses were 13 partial responses and 13 stable disease; 4 patients progressed, 3 of them with high-grade glioma. Of 13 low-grade glioma patients who stopped treatment and had follow-up scans, 3 (23%) had rebound growth within 78 to 97 days. The most common grade 3 side effect was a measles-like skin rash (57%).",
+    "why_it_matters": "Adds multicenter evidence that BRAF-targeted pills can control BRAF V600E gliomas in young people, and flags rebound growth after stopping as something to plan for.",
+    "relevance_reason": "BRAF V600E targeted therapy in pediatric and young adult low-grade glioma; directly in the brain tumor focus.",
+    "relevance_score": 8,
+    "evidence_level": "Multicenter phase 0/1 trial; 30 patients treated at the recommended dose",
+    "limitation": "No comparison group, small numbers, and outcomes were tumor size and growth, not neurological or hand function. Vemurafenib alone is not the dabrafenib plus trametinib combination now commonly used. Some authors report industry ties.",
+    "date_note": "Published online September 23, 2026. The trial has finished; it is not open for enrollment.",
+    "care_question": "If a BRAF-targeted drug is paused or stopped, how often should scans be done to catch rebound growth early?",
+    "verified_on": "2026-10-28"
+  },
+  {
+    "id": "mescc-symptom-duration-motor-recovery-meta-analysis-2026",
+    "title": "Review of 37 studies on spinal cord compression from cancer: how long weakness lasted before treatment was tied to recovery, in different ways for radiation and surgery",
+    "source": "Global Spine Journal (Vanderbilt University Medical Center and international co-authors)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13423946/",
+    "date_published": "2026-07-30",
+    "date_added": "2026-10-28",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Spine",
+      "cause": "Spine tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "quick_read": "When cancer spreads to the spine it can press on the spinal cord and cause weakness. This review pooled 37 studies (26 on radiation, 11 on surgery) to ask whether the time between first symptoms and treatment affects recovery. In the radiation studies, people whose weakness had come on more slowly did better at regaining movement. In the surgery studies, most suggested that a longer wait before surgery meant worse movement recovery, although the numbers were too mixed to pool. The authors call these findings exploratory, but they support acting quickly when new weakness appears.",
+    "summary": "Systematic review and meta-analysis of adults treated with radiotherapy or surgery for metastatic epidural spinal cord compression. Of 4,639 records, 37 studies were included; 33 were retrospective. In radiotherapy cohorts, where symptom duration meant time from onset of motor weakness to treatment, longer duration was associated with better motor recovery (pooled estimate 2.08, 95% CI 1.68 to 2.58) and better survival. In surgical cohorts, longer duration trended toward worse survival without statistical significance, a motor-recovery meta-analysis was not feasible, and most studies found longer symptom duration worsened motor recovery. Ambulation findings were inconsistent.",
+    "why_it_matters": "Gives people with tumor-related spinal cord compression and their teams a clearer picture of how timing relates to the chance of regaining strength and walking.",
+    "relevance_reason": "Spine tumor compression and motor recovery; counts toward the tumor focus.",
+    "relevance_score": 7,
+    "evidence_level": "Systematic review and meta-analysis of 37 mostly retrospective studies",
+    "limitation": "Mostly retrospective studies with selection bias and differing definitions of symptom duration. The radiation finding likely reflects that slowly developing weakness tends to have a better outlook, not that delaying treatment helps. Covers metastatic spine tumors in adults, not primary brain tumors.",
+    "date_note": "Published online ahead of print July 30, 2026.",
+    "care_question": "With new weakness from a spinal tumor, how quickly should surgery or radiation be considered, and which is expected to help movement more in this situation?",
+    "verified_on": "2026-10-28"
+  },
+  {
+    "id": "inrobics-social-robot-rehab-pediatric-acquired-brain-injury-oncology-madrid",
+    "title": "Recruiting in Madrid: robot-and-tablet rehab trial for children with brain injury, with half the places for children whose injury came from cancer",
+    "source": "ClinicalTrials.gov (Inrobics Social Robotics with Hospital Infantil Universitario Niño Jesús)",
+    "url": "https://clinicaltrials.gov/study/NCT07448103",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07448103",
+    "date_published": "2026-03-04",
+    "date_added": "2026-10-28",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Device",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Brain"
+    ],
+    "quick_read": "This randomized trial in Madrid is testing Inrobics Rehab, a system that pairs a friendly social robot in the hospital with game-like training on a tablet at home, for children aged 7 to 16 with an acquired brain injury. Of the 30 children planned, 15 are in a cancer group and 15 in a non-cancer group, and each child is randomly assigned to the program or to usual care. The program runs 30 sessions over about 5 weeks, half in hospital and half at home. Researchers will measure trunk control, hand and arm skills (Box and Block, ABILHAND-Kids), thinking, mood and fatigue. It is a small early study of a motivation tool, not a nerve repair treatment.",
+    "summary": "Randomized controlled trial (NCT07448103) of the CE-marked Inrobics Rehab system combining socially assistive robotics with virtual training. Thirty children with acquired brain injury will be split into oncological and non-oncological cohorts of 15 and randomized within each cohort. The intervention arm completes 15 supervised hospital sessions (30 minutes, three times a week) and 15 avatar-guided home tablet sessions; controls receive usual care and may access the platform afterward. Primary outcome is change in Trunk Control Measurement Scale score; other outcomes include Box and Block, ABILHAND-Kids, attention, memory, mood, quality of life, pain, fatigue and caregiver burden at baseline, post-intervention and 3 months.",
+    "why_it_matters": "One of few rehab trials that sets aside places specifically for children whose brain injury is cancer-related, and it measures hand and arm function.",
+    "relevance_reason": "Recruiting pediatric rehab trial with a dedicated oncology cohort and upper-limb outcomes.",
+    "relevance_score": 7,
+    "evidence_level": "Recruiting randomized controlled trial (device, not applicable phase); 30 planned",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable",
+      "location": "Hospital Infantil Universitario Niño Jesús, Madrid, Spain",
+      "key_eligibility": "Ages 7 to 16 with confirmed acquired brain injury; clinically stable; able to follow basic instructions and sit (with or without supports). Excludes severe pain, rigidity or severe arm spasticity, unstable arm fractures, severe heart or lung disease, severe visual or cognitive impairment, or disabling psychiatric illness. Tumor-related brain injury is allowed: half the places are for an oncological cohort, although the registry does not list specific tumor types."
+    },
+    "date_note": "First posted March 4, 2026; started April 27, 2026; registry last updated July 23, 2026 and lists recruiting, with primary completion estimated February 2027. Sponsor is the device maker. Confirm with the study team.",
+    "care_question": "Would a game-based home rehab program like this fit alongside current therapy, given the child's arm spasticity and vision?",
+    "verified_on": "2026-10-28"
   }
 ]
