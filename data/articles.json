@@ -2100,5 +2100,34 @@
     "date_note": "First posted March 4, 2026; started April 27, 2026; registry last updated July 23, 2026 and lists recruiting, with primary completion estimated February 2027. Sponsor is the device maker. Confirm with the study team.",
     "care_question": "Would a game-based home rehab program like this fit alongside current therapy, given the child's arm spasticity and vision?",
     "verified_on": "2026-10-28"
+  },
+  {
+    "id": "brainstem-radionecrosis-robot-assisted-rehab-case-2020",
+    "title": "Brainstem radiation injury: one adult improved during intensive robot-assisted rehabilitation",
+    "source": "Medicine (IRCCS Centro Neurolesi Bonino-Pulejo, Italy)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7478746/",
+    "date_published": "2020-03-06",
+    "date_added": "2026-10-28",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Disease",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "A published case describes rehabilitation after brainstem radiation injury following treatment for nasopharyngeal cancer, not a primary brain tumor. One adult with weakness and spasticity improved in daily independence and balance during a program combining conventional therapy, robot-assisted arm and walking practice, and virtual-reality cognitive exercises. Arm practice included grasp and release. This single case cannot show which treatment helped or establish hand-dexterity recovery.",
+    "summary": "Clinicians added robot-assisted gait and arm training and cognitive exercises after limited progress with conventional rehabilitation. Steroid treatment continued. No adverse events were reported during the added program.",
+    "why_it_matters": "Adds background evidence on rehabilitation after radiation-related brain injury, with explicit limits on its relevance to primary brain tumors.",
+    "evidence_level": "Single adult case report; no comparison group",
+    "limitation": "Combined treatments and recovery over time cannot be separated. Grasp/release was practiced, but a dedicated dexterity outcome was not reported. No established nerve regeneration or pediatric benefit.",
+    "date_note": "Background research, published March 6, 2020. Not a recruiting study. The underlying cancer was nasopharyngeal, not a brain tumor.",
+    "care_question": "Which assessments would distinguish arm strength, spasticity and hand dexterity when planning rehabilitation?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-28"
   }
 ]

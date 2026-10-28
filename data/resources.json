@@ -905,5 +905,37 @@
       "https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/rehabilitation/medicine-therapy/how-make-appointment-convenient-locations",
       "https://www.mskcc.org/cancer-care/types/brain-tumors-metastatic/survivorship"
     ]
+  },
+  {
+    "id": "md-anderson-rehabilitation-services",
+    "name": "MD Anderson Cancer Center: Rehabilitation Services",
+    "kind": "Care program",
+    "location": "Houston and Houston-area locations, Texas, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Peripheral nerve"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Chemotherapy",
+      "Surgery"
+    ],
+    "focus": "Cancer rehabilitation for dexterity, arm strength, fine motor difficulties, balance, walking and daily activities.",
+    "why_relevant": "The official page offers physical and occupational therapy for all ages and any cancer type. It lists arm dexterity, coordination, splints, peripheral neuropathy and visual/cognitive rehabilitation.",
+    "url": "https://www.mdanderson.org/patients-family/diagnosis-treatment/care-centers-clinics/rehabilitation-services.html",
+    "search_terms": "brain tumor cancer hand arm dexterity fine motor coordination strength splints peripheral neuropathy balance gait walking occupational physical therapy Houston Texas",
+    "caution": "General assessment route, not confirmed acceptance of a particular brain tumor or spasticity/dystonia diagnosis. Services are for MD Anderson patients. Current patients ask their care team for referral; prospective patients use the institution's appointment route. Confirm individual eligibility, insurance and location. No provider contacted or number tested.",
+    "phone": "713-792-3192 (current rehabilitation patients); 1-877-632-6789 (new appointments)",
+    "verified_on": "2026-10-28",
+    "source_urls": [
+      "https://www.mdanderson.org/patients-family/diagnosis-treatment/care-centers-clinics/rehabilitation-services.html"
+    ]
   }
 ]
