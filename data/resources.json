@@ -937,5 +937,52 @@
     "source_urls": [
       "https://www.mdanderson.org/patients-family/diagnosis-treatment/care-centers-clinics/rehabilitation-services.html"
     ]
+  },
+  {
+    "id": "uab-spain-rehabilitation-cancer-spasticity",
+    "name": "UAB Spain Rehabilitation Center: Cancer and Spasticity Assessment",
+    "kind": "Care program",
+    "location": "Birmingham, Alabama, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Spine"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke"
+    ],
+    "focus": "General rehabilitation assessment, cancer rehabilitation and spasticity management.",
+    "why_relevant": "UAB lists outpatient cancer rehabilitation, botulinum toxin spasticity management, baclofen pumps and neurological services, plus inpatient traumatic and non-traumatic brain and spinal cord injury rehabilitation. These offer assessment routes for tumor-related weakness or clenching and, separately, accident-related neurological impairment.",
+    "url": "https://www.uabmedicine.org/specialties/rehabilitation-medicine/",
+    "search_terms": "brain tumor cancer rehabilitation hand arm weakness clenching spasticity baclofen botulinum toxin brain injury spinal cord trauma Alabama Birmingham",
+    "caution": "General assessment route, not confirmed acceptance of a particular brain tumor, hand problem, dystonia or brachial plexus injury. Confirm age eligibility, clinic, referral, insurance and availability. Do not infer injury location from arm dysfunction. Inpatient admission requires CMS rehabilitation criteria and interdisciplinary care needs. No provider contacted or number tested.",
+    "phone": "205-975-4922 (outpatient scheduling); 205-934-8092 (inpatient admissions)",
+    "verified_on": "2026-10-29",
+    "source_urls": [
+      "https://www.uabmedicine.org/specialties/rehabilitation-medicine/",
+      "https://uabspainrehab.org/admissions/"
+    ],
+    "contacts": [
+      {
+        "name": "UAB Spain Rehabilitation outpatient scheduling",
+        "role": "Outpatient clinic appointments",
+        "phone": "205-975-4922",
+        "source_url": "https://uabspainrehab.org/admissions/"
+      },
+      {
+        "name": "UAB Spain Rehabilitation Admissions",
+        "role": "Inpatient admissions questions",
+        "phone": "205-934-8092",
+        "email": "srcreferrals@uabmc.edu",
+        "source_url": "https://uabspainrehab.org/admissions/"
+      }
+    ]
   }
 ]

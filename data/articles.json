@@ -2238,5 +2238,29 @@
     "care_question": "Does the current care plan include physical, occupational and speech therapy input from a cancer rehabilitation team?",
     "relevance_score": 6,
     "verified_on": "2026-10-29"
+  },
+  {
+    "id": "rtms-intensive-ot-chronic-brain-tumor-arm-paresis-case-2010",
+    "title": "Arm movement improved during combined therapy years after brain tumor surgery: one case",
+    "source": "Brain Injury (Jikei University School of Medicine)",
+    "url": "https://doi.org/10.3109/02699052.2010.523040",
+    "date_published": "2010-10-01",
+    "date_added": "2026-10-29",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "quick_read": "A 39-year-old woman had persistent right-arm weakness five years after brain tumor surgery. During a 15-day hospital stay, she received low-frequency magnetic brain stimulation plus intensive occupational therapy. Arm movement scores improved, with further gains reported four weeks after discharge. This is one uncontrolled case, not proof that stimulation caused recovery.",
+    "summary": "Kakuda and colleagues paired daily 1 Hz rTMS over the right primary motor cortex with individual therapy and self-training. Fugl-Meyer Assessment and Wolf Motor Function Test scores tracked upper-limb function. No adverse effects or neurological worsening were reported during treatment.",
+    "why_it_matters": "Addresses longstanding tumor-related arm weakness rather than tremor alone.",
+    "evidence_level": "Adult single-patient case report; no control group",
+    "date_note": "Background research, published online October 1, 2010. Date and abstract checked; full text was inaccessible.",
+    "limitation": "Cannot separate stimulation from intensive practice or establish effectiveness or general safety. The accessible abstract does not report separate dexterity or grasp/release results.",
+    "care_question": "Would a specialist assessment help identify rehabilitation options for longstanding arm weakness?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-29"
   }
 ]
