@@ -2129,5 +2129,114 @@
     "care_question": "Which assessments would distinguish arm strength, spasticity and hand dexterity when planning rehabilitation?",
     "relevance_score": 7,
     "verified_on": "2026-10-28"
+  },
+  {
+    "id": "spinal-metastasis-paralysis-surgery-timing-2026",
+    "title": "Chinese study of 302 people paralyzed by spinal cancer compression: surgery within a week, ideally within a day, was linked to better recovery",
+    "source": "Frontiers in Oncology (Shandong Cancer Hospital, China)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13590400/",
+    "date_published": "2026-09-07",
+    "date_added": "2026-10-29",
+    "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Spine",
+      "cause": "Spine tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Researchers looked back at 302 people who had surgery to relieve spinal cord pressure from cancer that had spread to the spine and left them partly or fully paralyzed. People operated on within 24 hours of paralysis starting were more likely to regain useful strength than those whose surgery came after three days, and much more likely than those operated on after a week. People with some remaining movement before surgery, and with less severe cord compression, recovered best, while limp (flaccid) muscles predicted a poorer outcome. The authors built a scoring chart to estimate recovery chances, but it still needs testing in other hospitals.",
+    "summary": "Retrospective cohort of 302 patients treated with decompression surgery for spinal metastasis-induced paralysis between 2019 and 2023, grouped by time from paralysis onset to surgery (under 24 hours, 24 to 72 hours, 72 hours to 1 week, over 1 week). Compared with surgery under 24 hours, the odds of marked recovery were 0.34 for 72 hours to 1 week and 0.17 for over 1 week. Preoperative AIS grade C predicted better recovery; higher compression grade and flaccid tone predicted worse. The authors caution that the survival link does not prove cause because key cancer factors were not measured.",
+    "why_it_matters": "Supports treating sudden weakness from spinal tumor compression as an emergency, since timing was strongly linked to nerve recovery.",
+    "relevance_reason": "Spine tumor compression and neurological recovery; large recent cohort.",
+    "evidence_level": "Retrospective single-center cohort (302 patients) with internally validated prediction model",
+    "limitation": "Retrospective, single center, no external validation; performance status and overall cancer burden were not included.",
+    "care_question": "If new weakness appears, how quickly can spinal imaging and a surgical opinion be arranged?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-29"
+  },
+  {
+    "id": "medulloblastoma-20-year-cohort-late-effects-turkey-2026",
+    "title": "Turkish 20-year study of children with medulloblastoma: most survivors lived with late effects, most often movement or balance problems",
+    "source": "Child's Nervous System (Uludag University, Turkey)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42886346/",
+    "date_published": "2026-10-16",
+    "date_added": "2026-10-29",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "Doctors reviewed 97 children treated for medulloblastoma, the most common malignant childhood brain tumor, at one Turkish center between 2000 and 2020. Five-year survival rose from about 57% in the first decade to about 84% in the second. Among 68 survivors, 56 had documented late effects, most often motor or cerebellar problems (movement and balance), growth problems, thinking difficulties and low thyroid function. The authors say this shows why structured long-term survivorship care, including rehabilitation, matters for people who survive a brain tumor.",
+    "summary": "Retrospective single-center cohort of 97 children diagnosed 2000 to 2020, followed through 2025. Five-year overall survival was 73.9% and event-free survival 69.9%; later treatment era independently predicted better survival. Late effects were recorded in 56 of 68 survivors (82%), most commonly motor or cerebellar dysfunction, growth failure, neurocognitive impairment and hypothyroidism.",
+    "why_it_matters": "Shows that movement and balance problems are the most common lasting issue in this group of childhood brain tumor survivors, underlining the need for long-term follow-up and rehab.",
+    "relevance_reason": "Brain tumor survivorship with motor late effects; recent.",
+    "evidence_level": "Retrospective single-center cohort (97 children)",
+    "limitation": "Late effects were recorded, not measured with standard motor tests; no treatment for these effects was tested.",
+    "care_question": "Which long-term checks for balance, coordination and hormones are recommended for brain tumor survivors?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-29"
+  },
+  {
+    "id": "ot-smile-occupational-therapy-group-brain-tumour-trial-dublin",
+    "title": "Recruiting in Dublin: occupational therapy group program for adults with a primary brain tumor on active treatment",
+    "source": "ClinicalTrials.gov (Royal College of Surgeons in Ireland)",
+    "url": "https://clinicaltrials.gov/study/NCT07426848",
+    "date_published": "2026-02-23",
+    "date_added": "2026-10-29",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "This randomized trial at Beaumont Hospital in Dublin tests a six-week occupational therapy group program for adults with a primary brain tumor who are getting drug-based cancer treatment. Weekly 90-minute sessions cover fatigue management, adapting daily activities, thinking strategies, relaxation, goal setting, exercise, nutrition and peer support. The comparison group gets written lifestyle information. It aims to show whether structured therapy helps quality of life and everyday function, which matters for people living with the effects of a brain tumor.",
+    "summary": "Randomized controlled trial (OT SMILE), about 96 participants, comparing a six-week occupational therapist-led group program with usual care (written information). The main outcome is health-related quality of life; fatigue and daily functioning are also measured. Registry lists the study as recruiting, last updated February 23, 2026.",
+    "why_it_matters": "One of few trials focused on daily function and rehabilitation for people with brain tumors during treatment.",
+    "relevance_reason": "Recruiting brain tumor rehab trial; daily function.",
+    "evidence_level": "Randomized controlled trial, recruiting; no results yet",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07426848",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable (behavioral)",
+      "location": "Beaumont RCSI Cancer Centre, Dublin, Ireland",
+      "key_eligibility": "Adults 18+ with a primary brain tumor currently receiving systemic anti-cancer treatment, with difficulty in daily activities, able to join English-language group sessions, ECOG 0 to 2. Excludes inpatients and those with ECOG 3 or more. Tumor-related problems are the target, not an exclusion."
+    },
+    "date_note": "Registry first posted February 23, 2026; recruitment status checked October 29, 2026.",
+    "care_question": "Is there a similar occupational therapy program for brain tumor patients closer to home?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-29"
+  },
+  {
+    "id": "rehabilitation-cns-oncology-review-pmr-clinics-2026",
+    "title": "US rehabilitation experts review recovery care for people with brain and spinal cord tumors",
+    "source": "Physical Medicine and Rehabilitation Clinics of North America (MD Anderson, Johns Hopkins, Northwell)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42823031/",
+    "date_published": "2026-08-24",
+    "date_added": "2026-10-29",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Spine"
+    ],
+    "quick_read": "Rehabilitation doctors from MD Anderson, Johns Hopkins and Northwell wrote an overview of rehab for people with brain and spinal cord tumors, both primary and spread from elsewhere. It covers how these tumors and their treatments cause lasting problems and how rehab teams should plan care. The authors say these patients need a team approach focused on quality of life and independence at every stage. It is a guide for clinicians, not a new study, but it can help families know what a full rehab plan should include.",
+    "summary": "Narrative review of the epidemiology, treatments and resulting impairments of primary and metastatic brain and spine tumors, and the interdisciplinary rehabilitation approach needed across the care continuum. Published online August 24, 2026 in the November 2026 issue.",
+    "why_it_matters": "A current expert reference on rehab after brain or spine tumors from major US cancer rehabilitation programs.",
+    "relevance_reason": "Brain and spine tumor rehab overview; recent.",
+    "evidence_level": "Narrative review (expert overview)",
+    "limitation": "Review only; no new patient data. Full text may require a subscription.",
+    "care_question": "Does the current care plan include physical, occupational and speech therapy input from a cancer rehabilitation team?",
+    "relevance_score": 6,
+    "verified_on": "2026-10-29"
   }
 ]
