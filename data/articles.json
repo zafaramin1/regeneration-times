@@ -2357,5 +2357,32 @@
     "care_question": "Which sensory and balance therapies help when numbness or proprioception loss lasts after spinal cord surgery?",
     "relevance_score": 6,
     "verified_on": "2026-10-30"
+  },
+  {
+    "id": "vr-occupational-therapy-brain-tumor-controlled-2015",
+    "title": "Brain tumor rehabilitation: VR favored arm gains, conventional therapy favored hand gains",
+    "source": "American Journal of Physical Medicine & Rehabilitation",
+    "url": "https://doi.org/10.1097/PHM.0000000000000192",
+    "date_published": "2015-06-01",
+    "date_added": "2026-10-30",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Forty adults completed three weeks of therapy for brain tumor-related arm dysfunction. Both groups improved. VR plus occupational therapy favored shoulder, elbow and forearm gains, while conventional therapy favored hand gains. This does not establish a VR advantage for hand recovery.",
+    "summary": "Twenty participants per group were matched by age and tumor type. Both received fifteen 30-minute sessions: nine VR and six occupational therapy sessions, or fifteen occupational therapy sessions. Assessments included Box and Block, Manual Function, Fugl-Meyer and daily activities.",
+    "why_it_matters": "Arm improvement does not necessarily mean better hand dexterity.",
+    "evidence_level": "Adult matched controlled clinical trial; 40 completers; randomization not established in abstract",
+    "date_note": "Background research. PubMed dates the print issue June 2015; 01 is a month-only sorting placeholder, not a verified publication day. Earlier online publication date not verified directly.",
+    "limitation": "Full text inaccessible. Abstract does not identify a primary endpoint, long-term durability or cohort overlap; these were not verified. No pediatric benefit established.",
+    "care_question": "Does the proposed program directly practice hand tasks?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-30"
   }
 ]

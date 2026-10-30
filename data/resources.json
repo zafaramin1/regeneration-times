@@ -984,5 +984,38 @@
         "source_url": "https://uabspainrehab.org/admissions/"
       }
     ]
+  },
+  {
+    "id": "ucla-neuro-rehabilitation",
+    "name": "UCLA Health: Neuro-Rehabilitation Program",
+    "kind": "Care program",
+    "location": "Los Angeles, California, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Trauma",
+      "Brain tumor",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Neurological rehabilitation, fine motor skills, strength, balance, mobility and self-care.",
+    "why_relevant": "Occupational and physical therapy assessment route for hand use and walking concerns. The program explicitly lists traumatic brain and spinal cord injuries.",
+    "url": "https://www.uclahealth.org/medical-services/neurology/neurological-rehabilitation",
+    "search_terms": "hand arm dexterity fine motor weakness coordination gait balance self care brain injury spinal cord injury neurological rehabilitation brain tumor",
+    "caution": "Brain tumor acceptance is not explicitly confirmed on this page; listed as a potential assessment route only. Confirm age eligibility, referral requirements and individual fit. This is not a brachial plexus or peripheral nerve surgery program. The page lists two outpatient numbers; confirm the appropriate scheduling route. Nobody was contacted.",
+    "phone": "310-794-9551 (outpatient services); 310-794-1195 (outpatient consultations)",
+    "email": "",
+    "verified_on": "2026-10-30",
+    "source_urls": [
+      "https://www.uclahealth.org/medical-services/neurology/neurological-rehabilitation"
+    ]
   }
 ]
