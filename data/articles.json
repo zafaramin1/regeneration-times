@@ -2262,5 +2262,100 @@
     "care_question": "Would a specialist assessment help identify rehabilitation options for longstanding arm weakness?",
     "relevance_score": 7,
     "verified_on": "2026-10-29"
+  },
+  {
+    "id": "holmes-tremor-intracranial-hypotension-after-meningioma-surgery-aan-2025",
+    "title": "Holmes tremor after brain tumor surgery that faded as low brain pressure was treated: one case",
+    "source": "Neurology (AAN 2025 Annual Meeting abstract, Virginia Tech Carilion)",
+    "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000211171",
+    "date_published": "2025-04-07",
+    "date_added": "2026-10-30",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "A 44-year-old man had a large benign skull base meningioma removed. Five days after surgery he developed a slow, large right-arm tremor at rest, in posture and on reaching, which fits Holmes tremor. MRI showed midbrain changes and signs of low spinal fluid pressure with the brain sagging. Seizure and tremor medicines did not help, but conservative care with hydration did, and the tremor was gone at three months. It shows that a new Holmes tremor after tumor surgery can have a treatable cause.",
+    "summary": "Case report abstract. The tremor was 3 to 4 Hz, involved elbow and wrist, and had no EEG correlate on continuous monitoring. MRI showed T2 FLAIR midbrain changes, dural and pituitary enhancement and brain sagging, suggesting intracranial hypotension. Levetiracetam, benzodiazepines and primidone did not control it. With hydration it improved gradually, and repeat MRI at three months showed the low-pressure findings had resolved. The authors attribute the tremor to distortion of midbrain anatomy.",
+    "why_it_matters": "Holmes tremor is usually seen as a lasting result of midbrain damage; this case shows a reversible mechanism worth checking for after tumor surgery.",
+    "relevance_reason": "Tumor-related Holmes tremor of the arm; midbrain mechanism and recovery.",
+    "evidence_level": "Single adult case, conference abstract; not peer reviewed by the journal",
+    "date_note": "Published online April 7, 2025 (Neurology supplement, April 8, 2025 issue).",
+    "limitation": "One patient, abstract only. The tremor came from low brain pressure after surgery, not from the tumor or surgery damaging the midbrain directly, so it does not apply to lasting tremor from midbrain tissue damage.",
+    "care_question": "If a tremor appears or worsens after brain surgery or a shunt change, should low or high spinal fluid pressure be checked as a cause?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-30"
+  },
+  {
+    "id": "glioma-hand-motor-rehab-plasticity-trial-milan",
+    "title": "Recruiting in Milan: six months of hand-focused motor rehab to rewire movement networks in adults with low-grade glioma",
+    "source": "ClinicalTrials.gov (University of Milan)",
+    "url": "https://clinicaltrials.gov/study/NCT06381726",
+    "date_published": "2024-04-24",
+    "date_added": "2026-10-30",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Brain",
+      "Arm"
+    ],
+    "quick_read": "This study in Milan asks whether the brain's hand movement network can be helped to reorganize before a second glioma operation. Some adults get six months of personalized motor rehabilitation, some get chemotherapy first, some get both, and others are simply observed. Brain scans track how the hand network changes, and muscle power and skilled movement are the main outcomes. The goal is safer, more complete surgery while keeping hand function.",
+    "summary": "Non-randomized study (about 400 participants planned) at IRCCS Ospedale Galeazzi Sant'Ambrogio. Resting-state fMRI and diffusion MRI map hand-motor networks before and after surgery; intraoperative mapping checks the maps. Arms include observation before first surgery, and up-front motor rehabilitation and/or temozolomide for patients with lower-grade gliomas only biopsied or partly removed and eligible for a second surgery. Primary outcomes are muscle power and motor praxia.",
+    "why_it_matters": "One of few trials using rehabilitation to boost the brain's own rewiring of hand control in people with tumors affecting movement pathways.",
+    "relevance_reason": "Recruiting brain tumor trial on hand function and neuroplasticity.",
+    "evidence_level": "Interventional study, recruiting; no results yet",
+    "trial_url": "https://clinicaltrials.gov/study/NCT06381726",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable",
+      "location": "IRCCS Ospedale Galeazzi Sant'Ambrogio, Milan, Italy",
+      "key_eligibility": "Adults 18+ with lower-grade glioma involving motor pathways. Observation arm: candidates for surgery. Rehab and chemotherapy arms: tumors only biopsied or partly removed over two years before and eligible for a second surgery. Tumor-related motor involvement is the target, not an exclusion. Children are excluded."
+    },
+    "date_note": "Registry last updated April 24, 2024; listed as recruiting when checked October 30, 2026, so contact the site to confirm.",
+    "limitation": "Adults only and focused on people heading to surgery, not long-term survivors. Rehab is combined with chemotherapy in one arm, and the registry record has not been updated in over two years.",
+    "care_question": "Could an intensive hand-focused rehab block help, even outside a surgical plan like this one?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-30"
+  },
+  {
+    "id": "intramedullary-spinal-cord-tumor-qol-function-munich-2026",
+    "title": "After spinal cord tumor surgery, most adults keep or regain movement and walking, but sensation recovers less",
+    "source": "Acta Neurochirurgica (LMU Munich)",
+    "url": "https://link.springer.com/article/10.1007/s00701-026-06836-0",
+    "date_published": "2026-03-25",
+    "date_added": "2026-10-30",
+    "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Neck spine",
+      "cause": "Spine tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Back spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "Munich surgeons followed 40 adults for about two years after removing tumors inside the spinal cord in the neck or upper back. At last follow-up, 80% had stable or better movement and 75% had stable or better walking compared with before surgery. Sensation was harder: new numbness was common and usually lasted, and only 25% were stable or better. Quality of life dipped right after surgery and returned to its starting level within about a year.",
+    "summary": "Prospective single-center study, 2017 to 2023, with intraoperative neuromonitoring; 88% gross total removal and no surgical complications. New or worse motor deficits occurred in 35%, were all mild, and resolved in 43% of those. New sensory changes occurred in 70% and stayed in 87% of those. A lasting new sensory deficit and higher quality of life before surgery predicted worse physical quality of life later.",
+    "why_it_matters": "Gives realistic, detailed expectations for strength, walking, sensation and daily life after spinal cord tumor removal.",
+    "relevance_reason": "Spine tumor nerve damage; long-term motor, sensory and quality-of-life recovery.",
+    "evidence_level": "Prospective cohort, 40 adults, single center; no control group",
+    "date_note": "Published March 25, 2026; open access.",
+    "limitation": "Small, mixed tumor types, adults only, and one expert center, so results may not match other hospitals or children.",
+    "care_question": "Which sensory and balance therapies help when numbness or proprioception loss lasts after spinal cord surgery?",
+    "relevance_score": 6,
+    "verified_on": "2026-10-30"
   }
 ]
