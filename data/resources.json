@@ -1017,5 +1017,39 @@
     "source_urls": [
       "https://www.uclahealth.org/medical-services/neurology/neurological-rehabilitation"
     ]
+  },
+  {
+    "id": "mayo-rochester-spasticity-management",
+    "name": "Mayo Clinic Rochester: Spasticity Management",
+    "kind": "Care program",
+    "location": "Rochester, Minnesota, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Assessment of spasticity from central nervous system illness or injury in children and adults.",
+    "why_relevant": "Evaluates arm, wrist and finger tightness, strength, sensation, movement and walking; offers rehabilitation and tone-management options.",
+    "url": "https://www.mayoclinic.org/departments-centers/spasticity-management/overview/ovc-20569237",
+    "search_terms": "brain tumor hand arm wrist finger clenching clenched spasticity weakness sensation sensory numbness coordination grasp release gait walking balance brain injury spinal cord injury assessment",
+    "caution": "General assessment route; the page does not confirm brain-tumor diagnosis acceptance or a dedicated dystonia clinic. Clenching alone does not establish spasticity. Confirm referral, availability and individual suitability. After trauma, establish whether the injury involves brain, spinal cord or peripheral nerves. Nobody was contacted; number not tested.",
+    "phone": "507-284-2511",
+    "email": "",
+    "verified_on": "2026-10-31",
+    "source_urls": [
+      "https://www.mayoclinic.org/departments-centers/spasticity-management/overview/ovc-20569237"
+    ]
   }
 ]
