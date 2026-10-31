@@ -2384,5 +2384,78 @@
     "care_question": "Does the proposed program directly practice hand tasks?",
     "relevance_score": 8,
     "verified_on": "2026-10-30"
+  },
+  {
+    "id": "thalamic-glioma-106-patients-surgery-hydrocephalus-motor-2026",
+    "title": "Beijing study of 106 thalamic gliomas: a fluid-drainage step during surgery cut hydrocephalus risk, and the surgical route was linked to new weakness",
+    "source": "Neuro-Oncology",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13635587/",
+    "date_published": "2026-10-01",
+    "date_added": "2026-10-31",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "quick_read": "Thalamic gliomas grow deep in the brain, where surgery is hard and fluid buildup (hydrocephalus) is a common problem. Doctors in Beijing studied 106 people who had surgery for these tumors, combining genetic testing with an analysis of surgical outcomes. Opening a new drainage path in the third ventricle during the operation was linked to a much lower risk of hydrocephalus afterward, and going in through the front of the brain was linked to new movement problems after surgery. For people facing or living after surgery on a deep midline tumor, it shows that how the operation is done can affect both fluid problems and movement.",
+    "summary": "Researchers at Sanbo Brain Hospital analyzed 106 surgically treated thalamic gliomas (65 diffuse midline gliomas and 41 other types) using genomic profiling and single-cell sequencing. H3F3A mutations and CDKN2A/B (9p21) loss were mutually exclusive, and 9p21 loss favored non-diffuse-midline tumors. Causal inference analyses found that microsurgical third ventriculostomy reduced postoperative hydrocephalus risk by more than 60%. The transfrontal approach independently predicted postoperative motor deficits. Median overall survival after resection was 21.0 months, with extent of resection and tumor mutational burden the main independent prognostic factors.",
+    "why_it_matters": "Surgical route and fluid management may shape movement and hydrocephalus outcomes after thalamic tumor surgery.",
+    "relevance_reason": "Deep thalamic glioma with hydrocephalus and motor outcomes; central to brain tumor focus.",
+    "evidence_level": "Retrospective single-center cohort of 106 patients with genomic analysis and propensity-matched comparisons",
+    "date_note": "Date is the print issue (Neuro-Oncology, October 2026, volume 28 issue 10). Earlier online date not verified.",
+    "limitation": "Single center in China; many tumors were high-grade diffuse midline gliomas, so survival figures do not apply to low-grade tumors. Not a randomized comparison of surgical techniques.",
+    "care_question": "If surgery on a deep midline tumor is considered, how would the surgical route and fluid drainage plan affect movement and shunt needs?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-31"
+  },
+  {
+    "id": "sickkids-review-medical-management-pediatric-aya-low-grade-glioma-2026",
+    "title": "SickKids review: targeted pills for low-grade glioma show good short-term results, but long-term function and young-adult data are still missing",
+    "source": "Cancers (Basel)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13703319/",
+    "date_published": "2026-10-17",
+    "date_added": "2026-10-31",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Review"
+    },
+    "quick_read": "Doctors at the Hospital for Sick Children in Toronto reviewed how medicines are changing care for low-grade gliomas in children, teens and young adults. Pills that block the MAPK pathway, such as BRAF and MEK inhibitors, have shown good short-term tumor control. The authors say it is still unclear whether these drugs lead to better long-term everyday function than standard chemotherapy, and that many people with tumors that cannot be removed live with lasting functional problems. They also note that teens and young adults were left out of many trials, so evidence for them is thin.",
+    "summary": "The review covers paediatric-type low-grade gliomas, which predominate in children, and IDH-mutant low-grade gliomas, which become more common in young adulthood. It states that many patients with residual or unresectable tumours experience significant long-term functional impairment despite conventional treatment. MAPK inhibitors have shown favourable short-term outcomes, while challenges include preventing regrowth, understanding response and resistance, and treatment-related toxicities. For IDH-mutant tumours, IDH inhibitors hold promise but it is unknown whether they prevent malignant transformation. The authors call for trials designed around tumour biology rather than patient age.",
+    "why_it_matters": "Functional recovery, not only tumor shrinkage, is named as an open question for targeted therapy.",
+    "relevance_reason": "Low-grade glioma targeted therapy and long-term function in young adults; core brain tumor focus.",
+    "evidence_level": "Narrative review",
+    "limitation": "A review, not new patient data. It does not show that targeted drugs restore movement or nerve function.",
+    "care_question": "Is there evidence about long-term function, not just tumor size, for the targeted drug being considered or used?",
+    "relevance_score": 8,
+    "verified_on": "2026-10-31"
+  },
+  {
+    "id": "charite-ntms-neuronal-reserve-motor-outcome-glioma-2026",
+    "title": "Berlin study of 194 glioma patients: magnetic brain mapping showed which motor systems were near their limit before weakness set in",
+    "source": "Neurosurgery",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42439542/",
+    "date_published": "2026-07-13",
+    "date_added": "2026-10-31",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "The brain can often compensate for a tumor for a while before movement gets worse, and researchers call this ability its reserve. A team at Charité in Berlin used navigated magnetic stimulation, a noninvasive way to test the brain's movement areas, in 194 people with suspected glioma before surgery. Certain patterns, such as overexcitable movement areas and a tumor sitting close to the main movement pathway, were linked to movement problems. This does not treat weakness, but it may help doctors predict risk and plan surgery and rehab to protect movement.",
+    "summary": "The study analyzed 194 patients who had preoperative navigated TMS motor mapping between 2015 and 2022. In multivariable analysis, reduced resting motor threshold ratios, elevated recruitment curve slope ratios, shorter tumor-to-tract distance and recurrent tumor status were associated with baseline-adjusted motor deficit, while female sex was protective. Elevated cortical silent period ratios were linked to poorer baseline status, and motor-impaired patients had smaller motor volume in the affected hemisphere. The authors interpret hyperexcitability and poor recruitment as signs of an unstable compensatory capacity.",
+    "why_it_matters": "A noninvasive test may flag when the brain's movement system is losing its ability to compensate.",
+    "relevance_reason": "Brain tumor motor function and compensation; prediction rather than treatment.",
+    "evidence_level": "Retrospective cohort of 194 patients",
+    "limitation": "Associations only, from one center. Full text not reviewed. Not a treatment study and not shown for deep midline tumors specifically.",
+    "care_question": "Could motor mapping help predict how much movement is at risk before any further surgery?",
+    "relevance_score": 7,
+    "verified_on": "2026-10-31"
   }
 ]
