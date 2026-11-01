@@ -2491,5 +2491,121 @@
     "care_question": "If an awake operation is already being considered, would quantitative finger-control mapping be relevant, and what additional research procedures would it involve?",
     "relevance_score": 8,
     "verified_on": "2026-10-31"
+  },
+  {
+    "id": "vim-thalamotomy-holmes-tremor-midbrain-germinoma-jnnp-2002",
+    "title": "Holmes tremor from a midbrain tumor eased after a targeted thalamus procedure: one case",
+    "source": "Journal of Neurology, Neurosurgery and Psychiatry (Catholic University of Korea)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12235320/",
+    "date_published": "2002-10-01",
+    "date_added": "2026-11-01",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "A 26-year-old man slowly developed a disabling Holmes tremor in his left arm, affecting both the hand and the upper arm, caused by a germinoma tumor in the midbrain. Radiation improved the tumor on scans, but the tremor became intolerable even with medicines. Surgeons then made a small MRI-guided radiofrequency lesion in a thalamus relay area called Vim. His tremor at rest, in posture and during action was much reduced in both the near and far parts of the arm. It is one case, but it shows a surgical option was used when tumor-caused tremor stayed disabling after the tumor itself was treated.",
+    "summary": "Case report. The patient's midbrain tremor involved distal and proximal left upper limb, with oculomotor palsy and left arm ataxia. MRI and other imaging showed a germinoma in the midbrain tegmentum, treated with conventional radiation therapy. Despite radiological improvement, the tremor became intolerable on medical treatment. MR-guided stereotactic radiofrequency Vim thalamotomy on the right side much alleviated resting, postural and action tremor in both distal and proximal parts of the left arm. The authors note there had been no systematic analysis of the best surgical target (Vim or globus pallidus interna) for Holmes tremor and conclude Vim thalamotomy can still control midbrain tremor involving the proximal arm.",
+    "why_it_matters": "Holmes tremor from tumor damage often resists medicines; this case documents a lesioning procedure that helped a tumor-caused tremor, including the hard-to-treat shoulder and upper-arm part.",
+    "relevance_reason": "Tumor-caused midbrain (Holmes) tremor of the arm treated with thalamic lesioning after tumor control.",
+    "evidence_level": "Single adult case report",
+    "date_note": "Back-catalog item: published in the October 2002 issue. Added on November 1, 2026 as older background on treating tumor-related Holmes tremor; newer reports also use deep brain stimulation for this tremor.",
+    "limitation": "One patient with a radiation-treated germinoma; results may differ for other tumor types, longer-standing tremor or different lesion locations. A thalamotomy is a permanent brain lesion with its own risks, and long-term follow-up details are limited to what the report gives.",
+    "care_question": "If an arm tremor from a midbrain or thalamic lesion is still disabling after medicines, would a movement-disorder surgery team consider lesioning or deep brain stimulation, and which target fits this tremor?",
+    "relevance_score": 9,
+    "verified_on": "2026-11-01"
+  },
+  {
+    "id": "st-jude-dorsal-midbrain-syndrome-pineal-tumors-children-2017",
+    "title": "St. Jude study of children with pineal tumors: eye-movement problems improved in about 4 in 10, but most kept some lasting signs",
+    "source": "Journal of AAPOS (St. Jude Children's Research Hospital and University of Tennessee)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5654548/",
+    "date_published": "2017-01-07",
+    "date_added": "2026-11-01",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Tumors near the pineal gland can press on the top of the midbrain and cause dorsal midbrain (Parinaud) syndrome, which limits looking up and changes how the pupils react. This St. Jude study reviewed 35 children and young people with pineal region tumors, and about half had the syndrome. After treatment with surgery, radiation and/or chemotherapy, the eye findings improved in 7 of 17 who were followed, but only 2 recovered fully. Two children with large outward eye drift were helped by eye muscle surgery, and one used prism glasses for double vision. It shows that some recovery is common but lasting eye-movement problems are also common, so long-term eye care matters.",
+    "summary": "Retrospective review of pediatric pineal region tumor patients seen in the St. Jude ophthalmology clinic between 1995 and 2012. Of 35 included patients (average age at diagnosis 10.2 years, range 5 months to 18 years), 18 (51%) had dorsal midbrain syndrome: 16 had limited upgaze, 15 pupillary light-near dissociation and 9 convergence-retraction nystagmus. Five had convergence insufficiency and 9 had intermittent or constant exotropia. Average follow-up was 37 months. Findings improved in 7 of 17 evaluable patients (41%) and resolved completely in 2 (12%). Sixteen of the 18 had already had neurosurgery before their first eye clinic visit. Tumor types included pineoblastoma (13), germinoma, other germ cell tumors and two pilocytic astrocytomas. Two patients with large-angle exotropia had successful strabismus surgery, one with resolution of double vision, and one patient needed prism glasses for a persistent vertical misalignment with double vision despite improved upgaze.",
+    "why_it_matters": "It gives realistic expectations for eye-movement recovery after tumors that press on the dorsal midbrain and shows that eye muscle surgery and prisms can help with alignment and double vision even when gaze limits remain.",
+    "relevance_reason": "Tumor-caused vertical gaze palsy, exotropia and double vision with treatment outcomes.",
+    "evidence_level": "Retrospective single-center pediatric case series",
+    "date_note": "Back-catalog item: published online January 7, 2017 (J AAPOS February 2017 issue). Added on November 1, 2026 as background on eye-movement outcomes after pineal region tumors.",
+    "limitation": "Small retrospective series from one center, mostly children, with varied tumor types and treatments, and most patients were not examined by the eye clinic until after surgery, so tumor and surgery effects cannot be separated. It does not test a specific treatment for gaze palsy, and results may differ in adults or in slow-growing tumors.",
+    "care_question": "For lasting limited upgaze, outward eye drift or double vision after a tumor near the midbrain, would a neuro-ophthalmologist or strabismus specialist suggest prisms, exercises or eye muscle surgery?",
+    "relevance_score": 9,
+    "verified_on": "2026-11-01"
+  },
+  {
+    "id": "trametinib-braf-rearranged-pediatric-low-grade-glioma-france-ejc-2026",
+    "title": "French study of 46 young people with BRAF-fusion low-grade glioma: the MEK pill trametinib controlled most tumors and 72% improved clinically",
+    "source": "European Journal of Cancer (Gustave Roussy, Institut Curie, Lyon iHOPe and Necker)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42858621/",
+    "date_published": "2026-10-02",
+    "date_added": "2026-11-01",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "quick_read": "Many low-grade gliomas, including many pilocytic astrocytomas, are driven by a BRAF gene fusion rather than the BRAF V600E change. This French study looked back at 46 children and teens with BRAF-fusion low-grade glioma treated with trametinib, a pill that blocks the MEK step in the same growth pathway. The tumor was controlled on scans in 78%, and 72% improved clinically, even some whose tumors had not responded to several earlier treatments. Side effects were common, mostly skin and nail problems, stomach upset and lab changes, and a third had a serious (grade 3) side effect. It adds real-world evidence that MEK pills can help these tumors, though it does not measure recovery of specific nerve functions such as hand use.",
+    "summary": "Retrospective multicenter study at three French pediatric oncology centers of 46 patients with BRAF-rearranged, non-NF1 pediatric low-grade glioma treated with trametinib between 2015 and 2023 (median age 8.7 years, range 1.2 to 18.6). Radiological disease control was 78% (65% partial or minor response, 13% stable disease), including in heavily pretreated and chemotherapy-refractory tumors. Clinical improvement occurred in 72%. Median treatment duration was 14.2 months; of 35 who stopped, 37% remained treatment-free at a median 16.1 months. Grade 3 treatment-related adverse events occurred in one third. Common toxicities were skin events (69%), paronychia (64%), gastrointestinal symptoms (51%), raised creatine kinase (54%) and transaminases (31%); eye toxicity occurred in 16% and nosebleeds in 17%. Plasma drug levels varied widely and did not correlate with benefit or toxicity.",
+    "why_it_matters": "It is described as the largest reported group of BRAF-fusion pediatric low-grade gliomas on trametinib and supports MEK inhibitors as an option when other treatments fail.",
+    "relevance_reason": "MEK inhibitor outcomes and side effects in BRAF-driven low-grade glioma, the tumor group that includes many pilocytic astrocytomas.",
+    "evidence_level": "Retrospective multicenter real-world cohort; abstract reviewed",
+    "date_note": "Published online October 2, 2026; November 17, 2026 issue.",
+    "limitation": "Retrospective, no comparison group, and limited to children and teens with BRAF fusions, not BRAF V600E tumors. The abstract reports clinical improvement overall but does not detail which neurological problems improved, and some patients regrew after stopping.",
+    "care_question": "Is the tumor's BRAF change a fusion or V600E, and how does that affect whether a MEK pill alone or a BRAF plus MEK combination is the better fit?",
+    "relevance_score": 8,
+    "verified_on": "2026-11-01"
+  },
+  {
+    "id": "vr-visual-telerehab-hemianopia-pediatric-brain-tumor-nct07558395",
+    "title": "Planned European trial: home virtual-reality training for half-field vision loss after a childhood brain tumor, ages 10 to 40",
+    "source": "ClinicalTrials.gov, INSERM (France)",
+    "url": "https://clinicaltrials.gov/study/NCT07558395",
+    "date_published": "2026-04-30",
+    "date_added": "2026-11-01",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Some brain tumors or their treatment damage the brain's vision pathways and leave hemianopia, the loss of one half of the visual field. This planned study will test audiovisual stimulation in virtual reality, done as home telerehabilitation, for people aged 10 to 40 whose hemianopia followed a brain tumor in childhood. Each person gets 8 weeks of training and 8 weeks of standard care in a random order, and the main result is a standard visual field test. The registry lists it as not yet recruiting, with eight hospitals in Europe. If it works, it could offer a home program to help people use more of their vision.",
+    "summary": "NCT07558395 is an interventional crossover study (phase not applicable) with estimated enrollment of 120. One arm gets visual stimulation for the first 8 weeks then standard care for 8 weeks; the other arm gets the reverse order. The primary outcome is visual field perimetry with the Esterman binocular test. Inclusion requires age 10 to 40, hemianopia diagnosed more than 12 months earlier, a history of brain tumor, tumor stability for more than 6 months (on or off therapy), visual acuity of 0.7 LogMAR or better, ability to follow the stimuli and training, home WiFi and ability to attend all on-site visits. Exclusions include eye disease, a history of vertigo, prior vision rehabilitation, use of psychoactive drugs, low virtual-reality tolerance scores at inclusion and an interpupillary distance under 54 mm. Listed sites are in Vienna, Copenhagen, Strasbourg, Milan, Padova, Utrecht, Barcelona and London.",
+    "why_it_matters": "Vision-field loss after childhood brain tumors is long-lasting and limits independence and mobility; this is a controlled test of a home rehab approach specifically for tumor survivors.",
+    "relevance_reason": "Tumor-caused visual pathway damage with a dedicated rehabilitation trial for survivors.",
+    "evidence_level": "Registered interventional randomized crossover trial; not yet recruiting; no results",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07558395",
+    "trial_status": {
+      "status": "Not yet recruiting (registry checked 2026-11-01); estimated start December 2026",
+      "phase": "Not applicable",
+      "location": "Vienna, Austria; Copenhagen, Denmark; Strasbourg, France; Milan and Padova, Italy; Utrecht, Netherlands; Barcelona, Spain; London, UK",
+      "key_eligibility": "Ages 10 to 40; hemianopia for more than 12 months after a brain tumor (tumor-related damage is the entry requirement); tumor stable more than 6 months; no prior vision rehabilitation, eye disease or vertigo history. Eye-movement problems such as gaze palsy are not listed as the target. Full criteria require study-team review."
+    },
+    "date_note": "First posted April 30, 2026; last update posted September 16, 2026. Not a newly launched trial this week.",
+    "limitation": "Not yet recruiting and no results. It targets visual field loss, not eye-movement problems, double vision or eye alignment, and the European sites may require national health coverage.",
+    "care_question": "Is any vision loss a field defect from the brain's visual pathways, and would a vision rehabilitation program like this be appropriate?",
+    "relevance_score": 7,
+    "verified_on": "2026-11-01"
   }
 ]
