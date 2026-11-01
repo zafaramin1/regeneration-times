@@ -1051,5 +1051,40 @@
     "source_urls": [
       "https://www.mayoclinic.org/departments-centers/spasticity-management/overview/ovc-20569237"
     ]
+  },
+  {
+    "id": "nyu-rusk-spasticity-program",
+    "name": "NYU Langone Rusk Rehabilitation: Spasticity Program",
+    "kind": "Care program",
+    "location": "New York City, New York, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Disease"
+    ],
+    "focus": "Assessment and management of muscle tightness affecting limb movement and gait.",
+    "why_relevant": "Lists brain and spinal cord injury, occupational and physical therapy, botulinum toxin and baclofen options. Rusk also offers cancer rehabilitation for weakness and treatment-related neuropathy.",
+    "url": "https://nyulangone.org/locations/rusk-rehabilitation/condition-focused-rehabilitation-services/spasticity-program",
+    "search_terms": "brain tumor hand arm clenching stiffness spasticity gait walking brain injury spinal cord injury cancer weakness neuropathy",
+    "caution": "General assessment route, not confirmed brain-tumor acceptance or a dedicated hand/dystonia service. Clenching alone does not diagnose spasticity. Confirm exact age limits, referral, insurance and individual fit. Accident-related peripheral nerve injuries need a separate assessment route. Nobody contacted; numbers not tested.",
+    "phone": "212-263-6037 (adult appointments); 212-598-6248 (pediatric information)",
+    "email": "",
+    "verified_on": "2026-11-01",
+    "source_urls": [
+      "https://nyulangone.org/locations/rusk-rehabilitation/condition-focused-rehabilitation-services/spasticity-program",
+      "https://nyulangone.org/locations/rusk-rehabilitation/condition-focused-rehabilitation-services/cancer-rehabilitation",
+      "https://nyulangone.org/locations/nyu-langone-ambulatory-care-center-east-38th-street"
+    ]
   }
 ]

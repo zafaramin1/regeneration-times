@@ -2607,5 +2607,32 @@
     "care_question": "Is any vision loss a field defect from the brain's visual pathways, and would a vision rehabilitation program like this be appropriate?",
     "relevance_score": 7,
     "verified_on": "2026-11-01"
+  },
+  {
+    "id": "sma-tumor-resection-fine-motor-deficits-munich-2024",
+    "title": "Hand dexterity remained impaired three months after SMA tumor surgery, small adult study finds",
+    "source": "Neurosurgical Review (Maurer and colleagues, Technical University of Munich)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10937754/",
+    "date_published": "2024-03-14",
+    "date_added": "2026-11-01",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "Thirteen adults had hand testing before and after surgery near the supplementary motor area (SMA). Dexterity remained worse at three months, including in people without obvious weakness on routine strength testing. This supports checking everyday hand skills separately from strength.",
+    "summary": "Prospective single-center cohort, operations in 2015-2017. Jebsen-Taylor tasks and Nine-Hole Peg testing assessed both hands. Opposite-side peg-test means were 29 seconds before surgery, 52 early afterward and 51 at three months. Eleven patients had no postoperative BMRC strength deficit; one patient with paresis could not complete opposite-side tasks.",
+    "why_it_matters": "An assessment finding, not a tested rehabilitation treatment.",
+    "relevance_score": 9,
+    "evidence_level": "Human study: prospective uncontrolled cohort, 13 adults",
+    "date_note": "Background research, published March 14, 2024. Munich cohort; overlap with other Munich reports is unconfirmed.",
+    "limitation": "No control group or therapy comparison. Three-month hand testing cannot establish lifelong permanence, despite the paper's title. Narrative recovery descriptions conflict with some table values; numerical results here follow Table 1.",
+    "verified_on": "2026-11-01"
   }
 ]
