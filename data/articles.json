@@ -2634,5 +2634,158 @@
     "date_note": "Background research, published March 14, 2024. Munich cohort; overlap with other Munich reports is unconfirmed.",
     "limitation": "No control group or therapy comparison. Three-month hand testing cannot establish lifelong permanence, despite the paper's title. Narrative recovery descriptions conflict with some table values; numerical results here follow Table 1.",
     "verified_on": "2026-11-01"
+  },
+  {
+    "id": "thalamic-glioma-surgery-meta-analysis-sni-2026",
+    "title": "Review of 15 studies on thalamic glioma surgery: lower-grade tumors were far more often followed by improvement, but arm and leg weakness was common",
+    "source": "Surgical Neurology International (Al-Shalchy and colleagues, Baghdad, with Medical University of South Carolina)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12875233/",
+    "date_published": "2026-01-02",
+    "date_added": "2026-11-02",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "Gliomas in the thalamus, a deep relay center of the brain, are rare and hard to operate on because important movement and sensation pathways run right beside them. This review pooled 15 published studies of people who had surgery for these tumors. Clinical improvement was reported in 83% of people with low-grade tumors, compared with 46% of those with high-grade tumors. Weakness on one side of the body was the most common complication, in about a third of patients. For people with a low-grade thalamic tumor, it suggests the tumor grade is a strong clue to how much function may come back, though the evidence base is small and uneven.",
+    "summary": "Systematic review and meta-analysis of thalamic glioma surgery, with PubMed and Scopus searched up to December 2024. Fifteen studies were included (the paper reports 316 patients in its results and 327 in its abstract); most were retrospective case series, and about three quarters of tumors were high grade. Functional outcomes were mapped to the modified Rankin Scale. Improvement occurred in 83% of low-grade versus 46% of high-grade tumors (odds ratio 0.366, P = 0.006). Laterality made no clear difference. Subtotal removal showed more improvement than gross total removal (54% versus 32%), but the difference was not statistically significant. Children had slightly better improvement (54%) and lower mortality (11%) than adults (49% and 15.8%). Hemiplegia was the most common complication (35.4%), followed by fever (20.2%) and hydrocephalus (18.4%); sensory deficits were reported in 20.9% and visual deficits or hemianopia in about 7% each.",
+    "why_it_matters": "Thalamic tumors sit next to the main movement and sensation pathways, so pooled outcome data help families and care teams set realistic expectations about function after surgery.",
+    "relevance_reason": "Deep thalamic glioma with pooled functional and motor complication data.",
+    "relevance_score": 8,
+    "evidence_level": "Systematic review and meta-analysis of mostly retrospective studies and case reports; authors call it exploratory",
+    "date_note": "Published January 2, 2026 (Surgical Neurology International, volume 17, article 4). Not covered on this site before.",
+    "limitation": "Most included studies were small and retrospective with moderate to serious risk of bias, and the search only covered surgically treated cases. Molecular subtypes such as BRAF changes were not analyzed, high-grade tumors dominate the pool, and the patient total differs between the abstract and results.",
+    "care_question": "Given the grade and exact location of a thalamic tumor, what level of movement recovery has been seen in similar patients, and what rehabilitation helps most?",
+    "verified_on": "2026-11-02"
+  },
+  {
+    "id": "fda-symposium-functional-outcomes-pediatric-low-grade-glioma-2024",
+    "title": "FDA symposium: vision, movement and thinking should count as treatment results in childhood low-grade glioma trials",
+    "source": "Clinical Cancer Research (FDA Oncology Center of Excellence educational symposium report)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11147731/",
+    "date_published": "2024-06-03",
+    "date_added": "2026-11-02",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Eye",
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "Most children with low-grade glioma survive into adulthood, but many live with vision loss, movement problems and thinking difficulties caused by the tumor or its treatment. In 2022 the US FDA brought together regulators, doctors and patient advocates to discuss measuring these functions, not only tumor size on MRI, when testing new drugs such as targeted pills. They agreed vision tests are ready to be used as trial results, while movement and thinking measures still need more validation. Many ongoing trials already track movement and thinking as secondary results. Over time this could give families better evidence on whether a drug actually helps everyday function.",
+    "summary": "Report of an October 2022 FDA Oncology Center of Excellence educational symposium with FDA and European Medicines Agency regulators, patient advocates and pediatric neuro-oncologists. It notes 5-year survival well over 90% but 5-year progression-free survival below 50%, with long-term problems such as motor dysfunction, visual impairment and neurocognitive deficits. It cites a 246-patient cohort in which tumor-related deficits included ataxia and dysmetria (cerebellar tumors), dysmetria in optic pathway and midline tumors and eye problems in posterior fossa tumors, and a European chemotherapy trial in which 31% improved neurologically after 24 weeks. Participants agreed visual acuity has the most robust, validated data as an endpoint; motor and neurocognitive outcomes were considered important but not yet ready to serve as primary measures of response. Hydrocephalus needing fluid diversion was listed among the strongest risks for later cognitive problems.",
+    "why_it_matters": "Trials of targeted drugs for low-grade glioma have mostly reported tumor shrinkage; pushing for movement and function measures is what will eventually show whether these drugs help people use their hands, walk and see better.",
+    "relevance_reason": "Low-grade glioma survivorship and function endpoints for targeted-drug trials.",
+    "relevance_score": 7,
+    "evidence_level": "Expert consensus and symposium summary; no new patient data",
+    "date_note": "Background research, published June 3, 2024 (symposium held October 2022).",
+    "limitation": "A discussion report, not a study. It does not show that any treatment improves movement, and it focuses on children rather than adult survivors.",
+    "care_question": "Which standardized movement or hand tests could be repeated over time to see whether a targeted drug or therapy is changing function, not only tumor size?",
+    "verified_on": "2026-11-02"
+  },
+  {
+    "id": "intramedullary-spinal-tumor-rehab-gothenburg-eurospine-2026",
+    "title": "Gothenburg study of 106 adults after spinal cord tumor surgery: about 3 in 10 improved by six months, with no clear difference between rehab settings",
+    "source": "EUROSPINE 2026 e-poster (Muncan and colleagues, Sahlgrenska University Hospital, Sweden)",
+    "url": "https://library.eurospine.org/2026/p/neurosurgical-aspects-functional-outcome-and-rehab-000973/",
+    "date_published": "2026-10-07",
+    "date_added": "2026-11-02",
+    "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Spine",
+      "cause": "Spine tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg",
+      "Arm"
+    ],
+    "quick_read": "Tumors that grow inside the spinal cord can cause weakness, numbness, pain and bladder or bowel problems, and surgery to remove them can make nerve function worse for a while. This Swedish hospital, the only neurosurgery provider for about 1.9 million people, looked back at 106 adults operated on between 2007 and 2023. About 31% had better neurological function 3 to 6 months later, and about 7 in 10 needed rehabilitation afterward. People treated in a specialized spinal rehab unit did not do clearly better than those rehabilitated on a regular ward. It suggests structured rehab after spinal cord tumor surgery is common and may help, but the best setting is still unclear.",
+    "summary": "Retrospective single-center population-based study of adults who had surgery for intramedullary spinal cord tumors from 2007 to 2023, using the modified McCormick scale. Of 106 patients (56.6% male, median age 49, range 19 to 83), 33 (31.1%) improved neurologically at 3 to 6 months. Seventy-five (70.8%) had postoperative rehabilitation: 28 at an advanced spinal rehabilitation unit, 42 on a regular ward and 5 in primary care. Outcomes did not differ significantly between the advanced unit and the regular ward (unchanged 29.5% versus 37.8%, improved 70.4% versus 59.5%, worse 0% versus 2.7%; p values 0.598, 0.435 and 1.00). The authors conclude structured rehabilitation may support recovery.",
+    "why_it_matters": "Rehab evidence after spinal cord tumor surgery is scarce, and this population-based series gives a realistic six-month picture and a first comparison of rehab settings.",
+    "relevance_reason": "Spine tumor nerve damage with a rehabilitation comparison.",
+    "relevance_score": 6,
+    "evidence_level": "Human study: retrospective single-center cohort, conference e-poster (not a full peer-reviewed paper)",
+    "date_note": "Presented at EUROSPINE 2026, Gothenburg, October 7 to 9, 2026; the poster page shows no exact posting date.",
+    "limitation": "Conference abstract only, retrospective and not randomized. The improvement percentages for the rehab groups and the 31.1% overall figure use different groups, so they are not directly comparable, and the poster does not separate hand or arm outcomes.",
+    "care_question": "After spinal cord tumor surgery, which rehabilitation program and how much therapy are recommended, and what recovery is typical by six months?",
+    "verified_on": "2026-11-02"
+  },
+  {
+    "id": "prehab-cimt-rtms-high-grade-glioma-motor-nct07471100",
+    "title": "Planned Italian trial: 10 days of constraint-induced hand training, with or without magnetic stimulation, before surgery for glioma near the movement pathways",
+    "source": "ClinicalTrials.gov, Azienda Sanitaria dell'Alto Adige (Bolzano, Italy)",
+    "url": "https://clinicaltrials.gov/study/NCT07471100",
+    "date_published": "2026-03-13",
+    "date_added": "2026-11-02",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Brain",
+      "Arm"
+    ],
+    "quick_read": "This planned study asks whether training the brain before brain tumor surgery can help protect hand and arm movement afterward. Adults with a suspected high-grade glioma close to the movement pathways would be randomly assigned to usual care, constraint-induced movement training (the stronger hand is restrained for 6 hours a day while the weaker hand practices fine skills), or the same training plus daily magnetic brain stimulation, for 10 days before surgery. The main results are brain-mapping measures of how the movement areas reorganize, with hand strength, the 9-hole peg test and arm function scales checked up to 3 months after surgery. The registry lists it as not yet recruiting. It is aimed at people facing surgery, not at people living with long-standing damage.",
+    "summary": "NCT07471100 is a randomized, outcome-assessor-masked pilot trial (phase not applicable) with estimated enrollment of 63, randomized 1:2:2 to control, physical therapy, or physical therapy plus rTMS. Physical therapy is 10 days of constraint-induced movement (6 hours a day immobilizing the unaffected hand) plus fine motor exercises twice a day for the affected hand; the combined arm adds daily 20-minute 1 Hz rTMS over the opposite hemisphere. Primary outcomes are navigated TMS mapping of the motor cortex and cortical excitability measures from randomization to surgery. Other outcomes up to 3 months after surgery include Medical Research Council strength, the 9-hole peg test, the Action Research Arm Test and Fugl-Meyer upper extremity scores. Enrollment sites named are Bolzano and Verona, Italy.",
+    "why_it_matters": "It tests whether hand training and stimulation can build movement-network reserve before tumor surgery, an approach that could later shape rehab around brain tumor operations.",
+    "relevance_reason": "Brain tumor motor and hand function trial, but preventive and pre-surgical rather than for existing damage.",
+    "relevance_score": 5,
+    "evidence_level": "Registered randomized pilot trial; not yet recruiting; no results",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07471100",
+    "trial_status": {
+      "status": "Not yet recruiting (registry checked 2026-11-02; record last updated March 13, 2026; estimated start April 1, 2026)",
+      "phase": "Not applicable",
+      "location": "Bolzano and Verona, Italy",
+      "key_eligibility": "Ages 18 to 80; suspected high-grade glioma on MRI near the motor pathway, before planned surgery; muscle strength at least 3 on the MRC scale; no multifocal or bilateral disease. Tumor-related cases are the target, but only before surgery; people with long-standing damage after earlier treatment, or with low-grade tumors, are not the intended group."
+    },
+    "date_note": "First posted March 13, 2026, and not updated since; the estimated April 2026 start has passed without a status change, so actual recruitment should be confirmed with the site.",
+    "limitation": "Small pilot, not yet recruiting, and its main results are brain-mapping measures rather than hand function. Only for adults about to have high-grade glioma surgery in Italy.",
+    "care_question": "Before any planned brain tumor surgery near movement areas, is there a prehabilitation or hand-training program worth starting?",
+    "verified_on": "2026-11-02"
+  },
+  {
+    "id": "holmes-tremor-dbs-vs-lesion-meta-analysis-sao-paulo-2025",
+    "title": "Meta-analysis of 168 people with Holmes tremor: deep brain stimulation and lesion surgery both helped, with stimulation ahead on average",
+    "source": "NeuroTarget (WSSFN 2025 Interim Meeting abstract, University of Sao Paulo)",
+    "url": "https://neurotarget.com/index.php/nt/article/view/500",
+    "date_published": "2025-11-18",
+    "date_added": "2026-11-02",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Any cause",
+      "approach": "Stimulation",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Brain",
+      "Hand"
+    ],
+    "quick_read": "Holmes tremor is a slow, disabling shaking at rest, in posture and during movement that usually follows damage in the brainstem, and medicines often fail to control it. This team pooled 11 studies with 168 people who had either deep brain stimulation (an implanted brain pacemaker, 96 people) or a lesion procedure that makes a tiny targeted burn (72 people). Overall, tremor improved by about 70%, and stimulation gave a larger average reduction in tremor scores than lesioning. Older age and having the tremor longer were linked to less benefit. For people whose tremor came from a brain lesion such as a tumor, it supports asking about surgical options when drugs fail, sooner rather than later.",
+    "summary": "Conference abstract combining a systematic review and meta-analysis (PRISMA, five databases, studies 1992 to 2024) with one case report. Eleven studies with 168 patients were included (96 DBS, 72 lesional procedures); overall tremor improvement was 70.2%. DBS showed a larger mean reduction in tremor scores (mean difference 3.95 points, 95% CI 2.91 to 5.00) than lesional procedures (2.18 points, 95% CI 0.24 to 4.12), with substantial heterogeneity. Meta-regression linked older age and longer tremor duration with less favorable outcomes. In the reported case, posterior subthalamic area lesioning gave partial benefit and DBS of the thalamus (VIM) and posterior subthalamic area nine months later gave significant additional improvement.",
+    "why_it_matters": "Holmes tremor is a recognized result of midbrain and thalamic lesions, including tumors, and comparative data on stimulation versus lesioning are rare.",
+    "relevance_reason": "Lesional tremor treatment relevant to tumor survivors, but the pooled causes are not tumor-specific.",
+    "relevance_score": 6,
+    "evidence_level": "Meta-analysis of 11 small studies plus one case, published as a conference abstract",
+    "date_note": "Abstract from the WSSFN 2025 Interim Meeting, posted November 18, 2025. Distinct from the 121-case Holmes tremor scoping review already on this site.",
+    "limitation": "Abstract only, with substantial heterogeneity and no breakdown by cause, so results for tumor-related tremor specifically are unknown. Side effects and long-term hand function are not reported.",
+    "care_question": "If tremor from a brain lesion has not responded to medicines, would a movement-disorder surgery team consider deep brain stimulation or a lesion procedure, and which target?",
+    "verified_on": "2026-11-02"
   }
 ]
