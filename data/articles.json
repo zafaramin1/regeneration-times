@@ -2787,5 +2787,31 @@
     "limitation": "Abstract only, with substantial heterogeneity and no breakdown by cause, so results for tumor-related tremor specifically are unknown. Side effects and long-term hand function are not reported.",
     "care_question": "If tremor from a brain lesion has not responded to medicines, would a movement-disorder surgery team consider deep brain stimulation or a lesion procedure, and which target?",
     "verified_on": "2026-11-02"
+  },
+  {
+    "id": "brain-radiotherapy-hand-dexterity-dose-model-ucsd-2023",
+    "title": "Radiation dose was linked to hand-dexterity decline after brain tumor treatment",
+    "source": "International Journal of Radiation Oncology, Biology, Physics (Connor and colleagues, UC San Diego)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10911396/",
+    "date_published": "2023-05-06",
+    "date_added": "2026-11-02",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Researchers assessed hand skills before and six months after brain radiation. Higher doses to certain movement-related brain regions were linked to poorer dexterity. This was risk-model research, not a test of a recovery treatment.",
+    "summary": "Secondary analysis of 44 adults from a 52-patient prospective cohort. Dominant-hand pegboard decline occurred in 17 of 42 tested. The best internally validated model had AUC 0.69, indicating limited discrimination.",
+    "why_it_matters": "Supports studying ways to preserve hand function, without establishing a protective treatment.",
+    "evidence_level": "Human study: observational analysis of a prospective adult cohort",
+    "relevance_score": 9,
+    "date_note": "Background research: online May 6, 2023; November 1 issue. Reuses the cohort reported by Salans et al. in 2021 (doi:10.1093/neuonc/noab017), not independent replication.",
+    "limitation": "Small sample; possible overfitting and confounding. External validation is needed. Abstract and indexed methods/limitations checked; direct PMC page and PDF access were blocked.",
+    "verified_on": "2026-11-02"
   }
 ]

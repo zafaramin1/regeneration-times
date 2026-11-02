@@ -1086,5 +1086,41 @@
       "https://nyulangone.org/locations/rusk-rehabilitation/condition-focused-rehabilitation-services/cancer-rehabilitation",
       "https://nyulangone.org/locations/nyu-langone-ambulatory-care-center-east-38th-street"
     ]
+  },
+  {
+    "id": "cleveland-clinic-adult-spasticity-oncology-rehab",
+    "name": "Cleveland Clinic: Adult Spasticity and Oncology Rehabilitation Assessment",
+    "kind": "Care program",
+    "location": "Cleveland and Northeast Ohio, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Peripheral nerve"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Chemotherapy",
+      "Disease"
+    ],
+    "focus": "Adult spasticity, gait and cancer-related functional assessment.",
+    "why_relevant": "The department lists oncology rehabilitation for weakness, daily activities, chemotherapy-related sensory loss and muscle tightness. Its adult spasticity clinic covers brain/spinal cord injury and offers gait/balance training and tone-management options.",
+    "url": "https://my.clevelandclinic.org/departments/neurological/depts/physical-medicine-rehabilitation",
+    "search_terms": "brain tumor hand arm clenching spasticity weakness gait balance sensory numbness neuropathy cancer brain injury spinal cord injury Ohio",
+    "caution": "General assessment route, not confirmed acceptance of a particular brain tumor, hand problem or dystonia. Adult spasticity service; pediatric care is separate. Confirm clinic, referral, insurance and availability. Clenching alone does not establish spasticity. After accidents, do not assume arm dysfunction comes from brain, spinal cord or peripheral nerve injury. No provider contacted or number tested.",
+    "phone": "216-636-5860 or 866-588-2264 (Physical Medicine & Rehabilitation appointments)",
+    "email": "",
+    "verified_on": "2026-11-02",
+    "source_urls": [
+      "https://my.clevelandclinic.org/departments/neurological/depts/physical-medicine-rehabilitation",
+      "https://my.clevelandclinic.org/services/spasticity-treatment"
+    ]
   }
 ]
