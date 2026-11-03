@@ -2813,5 +2813,87 @@
     "date_note": "Background research: online May 6, 2023; November 1 issue. Reuses the cohort reported by Salans et al. in 2021 (doi:10.1093/neuonc/noab017), not independent replication.",
     "limitation": "Small sample; possible overfitting and confounding. External validation is needed. Abstract and indexed methods/limitations checked; direct PMC page and PDF access were blocked.",
     "verified_on": "2026-11-02"
+  },
+  {
+    "id": "mescc-surgery-walking-nomogram-asan-2026",
+    "title": "Korean study of 97 people with spinal cord compression from cancer: about 1 in 4 walked again after surgery, best predicted by leg strength and speed to the operating room",
+    "source": "Journal of Clinical Medicine (Alayed and colleagues, Asan Medical Center, Seoul)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13666026/",
+    "date_published": "2026-09-25",
+    "date_added": "2026-11-03",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Back spine",
+      "cause": "Spine tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg",
+      "Spine"
+    ],
+    "quick_read": "Doctors in Seoul looked back at 97 people whose spinal cord was squeezed by cancer that had spread to the spine and who already had weakness before surgery to relieve the pressure. About one in four of them were walking again three months after the operation. The two things most clearly tied to walking again were how strong the legs still were before surgery and how short the gap was between first symptoms and the operation. The team built a scoring chart to estimate each person's chance of walking again, but it still needs testing in other hospitals before routine use.",
+    "summary": "Single-center retrospective study of 97 patients with metastatic epidural spinal cord compression (Bilsky grade 2-3) and preoperative deficits (ASIA D or worse) out of 352 operated for spinal metastases, 2014-2021. Postoperative ambulation at 3 months was regained in 24 patients (24.7%). In the multivariable model only preoperative motor grade and symptom-onset-to-operation interval were independently associated with recovery. The nomogram had an optimism-corrected AUC of 0.800 with acceptable-to-good calibration.",
+    "why_it_matters": "Adds to evidence that preserved strength and faster decompression matter for regaining walking when a tumor compresses the spinal cord.",
+    "relevance_reason": "Spine tumor compression, neurological recovery after decompression.",
+    "relevance_score": 8,
+    "evidence_level": "Human study: retrospective single-center cohort with internally validated prediction model",
+    "limitation": "Retrospective, single center, small number who regained walking; external validation required.",
+    "verified_on": "2026-11-03"
+  },
+  {
+    "id": "hand-knob-connectome-motor-eloquent-tumours-kings-2026",
+    "title": "London brain-scan study of 48 people with tumors near the movement area: the brain rewired hand-related networks around the tumor",
+    "source": "Cancers (Prakashvel and colleagues, King's College Hospital, London)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42794892/",
+    "date_published": "2026-09-09",
+    "date_added": "2026-11-03",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "Researchers mapped the brain area that controls the hand in 48 people with tumors near the brain's movement regions, using magnetic stimulation and special MRI scans before surgery. On the tumor side, the main movement pathway to the hand had lost volume, but deeper movement networks showed extra connections, which the authors read as the brain compensating. Slower-growing IDH-mutant tumors showed more organized compensating networks than faster-growing ones. This is a mapping study that may help surgical planning; it did not test a treatment to restore hand use.",
+    "summary": "48 patients with supratentorial motor-eloquent tumors had preoperative nTMS motor mapping and diffusion imaging, with the structural connectome seeded at the upper-limb motor hotspot. Global network topology of the tumor hemisphere was preserved, while subcortical and basal ganglia networks showed significant hyper-connectivity. IDH-mutant tumors had higher clustering than IDH-wildtype tumors. Tumors were associated with loss of corticospinal tract volume and a prolonged cortical silent period, more so in glioblastoma than oligodendroglioma.",
+    "why_it_matters": "Shows how the hand-movement network reorganizes around a brain tumor, which may inform surgery that protects arm and hand function.",
+    "relevance_reason": "Brain tumor effect on hand motor network and corticospinal tract.",
+    "relevance_score": 7,
+    "evidence_level": "Human study: cross-sectional preoperative imaging and neurophysiology",
+    "limitation": "Small sample of supratentorial tumors; imaging associations only, no functional recovery outcome reported in the abstract. Abstract checked; publisher page blocked automated access.",
+    "verified_on": "2026-11-03"
+  },
+  {
+    "id": "cerebellar-mutism-syndrome-outcomes-review-st-jude-2025",
+    "title": "St. Jude-led review of 34 studies: children who lose speech after posterior fossa tumor surgery often live with lasting ataxia and other challenges",
+    "source": "Pediatric Blood & Cancer (Hughes and colleagues, St. Jude Children's Research Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12721493/",
+    "date_published": "2025-09-29",
+    "date_added": "2026-11-03",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "Some children lose speech and coordination after surgery to remove a tumor in the back of the brain, a problem called cerebellar mutism syndrome. This review pulled together 34 studies covering 631 young patients to see how they did over the long run. Unsteady, uncoordinated movement (ataxia) was the most often reported lasting nerve problem, and many studies also found lower thinking scores and emotional changes. The authors say better surgical techniques and rehabilitation are needed, so this is a picture of the problem rather than a new fix.",
+    "summary": "Systematic review of 34 studies (631 patients aged 1 to 25.7 years) with cerebellar mutism syndrome after posterior fossa tumor resection. Reported prevalence ranged from 3.7% to 63%, median follow-up 26.5 months. Ataxia was the most common neurological outcome (17 studies); 5 of 9 studies assessing cognition found significantly lower full-scale IQ; emotional changes were seen in 40%-100% of participants across 23 studies.",
+    "why_it_matters": "Highlights lasting movement and coordination problems after childhood brain tumor surgery and the need for better rehabilitation.",
+    "relevance_reason": "Brain tumor surgery, long-term ataxia and neurological outcomes.",
+    "relevance_score": 7,
+    "evidence_level": "Review: systematic review of mostly small observational studies",
+    "date_note": "Background research: published online September 29, 2025, December 2025 issue.",
+    "limitation": "Included studies were small and varied in design and follow-up.",
+    "verified_on": "2026-11-03"
   }
 ]
