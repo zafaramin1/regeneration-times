@@ -1122,5 +1122,38 @@
       "https://my.clevelandclinic.org/departments/neurological/depts/physical-medicine-rehabilitation",
       "https://my.clevelandclinic.org/services/spasticity-treatment"
     ]
+  },
+  {
+    "id": "upmc-pittsburgh-spasticity-clinics",
+    "name": "UPMC Pittsburgh: Spasticity Clinics",
+    "kind": "Care program",
+    "location": "Pittsburgh, Pennsylvania, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Spasticity assessment for limb movement, independent daily tasks and patient-selected functional goals.",
+    "why_relevant": "UPMC describes three Pittsburgh spasticity clinics, comprehensive extremity evaluation, botulinum toxin and individualized occupational or physical therapy. Listed causes include brain and spinal cord injury.",
+    "url": "https://www.upmc.com/services/rehab/physical-medicine-rehab/conditions/spasticity",
+    "search_terms": "brain tumor hand arm clenching stiffness spasticity extremity movement daily function brain injury spinal cord injury Pittsburgh Pennsylvania",
+    "caution": "Potential assessment route only. Brain-tumor acceptance, exact hand diagnoses, dystonia and age eligibility are not confirmed on this page. Confirm clinic, referral, insurance and availability. Clenching does not itself diagnose spasticity. Accident-related arm dysfunction needs localization; this is not a verified brachial plexus surgery route. No provider contacted or number tested. Trials are mentioned generally but no specific opening was verified.",
+    "phone": "1-800-533-8762 (Physical Medicine and Rehabilitation appointments)",
+    "email": "",
+    "verified_on": "2026-11-03",
+    "source_urls": [
+      "https://www.upmc.com/services/rehab/physical-medicine-rehab/conditions/spasticity"
+    ]
   }
 ]
