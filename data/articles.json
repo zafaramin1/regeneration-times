@@ -2977,5 +2977,31 @@
     "date_note": "Background research, published July 1, 2024.",
     "limitation": "Measures how common impairment is, not how to reverse it. Findings tie to chemotherapy and radiation exposure, so they may not apply to survivors treated only with surgery, shunts or targeted drugs.",
     "verified_on": "2026-11-04"
+  },
+  {
+    "id": "glioma-hand-praxis-mapping-comparison-humanitas-2018",
+    "title": "Hand-task mapping during glioma surgery was linked to less postoperative apraxia",
+    "source": "Journal of Neurosurgery (Rossi and colleagues, Humanitas and University of Milan)",
+    "url": "https://doi.org/10.3171/2017.7.JNS17357",
+    "date_published": "2018-02-23",
+    "date_added": "2026-11-04",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Hand apraxia means difficulty performing learned skilled movements beyond basic weakness or sensory loss. Researchers added a hand-manipulation task to brain mapping during glioma surgery. Patients tested this way had less postoperative apraxia, but the comparison does not establish a cure.",
+    "summary": "Compared 79 patients mapped with the task against 41 without it. The abstract reports fewer praxis problems in both brain hemispheres, without reduced tumor removal. It provides no absolute event rates.",
+    "why_it_matters": "Addresses preservation of skilled hand use during surgery, not rehabilitation of existing impairment.",
+    "evidence_level": "Human study: comparative surgical groups, 120 patients",
+    "relevance_score": 9,
+    "date_note": "Background research: online February 23, 2018; January 2019 print issue.",
+    "limitation": "Abstract verified through PubMed and the authors' university. Publisher full text was blocked. Age breakdown, detailed allocation methods and overlap with other reports could not be established; pediatric applicability is unconfirmed. No numerical treatment effect is inferred.",
+    "verified_on": "2026-11-04"
   }
 ]

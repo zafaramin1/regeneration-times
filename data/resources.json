@@ -1155,5 +1155,39 @@
     "source_urls": [
       "https://www.upmc.com/services/rehab/physical-medicine-rehab/conditions/spasticity"
     ]
+  },
+  {
+    "id": "duke-neurological-rehabilitation",
+    "name": "Duke Health: Neurological Rehabilitation",
+    "kind": "Care program",
+    "location": "Durham and the Triangle, North Carolina, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Spine"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Physical and occupational therapy assessment for motor control, fine motor skills, sensation, balance and daily function.",
+    "why_relevant": "Duke explicitly lists brain tumors, brain/spinal cord injury and upper-extremity amputation among neurological rehabilitation diagnoses. Services include upper-extremity coordination, splinting, adaptive equipment and prosthesis assessment/training.",
+    "url": "https://www.dukehealth.org/treatments/physical-therapy/neurological-rehabilitation",
+    "search_terms": "brain tumor hand arm dexterity fine motor sensory sensation coordination weakness balance gait rehabilitation amputation prosthesis North Carolina",
+    "caution": "Program-level diagnosis coverage, not confirmation of individual acceptance. Confirm age eligibility, referral, insurance, location and availability. Dedicated spasticity/dystonia care and brachial plexus surgery are not established by these pages. After an accident, neurological arm dysfunction and anatomical limb loss require different assessments. Nobody contacted; number not tested.",
+    "phone": "855-855-6484 (neurological rehabilitation appointments)",
+    "email": "",
+    "verified_on": "2026-11-04",
+    "source_urls": [
+      "https://www.dukehealth.org/treatments/physical-therapy/neurological-rehabilitation",
+      "https://sites.duke.edu/ptot/outpatient-services/neurological-rehabilitation-services/"
+    ]
   }
 ]
