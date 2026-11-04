@@ -2922,5 +2922,60 @@
     "date_note": "Background research, published October 29, 2023.",
     "limitation": "Attrition and a younger exercise group limit interpretation. Multiple outcomes were tested. Registry NCT05192447 was unreadable, so prespecified primary outcomes and current recruitment status were not verified. This is results coverage, not an enrollment opportunity. PMC follow-up requests timed out; indexed primary-source methods/results were checked.",
     "verified_on": "2026-11-03"
+  },
+  {
+    "id": "brainstem-glioma-cst-pattern-motor-recovery-tiantan-2026",
+    "title": "Beijing study of 180 brainstem glioma surgeries: how the tumor sat against the main movement pathway shaped motor recovery",
+    "source": "Journal of Neuro-Oncology (Zhang and colleagues, Beijing Tiantan Hospital)",
+    "url": "https://doi.org/10.1007/s11060-026-05829-4",
+    "date_published": "2026-10-15",
+    "date_added": "2026-11-04",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "Doctors in Beijing used a special MRI scan before surgery to see how each brainstem glioma related to the main nerve pathway that carries movement signals from the brain to the body. They sorted 180 patients into three patterns: the tumor pushing the pathway aside, growing into it, or running right through it. People whose pathway was only pushed aside recovered movement quickly after surgery, those with the tumor running through it showed little recovery and later decline, and the middle group fell in between. This could help families and surgeons set realistic expectations about movement recovery before brainstem tumor surgery.",
+    "summary": "180 patients had craniotomy for brainstem glioma between 2020 and 2023. Preoperative DTI tractography classified the corticospinal tract (CST) relationship as displacement (51), infiltration (83) or traverse (46). Displacement tumors were mostly low-grade (74.5%) with better preoperative function; traverse tumors were almost all high-grade (97.8%). Longitudinal motor trajectories differed significantly: displacement recovered rapidly, traverse showed minimal recovery with late decline, infiltration was intermediate. Median survival was not reached for displacement versus 15.3 and 12.0 months for infiltration and traverse.",
+    "why_it_matters": "A pre-surgery scan pattern was linked to how much movement came back afterward, which may help with planning and counseling.",
+    "evidence_level": "Human study: single-center cohort, 180 patients",
+    "relevance_score": 9,
+    "relevance_reason": "Brainstem tumor and corticospinal tract recovery after surgery; recent.",
+    "limitation": "Single center, and tumor grade differed strongly between groups, so the pattern and tumor biology are hard to separate. The authors call it hypothesis-generating. It describes prognosis, not a treatment that restores movement. Checked from the published abstract; full text not reviewed.",
+    "verified_on": "2026-11-04"
+  },
+  {
+    "id": "sjlife-motor-sensory-impairment-childhood-cns-tumor-survivors-2024",
+    "title": "St. Jude study of 378 adult survivors of childhood brain and spinal tumors: about 1 in 4 had motor or sensory nerve impairment",
+    "source": "Cancer Medicine (St. Jude Lifetime Cohort, St. Jude Children's Research Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11273544/",
+    "date_published": "2024-07-01",
+    "date_added": "2026-11-04",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Peripheral nerve",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "Researchers examined 378 adults who had a brain or spinal cord tumor as children, at least five years after diagnosis, and compared them with people who never had cancer. About 24 in 100 survivors had at least moderate motor or sensory nerve problems, compared with about 3 in 100 in the comparison group. Motor problems were linked to certain chemotherapy drugs (vinca drugs and higher doses of etoposide), and sensory problems to older age at diagnosis and radiation to the whole brain and spine. Survivors with motor problems had worse physical quality of life, which the authors say makes these problems worth looking for and treating.",
+    "summary": "In-person modified Total Neuropathy Score testing of 378 SJLIFE survivors of childhood CNS tumors (median age 24) and 445 controls. Grade 2 or higher motor or sensory impairment: 24.1% of survivors versus 2.9% of controls. Motor impairment was associated with vinca exposure and etoposide above 2036 mg/m2; sensory impairment with older age at diagnosis and craniospinal irradiation. Survivors treated in 2000 or later had lower odds of both. Motor impairment was associated with impaired physical quality of life.",
+    "why_it_matters": "Shows nerve problems are common and long-lasting after childhood brain tumor treatment, and links them to specific treatments survivors can ask about.",
+    "evidence_level": "Human study: cross-sectional cohort with controls",
+    "relevance_score": 8,
+    "relevance_reason": "Long-term survivorship nerve impairment after childhood brain tumors; large clinically assessed cohort.",
+    "date_note": "Background research, published July 1, 2024.",
+    "limitation": "Measures how common impairment is, not how to reverse it. Findings tie to chemotherapy and radiation exposure, so they may not apply to survivors treated only with surgery, shunts or targeted drugs.",
+    "verified_on": "2026-11-04"
   }
 ]
