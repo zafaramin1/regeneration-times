@@ -3093,5 +3093,28 @@
     "limitation": "Not yet recruiting at last check; feasibility outcomes will not by themselves prove that cognition or fatigue improve.",
     "care_question": "Ask whether a cognitive rehab or fatigue program is available locally while waiting for trials like FLaME to open.",
     "verified_on": "2026-11-05"
+  },
+  {
+    "id": "wii-glioma-inpatient-rehabilitation-feasibility-kyorin-2024",
+    "title": "Wii-based rehabilitation was feasible in a small glioma study, without a clear advantage",
+    "source": "Supportive Care in Cancer (Sakamoto and colleagues, Kyorin University)",
+    "url": "https://doi.org/10.1007/s00520-024-09111-z",
+    "date_published": "2024-12-23",
+    "date_added": "2026-11-05",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "quick_read": "Ten adults with glioma received inpatient rehabilitation. Four chose training that replaced some physiotherapy with Wii games; six received conventional therapy. Outcomes did not differ significantly, so this small study cannot establish that gaming is better or equally effective.",
+    "summary": "Motor function, physical performance, daily independence and anxiety/depression were assessed. No dropouts or adverse events, including falls, were observed. The Wii group was much younger: reported age 39 (26-53) versus 72 (59-80) years; tumor-grade composition also differed.",
+    "why_it_matters": "A feasibility finding, not proof of hand recovery or a replacement for prescribed therapy.",
+    "evidence_level": "Human trial: nonrandomized preference-based comparison, 10 adults",
+    "relevance_score": 7,
+    "date_note": "Background research: online December 23, 2024; 2025 volume.",
+    "limitation": "Selection bias, unequal groups and tiny sample. Abstract and date verified; full text requires subscription. Hand-specific benefit and cohort overlap could not be established.",
+    "verified_on": "2026-11-05"
   }
 ]

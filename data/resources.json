@@ -1189,5 +1189,38 @@
       "https://www.dukehealth.org/treatments/physical-therapy/neurological-rehabilitation",
       "https://sites.duke.edu/ptot/outpatient-services/neurological-rehabilitation-services/"
     ]
+  },
+  {
+    "id": "utah-neilsen-spasticity-management",
+    "name": "University of Utah Health: Neilsen Spasticity Management Program",
+    "kind": "Care program",
+    "location": "Salt Lake City, Utah, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Spasticity assessment and management for muscle stiffness, contractures and limitations in daily function.",
+    "why_relevant": "Official program describes neurological examination, occupational therapy for small-muscle coordination, physical therapy, splinting and tone-management options. Listed causes include brain injury and spinal cord injury.",
+    "url": "https://healthcare.utah.edu/neilsen-physical-rehab-hospital/specialties/spasticity-management",
+    "search_terms": "brain tumor hand arm clenching spasticity stiffness contracture coordination movement gait walking brain injury spinal cord injury Utah Mountain West",
+    "caution": "General assessment route; brain-tumor acceptance, hand-specific diagnosis, dystonia and age eligibility require confirmation. Doctor referral is required. Confirm clinic, insurance and availability. Clenching does not diagnose spasticity. After an accident, establish injury location; this is not a verified brachial plexus reconstruction route. No provider contacted or number tested.",
+    "phone": "801-581-2267 (spasticity clinic and referral coordination)",
+    "email": "",
+    "verified_on": "2026-11-05",
+    "source_urls": [
+      "https://healthcare.utah.edu/neilsen-physical-rehab-hospital/specialties/spasticity-management"
+    ]
   }
 ]
