@@ -3003,5 +3003,95 @@
     "date_note": "Background research: online February 23, 2018; January 2019 print issue.",
     "limitation": "Abstract verified through PubMed and the authors' university. Publisher full text was blocked. Age breakdown, detailed allocation methods and overlap with other reports could not be established; pediatric applicability is unconfirmed. No numerical treatment effect is inferred.",
     "verified_on": "2026-11-04"
+  },
+  {
+    "id": "braf-mek-pediatric-lgg-functional-outcomes-meta-2026",
+    "title": "Review of 10 studies: BRAF and MEK pills shrank many BRAF V600 childhood low-grade gliomas, with limited data on vision and daily function",
+    "source": "Neuro-Oncology Advances (Figueira and Pigott)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13499688/",
+    "date_published": "2026-07-27",
+    "date_added": "2026-11-05",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Eye"
+    ],
+    "summary": "This systematic review and meta-analysis pooled 10 studies (4 randomized trials and 6 retrospective series; 16 treatment arms) of BRAF and MEK targeted drugs in children aged 1 to 17 with BRAF V600-mutant low-grade glioma. Across arms, the pooled overall response rate was 42.35% (95% CI 29.41-55.29), and median progression-free survival was 23.03 months (95% CI 17.18-28.88). Grade 3 or 4 adverse events occurred in about 30.56% of patients, most often rash, fatigue, and fever. Subgroup analyses suggested higher response rates and lower severe toxicity with BRAF inhibitors alone or with combination BRAF plus MEK therapy than with some other approaches. Functional outcomes such as vision and performance status were reported inconsistently; some included studies suggested improvement, but the authors say standardized function reporting is still lacking.",
+    "quick_read": "Some childhood low-grade gliomas carry a BRAF V600 mutation that can be targeted with BRAF and MEK pills instead of, or after, chemotherapy. This 2026 review combined 10 studies and found that about 4 in 10 children had a measurable tumor response, with disease control lasting a median of roughly 23 months. Serious side effects happened in about 3 in 10, often rash, tiredness, or fever. A few studies hinted that vision or day-to-day function could improve, but those outcomes were not measured the same way across studies, so the review cannot prove how much nerve or vision recovery to expect.",
+    "why_it_matters": "It pulls together recent evidence on BRAF and MEK drugs for the exact mutation class used in many deep midline low-grade gliomas, and it flags that tumor shrinkage data are stronger than data on movement, vision, or everyday function.",
+    "relevance_score": 9,
+    "relevance_reason": "Directly covers BRAF/MEK therapy for BRAF V600 pediatric low-grade glioma and notes limited but relevant vision and performance-status signals.",
+    "evidence_level": "Systematic review and meta-analysis (10 studies, 4 RCTs and 6 retrospective series)",
+    "date_note": "Published online 2026-07-27 in Neuro-Oncology Advances (eCollection 2026). Source checked 2026-11-05.",
+    "limitation": "Functional outcomes were inconsistently reported, so pooled response rates do not equal proven recovery of hand use, tremor, or eye movement.",
+    "care_question": "Ask whether BRAF or MEK therapy is an option for a BRAF V600 low-grade glioma, and which vision or motor scores the team will track if treatment starts.",
+    "verified_on": "2026-11-05"
+  },
+  {
+    "id": "pediatric-brain-tumor-survivors-hrqol-functional-india-2026",
+    "title": "Indian study of 92 childhood brain tumor survivors: about 1 in 4 had lasting motor problems and 1 in 5 had vision problems",
+    "source": "Surgical Neurology International",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13331177/",
+    "date_published": "2026-06-19",
+    "date_added": "2026-11-05",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Eye",
+      "Arm",
+      "Hand"
+    ],
+    "summary": "Researchers at a tertiary center in India reviewed 92 children and teens who were alive and in follow-up at least 12 months after finishing primary brain tumor treatment (drawn from a larger 134-patient treated cohort with 58.7% alive at last contact). Mean follow-up among survivors was 32.4 months (range 12-58). Mean total PedsQL Brain Tumor Module score was 64.3 (SD 18.2), with cognitive functioning and procedural anxiety among the lowest subscales. Late effects included motor deficits in 24 of 92 (26.1%), visual impairment in 19 (20.7%), hearing loss in 12 (13.0%), and endocrine problems needing hormone replacement in 22 (23.9%). On multivariate analysis, poorer quality of life was linked to a tumor above the tentorium, disease recurrence, craniospinal radiation, and postoperative complications; gross total resection was linked to better scores.",
+    "quick_read": "This study followed 92 young people who had survived at least a year after brain tumor treatment in India. About 1 in 4 still had motor problems, and about 1 in 5 had vision problems. Quality-of-life scores were often reduced, especially for thinking and anxiety around medical procedures. People with tumors higher in the brain, recurrence, whole-spine radiation, or surgery complications tended to score worse, while complete tumor removal was linked to better scores. The authors argue that survivors need long-term rehab and thinking-skills support, not only tumor follow-up scans.",
+    "why_it_matters": "It quantifies lasting motor and vision problems after childhood brain tumors and ties them to quality of life, which matches what many families face years after treatment.",
+    "relevance_score": 8,
+    "relevance_reason": "Brain tumor survivorship with explicit motor and visual late-effect rates in a sizable survivor cohort.",
+    "evidence_level": "Human study (retrospective single-center cohort, 92 survivors)",
+    "date_note": "Published 2026-06-19. Source checked 2026-11-05.",
+    "limitation": "Single-center retrospective design; quality-of-life tools do not replace detailed testing of tremor, hand use, or eye movement.",
+    "care_question": "Ask the care team which motor and vision late effects are being tracked, and whether rehab or neuropsychology follow-up is available after treatment ends.",
+    "verified_on": "2026-11-05"
+  },
+  {
+    "id": "flame-cognitive-rehab-fatigue-pediatric-brain-tumour-nct06770335",
+    "title": "London feasibility study not yet recruiting: cognitive rehab plus fatigue care for children after a brain tumor",
+    "source": "ClinicalTrials.gov (Great Ormond Street Hospital)",
+    "url": "https://clinicaltrials.gov/study/NCT06770335",
+    "trial_url": "https://clinicaltrials.gov/study/NCT06770335",
+    "date_published": "2025-02-07",
+    "date_added": "2026-11-05",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "summary": "Great Ormond Street Hospital in London registered the FLaME study (Fatigue, Learning and Memory Enrichment): a strategy-based cognitive rehabilitation program with integrated fatigue management for children and teens after a pediatric brain tumor. The aim is to test whether the program is practical and helpful for families, because thinking problems and mental fatigue are common after treatment and dedicated rehab is often hard to get. Participants are ages 7 to under 18 who received diagnosis or treatment for a CNS brain tumor at GOSH, are at least 6 months after acute surgery and/or radiotherapy and 3 months after return to school with stable disease, have at least one neuropsychological score outside normal limits, and report fatigue impairment on the PedsQL Multidimensional Fatigue Scale.",
+    "quick_read": "Many children who survive a brain tumor struggle with memory, attention, and mental tiredness, which can make school and daily life harder. This London study plans to test a combined program that teaches thinking strategies and also treats fatigue. It is a feasibility study, so the main question is whether families can take part and find it useful, not whether it already proves long-term recovery. It is listed as not yet recruiting. Eligible children are roughly school age, past the acute treatment phase, back at school, and already showing measurable thinking or fatigue problems.",
+    "why_it_matters": "It is one of the few registered rehab trials built specifically for thinking skills and fatigue after childhood brain tumors, a gap families often hit after surgery and radiation are done.",
+    "relevance_score": 8,
+    "relevance_reason": "Brain-tumor-specific pediatric rehab trial addressing cognition and fatigue after treatment.",
+    "evidence_level": "Feasibility trial (not yet recruiting; single center)",
+    "trial_status": {
+      "status": "Not yet recruiting (estimated start 2025-03-10; registry checked 2026-11-05 still not recruiting)",
+      "phase": "Not applicable",
+      "location": "Great Ormond Street Hospital for Children, London, United Kingdom",
+      "key_eligibility": "Ages 7 to 17 years 11 months; childhood CNS brain tumor care at GOSH; at least 6 months after acute surgery and/or radiotherapy and 3 months after return to school with stable disease; one or more neuropsychological scores outside normal limits; fatigue impairment on PedsQL Multidimensional Fatigue Scale. See registry for full criteria and consent rules."
+    },
+    "date_note": "date_published is the ClinicalTrials.gov first-posted date (2025-02-07). Status rechecked 2026-11-05.",
+    "limitation": "Not yet recruiting at last check; feasibility outcomes will not by themselves prove that cognition or fatigue improve.",
+    "care_question": "Ask whether a cognitive rehab or fatigue program is available locally while waiting for trials like FLaME to open.",
+    "verified_on": "2026-11-05"
   }
 ]
