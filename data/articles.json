@@ -3116,5 +3116,28 @@
     "date_note": "Background research: online December 23, 2024; 2025 volume.",
     "limitation": "Selection bias, unequal groups and tiny sample. Abstract and date verified; full text requires subscription. Hand-specific benefit and cohort overlap could not be established.",
     "verified_on": "2026-11-05"
+  },
+  {
+    "id": "ontario-plgg-survivor-cohort-long-term-outcomes-2026",
+    "title": "Childhood low-grade glioma survivors face lasting disability and stroke risk decades later, Ontario study finds",
+    "source": "Neuro-Oncology Pediatrics, conference abstract (Ante, Babujee, Liu and colleagues)",
+    "url": "https://doi.org/10.1093/neuped/wuag026.076",
+    "date_published": "2026-06-23",
+    "date_added": "2026-11-06",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "Researchers in Ontario, Canada followed 1,415 people who survived at least five years after a low-grade glioma diagnosed in childhood and compared them with cancer-free peers. Almost all survivors were alive 20 years later, but they were much more likely to need disability support, to have a stroke, to lose hearing, and to be hospitalized. This happened even though most were never given radiation. For people living with nerve and movement problems after a childhood brain tumor, it supports asking for long-term survivorship care rather than only tumor scans.",
+    "summary": "Population-based registry study of 5-year pediatric low-grade glioma survivors diagnosed 1991-2023 in Ontario, matched 1:5 to cancer-free controls and followed a median of 13 years. Overall survival at 20 years was 95.9% versus 99.7% in controls. Survivors had higher hazards of stroke (HR 75.1), severe hearing loss (HR 3.0), disability support (HR 4.5), ED visits (HR 1.9) and hospitalizations (HR 9.8). 6.2% were irradiated and 23.5% received chemotherapy. Molecular alterations included BRAF fusions, NF1 and BRAF V600E.",
+    "why_it_matters": "Shows that long-term disability after a childhood brain tumor is common and measurable, which strengthens the case for ongoing rehab and survivorship follow-up.",
+    "evidence_level": "Human study: population-based matched cohort, 1,415 survivors",
+    "relevance_score": 8,
+    "date_note": "Conference abstract published June 23, 2026.",
+    "limitation": "Abstract only, not yet a full peer-reviewed paper. Does not break out hand, arm or tremor outcomes, and does not test any treatment. Publisher page blocks automated access; abstract text and date verified via DOI metadata and search index.",
+    "verified_on": "2026-11-06"
   }
 ]
