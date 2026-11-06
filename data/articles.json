@@ -3139,5 +3139,35 @@
     "date_note": "Conference abstract published June 23, 2026.",
     "limitation": "Abstract only, not yet a full peer-reviewed paper. Does not break out hand, arm or tremor outcomes, and does not test any treatment. Publisher page blocks automated access; abstract text and date verified via DOI metadata and search index.",
     "verified_on": "2026-11-06"
+  },
+  {
+    "id": "cancommunicate-primary-brain-tumour-randomized-trial-2026",
+    "title": "Brain tumor communication rehab improved self-rated disability in a small randomized trial",
+    "source": "Disability and Rehabilitation (Finch and colleagues)",
+    "url": "https://doi.org/10.1080/09638288.2026.2644114",
+    "date_published": "2026-03-18",
+    "date_added": "2026-11-06",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "quick_read": "CanCommunicate tested seven weeks of group and individual communication rehabilitation in adults with primary brain tumors. Among 39 participants, the immediate-treatment group improved more on a self-rated communication-disability questionnaire than the usual-care waitlist group. General quality of life and a second communication questionnaire showed no significant between-group benefit. This is evidence about communication support, with no demonstrated hand-function benefit.",
+    "summary": "Twenty-four participants were assigned to immediate intervention and 15 to a waitlist. The registered primary outcome, the Comprehensive Aphasia Test Disability Questionnaire, favored intervention over time (p=0.04). Neither the La Trobe Communication Questionnaire (p=0.58) nor FACT-G quality of life (p=0.80) differed significantly between groups. A pooled analysis of 23 intervention completers found improved communication ratings at six-week follow-up; these were participants from the same trial, not an independent replication. The investigators' project report and poster describe this same cohort. Sources: https://pubmed.ncbi.nlm.nih.gov/41849191/ and https://www.clinicalexcellence.qld.gov.au/improvement-exchange/cancommunicate-optimising-communication-in-brain-tumour",
+    "why_it_matters": "Adds controlled evidence for communication rehabilitation after brain tumors. The investigators identify dropout, a small sample and reliance on self-report as limitations.",
+    "evidence_level": "Human randomized controlled trial: 39 adults, usual-care waitlist comparison",
+    "relevance_score": 8,
+    "date_note": "First published online March 18, 2026; October 2026 journal issue.",
+    "limitation": "Full text blocked by publisher; abstract, registry and institutional report verified. Self-rated improvement does not establish objective language recovery, hand recovery or a cure. Pediatric benefit was not tested. The registry still lists active, not recruiting, with its last update August 18, 2024; do not treat this as an open enrollment opportunity.",
+    "trial_url": "https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=ACTRN12623000039684",
+    "trial_status": {
+      "status": "Active, not recruiting (record last updated 2024-08-18; checked 2026-11-06)",
+      "phase": "Not applicable",
+      "location": "Princess Alexandra Hospital, Brisbane, Queensland, Australia",
+      "key_eligibility": "ACTRN12623000039684: age 18 or older, primary brain tumor including benign and lower/higher-grade glioma, after initial cancer treatment, able to participate with communication support if needed. No fixed post-treatment interval specified. Excluded brain metastases or other diagnoses, inadequately managed substance abuse or psychiatric disorder, and rapid health deterioration limiting participation. Full registry criteria apply."
+    },
+    "verified_on": "2026-11-06"
   }
 ]

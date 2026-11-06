@@ -1222,5 +1222,34 @@
     "source_urls": [
       "https://healthcare.utah.edu/neilsen-physical-rehab-hospital/specialties/spasticity-management"
     ]
+  },
+  {
+    "id": "vanderbilt-adult-brachial-plexus-clinic",
+    "name": "Vanderbilt Health: Adult Brachial Plexus Clinic",
+    "kind": "Care program",
+    "location": "Nashville, Tennessee, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Peripheral nerve",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Trauma"
+    ],
+    "focus": "Multidisciplinary assessment of adult brachial plexus and peripheral nerve injuries, with hand therapy and physiatry.",
+    "why_relevant": "Official clinic page confirms a dedicated monthly clinic combining plastic surgery, orthopaedic surgery, hand therapy and physiatry, with diagnostic testing. Vanderbilt's health library describes accident-related brachial plexus injuries that can impair arm and hand movement or sensation.",
+    "url": "https://www.vanderbilthealth.com/clinic/adult-brachial-plexus-clinic",
+    "search_terms": "adult traumatic brachial plexus peripheral nerve arm hand weakness paralysis sensory sensation motor vehicle accident hand therapy Nashville Tennessee",
+    "caution": "Confirmed program focus, not individual acceptance or availability. Adult service; confirm exact age cutoff, referral, injury timing and insurance. After an accident, establish the injury location first. These pages do not confirm a brain tumor, brain injury, spinal cord injury or anatomical limb-loss prosthetics service. Nobody contacted; phone not tested.",
+    "phone": "615-936-7846 (Belle Meade location appointment number)",
+    "email": "",
+    "verified_on": "2026-11-06",
+    "source_urls": [
+      "https://www.vanderbilthealth.com/clinic/adult-brachial-plexus-clinic",
+      "https://healthlibrary.vanderbilthealth.com/Library/DiseasesConditions/Adult/NervousSystem/134,34"
+    ]
   }
 ]
