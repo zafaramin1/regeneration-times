@@ -3169,5 +3169,97 @@
       "key_eligibility": "ACTRN12623000039684: age 18 or older, primary brain tumor including benign and lower/higher-grade glioma, after initial cancer treatment, able to participate with communication support if needed. No fixed post-treatment interval specified. Excluded brain metastases or other diagnoses, inadequately managed substance abuse or psychiatric disorder, and rapid health deterioration limiting participation. Full registry criteria apply."
     },
     "verified_on": "2026-11-06"
+  },
+  {
+    "id": "vienna-pediatric-posterior-fossa-tumor-neuro-ophthalmology-2026",
+    "title": "Vienna study of 119 children with back-of-brain tumors: eye-movement problems were common and improved over time in about a third",
+    "source": "Neuro-Oncology Advances (Aliotti Lippolis and colleagues, Medical University of Vienna)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13635747/",
+    "date_published": "2026-06-08",
+    "date_added": "2026-11-07",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Tumors at the back of the brain, near the cerebellum and brainstem, often disturb the nerves and brain circuits that steer the eyes. This Vienna team followed 119 children with these tumors for up to two years after surgery, with detailed eye checks before and after treatment. Eye-movement problems became more common right after surgery, then got better over time in about one in three children, with problems in the eye nerves themselves tending to clear sooner than problems in the brain's eye-control centers. The number of children needing prism glasses fell from 16 of 94 early on to 4 of 64 at two years, and 4 had eye muscle surgery. For families, it supports regular, detailed eye-movement checks after a brain tumor, since some problems keep changing for months.",
+    "summary": "Retrospective single-center study of 119 children with posterior fossa tumors treated over a decade (94 at first diagnosis, 25 at relapse), examined before surgery and at 3 months, 1 year and 2 years afterward. Central and peripheral eye-movement disturbances increased after surgery and improved over time in about one-third of patients, with earlier resolution of peripheral disturbances. Vermis or brainstem tumor location and cerebellar mutism syndrome were linked to more postoperative eye-movement disorders, and medulloblastomas carried a higher risk of central disturbances. Prism correction was needed in 16 of 94 children initially and 4 of 64 after two years; strabismus surgery was performed in 4 of 64. Papilledema was common at diagnosis (10 of 33) and 8 of 56 developed optic atrophy. Among children seen at relapse, central (24 of 25) and peripheral (15 of 25) eye-movement disorders were frequent, while visual acuity stayed satisfactory. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC13635747/ and https://pubmed.ncbi.nlm.nih.gov/42835364/",
+    "why_it_matters": "Gives real-world numbers on how often eye-movement problems follow a brain tumor in children, how many improve, and how often prisms or eye muscle surgery end up being needed.",
+    "evidence_level": "Retrospective single-center cohort: 119 children, follow-up to 2 years",
+    "relevance_score": 8,
+    "relevance_reason": "Brain-tumor-specific outcome data on eye-movement nerve and control problems, a core focus area.",
+    "date_note": "Published June 8, 2026 (Neuro-Oncology Advances, volume 8); added November 2026.",
+    "limitation": "Retrospective, single center, children only, and not all children had full eye exams at every visit. It describes what happened, not which treatment caused improvement, and does not address adults or tumors outside the posterior fossa.",
+    "care_question": "Ask whether a detailed orthoptic or neuro-ophthalmology exam is due, and whether prisms or eye muscle surgery could help persistent double vision.",
+    "verified_on": "2026-11-07"
+  },
+  {
+    "id": "st-jude-medulloblastoma-survivor-neurofeedback-nct07830134",
+    "title": "Recruiting at St. Jude: brain-scan neurofeedback training to help working memory in young medulloblastoma survivors",
+    "source": "ClinicalTrials.gov (St. Jude Children's Research Hospital)",
+    "url": "https://clinicaltrials.gov/study/NCT07830134",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07830134",
+    "date_published": "2026-09-21",
+    "date_added": "2026-11-07",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "Many survivors of medulloblastoma, a childhood brain tumor, have lasting trouble with attention and working memory after surgery and craniospinal radiation. In this St. Jude study, participants watch a live readout of their own brain activity during an MRI or light-based brain scan and learn to raise activity in a region tied to working memory. Participants are randomly assigned to train either that region or a comparison region, over three visits. The main goal is to see whether the training is practical, safe and comfortable, with early signs of memory benefit as a secondary question. It is recruiting, but only current St. Jude participants who meet the criteria can join.",
+    "summary": "Randomized feasibility study of real-time hemodynamic neurofeedback (real-time fMRI and fNIRS) targeting the dorsolateral prefrontal cortex versus a primary auditory cortex control region, about 40 participants, single site in Memphis. Primary objective: feasibility of the neurofeedback training; secondary: initial efficacy on brain activity and working memory. Eligibility: ages 10 to 25; English as primary language; current St. Jude participants treated for medulloblastoma with upfront craniospinal radiotherapy (proton or photon), including SJMB12, at least 2 years after completing treatment; working memory difficulty on the BRIEF questionnaire (score above 57). Exclusions include seizures in the past 3 months, major sensory or motor impairment preventing valid testing (for example blindness or paresis), IQ under 70, MRI-incompatible implants, braces or a shunt affecting image quality, and pregnancy.",
+    "why_it_matters": "One of the few registered trials testing a new rehabilitation approach specifically for thinking problems in childhood brain tumor survivors.",
+    "evidence_level": "Randomized feasibility trial with an active control region (recruiting; single center)",
+    "relevance_score": 7,
+    "relevance_reason": "Brain-tumor-specific survivorship rehabilitation trial, though aimed at memory rather than movement.",
+    "trial_status": {
+      "status": "Recruiting (first posted 2026-09-21; last updated 2026-09-23; checked 2026-11-07)",
+      "phase": "Not applicable",
+      "location": "St. Jude Children's Research Hospital, Memphis, Tennessee, United States",
+      "key_eligibility": "Ages 10 to 25; current St. Jude participant treated for medulloblastoma with upfront craniospinal radiation, at least 2 years after treatment; working memory difficulty on BRIEF (score above 57). Tumor-related damage is the target condition, but major motor or sensory impairment that prevents testing, recent seizures, IQ under 70, and MRI-incompatible implants or a shunt affecting imaging exclude. See registry for full criteria."
+    },
+    "date_note": "date_published is the ClinicalTrials.gov first-posted date (2026-09-21).",
+    "limitation": "Feasibility study of about 40 people at one center, limited to St. Jude medulloblastoma patients. It targets working memory, not hand or movement function, and will not by itself prove lasting benefit.",
+    "care_question": "Ask whether neurofeedback or other cognitive rehabilitation research is available for brain tumor survivors at your treatment center.",
+    "verified_on": "2026-11-07"
+  },
+  {
+    "id": "singapore-connect-bci-neurofeedback-acquired-brain-injury-nct07828496",
+    "title": "Recruiting in Singapore: brain-computer interface game training for thinking skills in young people after brain injury, including brain tumors",
+    "source": "ClinicalTrials.gov (KK Women's and Children's Hospital)",
+    "url": "https://clinicaltrials.gov/study/NCT07828496",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07828496",
+    "date_published": "2026-09-18",
+    "date_added": "2026-11-07",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "This Singapore trial tests whether playing 3D computer games controlled by brain waves, read through an EEG headset, can improve attention, memory and planning in children and young adults after a brain injury. Brain tumor is one of the listed causes of injury that qualify, along with stroke, encephalitis, head injury and epilepsy. One group gets 12 game sessions over 10 weeks on top of standard cognitive rehab, while a waitlist group starts with standard care and gets the games later. Researchers will also check whether EEG measures can track thinking problems objectively. It is recruiting at one hospital for ages 7 to 21.",
+    "summary": "CONNECT is a prospective randomized waitlist-controlled crossover trial of brain-computer interface neurofeedback training (BCI-NFT) at KK Women's and Children's Hospital, Singapore, enrolling an estimated 70 participants. The intervention is 12 BCI-NFT 3D game sessions over 10 weeks added to standard cognitive rehabilitation. Questions: whether EEG-derived measures of sustained attention, relaxation and selective attention detect cognitive impairment after acquired brain injury, and whether BCI-NFT improves attention, memory, executive function and behavior compared with standard care alone. Inclusion: ages 7 to 21 after acquired brain injury (stroke, encephalitis, brain tumour, traumatic brain injury) or with epilepsy; healthy peers form a normative EEG cohort. Exclusions include photosensitive seizures, intellectual disability, psychotic symptoms, ADHD or autism diagnosis, methylphenidate use, and inability to cooperate with neuropsychological assessment.",
+    "why_it_matters": "A randomized rehab trial that explicitly lets young people with brain tumor related injury take part, testing a home-style game approach to thinking problems.",
+    "evidence_level": "Randomized waitlist-controlled crossover trial (recruiting; single center)",
+    "relevance_score": 6,
+    "relevance_reason": "Recruiting trial that explicitly allows brain tumor related acquired brain injury, but targets cognition rather than movement and mixes several causes.",
+    "trial_status": {
+      "status": "Recruiting (started 2025-11-01; first posted 2026-09-18; checked 2026-11-07)",
+      "phase": "Not applicable",
+      "location": "KK Women's and Children's Hospital, Singapore",
+      "key_eligibility": "Ages 7 to 21; acquired brain injury including brain tumour, stroke, encephalitis or traumatic brain injury, or epilepsy. Tumor-related injury is allowed. Excludes photosensitive seizures, intellectual disability, psychotic symptoms, ADHD or autism diagnosis, current methylphenidate, and inability to cooperate with cognitive testing. See registry for full criteria."
+    },
+    "date_note": "date_published is the ClinicalTrials.gov first-posted date (2026-09-18).",
+    "limitation": "Single center in Singapore; mixed causes of brain injury, so results may not apply specifically to brain tumor survivors. Targets thinking skills, not hand or movement recovery, and no results are available yet.",
+    "care_question": "Ask whether attention-training or neurofeedback programs are appropriate alongside standard cognitive rehabilitation after a brain tumor.",
+    "verified_on": "2026-11-07"
   }
 ]
