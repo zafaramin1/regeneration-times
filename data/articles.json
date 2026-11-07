@@ -3261,5 +3261,39 @@
     "limitation": "Single center in Singapore; mixed causes of brain injury, so results may not apply specifically to brain tumor survivors. Targets thinking skills, not hand or movement recovery, and no results are available yet.",
     "care_question": "Ask whether attention-training or neurofeedback programs are appropriate alongside standard cognitive rehabilitation after a brain tumor.",
     "verified_on": "2026-11-07"
+  },
+  {
+    "id": "prehabilita-hand-motor-profiles-barcelona-2026",
+    "title": "Before brain tumor surgery, small study explores distinct hand-strength and dexterity profiles",
+    "source": "Frontiers in Behavioral Neuroscience (Delgado-Gallén and colleagues)",
+    "url": "https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2026.1930919/full",
+    "date_published": "2026-11-03",
+    "date_added": "2026-11-07",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Arm"
+    ],
+    "quick_read": "Sixteen adults received brain stimulation and movement training before tumor surgery. Researchers grouped changes in grip strength, peg-test dexterity and reaction time into two profiles. Brain-network differences were exploratory and did not survive correction for multiple comparisons. Without a control group or postoperative outcomes, this study cannot show that treatment protects or restores hand use.",
+    "summary": "The Barcelona series included mixed tumor grades and one metastasis. Training included grasping and finger tasks alongside TMS or tDCS. The strength-defined profile had seven participants; the dexterity-defined profile had nine. These groups were derived from the same motor-change data, not randomized treatments. All primary network interactions failed false-discovery-rate correction across 50 connections.",
+    "why_it_matters": "Strength and skilled hand use deserve separate measurement in future controlled studies.",
+    "evidence_level": "Exploratory uncontrolled human case series: 16 adults",
+    "relevance_score": 8,
+    "date_note": "Published November 3, 2026.",
+    "limitation": "Near-normal baseline function and small, heterogeneous sample. No demonstrated postoperative benefit or pediatric evidence. Part of Prehabilita (NCT05844605); exact participant overlap with other program reports is not enumerated. Not independent replication.",
+    "trial_url": "https://clinicaltrials.gov/study/NCT05844605",
+    "trial_status": {
+      "status": "Unknown; last known status Recruiting. API checked 2026-11-07; record last updated 2023-05-06, last verified April 2023. Current enrollment is unconfirmed.",
+      "phase": "Phase 1 (parent registry; published article is an exploratory series)",
+      "location": "Institut Guttmann, Barcelona area, Spain",
+      "key_eligibility": "Parent registry: adults 18 or older needing brain tumor surgery, with neurological function at risk; able to complete at least 10 prehabilitation sessions, follow instructions and sit unaided for an hour. Excludes MRI/TMS contraindications, unstable illness, musculoskeletal conditions or pain/depression/fatigue significantly affecting training, and alcohol/drug abuse history. Preoperative intervention, not established treatment for longstanding postoperative impairment. Full criteria apply."
+    },
+    "verified_on": "2026-11-07"
   }
 ]

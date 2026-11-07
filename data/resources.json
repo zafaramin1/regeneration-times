@@ -1251,5 +1251,42 @@
       "https://www.vanderbilthealth.com/clinic/adult-brachial-plexus-clinic",
       "https://healthlibrary.vanderbilthealth.com/Library/DiseasesConditions/Adult/NervousSystem/134,34"
     ]
+  },
+  {
+    "id": "ohsu-neurologic-occupational-rehabilitation",
+    "name": "OHSU: Neurologic Rehabilitation and Occupational Therapy",
+    "kind": "Care program",
+    "location": "Portland and Beaverton, Oregon, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Eye"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Spine tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Neurological rehabilitation assessment for coordination, balance, daily activities, spasticity and low vision.",
+    "why_relevant": "Official neurological and occupational therapy pages explicitly list brain and spinal cord tumors and injuries. Neurologic occupational therapy includes exercises, splinting for stiff or contracted muscles, coordination/balance training and adapting tasks such as writing and computer use.",
+    "url": "https://www.ohsu.edu/rehabilitation-services/neurologic-rehabilitation",
+    "search_terms": "brain tumor hand arm clenching spasticity coordination balance gait walking writing low vision brain injury spinal cord injury Oregon Pacific Northwest",
+    "caution": "Program-level diagnosis coverage, not confirmation of individual acceptance. OHSU rehabilitation serves children, teens and adults, but confirm age eligibility and location for the specific neurological service. Provider referral required. Confirm insurance and availability. Low-vision therapy is not a confirmed neuro-ophthalmology assessment; dystonia care and brachial plexus reconstruction are not established by these pages. After an accident, establish injury location. Nobody contacted; phone not tested.",
+    "phone": "503-494-3151 (rehabilitation appointments and questions)",
+    "email": "",
+    "verified_on": "2026-11-07",
+    "source_urls": [
+      "https://www.ohsu.edu/rehabilitation-services/neurologic-rehabilitation",
+      "https://www.ohsu.edu/rehabilitation-services/occupational-therapy",
+      "https://www.ohsu.edu/rehabilitation-services"
+    ]
   }
 ]
