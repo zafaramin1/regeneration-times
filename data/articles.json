@@ -3416,5 +3416,31 @@
     "limitation": "One child; follow-up length and long-term stability are not given in the abstract. Full text is paywalled, so this summary is based on the published abstract. Horizontal gaze palsy differs from vertical gaze problems.",
     "care_question": "Ask a pediatric or neuro-ophthalmology strabismus surgeon which eye-muscle approach fits a tumor-related gaze palsy, and whether earlier attempts change the options.",
     "verified_on": "2026-11-08"
+  },
+  {
+    "id": "calgary-tdcs-piano-glioma-preoperative-pilot-2020",
+    "title": "Piano practice with brain stimulation before glioma surgery: eight-person feasibility pilot",
+    "source": "Frontiers in Neurology (Lang and colleagues, University of Calgary)",
+    "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2020.593950/full",
+    "date_published": "2020-11-19",
+    "date_added": "2026-11-08",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Eight adults with left-sided glioma tried right-hand piano practice with electrical brain stimulation before surgery. The uncontrolled pilot explored feasibility and brain-network changes. Participants reported better task performance, but this was subjective. It did not establish protection against postoperative weakness or recovery of an impaired hand.",
+    "summary": "Seven completed four intervention days; one completed three. Left motor-cortex local/global connectivity increased, but connectivity between the two motor cortices did not change significantly (p=0.0743). No seizures or adverse effects were observed during the experiment; all reported minor tingling/itching. Significant motor deficits were absent at enrollment.",
+    "why_it_matters": "Early experimental prehabilitation research, not established hand rehabilitation.",
+    "evidence_level": "Open-label feasibility pilot: eight adults, no control group",
+    "relevance_score": 7,
+    "date_note": "Background research, published November 19, 2020.",
+    "limitation": "Tiny sample; stimulation cannot be separated from practice effects. No demonstrated postoperative benefit or pediatric evidence. Overlap with other Calgary reports could not be established. Full text and date verified.",
+    "verified_on": "2026-11-08"
   }
 ]

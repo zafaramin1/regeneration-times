@@ -1288,5 +1288,41 @@
       "https://www.ohsu.edu/rehabilitation-services/occupational-therapy",
       "https://www.ohsu.edu/rehabilitation-services"
     ]
+  },
+  {
+    "id": "ohio-state-cancer-spasticity-rehabilitation",
+    "name": "Ohio State Wexner and OSUCCC James: Cancer Rehabilitation and Spasticity Assessment",
+    "kind": "Care program",
+    "location": "Columbus, Ohio, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Cancer rehabilitation and physician-referred spasticity/dystonia assessment, with physical and occupational therapy.",
+    "why_relevant": "Cancer rehabilitation explicitly includes people after brain tumor removal and outpatient spasticity management. The separate spasticity program lists brain injury, spinal cord injury and dystonia. Occupational therapy addresses dexterity and daily activities, with certified hand therapists among the team.",
+    "url": "https://wexnermedical.osu.edu/physical-therapy-rehabilitation/conditions-and-services/cancer-rehabilitation",
+    "search_terms": "brain tumor hand arm dexterity clenching spasticity dystonia stiffness walking gait brain injury spinal cord injury cancer rehabilitation Ohio",
+    "caution": "Program-level coverage and assessment routes, not individual acceptance or assured benefit. Confirm age eligibility, referral, clinic, insurance and availability. Spasticity service requires physician referral. Clenching alone does not identify its cause; accident-related arm dysfunction requires injury localization. Brachial plexus reconstruction is not confirmed here. Team page requires JavaScript in direct retrieval; appointment phone verified in indexed official page. Nobody contacted; phone not tested.",
+    "phone": "614-293-5066 (James Line, listed for oncology rehabilitation appointments)",
+    "email": "",
+    "verified_on": "2026-11-08",
+    "source_urls": [
+      "https://wexnermedical.osu.edu/physical-therapy-rehabilitation/conditions-and-services/cancer-rehabilitation",
+      "https://wexnermedical.osu.edu/physical-therapy-rehabilitation/conditions-and-services/spasticity-management",
+      "https://wexnermedical.osu.edu/physical-therapy-rehabilitation/conditions-and-services/occupational-therapy",
+      "https://cancer.osu.edu/for-patients-and-caregivers/learn-about-cancers-and-treatments/clinical-services-at-the-james/oncology-rehabilitation/treatment-team"
+    ]
   }
 ]
