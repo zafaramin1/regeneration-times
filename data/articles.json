@@ -3295,5 +3295,126 @@
       "key_eligibility": "Parent registry: adults 18 or older needing brain tumor surgery, with neurological function at risk; able to complete at least 10 prehabilitation sessions, follow instructions and sit unaided for an hour. Excludes MRI/TMS contraindications, unstable illness, musculoskeletal conditions or pain/depression/fatigue significantly affecting training, and alcohol/drug abuse history. Preoperative intervention, not established treatment for longstanding postoperative impairment. Full criteria apply."
     },
     "verified_on": "2026-11-07"
+  },
+  {
+    "id": "sapporo-sma-syndrome-stage-dependent-physiotherapy-2026",
+    "title": "Stage-matched physiotherapy after brain tumor surgery: one woman's arm, hand and walking recovery from supplementary motor area syndrome",
+    "source": "Brain & NeuroRehabilitation (Sapporo Medical University)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13447501/",
+    "date_published": "2026-07-21",
+    "date_added": "2026-11-08",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "This case report follows a 38-year-old woman who had a tumor removed from the supplementary motor area, a brain region that helps start movements and coordinate both hands. The day after surgery she had weakness on one side and trouble starting movements and using both hands together. Her therapists changed her exercises as she recovered, adding balance and walking work and then two-handed, alternating and rhythmic tasks focused on timing and sequencing. Within about two weeks her arm and leg movement scores had improved and she was independent on the ward. It is a single case, so it suggests a way to organize rehab rather than proving the method works better than usual care.",
+    "summary": "The patient had an IDH-mutant oligodendroglioma in the right SMA and was fully independent before awake craniotomy; monitoring confirmed the primary motor cortex and corticospinal tract were preserved. On postoperative day 1 she had left hemiparesis, delayed movement initiation and impaired bimanual coordination, consistent with SMA syndrome. She received inpatient physical and occupational therapy 2 hours a day, 5 days a week, for 3 weeks, with tasks staged to her recovery. Brunnstrom Recovery Stage rose from III (arm) and II (leg) on day 1 to VI and V by day 14. Bimanual Purdue Pegboard performance went from 7.3 to 10.3 pairs, and gait speed reached 1.4 m/s by day 22 with a Berg Balance Scale score of 56.",
+    "why_it_matters": "Shows how rehab after tumor surgery near movement areas can be matched to each stage of recovery, with specific attention to two-handed coordination.",
+    "evidence_level": "Single case report",
+    "relevance_score": 7,
+    "relevance_reason": "Brain tumor surgery with arm and hand coordination rehab, but one patient whose syndrome usually recovers on its own.",
+    "date_note": "Published July 21, 2026 (Brain & NeuroRehabilitation, volume 19); added November 2026.",
+    "limitation": "One adult patient with no comparison group. SMA syndrome often recovers spontaneously, so the authors cannot separate the effect of the therapy from natural recovery. Not evidence for long-standing deficits.",
+    "care_question": "Ask whether therapy after brain tumor surgery should include two-handed coordination and timing tasks, not only strength work.",
+    "verified_on": "2026-11-08"
+  },
+  {
+    "id": "medea-intensive-physiotherapy-posterior-fossa-tumors-nct06832384",
+    "title": "Listed as recruiting in Italy: intensive physiotherapy for children and young adults with balance and walking problems after posterior fossa tumor surgery",
+    "source": "ClinicalTrials.gov (IRCCS Eugenio Medea)",
+    "url": "https://clinicaltrials.gov/study/NCT06832384",
+    "trial_url": "https://clinicaltrials.gov/study/NCT06832384",
+    "date_published": "2025-02-18",
+    "date_added": "2026-11-08",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Surgery to remove tumors at the back of the brain, near the cerebellum, can leave people with ataxia, meaning unsteady balance and poorly coordinated movement. This Italian study gives intensive one-on-one physiotherapy, twice a day, five days a week for four weeks, without robots or virtual reality. Researchers measure gross motor skills, daily independence, fall risk, ataxia severity and, for those who walk, a six-minute walking test before and after treatment. It is open to people up to age 25 who had a posterior fossa tumor removed, so tumor-related damage is the whole point of the study. It is an observational study with no comparison group, and the registry has not been updated since early 2025.",
+    "summary": "IRCCS Eugenio Medea lists an observational cohort of an estimated 40 participants at three sites (Bosisio Parini, Conegliano and Brindisi). The intervention is conventional 1:1 physiotherapy delivered intensively: twice daily, 5 days a week, for 4 weeks. The primary outcome is the Gross Motor Function Measure (GMFM-88) at enrollment and after 4 weeks. Secondary measures include WeeFIM or FIM, the Pediatric Balance Scale, the Scale for Assessment and Rating of Ataxia (SARA) and the 6-minute walk test. Inclusion: surgical resection of a posterior fossa tumor, ages 0 to 25. Exclusion: currently in rehab protocols using technological devices.",
+    "why_it_matters": "One of few registered studies built specifically around movement rehab after brain tumor surgery, and it explicitly enrolls people whose ataxia came from the tumor or its removal.",
+    "evidence_level": "Observational single-arm cohort (registered; no results posted)",
+    "relevance_score": 6,
+    "relevance_reason": "Tumor-specific motor rehab study that allows tumor-caused damage, but limited to posterior fossa tumors, ages 0 to 25, Italy, with a stale registry record.",
+    "trial_status": {
+      "status": "Listed as Recruiting (started 2023-01-19). Record last updated 2025-02-18 and last verified February 2025; estimated primary completion January 2026 has passed, so current enrollment is unconfirmed. Checked 2026-11-08.",
+      "phase": "Not applicable (observational)",
+      "location": "IRCCS E. Medea sites in Bosisio Parini, Conegliano and Brindisi, Italy",
+      "key_eligibility": "Ages 0 to 25 who had surgical removal of a tumor in the posterior cranial fossa. Tumor-related damage is required. Excludes people currently in rehab protocols using technological devices such as robots. Full criteria apply; contact the sites to confirm status."
+    },
+    "date_note": "date_published is the ClinicalTrials.gov first-posted date (2025-02-18).",
+    "limitation": "No control group, so gains cannot be credited to the intensive schedule over natural recovery. Limited to posterior fossa tumors and to people up to 25 in Italy. Registry status may be out of date.",
+    "care_question": "Ask whether an intensive block of physiotherapy, such as twice-daily sessions for a month, is available and appropriate for ataxia after brain tumor surgery.",
+    "verified_on": "2026-11-08"
+  },
+  {
+    "id": "royal-marsden-pediatric-diencephalic-tumors-functional-outcomes-review-2023",
+    "title": "Royal Marsden review: treating tumors deep in the center of the brain, including the thalamus and pineal region, with a focus on protecting function",
+    "source": "Frontiers in Oncology (The Royal Marsden and Institute of Cancer Research, London)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10598386/",
+    "date_published": "2023-10-10",
+    "date_added": "2026-11-08",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Eye"
+    ],
+    "quick_read": "This review by a London children's cancer team covers tumors in the diencephalon, the deep central part of the brain that includes the thalamus, the pineal gland, the optic pathway and the hormone centers. These tumors can cause weakness, walking problems, vision loss and hormone problems, and the authors warn that overly aggressive treatment can make those problems worse. They describe a shift toward function-preserving care: relieving fluid buildup first, careful and limited surgery, and gentler options such as targeted BRAF and MEK pills. They also call for trials to measure vision, movement, hormones and thinking, not only tumor size. It is a review of practice and research, not a new treatment result.",
+    "summary": "The review describes the clinical and molecular features of pediatric diencephalic tumors and their management. For thalamic gliomas it notes a high risk of hydrocephalus and presentations with motor weakness, hemiparesis, gait disturbance and pyramidal signs; unilateral tumors may allow maximal safe debulking, while surgery for bithalamic tumors is mainly limited to managing hydrocephalus. It discusses BRAF and MEK inhibitors, including dabrafenib with trametinib, vemurafenib and the pan-RAF inhibitor tovorafenib, as toxicity-sparing options for low-grade gliomas. It recommends that trials report functional endpoints such as visual acuity on a logMAR scale, standardized neurological function scales, endocrine and neurocognitive outcomes, and quality of life.",
+    "why_it_matters": "Puts preserving movement, vision and daily function at the center of decisions for deep midline brain tumors.",
+    "evidence_level": "Narrative expert review",
+    "relevance_score": 7,
+    "relevance_reason": "Directly addresses thalamic, pineal and other deep midline tumors and function-preserving targeted therapy, but is a pediatric narrative review without new outcome data.",
+    "date_note": "Back-catalog: published October 10, 2023; added November 2026.",
+    "limitation": "Narrative review focused on children; it does not present new patient data or rehabilitation results, and some trial statuses it describes have since changed.",
+    "care_question": "Ask how vision, movement and hormone function are being tracked alongside tumor scans for a deep midline brain tumor.",
+    "verified_on": "2026-11-08"
+  },
+  {
+    "id": "mumbai-medulloblastoma-horizontal-gaze-palsy-strabismus-surgery-2025",
+    "title": "Eye muscle surgery restored straight eyes and single vision in a child with gaze palsy from a brainstem medulloblastoma, after two other approaches failed",
+    "source": "Strabismus (KBH Bachooali Eye and ENT Hospital, Mumbai)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40138194/",
+    "date_published": "2025-03-26",
+    "date_added": "2026-11-08",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Face"
+    ],
+    "quick_read": "A 6-year-old being treated for a medulloblastoma in the pons, part of the brainstem, developed palsies of the nerves that move the eyes outward and the facial nerves. He went on to lose the ability to look to the right, with crossed eyes and a compensating head turn. A muscle transposition procedure and then a Botox injection to an eye muscle did not fix the alignment. A third operation that loosened and tightened muscles on both eyes by different amounts straightened his eyes, removed the head turn and gave him single vision. One case cannot predict results for others, but it shows eye alignment can sometimes still be helped after tumor-related nerve palsy.",
+    "summary": "The child presented with bilateral abducens and bilateral facial nerve palsy while being treated for pontine medulloblastoma and progressed to right horizontal gaze palsy with bilateral abducens palsy and substituted convergence. Because abduction of the right eye was limited, a modified Nishida procedure was performed, followed by botulinum toxin to the right medial rectus; both failed to improve alignment. An asymmetric bilateral recess-resect procedure then corrected the compensatory face turn and ocular deviation, with orthotropia in primary position and binocular single vision. The authors favor asymmetric recess-resect surgery over vertical rectus transposition in such cases.",
+    "why_it_matters": "Adds to limited evidence that eye-alignment surgery can still help when a brain tumor damages the nerves and centers that control eye movement.",
+    "evidence_level": "Single case report",
+    "relevance_score": 6,
+    "relevance_reason": "Brain tumor caused eye-movement palsy with a surgical outcome; one patient and a horizontal rather than vertical gaze problem.",
+    "date_note": "Back-catalog: published online March 26, 2025 (Strabismus, December 2025 issue); added November 2026.",
+    "limitation": "One child; follow-up length and long-term stability are not given in the abstract. Full text is paywalled, so this summary is based on the published abstract. Horizontal gaze palsy differs from vertical gaze problems.",
+    "care_question": "Ask a pediatric or neuro-ophthalmology strabismus surgeon which eye-muscle approach fits a tumor-related gaze palsy, and whether earlier attempts change the options.",
+    "verified_on": "2026-11-08"
   }
 ]
