@@ -3442,5 +3442,87 @@
     "date_note": "Background research, published November 19, 2020.",
     "limitation": "Tiny sample; stimulation cannot be separated from practice effects. No demonstrated postoperative benefit or pediatric evidence. Overlap with other Calgary reports could not be established. Full text and date verified.",
     "verified_on": "2026-11-08"
+  },
+  {
+    "id": "neural-plasticity-somatomotor-connectivity-hand-dexterity-brain-tumor-surgery-2026",
+    "title": "Brain-network connections differed between better and worse hand recovery after brain tumor surgery, small study finds",
+    "source": "Neural Plasticity (Wiley, open access via PubMed Central)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13594770/",
+    "date_published": "2026-09-21",
+    "date_added": "2026-11-09",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Researchers scanned the brains of 16 people before and after surgery to remove a brain tumor and timed them on a hand dexterity test, the nine-hole peg test. They compared those whose hand got better with those whose hand got worse. Patients who recovered worse had weaker links between their hand-movement brain area and the rest of the brain, including the opposite side. Patients who recovered better had stronger links to certain movement and attention networks. The authors say these links could become targets for brain stimulation therapy, but this study did not test any treatment.",
+    "summary": "Resting-state functional MRI and nine-hole peg test times were collected before and after resection in 16 patients with contrast-enhancing brain lesions (12 glioblastomas, 2 metastases, 2 radionecrosis). Patients were grouped retrospectively as better or worse recovery. Worse recovery was linked to reduced connectivity from the ipsilesional dorsomedial somatomotor network (SMN A) to the rest of the brain and to the opposite-side SMN A. Better recovery was linked to higher connectivity before surgery to the ventrolateral SMN B and, after surgery, to the opposite-side dorsal attention network B. The authors conclude these networks suggest promising neuromodulation targets for postoperative therapies aiming to improve hand dexterity.",
+    "why_it_matters": "Understanding which brain connections go along with hand recovery could eventually help doctors choose where to aim stimulation or rehabilitation after tumor surgery.",
+    "evidence_level": "Retrospective cohort, 16 adults; connectivity imaging; no treatment tested",
+    "relevance_score": 8,
+    "relevance_reason": "Brain tumor hand recovery and neuroplasticity, with a stimulation-target angle; small and mostly high-grade tumors.",
+    "limitation": "Very small sample, mostly glioblastoma and other lesions rather than slow-growing tumors, and patients were grouped after the fact. It shows association only and does not show that changing these connections restores hand function.",
+    "care_question": "After tumor surgery, could hand dexterity testing and brain stimulation research programs be relevant to my situation?",
+    "date_note": "Published September 21, 2026.",
+    "verified_on": "2026-11-09"
+  },
+  {
+    "id": "frontiers-neurol-dexamethasone-brain-tumor-audit-2025",
+    "title": "Steroid use in brain tumor patients: most started dexamethasone, few had a plan to taper it, and longer use raised complications",
+    "source": "Frontiers in Neurology (Prasad and colleagues, open access via PubMed Central)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12406498/",
+    "date_published": "2025-08-20",
+    "date_added": "2026-11-09",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "quick_read": "Dexamethasone is a steroid that doctors commonly give to calm swelling around a brain tumor, which can ease pressure-related symptoms. This hospital audit looked at 316 people referred to one neurosurgery center in 3 months. Two thirds were started on steroids, but only 6% had a written plan for tapering them at the start. About 1 in 9 steroid users had a complication, and steroids lasting more than two weeks or a missing team plan were linked to more problems. The audit does not test nerve recovery, but it shows why steroid length, tapering and follow-up are worth asking about.",
+    "summary": "This retrospective single-center audit reviewed 316 brain tumor referrals (December 2023 to February 2024). 210 patients (66.5%) were started on steroids at baseline and 6% had a documented weaning plan at that point. Steroid-related complications occurred in 11.4% (24 of 210), most often wound infections. Steroid use beyond 2 weeks (odds ratio 3.5) and absence of a multidisciplinary-team steroid plan (odds ratio 4.2) predicted complications. Nurse-led clinic follow-up was more common in surgical patients and supported steroid monitoring.",
+    "why_it_matters": "Steroids are a common part of brain tumor care and can have side effects including muscle weakness and mood changes, so people and families may want to ask how long they will be used and how they will be tapered.",
+    "evidence_level": "Retrospective single-center audit of 316 referrals; no control group",
+    "relevance_score": 6,
+    "relevance_reason": "Brain tumor drug-treatment safety context, not a nerve-recovery study.",
+    "limitation": "Retrospective and based on clinic notes, from one center over three months. It does not measure nerve or movement recovery, and it cannot show that any dose or schedule is best for an individual.",
+    "care_question": "If I am on dexamethasone, what is the plan and timeline for lowering it, and which side effects should we watch for?",
+    "date_note": "Published August 20, 2025.",
+    "verified_on": "2026-11-09"
+  },
+  {
+    "id": "pmr-steroid-myopathy-rehabilitation-neuro-oncology-2024",
+    "title": "Steroid-related muscle weakness in cancer care, including brain tumors: review finds mild to moderate exercise helped in most studies",
+    "source": "PM&R: The Journal of Injury, Function, and Rehabilitation (Tsetlina and colleagues, open access via PubMed Central)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12948405/",
+    "date_published": "2024-02-21",
+    "date_added": "2026-11-09",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "Long or high-dose steroids, which are often given to people with brain tumors, can weaken muscles. This causes painless, symmetric weakness that can be mistaken for nerve damage and can make daily life and rehab harder. This review of the research focuses on neuro-oncology patients and on exercise as a way to help. Of 24 studies of exercise during steroid treatment, 20 found less muscle breakdown with training, and mild to moderate endurance and resistance exercise helped. Very intense exercise might make muscle loss worse, and the authors say careful controlled studies are still needed.",
+    "summary": "The authors combined a narrative review of steroid myopathy (causes, incidence, symptoms and treatment) with a scoping review of exercise therapy. They identified 24 studies of exercise during glucocorticoid exposure; 20 showed decreased muscle catabolism with training. Both endurance and resistance exercise at mild to moderate intensity were beneficial, while high-intensity activity may worsen atrophy. They state there are no accepted guidelines for diagnosing or treating steroid myopathy and that rehabilitation, drug and diet measures may help prevent or reverse it, with caution about translating animal findings to people. The review gives particular attention to people with brain tumors.",
+    "why_it_matters": "Weakness after a brain tumor can come from the tumor, surgery or steroid side effects, and each may need a different approach, so it is worth telling the care team about new muscle weakness.",
+    "evidence_level": "Narrative review plus scoping review (24 exercise studies, many preclinical)",
+    "relevance_score": 6,
+    "relevance_reason": "Brain tumor treatment side effect affecting movement, with rehabilitation advice; review, not tumor-specific trial data.",
+    "limitation": "Review of mixed studies, many not in brain tumor patients, and the authors note there are no guidelines and few controlled trials. It does not show that exercise restores nerve function.",
+    "care_question": "Could my weakness be partly steroid-related, and what kind of exercise would be safe while I am on or coming off steroids?",
+    "date_note": "Published February 21, 2024.",
+    "verified_on": "2026-11-09"
   }
 ]
