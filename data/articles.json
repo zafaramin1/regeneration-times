@@ -3524,5 +3524,32 @@
     "care_question": "Could my weakness be partly steroid-related, and what kind of exercise would be safe while I am on or coming off steroids?",
     "date_note": "Published February 21, 2024.",
     "verified_on": "2026-11-09"
+  },
+  {
+    "id": "frontal-tumor-bimanual-coordination-auditory-cue-case-2023",
+    "title": "Coordinating both hands after brain tumor surgery: auditory cues helped in one case",
+    "source": "Frontiers in Neuroscience (Takada and colleagues)",
+    "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1217430/full",
+    "date_published": "2023-09-28",
+    "date_added": "2026-11-09",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Arm"
+    ],
+    "quick_read": "An adult had difficulty moving both hands together after frontal-lobe tumor surgery, even though weakness did not explain the problem. Opening and closing the hands and sequencing finger movements were harder with both hands than with one. Performance improved during metronome cueing. This single case cannot establish that cueing speeds recovery.",
+    "summary": "The report describes impaired simultaneous movement after surgery involving supplementary motor and premotor regions. Alternating movements were initially easier than simultaneous ones. Bilateral hand opening/closing and finger sequencing improved by postoperative day 15. The authors interpret the deficit as a form of limb-kinetic apraxia with preserved strength.",
+    "why_it_matters": "Coordination and motor planning can need assessment even when strength is preserved.",
+    "evidence_level": "Single adult case report; uncontrolled clinical observation",
+    "relevance_score": 8,
+    "date_note": "Background research, published September 28, 2023.",
+    "limitation": "No control group, randomized treatment or independent cohort. Early postoperative recovery cannot be attributed to the cue. No pediatric evidence or proof of lasting rehabilitation benefit. Full text and publication date verified.",
+    "verified_on": "2026-11-09"
   }
 ]

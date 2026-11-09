@@ -1324,5 +1324,43 @@
       "https://wexnermedical.osu.edu/physical-therapy-rehabilitation/conditions-and-services/occupational-therapy",
       "https://cancer.osu.edu/for-patients-and-caregivers/learn-about-cancers-and-treatments/clinical-services-at-the-james/oncology-rehabilitation/treatment-team"
     ]
+  },
+  {
+    "id": "medstar-nrh-neurorehabilitation-spasticity",
+    "name": "MedStar Health NRH: Neurorehabilitation and Spasticity Assessment",
+    "kind": "Care program",
+    "location": "Washington, District of Columbia, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Eye"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Neurological rehabilitation, occupational therapy, spasticity assessment, gait/balance care and low-vision rehabilitation.",
+    "why_relevant": "The regional neurorehabilitation program explicitly lists brain tumors and tumor resection, spasticity, brain injury and spinal cord injury. The spasticity service assesses range of motion, strength, gait and spasms. Adult and pediatric services are confirmed; the Irving Street outpatient center specifies ages 12 and up.",
+    "url": "https://www.medstarhealth.org/Services/Neurological-And-Neurorehabilitation-Services",
+    "search_terms": "brain tumor hand arm coordination clenching spasticity gait walking balance low vision occupational therapy brain injury spinal cord injury Washington DC Mid Atlantic",
+    "caution": "Program-level diagnosis coverage, not confirmation of individual acceptance. Published phone is for Irving Street Neurorehabilitation Center, ages 12 and up; confirm younger-child routing, referral, insurance, exact clinic and availability. Low-vision rehabilitation is not neuro-ophthalmology. Dystonia-specific care and brachial plexus reconstruction are not confirmed by these sources. After an accident, establish injury location. Nobody contacted; phone not tested.",
+    "phone": "202-877-1760 (Irving Street Neurorehabilitation Center)",
+    "email": "",
+    "verified_on": "2026-11-09",
+    "source_urls": [
+      "https://www.medstarhealth.org/Services/Neurological-And-Neurorehabilitation-Services",
+      "https://www.medstarhealth.org/services/spasticity",
+      "https://www.medstarhealth.org/services/occupational-therapy",
+      "https://www.medstarhealth.org/locations/physical-therapy-irving-street-neurorehabilitation-center"
+    ]
   }
 ]
