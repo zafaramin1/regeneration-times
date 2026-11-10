@@ -3668,5 +3668,111 @@
     "date_note": "Background research: first published March 15, 2024; May journal issue.",
     "limitation": "Abstract and date verified; full text requires subscription. Prespecified primary outcomes, negative findings and participant overlap with other Moscow reports could not be checked. No established daily hand-use benefit or adult evidence.",
     "verified_on": "2026-11-10"
+  },
+  {
+    "id": "vim-psa-dual-target-dbs-rare-tremors-holmes-2024",
+    "title": "Two-target deep brain stimulation cut tremor scores by about 80% in eight people with Holmes tremor, Turkish series reports",
+    "source": "Stereotactic and Functional Neurosurgery (Yilmaz and colleagues)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38934181/",
+    "date_published": "2024-06-21",
+    "date_added": "2026-11-10",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Any cause",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "quick_read": "Holmes tremor is a slow, coarse shaking that can follow damage deep in the brain, and medicines often do not control it. Surgeons in Turkey placed stimulation leads that reach two neighboring tremor areas at once: a relay station in the thalamus (VIM) and the area just below it (posterior subthalamic area, PSA). Twenty-two people with rare tremors were treated between 2019 and 2023, including eight with Holmes tremor from multiple sclerosis, cerebellar damage or head injury. A year later, tremor scores in the Holmes tremor group were about 80% lower. No tumor cases were included, and some people needed a lead moved or had an infection.",
+    "summary": "Retrospective series of 22 patients with rare tremor syndromes treated with bilateral DBS of the VIM and PSA (2019 to 2023): 7 isolated head tremor, 1 hepatic encephalopathic tremor (Abernethy syndrome), 2 voice tremor, 4 dystonic tremor and 8 Holmes tremor (2 multiple sclerosis, 2 cerebellar insult, 4 post-traumatic). Mean tremor rating score fell from 3.70 to 0.45 at 12 months. The Holmes tremor patients showed an 80% reduction in scores. The best stimulation settings converged on the VIM and dorsal PSA. Complications included electrode repositioning, infections requiring removal and re-implantation, dysarthria, and stimulation-induced ataxia that resolved with reprogramming.",
+    "why_it_matters": "Holmes tremor is harder to treat than common tremors, and this series suggests reaching two targets with one lead may help when one target alone is not enough.",
+    "evidence_level": "Retrospective case series: 22 patients, 8 with Holmes tremor; no comparison group",
+    "limitation": "Small uncontrolled series from one team. No tremor caused by a tumor was included. The abstract reports a simple tremor rating scale, not daily hand function, and does not give complication counts per patient. Full text was not checked.",
+    "care_question": "If tremor came from a deep brain lesion, would a surgical team consider one target (VIM) or a combined VIM and posterior subthalamic area approach, and why?",
+    "date_note": "Published online June 21, 2024. Background research, not a new announcement today.",
+    "relevance_score": 7,
+    "relevance_reason": "Lesional Holmes tremor treated with DBS; causes are not tumors.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "psa-dbs-holmes-tremor-juntendo-review-2023",
+    "title": "Stimulating the area below the thalamus eased Holmes tremor in an 18-year-old and a 52-year-old, with a review of 12 cases",
+    "source": "Frontiers in Neurology (Kamo and colleagues, Juntendo University)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076748/",
+    "date_published": "2023-03-23",
+    "date_added": "2026-11-10",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Any cause",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "A Tokyo team treated two men whose Holmes tremor began after bleeding deep in the brain, one of them an 18-year-old with a right-hand tremor that started at 15. Instead of the usual thalamus target, they stimulated the posterior subthalamic area, a bundle of tremor pathways just below it. Both men had less tremor a year after surgery, with no clear complications. Pooling 12 published cases, tremor scores improved by about 57% with this target alone and about 78% when combined with the thalamus target. These are individual cases, so the results are encouraging but not proof.",
+    "summary": "Retrospective report of two patients with Holmes tremor after brain hemorrhage who received PSA DBS, plus a literature review. Case 1, an 18-year-old with a 3-year right-hand tremor after a hemorrhage from the internal capsule to the midbrain, had no response to a levodopa challenge; the team confirmed the hemorrhage had not distorted the target before implanting a directional lead. Case 2 was a 52-year-old man who received bilateral PSA DBS. Both improved at 1 year without apparent complications. Across 12 published PSA DBS cases, Fahn-Tolosa-Marin tremor score improvement averaged 56.8% (range 33.9 to 82.1%, n = 6) for PSA alone and 77.8% (range 42.6 to 100%, n = 5) for PSA plus VIM.",
+    "why_it_matters": "Shows how teams check whether a brain lesion distorts the target and offers an alternative target to the thalamus for hard-to-treat lesional tremor, including in a young adult.",
+    "evidence_level": "Two case reports plus a review of 12 published cases",
+    "limitation": "Very small numbers and published cases are likely to favor successes. The lesions were hemorrhages, not tumors. One author group reports industry speaker fees and a department funded by DBS makers.",
+    "care_question": "Does the lesion distort the usual DBS targets, and would the posterior subthalamic area be an option if the thalamus is involved?",
+    "date_note": "Published March 23, 2023. Background research, not a new announcement today.",
+    "relevance_score": 7,
+    "relevance_reason": "Lesional Holmes tremor in a young adult with a right-hand tremor; hemorrhage rather than tumor.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "pediatric-vim-dbs-post-traumatic-tremor-italy-2024",
+    "title": "Thalamic deep brain stimulation reduced tremor after severe head injury in three children, followed up to five years",
+    "source": "Child's Nervous System (Peraio, Mantovani, Araceli and colleagues)",
+    "url": "https://doi.org/10.1007/s00381-024-06380-1",
+    "date_published": "2024-04-04",
+    "date_added": "2026-11-10",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Trauma",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "quick_read": "Deep brain stimulation of the thalamus is a standard treatment for essential tremor in adults, but its use for tremor after brain injury, and in children, is still debated. Italian centers treated three children whose one-sided tremor followed a severe head injury and did not respond to medicines. Each had a lead placed in the thalamus (VIM) on the side opposite the tremor. Over 3 to 5 years of follow-up, tremor fell in all three, voluntary movement was better controlled and daily independence scores rose, with no surgical complications. Three children is a very small group, so this shows possibility, not certainty.",
+    "summary": "Retrospective multicentre report from Meyer Children's Hospital (Florence) and partner centers. Three pediatric patients with drug-resistant unilateral post-traumatic tremor and no MRI evidence of basal ganglia lesions underwent frame-based robot-assisted VIM DBS contralateral to the tremor. Mean follow-up was 48 months (range 36 to 60). Tremor was reduced in all patients with better control of voluntary movement and a mean Functional Independence Measure gain of 7 points. No surgical complications occurred. The authors conclude unilateral VIM DBS could be offered in drug-resistant post-traumatic tremor, including in children.",
+    "why_it_matters": "Evidence on DBS for acquired tremor in young people is scarce, and this gives multi-year follow-up.",
+    "evidence_level": "Retrospective case series: 3 children; no comparison group",
+    "limitation": "Only three patients, all after head injury rather than tumors or surgery. Abstract verified; the full text requires a subscription, so tremor scores per child were not checked.",
+    "care_question": "For tremor that began in childhood after a brain injury, is age or growth a reason to wait, or can DBS be considered now?",
+    "date_note": "Published online April 4, 2024; August 2024 journal issue. Background research, not a new announcement today.",
+    "relevance_score": 6,
+    "relevance_reason": "Pediatric DBS for acquired lesional tremor with long follow-up; trauma not tumor.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "oslo-vim-psa-dbs-arm-tremor-rct-1-year-2026",
+    "title": "Randomized trial follow-up: one year after deep brain stimulation, arm tremor scores were 79% lower, with cerebellar tremor helped less",
+    "source": "Neurological Research and Practice (Kvernmo and colleagues, Oslo University Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13651327/",
+    "date_published": "2026-10-09",
+    "date_added": "2026-11-10",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Any cause",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Forty-five people with disabling arm tremor had long stimulation leads placed so that they reached both the usual thalamus target (VIM) and the area just below it (posterior subthalamic area, PSA). In the trial's first six months, each target was tested for three months in random order, and the area below the thalamus worked better. At one year, with doctors free to choose the best settings, arm tremor scores were a median 79% lower, and most people were being stimulated in that lower area. Tremor from essential tremor, Parkinson's and dystonia improved most, while cerebellar tremor, the type linked to coordination pathway damage, improved by a median 55% and varied more.",
+    "summary": "One-year blinded follow-up of a randomized crossover trial (NCT03156517) at Oslo University Hospital. Forty-five patients with isolated or combined arm action tremor received four-contact leads spanning VIM (upper two contacts) and PSA (lower two), were randomized to 3 months of VIM then 3 months of PSA stimulation or the reverse, and then had free programming. At 1 year the dominant-arm tremor score improved from a median 24 to 4 (median 79%, n = 43), and all secondary endpoints improved significantly. Median action tremor improvement was 83% for essential tremor, 100% for Parkinson's disease and dystonic tremor, and 55% for cerebellar tremor. Over 90% of active contacts were in the PSA.",
+    "why_it_matters": "A rare randomized comparison of tremor targets that includes cerebellar tremor, a type often seen after deep brain lesions.",
+    "evidence_level": "Randomized crossover trial with one-year blinded follow-up: 45 patients",
+    "limitation": "Few patients had cerebellar tremor and the abstract does not give their number or causes; no tumor-related cases are described. Several authors report fees from DBS makers. An erratum was published November 5, 2026 and was not reviewed.",
+    "care_question": "If the tremor has a cerebellar or coordination component, what improvement is realistic with DBS, and which target would be used?",
+    "date_note": "Published October 9, 2026.",
+    "relevance_score": 6,
+    "relevance_reason": "Randomized target comparison including cerebellar tremor; not lesion- or tumor-specific.",
+    "verified_on": "2026-11-10"
   }
 ]
