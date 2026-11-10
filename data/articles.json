@@ -3642,5 +3642,31 @@
     "limitation": "Only 122 of 756 children had complete ratings at every visit, so results may not reflect the whole group. Observational, no rehab intervention tested, follow-up limited to one year, and posterior fossa tumors only. Facts taken from the published abstract.",
     "care_question": "Ask whether balance and coordination should be rated before and after tumor treatment so rehab can be planned around expected recovery.",
     "verified_on": "2026-11-10"
+  },
+  {
+    "id": "moscow-cognitive-motor-posterior-fossa-pilot-2024",
+    "title": "Eye-hand coordination improved during combined training after childhood brain tumors, small pilot reports",
+    "source": "Journal of Neuro-Oncology (Kasatkin and colleagues)",
+    "url": "https://doi.org/10.1007/s11060-024-04636-z",
+    "date_published": "2024-03-15",
+    "date_added": "2026-11-10",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "A Moscow pilot followed 25 young people after primary treatment for posterior fossa tumors. Combined movement, drawing/writing-movement and cognitive-motor training was associated with better eye-hand coordination and several other test results. No comparison group is described in the abstract. These observations cannot establish that training caused recovery.",
+    "summary": "Participants were ages 7-18 with cognitive deficits. The six-month program used two training phases separated by home practice. Reported improvements included visual attention, visuospatial working memory, timing, reaction time and ataxia, alongside eye-hand coordination.",
+    "why_it_matters": "Addresses coordination after childhood brain tumors, rather than tremor alone.",
+    "evidence_level": "Prospective pediatric pilot: 25 participants; no comparator described in abstract",
+    "relevance_score": 8,
+    "date_note": "Background research: first published March 15, 2024; May journal issue.",
+    "limitation": "Abstract and date verified; full text requires subscription. Prespecified primary outcomes, negative findings and participant overlap with other Moscow reports could not be checked. No established daily hand-use benefit or adult evidence.",
+    "verified_on": "2026-11-10"
   }
 ]

@@ -1362,5 +1362,41 @@
       "https://www.medstarhealth.org/services/occupational-therapy",
       "https://www.medstarhealth.org/locations/physical-therapy-irving-street-neurorehabilitation-center"
     ]
+  },
+  {
+    "id": "madonna-physicians-clinic-neurological-assessment",
+    "name": "Madonna Rehabilitation Hospitals: Physicians Clinic",
+    "kind": "Care program",
+    "location": "Lincoln and Omaha, Nebraska, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Peripheral nerve",
+      "Arm",
+      "Hand",
+      "Leg",
+      "Eye"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Referral-based neurological and rehabilitation assessment, spasticity management, nerve testing and neuro-optometry.",
+    "why_relevant": "Official clinic page lists physiatry, EMG, neuro-optometry and spasticity injections at both campuses; Lincoln also lists nerve-conduction studies and baclofen-pump management. Madonna's brain-injury program describes rehabilitation for traumatic and non-traumatic injury, including occupational therapy and vision services.",
+    "url": "https://www.madonna.org/physicians-clinic",
+    "search_terms": "brain tumor hand arm clenching spasticity sensory sensation numbness nerve testing brain injury spinal cord injury neuro optometry Nebraska Great Plains",
+    "caution": "General assessment route; brain-tumor diagnosis acceptance, hand-specific treatment, dystonia and age eligibility require confirmation. Lincoln lists pediatric evaluations, but exact age limits are not published here. Referral required. Confirm clinic, insurance and availability. Neuro-optometry is distinct from neuro-ophthalmology. Accident symptoms do not establish injury location or a brachial plexus reconstruction indication. Direct pages returned 403; services and contacts verified in indexed official institutional pages. Nobody contacted; phone not tested.",
+    "phone": "402-413-3531 (Lincoln Physicians Clinic); 402-401-3540 (Omaha Physicians Clinic)",
+    "email": "",
+    "verified_on": "2026-11-10",
+    "source_urls": [
+      "https://www.madonna.org/physicians-clinic",
+      "https://www.madonna.org/programs/brain-injury"
+    ]
   }
 ]
