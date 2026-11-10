@@ -3551,5 +3551,96 @@
     "date_note": "Background research, published September 28, 2023.",
     "limitation": "No control group, randomized treatment or independent cohort. Early postoperative recovery cannot be attributed to the cue. No pediatric evidence or proof of lasting rehabilitation benefit. Full text and publication date verified.",
     "verified_on": "2026-11-09"
+  },
+  {
+    "id": "holmes-tremor-midbrain-low-grade-glioma-vim-dbs-case-2023",
+    "title": "Holmes tremor from a midbrain low-grade glioma eased with thalamic deep brain stimulation, lasting three years in one woman",
+    "source": "Annals of Indian Academy of Neurology (Kunkala and colleagues, Sri Ramachandra Institute, Chennai)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10394444/",
+    "date_published": "2023-06-15",
+    "date_added": "2026-11-10",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Hand"
+    ],
+    "quick_read": "Holmes tremor is a slow, heavy shaking of the arm that can appear after damage deep in the midbrain, and it rarely responds well to pills. This report describes a 27-year-old woman whose tremor developed after a low-grade glioma in the midbrain and pons was treated with steroids and radiotherapy. Several medicines tried over more than ten years gave only mild help, so doctors placed a deep brain stimulation lead in one side of the thalamus. Afterward she could write with her right hand, draw a circle and hold a glass of water with little spilling, and her tremor rating score fell from 55 to 28, with benefit still present at three years. It is a single case, so it shows what is possible for tumor-related tremor rather than what most people can expect.",
+    "summary": "Case report and literature review. A woman with a low-grade glioma of the midbrain and pons (diagnosed by stereotactic biopsy, treated with steroids and radiotherapy) developed right-sided Holmes tremor, worse in the proximal arm and with posture, plus ptosis, eye-movement restriction and right-sided weakness. Propranolol, trihexyphenidyl, topiramate, valproate, gabapentin and levodopa were tried in combinations for over 10 years with only mild improvement. She underwent unilateral ventral intermediate nucleus (VIM) deep brain stimulation with linear leads. Fahn-Tolosa-Marin tremor rating total score fell from 55 to 28, she regained writing and drinking with the affected hand, and improvement was reported as lasting at 3-year follow-up. The review notes VIM as the usual target and GPi, posterior subthalamic area or dual-target stimulation as options when anatomy is distorted or response is incomplete.",
+    "why_it_matters": "Directly addresses medication-resistant tremor caused by a midbrain glioma and shows a durable stimulation response in that setting.",
+    "evidence_level": "Single adult case report with literature review",
+    "relevance_score": 9,
+    "relevance_reason": "Holmes tremor caused by a midbrain low-grade glioma, treated with DBS after failed medications, with 3-year follow-up.",
+    "date_note": "Background research, published June 15, 2023.",
+    "limitation": "One patient, no control, and an author-reported score; results after DBS for Holmes tremor vary and other case series report benefit fading over time. Not every tumor location or anatomy is suitable for a lead.",
+    "care_question": "Ask a movement-disorder or functional neurosurgery team whether tremor caused by a midbrain or thalamic tumor could be evaluated for deep brain stimulation, and which target they would consider.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "tata-memorial-motor-relearning-ot-hemiparetic-arm-brain-tumour-ctri-2025-12-098392",
+    "title": "Planned Mumbai study: motor relearning program plus occupational therapy to improve arm and hand use in adults with brain tumors",
+    "source": "Clinical Trials Registry India, via MedPath (Tata Memorial Hospital and Research Centre)",
+    "url": "https://trial.medpath.com/clinical-trial/c3297eba8d5eeebe/ctri/2025/12/098392-motor-relearning-program-occupational-therapy-hemiparetic-upper-limb-brain-tumours",
+    "trial_url": "https://trial.medpath.com/clinical-trial/c3297eba8d5eeebe/ctri/2025/12/098392-motor-relearning-program-occupational-therapy-hemiparetic-upper-limb-brain-tumours",
+    "date_published": "2025-11-29",
+    "date_added": "2026-11-10",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Brain tumors and their treatment can leave one arm and hand weak, which makes dressing, eating and writing hard. This planned study at Tata Memorial in Mumbai adds a Motor Relearning Program, guided practice of everyday tasks with feedback and goal setting, to regular occupational therapy, twice a week for four weeks. Researchers will measure hand skill, arm movement and self-rated daily performance before and after. It is built specifically for people whose weakness came from a brain tumor or its treatment, but it is listed as not yet recruiting, has no comparison group, and excludes people with involuntary movements such as tremor.",
+    "summary": "CTRI/2025/12/098392 is a single-site, open-label interventional study (no allocation) planning to enroll 57 adults aged 18 to 75 at Tata Memorial Hospital and Research Centre, Mumbai (principal investigator Dr Manjusha Vagal). Participants receive the Motor Relearning Program combined with conventional occupational therapy, two sessions per week for one month. Outcomes at 4 weeks are the Jebsen-Taylor Hand Function Test, the Canadian Occupational Performance Measure and the Fugl-Meyer upper limb assessment. Inclusion: brain tumor with hemiparesis, upper limb at Brunnstrom stage 2 or above, treated with surgery with or without radiation and chemotherapy, able to follow commands in Hindi, Marathi or English, and owning a smartphone. Exclusion: apraxia, premorbid neuromuscular disorders such as traumatic brain injury or Parkinson's, and involuntary movements.",
+    "why_it_matters": "One of few registered rehab studies designed only for arm weakness caused by brain tumors and their treatment.",
+    "evidence_level": "Registered single-arm interventional study; no results",
+    "relevance_score": 7,
+    "relevance_reason": "Tumor-specific arm and hand rehab study that requires tumor-related weakness, but single-site in India, not yet recruiting, uncontrolled, and excludes involuntary movements.",
+    "trial_status": {
+      "status": "Listed as Not yet recruiting, with a start date of November 5, 2026. Record last updated November 29, 2025. Checked 2026-11-10.",
+      "phase": "Not applicable",
+      "location": "Tata Memorial Hospital and Research Centre, Mumbai, India",
+      "key_eligibility": "Adults 18 to 75 with a brain tumor and hemiparesis (Brunnstrom stage 2 or above in the arm), treated with surgery with or without radiation and chemotherapy. Tumor-related damage is required. Must follow verbal commands in Hindi, Marathi or English and have a smartphone. Excludes apraxia, prior neuromuscular disorders and involuntary movements such as tremor. Confirm details with the site."
+    },
+    "date_note": "date_published is the registry record's last-updated date (2025-11-29) as shown on MedPath.",
+    "limitation": "No comparison group, so gains cannot be credited to the program over usual recovery. Only four weeks, one site, and not yet enrolling. Information comes from a third-party mirror of the Indian registry record.",
+    "care_question": "Ask the rehab team whether task-based motor relearning practice can be added to occupational therapy for arm weakness after brain tumor treatment.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "european-multicentre-ataxia-children-posterior-fossa-tumours-2026",
+    "title": "European study of children after back-of-brain tumor surgery: over 90% walked independently by one year, but some ataxia persisted",
+    "source": "Neuro-Oncology Pediatrics (prospective cohort across 36 European centres)",
+    "url": "https://doi.org/10.1093/neuped/wuag041",
+    "date_published": "2026-07-10",
+    "date_added": "2026-11-10",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Ataxia means clumsy, unsteady movement and poor balance, and it is the most common movement problem after surgery for tumors at the back of the brain near the cerebellum. This study followed children from 36 European centres in 15 countries before surgery and at two weeks, two months and one year afterward. Among 122 children with complete ratings, about one in three had ataxia before surgery and about four in ten two weeks after, yet more than 90% were walking independently by one year. Having ataxia before surgery, a medulloblastoma, or mutism after surgery predicted the ataxia that lasted longest, which can help teams plan rehab early.",
+    "summary": "Prospective observational multicentre cohort of children under 18 undergoing posterior fossa tumour resection, assessed with the Brief Ataxia Rating Scale (BARS) and the Scale for the Assessment and Rating of Ataxia (SARA) pre-operatively, at 2 weeks, 2 months and 1 year. Of 756 participants, 122 completed BARS at all timepoints. Ataxia was present in 40 (32.8%) pre-operatively and 49 (40.2%) at 2 weeks. Over 90% walked independently at 1 year (gait item 3 or less). Medulloblastoma and post-operative mutism were linked to more severe ataxia; pre-operative ataxia, medulloblastoma and post-operative mutism were the strongest predictors of persistent ataxia.",
+    "why_it_matters": "Large prospective data on how tumor-related ataxia changes over the first year and who is likely to need longer rehab.",
+    "evidence_level": "Prospective multicentre observational cohort",
+    "relevance_score": 7,
+    "relevance_reason": "Large prospective study of tumor- and surgery-related ataxia and balance recovery, though in children with posterior fossa tumors rather than deep midline tumors.",
+    "limitation": "Only 122 of 756 children had complete ratings at every visit, so results may not reflect the whole group. Observational, no rehab intervention tested, follow-up limited to one year, and posterior fossa tumors only. Facts taken from the published abstract.",
+    "care_question": "Ask whether balance and coordination should be rated before and after tumor treatment so rehab can be planned around expected recovery.",
+    "verified_on": "2026-11-10"
   }
 ]
