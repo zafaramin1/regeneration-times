@@ -3774,5 +3774,108 @@
     "relevance_score": 6,
     "relevance_reason": "Randomized target comparison including cerebellar tremor; not lesion- or tumor-specific.",
     "verified_on": "2026-11-10"
+  },
+  {
+    "id": "stil-anti-tremor-orthosis-crossover-rct-mov-disord-2025",
+    "title": "Wearable forearm brace that damps shaking cut tremor scores by about half in a sham-controlled trial",
+    "source": "Movement Disorders (Mugge, Elstgeest and colleagues, Delft and Radboud)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11926495/",
+    "date_published": "2025-01-21",
+    "date_added": "2026-11-10",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Disease",
+      "approach": "Device",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Dutch researchers tested a lightweight brace worn on the forearm that resists fast shaking movements of the joints without needing surgery, drugs or batteries. Twenty-four people with essential tremor did everyday tasks such as drawing, pouring, drinking and eating with no brace, with a look-alike sham brace, and with the real one, in random order. The real brace lowered tremor scores from 19.0 with no brace to 9.9, better than the sham at 13.7, and sensors showed tremor power fell by 87% compared with no brace. Most users were satisfied, and a few had minor skin redness or discomfort. It was tested only in essential tremor and only during a hospital session, so results for other tremor types and daily home use are unknown.",
+    "summary": "Single-blinded randomized crossover trial in 24 people with essential tremor in a hospital setting, comparing no orthosis, a sham device and the STIL anti-tremor orthosis, which passively damps forearm joints. Seven TETRAS performance tasks were rated by two movement-disorder neurologists from video, and finger-mounted motion sensors measured tremor power. TETRAS scores were 19.0 (baseline), 13.7 (sham) and 9.9 (orthosis). Tremor power fell 87.4% versus baseline and 59.5% versus sham across tasks. 71% of participants were satisfied or very satisfied, and 12.5% reported minor adverse events (discomfort or skin redness). The sham added about 315 g of weight, so part of its effect is expected from weight alone.",
+    "why_it_matters": "A non-surgical, drug-free option for disabling arm tremor with controlled-trial evidence, which is rare for wearable devices.",
+    "evidence_level": "Randomized single-blinded crossover trial with sham: 24 patients",
+    "limitation": "Essential tremor only, one short supervised session, and no long-term home use data. Devices were loaned by the maker, STIL B.V. Effects in slower, larger tremors from brain lesions were not tested, and availability outside the Netherlands was not checked.",
+    "care_question": "Could a damping brace or glove be trialed for my type of tremor, and is there a loan or trial period before buying one?",
+    "date_note": "Published online January 21, 2025; March 2025 journal issue. Background research, not a new announcement today.",
+    "relevance_score": 6,
+    "relevance_reason": "Non-surgical wearable tremor reduction with sham control; essential tremor only.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "nibs-degenerative-cerebellar-ataxia-meta-analysis-mdcp-2024",
+    "title": "Review of 17 randomized trials: magnetic or mild electrical brain stimulation through the scalp modestly reduced cerebellar ataxia, with low-certainty evidence",
+    "source": "Movement Disorders Clinical Practice (Matsugi and colleagues)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11542298/",
+    "date_published": "2024-09-02",
+    "date_added": "2026-11-10",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Disease",
+      "approach": "Stimulation",
+      "stage": "Review"
+    },
+    "quick_read": "Cerebellar ataxia means clumsy, poorly coordinated movement caused by problems in the cerebellum, the brain's coordination center. This review pooled 17 randomized trials of noninvasive brain stimulation, either magnetic pulses (rTMS) or weak electrical current (tDCS and similar), all given from outside the head with no surgery. On average, ataxia rating scores improved more with real stimulation than with sham, and no serious side effects were reported, only mild headache, discomfort or tingling. The authors rate the certainty of the evidence as low because the trials had a serious risk of bias and varied widely. The trials studied inherited or degenerative ataxias, not coordination problems after a stroke, injury or tumor.",
+    "summary": "Preregistered systematic review and meta-analysis (PROSPERO CRD42023379192) of randomized controlled trials of rTMS and transcranial electrical stimulation in degenerative cerebellar ataxia. Seventeen RCTs contributed 661 patients for the SARA scale and 606 for ICARS. Stimulation reduced SARA by a mean 2.49 points (95% CI 1.64 to 3.34) and ICARS by 5.27 points (95% CI 3.47 to 7.06). rTMS and electrical stimulation both helped, without a significant difference between them, and rTMS frequency and the number of electrical sessions influenced effects. No serious adverse events were observed; mild effects included discomfort, headache and tingling. Risk of bias was serious, certainty low and heterogeneity high.",
+    "why_it_matters": "Gives a pooled, controlled estimate for a noninvasive option for coordination problems, where few treatments exist.",
+    "evidence_level": "Systematic review and meta-analysis of 17 randomized trials; GRADE certainty low",
+    "limitation": "Degenerative and inherited ataxias only; effects for ataxia or tremor after brain lesions are unknown. Outcomes are overall ataxia scores rather than arm or hand function, and durability is unclear. Strong magnetic pulses may not suit everyone with implanted devices, which needs individual medical review.",
+    "care_question": "Is noninvasive brain stimulation an option for my coordination problems, and is it safe with any implants I have?",
+    "date_note": "Published online September 2, 2024; November 2024 journal issue. Background research, not a new announcement today.",
+    "relevance_score": 5,
+    "relevance_reason": "Noninvasive treatment for cerebellar coordination problems; degenerative causes only.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "physiotherapy-degenerative-cerebellar-ataxia-meta-analysis-front-neurol-2025",
+    "title": "Review of 18 randomized trials: combined physical therapy, balance and aerobic training reduced cerebellar ataxia scores",
+    "source": "Frontiers in Neurology (Matsugi and colleagues)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11757114/",
+    "date_published": "2025-01-10",
+    "date_added": "2026-11-10",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Disease",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "quick_read": "This review pooled 18 randomized trials of physical therapy for people with ataxia, the poor coordination that comes from problems in the cerebellum. Overall, therapy lowered ataxia scores compared with control groups. Programs that mixed several kinds of training, such as strengthening, coordination, walking and daily-task practice, worked, as did balance training and aerobic exercise, while vibration therapy did not show a clear effect. The authors rate the evidence as very low to low certainty because the trials were small and varied. The trials studied degenerative ataxias, not coordination problems after a stroke, injury or tumor.",
+    "summary": "Preregistered systematic review and meta-analysis (PROSPERO CRD42024493883) of randomized controlled trials of physiotherapy in degenerative cerebellar ataxia. Eighteen RCTs with 398 participants were included; 315 contributed SARA data. Physiotherapy reduced SARA scores by a mean 1.41 points (95% CI 0.66 to 2.16). Significant subgroup effects were seen for multi-aspect training programs (5 studies), balance training (3 studies) and aerobic training (3 studies); vibration showed no significant effect. Risk of bias was serious, certainty very low and heterogeneity high.",
+    "why_it_matters": "Supports structured, multi-part therapy as a low-risk way to work on coordination, while showing how thin the evidence still is.",
+    "evidence_level": "Systematic review and meta-analysis of 18 randomized trials; GRADE certainty very low to low",
+    "limitation": "Degenerative ataxias only, with small trials and mixed methods. Outcomes are overall ataxia scores, so arm and hand benefits are not separated out. Long-term effects are unclear.",
+    "care_question": "Would a therapy program that combines coordination, strengthening, balance and daily-task practice be appropriate for me, and how often should I do it?",
+    "date_note": "Published January 10, 2025. Background research, not a new announcement today.",
+    "relevance_score": 5,
+    "relevance_reason": "Low-risk rehab for coordination problems; degenerative causes only.",
+    "verified_on": "2026-11-10"
+  },
+  {
+    "id": "hd-tdcs-programmable-vp-shunt-safety-case-j-ect-2026",
+    "title": "Mild brain stimulation through the scalp was given safely to a child with a programmable shunt, one case report",
+    "source": "The Journal of ECT (Rahman and colleagues, NIMHANS Bengaluru)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42233486/",
+    "date_published": "2026-06-03",
+    "date_added": "2026-11-10",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Trauma",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "quick_read": "Many people with fluid build-up in the brain have a shunt with a valve that can be adjusted with a magnet, and doctors worry that brain stimulation could change its setting. The authors note that magnetic stimulation (TMS) may alter valve settings or cause heating, while the safety of weak electrical stimulation (tDCS) with these valves was largely unknown. A 9-year-old girl with a programmable shunt after a severe head injury received 15 sessions of a focused form of tDCS, with close monitoring and repeat imaging. Her shunt position and pressure setting stayed stable and no major side effects occurred. It is one child, so it suggests possibility, not proof of safety for everyone with a shunt.",
+    "summary": "Single case report of high-definition tDCS over the left dorsolateral prefrontal cortex in a 9-year-old girl in a minimally conscious state after severe traumatic brain injury, with an implanted programmable ventriculoperitoneal shunt. The montage was planned with computational modeling and neuronavigation. Fifteen sessions were delivered with current titrated up to 1 mA under continuous clinical monitoring and serial imaging of valve pressure. No major adverse events occurred, and shunt position and pressure settings remained stable. Coma Recovery Scale-Revised scores did not change significantly, although subtle clinical improvements were observed. The authors suggest tDCS may be an alternative where TMS is contraindicated.",
+    "why_it_matters": "Shunts are common after brain tumors and hydrocephalus, and they often raise the question of whether noninvasive brain stimulation is safe.",
+    "evidence_level": "Single case report",
+    "limitation": "One child, one stimulation setup and a low current; no movement outcomes. Abstract only; full text not checked. Safety with other valve types, TMS, or higher currents is not established.",
+    "care_question": "If I have a programmable shunt, which kinds of brain stimulation are safe for me, and would the valve setting need to be checked afterward?",
+    "date_note": "Published online June 3, 2026.",
+    "relevance_score": 5,
+    "relevance_reason": "Safety question for people with programmable shunts considering noninvasive stimulation.",
+    "verified_on": "2026-11-10"
   }
 ]
