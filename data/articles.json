@@ -3962,5 +3962,32 @@
     "relevance_score": 6,
     "relevance_reason": "Recruiting non-surgical rehab trial that accepts tumor-related motor deficits; single French center, feasibility endpoint.",
     "verified_on": "2026-11-11"
+  },
+  {
+    "id": "moscow-childhood-brain-tumor-hand-dexterity-comparison-2022",
+    "title": "Hand dexterity was slower after childhood brain tumors in a comparison study",
+    "source": "Cancers (Chipeeva and colleagues, RUDN University and Dmitry Rogachev Center)",
+    "url": "https://doi.org/10.3390/cancers14235982",
+    "date_published": "2022-12-03",
+    "date_added": "2026-11-11",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "This background study assessed 137 brain-tumor survivors ages 6-17, 367 survivors of blood or lymphatic cancers, and 646 healthy children. The brain-tumor group was slower on a timed peg-placement task measuring fine motor skills and eye-hand coordination than both comparison groups. No rehabilitation treatment was tested. The findings support discussing hand-function assessment after childhood brain tumors.",
+    "summary": "Mean Grooved Pegboard completion times were 96.01 seconds after brain tumors, 75.79 after other cancers and 73.39 in healthy controls. Brain-tumor comparisons were statistically significant. Backward digit-span memory scores did not differ significantly across groups. Original paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC9738267/ . Institutional record: https://repository.rudn.ru/en/records/article/record/161149/ .",
+    "why_it_matters": "Hand dexterity deserves attention alongside cognition in survivorship assessment.",
+    "relevance_score": 9,
+    "evidence_level": "Pediatric observational comparison with healthy controls; not a treatment trial",
+    "date_note": "Background research published December 3, 2022, added with its original date.",
+    "limitation": "Incomplete treatment details and missing socioeconomic data limit interpretation. Testing depended on examiner skill. This comparison cannot establish recovery or separate tumor effects from treatment effects. Participant overlap with the separately covered Moscow 2024 training pilot could not be established.",
+    "care_question": "Would occupational therapy or neuropsychological testing help assess my child's hand coordination?",
+    "verified_on": "2026-11-11"
   }
 ]

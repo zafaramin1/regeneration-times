@@ -1398,5 +1398,44 @@
       "https://www.madonna.org/physicians-clinic",
       "https://www.madonna.org/programs/brain-injury"
     ]
+  },
+  {
+    "id": "northwestern-marianjoy-adult-brain-injury-rehabilitation",
+    "name": "Northwestern Medicine Marianjoy: Adult Brain Injury Inpatient Rehabilitation",
+    "kind": "Care program",
+    "location": "Wheaton, Illinois, USA",
+    "age_groups": [
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma"
+    ],
+    "focus": "Adult inpatient neurological rehabilitation, occupational therapy, self-care, mobility and coordination.",
+    "why_relevant": "The official program pages explicitly include brain injury from tumors and trauma. Physical, occupational and speech therapies are available. The fiscal 2025 service description specifies adults 18 and older and accepts referrals from physicians, patients and families.",
+    "url": "https://www.nm.org/conditions-and-care-areas/rehabilitation-services/brain-injury-inpatient-rehabilitation",
+    "search_terms": "brain tumor hand arm weakness dexterity coordination self care gait walking balance traumatic brain injury Illinois Midwest",
+    "caution": "Confirmed program-level tumor coverage, not individual admission. General rehabilitation assessment route for hand/arm needs; dedicated clenching, spasticity, dystonia or neuro-ophthalmology services are not verified here. Inpatient care requires medical necessity, close medical management, multiple therapies and ability to participate in intensive rehabilitation. Confirm current admission criteria, referral, insurance and availability. This entry covers brain injury after trauma, not presumed peripheral nerve or spinal cord injury. Nobody contacted; phone not tested.",
+    "phone": "630-909-8920 (inpatient admissions)",
+    "verified_on": "2026-11-11",
+    "source_urls": [
+      "https://www.nm.org/conditions-and-care-areas/rehabilitation-services/brain-injury-inpatient-rehabilitation",
+      "https://www.nm.org/-/media/northwestern/resources/locations/northwestern-medicine-marianjoy-rehabilitation-hospital/northwestern-medicine-brain-injury-pogram-services-2025.pdf",
+      "https://www.nm.org/locations/marianjoy-rehabilitation-hospital"
+    ],
+    "contacts": [
+      {
+        "name": "Marianjoy Inpatient Admissions",
+        "phone": "630-909-8920",
+        "role": "Inpatient admission assessment",
+        "source_url": "https://www.nm.org/locations/marianjoy-rehabilitation-hospital"
+      }
+    ]
   }
 ]
