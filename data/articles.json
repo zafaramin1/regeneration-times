@@ -3877,5 +3877,90 @@
     "relevance_score": 5,
     "relevance_reason": "Safety question for people with programmable shunts considering noninvasive stimulation.",
     "verified_on": "2026-11-10"
+  },
+  {
+    "id": "levetiracetam-holmes-tremor-brainstem-haemorrhage-cureus-2026",
+    "title": "Seizure medicine levetiracetam partly calmed a hard-to-treat Holmes tremor after a brainstem bleed, one case report",
+    "source": "Cureus (Lodhia, Marstrand and Bolaji, Dorset County Hospital)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41909308/",
+    "date_published": "2026-02-25",
+    "date_added": "2026-11-11",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Stroke",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "quick_read": "Holmes tremor is a slow, large, irregular shaking that appears at rest and gets worse when holding a posture or reaching, and it usually comes from damage deep in the brainstem, thalamus or cerebellum. In this report, a man in his 30s developed this kind of shaking in his upper arm about a month after a bleed in his brainstem. The nerve pain medicine gabapentin did not help, but the seizure medicine levetiracetam, raised slowly, reduced the size of the shaking and let him take a bigger part in rehab. The tremor did not go away and still got in the way of daily tasks. It is one person, so it shows a non-surgical option worth asking about, not proof that it works for everyone.",
+    "summary": "Case report of a man in his 30s with a right-sided brainstem (pontine) haemorrhage of unknown cause who developed a delayed-onset, left-sided proximal upper limb tremor about one month after the bleed. The tremor was initially attributed to anxiety and neuropathic pain, and gabapentin was ineffective. Specialist review identified a high-amplitude, irregular, low-frequency 3 Hz tremor at rest that worsened with posture and action, consistent with Holmes tremor. Titrated levetiracetam produced partial but clinically meaningful improvement, with reduced tremor amplitude and better endurance, allowing greater participation in neurorehabilitation and discharge to a level 2a neurorehabilitation facility. Follow-up MRI showed hypertrophic olivary degeneration, supporting the diagnosis. The tremor persisted and remained functionally intrusive.",
+    "why_it_matters": "Holmes tremor from deep brain lesions is notoriously hard to treat, and reports of medicines that help, even partly, give patients and doctors non-surgical options to discuss.",
+    "evidence_level": "Single case report",
+    "limitation": "One patient, a bleed rather than a tumor, no tremor rating scale reported in the abstract, and only partial benefit. Full text was not checked beyond the PubMed abstract. Levetiracetam can cause mood side effects in some people.",
+    "care_question": "Has levetiracetam or another medicine been tried for my type of tremor, and how would we judge whether it is helping?",
+    "relevance_score": 8,
+    "relevance_reason": "Non-surgical drug option for lesional Holmes tremor of the upper limb; stroke cause, not tumor.",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "ljubljana-foot-sensorimotor-balance-training-after-meningioma-surgery-life-2025",
+    "title": "Foot-focused balance exercises helped people steady themselves faster after brain tumor surgery, small randomized study",
+    "source": "Life (Kos, Brcar, Brcar and Velnar, University Medical Centre Ljubljana)",
+    "url": "https://www.mdpi.com/2075-1729/15/4/579",
+    "date_published": "2025-04-01",
+    "date_added": "2026-11-11",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Leg",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "quick_read": "After surgery to remove a brain tumor, many people feel unsteady and are at risk of falling. In this Slovenian hospital study, 20 adults who had a benign meningioma removed were randomly given one of two 30-minute exercise programs twice a day for two weeks. One was a standard mix of balance exercises; the other focused on waking up and strengthening the feet, such as lifting and spreading the toes, standing on toes and heels, and walking on hard and soft ground with eyes open and closed. Both groups improved, but the foot-focused group made fewer balance errors and all ten of them reached a meaningful improvement, compared with eight of ten in the standard group. It is a small, short study of younger adults, but the exercises are simple and need no special equipment.",
+    "summary": "Single-blinded randomized clinical study of 20 adults (ages 20 to 47) with balance problems after surgery for grade 1 parasagittal meningioma at University Medical Centre Ljubljana, enrolled June 2021 to November 2023. Ten received multicomponent balance exercises (MBE) and ten received sensorimotor foot mobilization with foot muscle strengthening (SMFE), each as two supervised 30-minute sessions daily for two weeks. Balance was measured with the Balance Error Scoring System (BESS) and Berg Balance Scale (BBS) on day three after surgery and before discharge. Both groups improved significantly. At discharge mean BESS was 45.1 in the MBE group and 36.1 in the SMFE group (lower is better), and mean BBS was 52.9 and 54.9. Eighty percent of MBE and 100% of SMFE patients reached the 10-point clinically meaningful BESS change, and SMFE did significantly better on several hard and soft surface tasks.",
+    "why_it_matters": "Balance and fall risk are common problems after brain tumor treatment, and this compares two practical, low-cost exercise approaches head to head in tumor patients.",
+    "evidence_level": "Small single-blinded randomized trial: 20 patients",
+    "limitation": "Only 20 patients, all with benign meningioma and aged 60 or under; people with one-sided weakness, visual problems after surgery or prior leg injury were excluded. Follow-up ended at hospital discharge, so lasting benefit is unknown. Results may not apply to deep or long-standing tumors.",
+    "care_question": "Could foot-focused sensory and strengthening exercises be added to my balance therapy, and which ones are safe for me at home?",
+    "date_note": "Published April 1, 2025 in Life 15(4):579. Background research, not a new announcement today.",
+    "relevance_score": 7,
+    "relevance_reason": "Randomized non-surgical rehab for balance after brain tumor surgery; small and short.",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "rennes-adapted-physical-activity-brain-tumor-nct07570485",
+    "title": "Recruiting in France: home exercise program with smartwatch tracking for adults with brain tumors, including those with movement problems",
+    "source": "ClinicalTrials.gov (Centre Eugene Marquis, Rennes)",
+    "url": "https://clinicaltrials.gov/study/NCT07570485",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07570485",
+    "date_published": "2026-05-06",
+    "date_added": "2026-11-11",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "This French study is testing whether adults with brain tumors can stick with a three-month program of adapted physical activity, meaning exercise tailored to a person's abilities. Participants get strength exercise sheets to do at home and either a walking recommendation, a weekly group video class, or a weekly one-on-one session at home, with a smartwatch tracking their activity. It is open to adults with any primary brain tumor, of any type, grade or treatment stage, and people with movement, sensation, attention or memory problems from the tumor can take part. Researchers will also look at quality of life, mood and fatigue. It is mainly a feasibility study, so it will tell us whether people can keep up the program more than whether it restores function.",
+    "summary": "Interventional feasibility study (estimated 90 participants) sponsored by Centre Eugene Marquis in Rennes, France, started July 8, 2026. Participants follow a 3-month adapted physical activity program in one of three arms: home strength exercise sheets plus a 30-minute daily walking recommendation; one home strength sheet plus a weekly 1-hour group videoconference session; or one home strength sheet plus a weekly 1-hour individualized home session. Activity is monitored with a connected watch. The primary outcome is the effective adherence rate; secondary outcomes include session completion, retention, and quality of life, anxiety-depression and fatigue (QLQ-BN20, HADS, MFI-20) at baseline, 3 and 4 months.",
+    "why_it_matters": "It is built for brain tumor patients and explicitly allows people who already have motor or sensory deficits, a group often excluded from exercise studies.",
+    "evidence_level": "Registered feasibility trial, not yet reporting results",
+    "trial_status": {
+      "status": "Recruiting (started 2026-07-08; record last updated 2026-10-26; estimated primary completion June 2028). Checked 2026-11-11.",
+      "phase": "Not applicable (behavioral exercise intervention)",
+      "location": "Centre Eugene Marquis, Rennes, France",
+      "key_eligibility": "Adults 18 and older with no upper age limit, with a primary brain tumor of any diagnosis, grade or treatment, receiving medical oncology treatment at Centre Eugene Marquis and covered by French social security. Tumor-related damage is allowed: motor, sensory, attention, concentration or memory deficits are accepted. Excludes WHO performance score 3 or worse, comprehension problems that prevent exercise, pregnancy, and people without a smartphone, tablet or computer for the watch."
+    },
+    "date_note": "date_published is the ClinicalTrials.gov first-posted date (2026-05-06).",
+    "limitation": "Limited to patients treated at one French cancer center. The main goal is adherence, not movement recovery, and there is no non-exercise control group.",
+    "care_question": "Is there a supervised, adapted exercise program near me for people with brain tumors who have weakness or coordination problems?",
+    "relevance_score": 6,
+    "relevance_reason": "Recruiting non-surgical rehab trial that accepts tumor-related motor deficits; single French center, feasibility endpoint.",
+    "verified_on": "2026-11-11"
   }
 ]
