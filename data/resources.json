@@ -1437,5 +1437,44 @@
         "source_url": "https://www.nm.org/locations/marianjoy-rehabilitation-hospital"
       }
     ]
+  },
+  {
+    "id": "university-iowa-neuro-ophthalmology",
+    "name": "University of Iowa Health Care: Neuro-Ophthalmology",
+    "kind": "Care program",
+    "location": "Iowa City, Iowa, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Eye"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Neuro-ophthalmology assessment for tumor-related vision loss, double vision and eye-movement disorders.",
+    "why_relevant": "The official service page explicitly covers brain-related tumors and tumor-related vision loss, strabismus, nystagmus and ocular motility dysfunction. The ophthalmology referral page confirms specialized adult and pediatric neuro-ophthalmology clinics.",
+    "url": "https://uihc.org/services/neuro-ophthalmology",
+    "search_terms": "brain tumor eye vision visual double vision eye alignment strabismus nystagmus neuro ophthalmology Iowa Midwest adult pediatric",
+    "caution": "Confirmed program-level tumor and eye-movement coverage, not individual acceptance or a promised outcome. Confirm exact age limits, referral requirements, clinic location, insurance and availability with scheduling. This is an eye/vision assessment route, not a hand or spasticity service. Research descriptions on the referral page do not establish current trial recruitment. Nobody contacted; phone not tested.",
+    "phone": "319-356-2852 (neuro-ophthalmology requests)",
+    "verified_on": "2026-11-12",
+    "source_urls": [
+      "https://uihc.org/services/neuro-ophthalmology",
+      "https://uihc.org/ophthalmology-referrals",
+      "https://uihc.org/providers/edward-f-linton"
+    ],
+    "contacts": [
+      {
+        "name": "University of Iowa Health Care Neuro-Ophthalmology",
+        "phone": "319-356-2852",
+        "role": "Neuro-ophthalmology appointment requests",
+        "source_url": "https://uihc.org/services/neuro-ophthalmology"
+      }
+    ]
   }
 ]

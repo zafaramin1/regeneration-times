@@ -4044,5 +4044,34 @@
     "limitation": "One patient, improvement was self-reported without a tremor rating scale, and the cause was an infection, not a tumor. Trihexyphenidyl can cause side effects such as dry mouth, confusion or memory problems.",
     "care_question": "Could an anticholinergic medicine like trihexyphenidyl, alone or with clonazepam, be tried for this tremor, and what side effects should we watch for?",
     "verified_on": "2026-11-12"
+  },
+  {
+    "id": "uppsala-pilocytic-astrocytoma-hand-dexterity-followup-2021",
+    "title": "Hand dexterity difficulties found years after childhood cerebellar tumors despite normal grip strength",
+    "source": "Cancer Reports (Kristiansen and colleagues, Uppsala University)",
+    "url": "https://doi.org/10.1002/cnr2.1548",
+    "date_published": "2021-10-12",
+    "date_added": "2026-11-12",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Arm",
+      "Leg"
+    ],
+    "quick_read": "Researchers assessed eight children and 12 adults treated for pilocytic astrocytoma in childhood. Manual dexterity scored below test norms, while grip strength and six-minute walking results were normal. Balance testing also found difficulties. This background study measured function, not whether rehabilitation improved it.",
+    "summary": "Participants were assessed at least five years after treatment. Manual dexterity differed from norms (p=.008); seven participants scored over one standard deviation below the mean. Nineteen patients had balance comparisons with 38 matched controls. Six of 20 had difficulty-level motor scores during everyday tasks.",
+    "why_it_matters": "Grip strength alone may miss difficulties with skilled hand use.",
+    "relevance_score": 9,
+    "evidence_level": "Single-center cross-sectional study of survivors of childhood tumors",
+    "date_note": "Background research first published October 12, 2021; August 2022 journal issue.",
+    "limitation": "Small exploratory sample; no correction for multiple comparisons. Some adults exceeded the motor test's normative age range. No recovery trajectory or treatment benefit established. The cohort overlaps the authors' 2019 clinical-outcomes report, excluding two telephone-only participants.",
+    "care_question": "Could assessment include dexterity and everyday tasks as well as grip strength?",
+    "verified_on": "2026-11-12"
   }
 ]
