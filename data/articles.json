@@ -3989,5 +3989,60 @@
     "limitation": "Incomplete treatment details and missing socioeconomic data limit interpretation. Testing depended on examiner skill. This comparison cannot establish recovery or separate tumor effects from treatment effects. Participant overlap with the separately covered Moscow 2024 training pilot could not be established.",
     "care_question": "Would occupational therapy or neuropsychological testing help assess my child's hand coordination?",
     "verified_on": "2026-11-11"
+  },
+  {
+    "id": "holmes-tremor-levodopa-case-series-review-2022",
+    "title": "Levodopa eased Holmes tremor in 9 of 12 patients, including tremor after tumor surgery, and in about 58% of published cases",
+    "source": "Movement Disorders Clinical Practice (Mishra and Pandey)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9346238/",
+    "date_published": "2022-07-07",
+    "date_added": "2026-11-12",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Any cause",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm"
+    ],
+    "quick_read": "Holmes tremor is a slow, coarse shaking that can appear after damage to the midbrain, thalamus or cerebellum, for example from a stroke, a head injury or brain tumor surgery. Doctors described 12 patients, two of whom developed the tremor after tumor removal, and tried levodopa, the common Parkinson's medicine taken by mouth. Levodopa helped in 75% of these patients, and across 123 earlier published patients who tried it, about 58% improved. For people with this kind of tremor, it supports asking a neurologist whether a levodopa trial makes sense before any procedure is considered.",
+    "summary": "Video-based case series of 12 patients with Holmes tremor (11 male). Causes were vascular (8), head trauma (2) and tumor resection (2). Lesions involved the midbrain alone in four, thalamus in two, basal ganglia and cerebellum in one each, and combined sites in four. Dystonia was seen in 10 patients. Levodopa responsiveness was seen in 75%, including one patient with levodopa-induced dyskinesia. In a literature review of 139 patients from 49 studies, levodopa was tried in 123: 71 (57.72%) improved, 33 (26.82%) did not, and response was unreported in 19.",
+    "why_it_matters": "A widely available pill helped most patients with this lesional tremor, including some whose tremor followed brain tumor surgery.",
+    "relevance_reason": "Non-surgical drug option for lesional midbrain and thalamic tremor, includes tumor-resection cases.",
+    "relevance_score": 9,
+    "evidence_level": "Small uncontrolled case series plus literature review; no placebo comparison",
+    "date_note": "Background research published July 7, 2022, added with its original date.",
+    "limitation": "Only 12 patients, no control group, and published cases tend to report successes. The paper's abstract does not give separate results for the two tumor-resection patients. Degree of improvement varied, and levodopa can cause side effects such as involuntary movements.",
+    "care_question": "Has a supervised trial of levodopa been considered for this tremor, and how would we judge whether it is working?",
+    "verified_on": "2026-11-12"
+  },
+  {
+    "id": "holmes-tremor-thalamic-tuberculoma-medicines-case-2026",
+    "title": "Holmes tremor from a thalamus lesion improved over six months on two inexpensive pills, one case report",
+    "source": "Clinical Case Reports (Kuma and colleagues, Hawassa University)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13093780/",
+    "date_published": "2026-03-15",
+    "date_added": "2026-11-12",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Disease",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "A 32-year-old woman developed a slow, wing-beating tremor of her left arm one month after finishing treatment for a tuberculosis lesion in the thalamus, a deep relay center of the brain. Her doctors treated it with clonazepam, a calming medicine, and trihexyphenidyl, an older anticholinergic drug, without any procedure. After six months she reported fewer tremor episodes and better day-to-day function. It is a single case, but it adds to reports that low-cost medicines are worth trying for tremor caused by a lesion deep in the brain.",
+    "summary": "The patient had rest, postural and action tremor of the left arm with spastic tone, 4/5 strength, dysmetria and dysdiadochokinesia. MRI showed a right thalamic lesion that shrank after anti-tuberculosis treatment. She received clonazepam 0.5 mg daily and trihexyphenidyl 2.5 mg twice daily for a week, then 5 mg twice daily. After six months she reported improvement in tremor frequency and daily activities. The authors note medical management was cost-effective in their resource-limited setting.",
+    "why_it_matters": "Shows a non-surgical medicine combination that helped a lesional thalamic tremor.",
+    "relevance_reason": "Non-surgical drug treatment for thalamic lesional Holmes tremor; not tumor related.",
+    "relevance_score": 7,
+    "evidence_level": "Single case report",
+    "limitation": "One patient, improvement was self-reported without a tremor rating scale, and the cause was an infection, not a tumor. Trihexyphenidyl can cause side effects such as dry mouth, confusion or memory problems.",
+    "care_question": "Could an anticholinergic medicine like trihexyphenidyl, alone or with clonazepam, be tried for this tremor, and what side effects should we watch for?",
+    "verified_on": "2026-11-12"
   }
 ]
