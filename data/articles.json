@@ -4188,5 +4188,37 @@
     "care_question": "Could a flexible, carer-supported exercise plan be built around what the person enjoys, such as walking?",
     "verified_on": "2026-11-13",
     "date_note": "Listed in the April 2026 journal issue; exact online date not shown in the abstract record."
+  },
+  {
+    "id": "samsung-smartphone-feedback-arm-trunk-compensation-2026",
+    "title": "Phone feedback reduced body leaning during arm exercises in a study including brain tumors",
+    "source": "Journal of NeuroEngineering and Rehabilitation (Kim and colleagues, Samsung Medical Center)",
+    "url": "https://doi.org/10.1186/s12984-026-02093-5",
+    "date_published": "2026-07-16",
+    "date_added": "2026-11-13",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "A phone camera gave visual and sound alerts when participants leaned during board-based arm exercises. The randomized comparison included 12 people with brain tumors and 43 with stroke. Feedback reduced trunk movement during one supervised session. Lasting hand recovery and tumor-specific benefit were not established.",
+    "summary": "Feedback and no-feedback groups had 27 and 28 participants. Trunk path length was 37.9% lower with feedback; movement speed and duration were largely comparable. Hand trajectories were measured, not everyday dexterity recovery. A separate 16-person calibration cohort was excluded from the comparison.",
+    "why_it_matters": "Movement quality and task completion are different rehabilitation outcomes.",
+    "relevance_score": 8,
+    "evidence_level": "Adult mixed-diagnosis randomized single-session comparison; experimental feedback system",
+    "limitation": "No pre-session kinematic baseline or long-term follow-up; severe spasticity excluded. No tumor-only efficacy analysis. Overlap with other Samsung cohorts was not reported. Linked registry describes a broader sequential diagnostic study, not this randomized design, and was first posted after the paper's May 2024-September 2025 data collection.",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07397767",
+    "trial_status": {
+      "status": "Active, not recruiting; record last updated February 9, 2026. Checked November 13, 2026.",
+      "phase": "Not applicable",
+      "location": "Samsung Medical Center, Seoul, South Korea",
+      "key_eligibility": "Broader registry: age 19+, upper-limb impairment including brain tumor; excludes progressive neurological disease, hemodynamic instability, severe cognitive impairment (MMSE below 10), major communication difficulty and investigator-assessed unsuitability. Paper separately requires sitting ability, K-MMSE-2 at least 18 and independent task performance; excludes severe arm spasticity. No tumor-treatment timing window specified."
+    },
+    "verified_on": "2026-11-13"
   }
 ]
