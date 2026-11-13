@@ -4073,5 +4073,120 @@
     "limitation": "Small exploratory sample; no correction for multiple comparisons. Some adults exceeded the motor test's normative age range. No recovery trajectory or treatment benefit established. The cohort overlaps the authors' 2019 clinical-outcomes report, excluding two telephone-only participants.",
     "care_question": "Could assessment include dexterity and everyday tasks as well as grip strength?",
     "verified_on": "2026-11-12"
+  },
+  {
+    "id": "weifang-botox-thalamic-ataxia-case-2025",
+    "title": "Botox injections into arm muscles eased stubborn arm incoordination after a thalamus bleed, one case report",
+    "source": "Medicine (Baltimore) (Zhang and colleagues, Weifang Hospital of Traditional Chinese Medicine)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40660583/",
+    "date_published": "2025-07-11",
+    "date_added": "2026-11-13",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Stroke",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Brain"
+    ],
+    "quick_read": "A 59-year-old woman lost useful control of her left arm after a bleed in the thalamus, a deep brain relay area, and five months of intensive rehab helped little. Doctors used ultrasound and muscle recordings to guide botulinum toxin (Botox) injections into seven arm and forearm muscles. Three weeks later her ataxia score dropped from 24 to 16, and she could feed herself and handle a cup on her own. This is a single case, but it suggests Botox may be worth asking about for incoordination from a deep brain lesion that rehab has not fixed.",
+    "summary": "Case report of thalamic ataxia syndrome secondary to right thalamic hemorrhage. A total of 130 units of botulinum toxin type A was injected into the deltoid, biceps, flexor and extensor carpi muscles, pronator teres and flexor digitorum superficialis under dual ultrasound and EMG guidance. At three weeks, the International Cooperative Ataxia Rating Scale fell from 24 to 16 (upper limb subscore 18 to 10), the Fugl-Meyer upper extremity score rose from 52 to 58, and the modified Barthel index rose from 85 to 94. The authors describe it as the first use of botulinum toxin aimed at thalamic ataxia.",
+    "why_it_matters": "Botox is a widely available, non-surgical option, and this report points to a possible use for lesion-related arm incoordination, not only stiffness.",
+    "relevance_reason": "Non-surgical Botox for arm incoordination from a deep thalamic lesion; single case, not tumor.",
+    "relevance_score": 8,
+    "evidence_level": "Single case report",
+    "date_note": "Published July 11, 2025; added as recent background.",
+    "limitation": "One patient, short three-week follow-up, no control. The lesion was a bleed, not a tumor.",
+    "care_question": "Could guided Botox be tried for arm incoordination or tremor from a deep brain lesion when rehab alone has stalled?",
+    "verified_on": "2026-11-13"
+  },
+  {
+    "id": "angelini-helmich-holmes-tremor-botox-stroke-2026",
+    "title": "Botox in five arm muscles reduced Holmes tremor and twisting postures at one year after a stroke, one case report",
+    "source": "Movement Disorders Clinical Practice (Angelini and Helmich, IRCCS Neuromed and Radboud University)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41542719/",
+    "date_published": "2026-01-16",
+    "date_added": "2026-11-13",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Stroke",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Brain"
+    ],
+    "quick_read": "Holmes tremor is a slow, coarse shaking that appears months after damage to deep brain movement pathways. A 71-year-old woman developed it in her right arm about a year after a stroke, along with twisting finger postures, and three pills did not help. Doctors then injected botulinum toxin (Botox) into her shoulder, upper arm and wrist muscles, and at a one-year check both the tremor and the abnormal postures were reduced. It is one case, but it adds to reports that Botox can help some people with lesion-related tremor when medicines fail.",
+    "summary": "Case of Holmes tremor with dystonia after a left posterior parietal and premotor ischemic stroke in a woman with prior mild essential tremor. Tremor at 3.4 to 3.5 Hz was present at rest, posture and action. Tetrabenazine, propranolol and pregabalin gave no benefit. Botulinum toxin injected into the right trapezius, deltoid, biceps, triceps and wrist flexors reduced tremor and dystonic posturing at one-year follow-up. The authors note it is the first reported Holmes tremor after a parietal infarct, supporting the view that it is a network disorder.",
+    "why_it_matters": "Adds a recent example of Botox easing Holmes tremor after medicines failed, without surgery.",
+    "relevance_reason": "Non-surgical Botox for Holmes tremor, the lesional tremor type of highest interest; single case.",
+    "relevance_score": 9,
+    "evidence_level": "Single case report",
+    "limitation": "One patient; benefit described without detailed scores in the published text; the lesion was a stroke, not a tumor.",
+    "care_question": "Has Botox been considered for Holmes tremor after medicines such as propranolol failed?",
+    "verified_on": "2026-11-13"
+  },
+  {
+    "id": "park-shin-ultrasound-guided-botox-tremor-2024",
+    "title": "Ultrasound helped doctors pick the shaking muscles for Botox in four tremor cases, including Holmes tremor",
+    "source": "Annals of Rehabilitation Medicine (Park and Shin, National Rehabilitation Center, Seoul)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39676601/",
+    "date_published": "2024-12-16",
+    "date_added": "2026-11-13",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Stroke",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "Doctors in Seoul used ordinary ultrasound to watch which forearm and hand muscles were contracting in rhythm with a tremor, then injected Botox into exactly those muscles. One of the four people had Holmes tremor of the wrist and fingers after a bleed in the brainstem. After targeted injections into three thumb and finger muscles, his tremor improved markedly and he could dress, bathe and write more easily, and follow-up ultrasound showed less muscle shaking. This suggests ultrasound may help make Botox for tremor more precise.",
+    "summary": "Report of four tremor cases (Holmes tremor, tremor with palatal myoclonus, dystonic tremor, and tremor with dystonia) assessed with B- or M-mode ultrasound and treated with ultrasound-guided botulinum toxin type A. In the Holmes tremor case, a 32-year-old man developed wrist and finger tremor six months after a left pontine hemorrhage; 40 units went to the extensor pollicis longus and 20 units each to two flexor digitorum superficialis slips. One month later ultrasound showed reduced or absent rhythmic contraction in the injected muscles, alongside better dressing, bathing and writing.",
+    "why_it_matters": "Muscle choice is a key part of Botox for tremor, and ultrasound is a simple bedside way to guide it.",
+    "relevance_reason": "Non-surgical, includes a lesional Holmes tremor case with functional hand gains; small case series.",
+    "relevance_score": 8,
+    "evidence_level": "Case series of four patients",
+    "date_note": "Published December 16, 2024; added as background on how Botox for tremor is targeted.",
+    "limitation": "Four patients with different tremor types; results partly combined with medicines; no control group; no tumor cases.",
+    "care_question": "If Botox is used for hand tremor or spasm, could ultrasound or EMG guidance be used to pick the muscles?",
+    "verified_on": "2026-11-13"
+  },
+  {
+    "id": "walker-brain-tumour-exercise-preferences-review-2026",
+    "title": "Review of seven studies: adults with brain tumors do best with flexible, personalized exercise backed by carers and clinicians",
+    "source": "Cancer Medicine (Walker and colleagues, Griffith University)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41916731/",
+    "date_published": "2026-04-01",
+    "date_added": "2026-11-13",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Leg",
+      "Arm"
+    ],
+    "quick_read": "Exercise can help people with brain tumors, but many struggle to start or stick with it. This review pulled together seven studies covering 163 adults to learn what kind of exercise they prefer and what gets in the way. People preferred flexible, individualized programs, walking was a common favorite, and barriers included symptoms, thinking problems and treatment side effects. Support from carers and health workers helped, and people reported better physical function, energy and well-being.",
+    "summary": "Systematic review of Embase, MEDLINE, Scopus, CINAHL and the Nursing and Allied Health Database (2015 to 2025). Seven studies with 163 adults (mean ages 48 to 63.5, mostly glioblastoma, glioma or oligodendroglioma) were included. Walking was the most preferred activity in two studies (48% to 56% of participants). Barriers included symptom burden, cognitive impairment, treatment side effects and psychological factors; facilitators included carer and provider support. Perceived benefits included improved physical function, energy, quality of life and self-efficacy. Moderate aerobic training was preferred, and resistance training remains underexplored.",
+    "why_it_matters": "Practical guidance for building an exercise routine that a person with a brain tumor can actually keep up.",
+    "relevance_reason": "Brain tumor rehab, non-surgical; about uptake rather than proven motor recovery.",
+    "relevance_score": 6,
+    "evidence_level": "Systematic review of seven small studies",
+    "limitation": "Small, mixed studies; mostly adults with high- or low-grade glioma during or after treatment; does not test which program improves movement.",
+    "care_question": "Could a flexible, carer-supported exercise plan be built around what the person enjoys, such as walking?",
+    "verified_on": "2026-11-13",
+    "date_note": "Listed in the April 2026 journal issue; exact online date not shown in the abstract record."
   }
 ]
