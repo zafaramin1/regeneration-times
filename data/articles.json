@@ -4296,5 +4296,30 @@
     "limitation": "Retrospective, one hospital, metastatic cancer only, and outcome measured only at discharge. No comparison of different rehab approaches.",
     "date_note": "Published online November 20, 2025; journal issue dated March 2026.",
     "verified_on": "2026-11-14"
+  },
+  {
+    "id": "thessaloniki-grip-motor-mapping-brain-tumors-2026",
+    "title": "Brain-tumor patients had weaker grip despite similar stimulation thresholds in a small study",
+    "source": "Brain Sciences (Chatzikyriakou and colleagues, Aristotle University of Thessaloniki)",
+    "url": "https://doi.org/10.3390/brainsci16090986",
+    "date_published": "2026-09-17",
+    "date_added": "2026-11-14",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Researchers compared 18 adults with tumors near movement areas and 20 healthy volunteers before surgery. Patients had weaker grip and differences in mapped hand-muscle responses. The stimulation intensity needed to trigger a resting muscle response did not differ significantly. This was an assessment study, not a treatment or recovery trial.",
+    "summary": "Patients were ages 25-78. Some differences also appeared when the hemisphere opposite the tumor was compared with healthy controls. Tract imaging was available for only 13 people per group. The findings do not prove damage on both sides or improved postoperative hand function.",
+    "why_it_matters": "A similar stimulation threshold does not rule out impaired hand strength.",
+    "evidence_level": "Adult single-center cross-sectional observational comparison",
+    "relevance_score": 8,
+    "limitation": "Small, heterogeneous sample; antiseizure medicines and unequal mapping procedures may confound comparisons. Multiple comparisons were not formally corrected. No validation against postoperative outcomes. Participant overlap with other reports was not stated. Publisher and PMC browser access failed; original full text verified through Europe PMC XML.",
+    "verified_on": "2026-11-14"
   }
 ]

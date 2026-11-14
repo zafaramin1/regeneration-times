@@ -1519,5 +1519,55 @@
         "source_url": "https://utswmed.org/conditions-treatments/neuro-rehabilitation/"
       }
     ]
+  },
+  {
+    "id": "seattle-childrens-inpatient-neurological-rehabilitation",
+    "name": "Seattle Children's: Inpatient Neurological Rehabilitation",
+    "kind": "Care program",
+    "location": "Seattle, Washington, USA",
+    "age_groups": [
+      "pediatric",
+      "adult"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Spine tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Pediatric and young-adult inpatient rehabilitation for tumor-related impairments, upper-body coordination, daily tasks, tone and mobility.",
+    "why_relevant": "The official program explicitly covers brain and spinal cord tumors and treatment effects. Occupational therapy assesses dressing, eating and school tasks and works on upper-body strength and coordination; physical therapy addresses balance and mobility. The scope document includes spasticity, altered tone and apraxia among impairments considered.",
+    "url": "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/inpatient-rehabilitation/",
+    "search_terms": "brain tumor hand arm weakness dexterity coordination grasp release clenching spasticity dystonia motor planning apraxia gait balance walking pediatric young adult spinal cord injury traumatic brain injury Seattle Washington Northwest",
+    "caution": "Program-level coverage, not individual admission. Main inpatient page says up to age 21; scope document says typically 1-21 with individual review. Spinal cord injury/disease has a stricter under-17 route; patients 17+ are directed to adult centers. Confirm exact age and diagnosis routing. Physician referral, medical stability and ability to participate in intensive therapy are required. Confirm insurance and availability. Dedicated hand procedures or tumor-specific dystonia treatment are not verified. Accident-related symptoms do not establish injury location. Nobody contacted; phones not tested.",
+    "phone": "206-987-2114, option 5 (family information and scheduling after referral)",
+    "verified_on": "2026-11-14",
+    "source_urls": [
+      "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/inpatient-rehabilitation/",
+      "https://www.seattlechildrens.org/globalassets/documents/clinics/rehab-medicine/inpatient-rehabilitation-scope-of-program.pdf",
+      "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/refer-a-patient/"
+    ],
+    "contacts": [
+      {
+        "name": "Seattle Children's Inpatient Rehabilitation",
+        "phone": "206-987-2114, option 5",
+        "role": "Family information and scheduling after referral",
+        "source_url": "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/inpatient-rehabilitation/"
+      },
+      {
+        "name": "Seattle Children's Inpatient Rehabilitation Intake",
+        "phone": "206-987-0163",
+        "role": "Provider referrals",
+        "source_url": "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/refer-a-patient/"
+      }
+    ]
   }
 ]
