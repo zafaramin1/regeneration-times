@@ -4220,5 +4220,81 @@
       "key_eligibility": "Broader registry: age 19+, upper-limb impairment including brain tumor; excludes progressive neurological disease, hemodynamic instability, severe cognitive impairment (MMSE below 10), major communication difficulty and investigator-assessed unsuitability. Paper separately requires sitting ability, K-MMSE-2 at least 18 and independent task performance; excludes severe arm spasticity. No tumor-treatment timing window specified."
     },
     "verified_on": "2026-11-13"
+  },
+  {
+    "id": "trihexyphenidyl-tremor-pediatric-brain-tumors-case-series-2026",
+    "title": "An inexpensive anticholinergic pill, trihexyphenidyl, eased disabling tremor in two young patients with deep brain tumors",
+    "source": "Neuro-Oncology Pediatrics (Miller, Smiley and Wied; conference abstract ID #634)",
+    "url": "https://doi.org/10.1093/neuped/wuag026.247",
+    "date_published": "2026-06-23",
+    "date_added": "2026-11-14",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Tumors deep in the middle of the brain, especially around the thalamus, can cause tremors that make everyday tasks hard. This short report describes two young patients whose tremor was treated with trihexyphenidyl (Artane), an older pill used for Parkinson's stiffness and tremor. In a 21-year-old with a pineal-region tumor, tremor became much less frequent, and it came back noticeably when a dose was missed. In a 6-year-old with a thalamic glioma, tremor improved on a low dose but worsened whenever the tumor swelled or grew, and eased again when the dose was raised. It is only two cases, but it gives doctors a non-surgical medicine to consider when other tremor pills fail or cause side effects.",
+    "summary": "Case series abstract of two patients with tumor-related tremor. Case 1: a 21-year-old man with a pineal germinoma and growing mature teratoma developed tremors that significantly impaired daily activities after a second surgery; a benzodiazepine did not help, and a dopaminergic antiparkinson drug gave some benefit but was stopped after 2 months because of disinhibited behavior. On trihexyphenidyl, tremors occurred significantly less often and were overtly noticeable when a dose was missed. Case 2: a 6-year-old girl with a thalamic diffuse midline glioma had bilateral arm tremor, worse on the left; it first improved with steroids and bevacizumab (Avastin) but the response was not maintained. Low-dose trihexyphenidyl significantly improved the tremor; tremor worsened with tumor edema or growth and decreased again with dose increases. The authors conclude trihexyphenidyl should be considered for tremor in pediatric brain tumor patients, especially midline or thalamic tumors.",
+    "why_it_matters": "Directly addresses tremor caused by thalamic and pineal-region tumors and points to an oral, non-surgical option when beta blockers, benzodiazepines or dopamine drugs fail or are not tolerated.",
+    "relevance_reason": "Non-surgical drug treatment of tremor from thalamic and pineal-region tumors; very close match to the site focus.",
+    "relevance_score": 10,
+    "evidence_level": "Conference abstract; two-patient case series, no control group",
+    "limitation": "Only two patients, reported as a meeting abstract without full doses, tremor scores or follow-up length. Tumor activity changed tremor severity, so drug effect is hard to separate from tumor course. Anticholinergic side effects were not described.",
+    "verified_on": "2026-11-14"
+  },
+  {
+    "id": "hal-lumbar-exoskeleton-sit-to-stand-brain-injury-tumor-2026",
+    "title": "Wearable robot suit for the hips helped weak legs work harder during sit-to-stand exercise after stroke or brain tumor surgery, small pilot",
+    "source": "NeuroRehabilitation (Kitamura and colleagues, Kyoto University Hospital)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41761494/",
+    "date_published": "2026-02-27",
+    "date_added": "2026-11-14",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Leg",
+      "cause": "Brain tumor",
+      "approach": "Device",
+      "stage": "Human trial"
+    },
+    "quick_read": "The lumbar Hybrid Assistive Limb (HAL) is a wearable robot worn around the lower back and hips that assists standing up. Kyoto researchers tested it in the early weeks after people developed one-sided leg weakness from a stroke, a brain bleed, or brain tumor surgery. Patients did sit-to-stand exercises with and without the suit, in random order. Using the suit was safe and did not tire people more, and muscle activity in the front thigh of the weak leg was higher with it. This is a small first step; it does not yet show better walking or long-term recovery.",
+    "summary": "Pilot randomized crossover study in acute-phase lower limb hemiparesis. Part 1 (12 participants: 6 ischemic stroke, 2 cerebral hemorrhage, 4 brain tumor) assessed safety and comfort over five sets of ten sit-to-stand repetitions; vital signs and fatigue did not differ significantly with versus without HAL. Part 2 (10 participants: 4 ischemic stroke, 3 hemorrhage, 3 brain tumor) measured muscle activity during one set; HAL increased activity of the vastus lateralis on the weak side (median 101.1 versus 79.9 microvolts, p = 0.03). The authors call the findings exploratory.",
+    "why_it_matters": "Gives early evidence that a wearable assist device can be used safely to make leg-strengthening practice more effective soon after brain tumor surgery, not only after stroke.",
+    "relevance_reason": "Non-surgical device rehab including brain tumor patients, leg weakness; small and acute-phase only.",
+    "relevance_score": 6,
+    "evidence_level": "Pilot randomized crossover trial, 12 participants (3 to 4 with brain tumors); muscle activity outcome only",
+    "limitation": "Very small mixed-diagnosis sample, single-session effects, no separate tumor analysis, and no walking, function or long-term outcomes. Acute phase only, so chronic weakness was not studied.",
+    "verified_on": "2026-11-14"
+  },
+  {
+    "id": "metastatic-spinal-tumor-cord-dysfunction-rehab-independence-juntendo-2025",
+    "title": "Inpatient rehab after spinal cord damage from spine tumors: 15% became independent in daily activities, and pain and severity predicted who did",
+    "source": "Archives of Rehabilitation Research and Clinical Translation (Ase and colleagues, Juntendo University Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12988552/",
+    "date_published": "2025-11-20",
+    "date_added": "2026-11-14",
+    "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Spine",
+      "cause": "Spine tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Cancer that spreads to the spine can press on the spinal cord and weaken the legs and body. This Tokyo hospital looked back at 153 adults with that kind of spinal cord damage who received inpatient rehabilitation over ten years. About 15% left the hospital able to manage daily activities on their own. People were less likely to reach that goal if their cancer was fast-growing, their weakness was severe at the start, their blood tests showed more inflammation, or they had ongoing pain when moving. Spotting these factors early may help teams plan rehab and treat pain more aggressively.",
+    "summary": "Retrospective single-center cohort of 153 adults (median age 69, 67% men) with spinal cord dysfunction from metastatic spinal tumors who received standard inpatient rehabilitation between 2012 and 2022. Independence in activities of daily living was defined as a Barthel index of 85 or more at discharge; 23 patients (15.0%) reached it. In age-adjusted logistic regression, rapid-growing primary tumor type (OR 5.93), severe motor impairment at admission (OR 5.83), elevated C-reactive protein to albumin ratio (OR 3.82) and persistent movement-related pain (OR 1.34) were associated with reduced odds of independence.",
+    "why_it_matters": "Identifies treatable or trackable factors, such as movement-related pain and inflammation, that affect how much function people regain in rehab after tumor compression of the spinal cord.",
+    "relevance_reason": "Spine tumor compression and rehab outcomes; observational, no new therapy.",
+    "relevance_score": 5,
+    "evidence_level": "Retrospective single-center cohort, 153 patients",
+    "limitation": "Retrospective, one hospital, metastatic cancer only, and outcome measured only at discharge. No comparison of different rehab approaches.",
+    "date_note": "Published online November 20, 2025; journal issue dated March 2026.",
+    "verified_on": "2026-11-14"
   }
 ]
