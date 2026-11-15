@@ -4460,5 +4460,38 @@
     "evidence_level": "Pediatric single-center randomized controlled trial (abstract reviewed; full text paywalled)",
     "limitation": "Small sample of 30 children; no long-term follow-up reported in the abstract; no difference in daily-life independence. Children only.",
     "verified_on": "2026-11-15"
+  },
+  {
+    "id": "cairo-pediatric-post-tumor-arm-rehab-nct07606222",
+    "title": "Completed childhood brain-tumor arm-rehab trial has no posted results",
+    "source": "ClinicalTrials.gov (Cairo University, NCT07606222)",
+    "url": "https://clinicaltrials.gov/study/NCT07606222",
+    "date_published": "2026-05-26",
+    "date_added": "2026-11-15",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "This registry lists 45 children with one-sided weakness after brain-tumor surgery. It lists three groups: physical therapy alone or with biofeedback or muscle stimulation. The study is completed and not recruiting. No results are posted, so hand-recovery benefit is unknown.",
+    "summary": "The registered primary outcome is wrist-extensor muscle activity at 12 weeks. Secondary measures include arm function and spasticity. Completion is recorded as September 2025; registration followed in May 2026.",
+    "why_it_matters": "Direct hand-rehabilitation research needs results before effectiveness can be judged.",
+    "evidence_level": "Registered pediatric randomized comparison; no posted results",
+    "relevance_score": 8,
+    "trial_url": "https://clinicaltrials.gov/study/NCT07606222",
+    "trial_status": {
+      "status": "Completed; updated May 26, 2026. Checked November 15, 2026.",
+      "phase": "Not applicable",
+      "location": "Alexandria, Egypt",
+      "key_eligibility": "Ages 6-14; hemisphere tumor surgery at least six weeks earlier; outpatient, follows instructions; hand-use questionnaire 25-50; grade-2 wrist/elbow/finger extensor power. Excludes blindness, deafness and skin disease."
+    },
+    "date_note": "Date is registry first posting, not results publication.",
+    "limitation": "Retrospective registration. Biofeedback and stimulation descriptions repeat identical stimulation text, limiting protocol interpretation. Cohort overlap unreported. No primary-outcome results or cure evidence.",
+    "verified_on": "2026-11-15"
   }
 ]

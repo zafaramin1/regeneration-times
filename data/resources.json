@@ -1569,5 +1569,47 @@
         "source_url": "https://www.seattlechildrens.org/clinics/rehabilitation-medicine/refer-a-patient/"
       }
     ]
+  },
+  {
+    "id": "kansas-neurorehabilitation-spasticity-assessment",
+    "name": "University of Kansas Health System: Neurorehabilitation and Spasticity Assessment",
+    "kind": "Care program",
+    "location": "Kansas City and Overland Park, Kansas, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Neurological rehabilitation, spasticity assessment, occupational therapy and electrodiagnostic assessment.",
+    "why_relevant": "The official neurorehabilitation page explicitly includes brain cancer, brain injury and spine injury. Physical medicine and rehabilitation lists spasticity, cancer rehabilitation and electrodiagnosis. Outpatient occupational therapy addresses weakness, reduced coordination and hand/finger injuries; physical therapy addresses strength and balance.",
+    "url": "https://www.kansashealthsystem.com/care/treatments/neurorehabilitation",
+    "search_terms": "brain tumor brain cancer hand arm weakness dexterity coordination clenching spasticity sensory sensation numbness gait balance walking spinal cord injury traumatic brain injury Kansas Great Plains",
+    "caution": "Confirmed program-level brain-cancer rehabilitation; individual acceptance, benign-tumor coverage and tumor-specific hand or clenching treatment require confirmation. General assessment route; dystonia-specific care, neuro-ophthalmology and brachial plexus reconstruction are not verified. Age eligibility is unconfirmed. Ask the scheduling team about exact clinic, referral, insurance and availability. Accident-related arm dysfunction does not establish the injury location. Nobody contacted; phone not tested.",
+    "phone": "913-588-1227 (health system appointments and clinic routing)",
+    "verified_on": "2026-11-15",
+    "source_urls": [
+      "https://www.kansashealthsystem.com/care/treatments/neurorehabilitation",
+      "https://www.kansashealthsystem.com/care/specialties/physical-medicine-and-rehabilitation",
+      "https://www.kansashealthsystem.com/care/treatments/outpatient-rehabilitation"
+    ],
+    "contacts": [
+      {
+        "name": "University of Kansas Health System Appointments",
+        "phone": "913-588-1227",
+        "role": "Scheduling and clinic routing",
+        "source_url": "https://www.kansashealthsystem.com/care/treatments/neurorehabilitation"
+      }
+    ]
   }
 ]
