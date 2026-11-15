@@ -4321,5 +4321,144 @@
     "relevance_score": 8,
     "limitation": "Small, heterogeneous sample; antiseizure medicines and unequal mapping procedures may confound comparisons. Multiple comparisons were not formally corrected. No validation against postoperative outcomes. Participant overlap with other reports was not stated. Publisher and PMC browser access failed; original full text verified through Europe PMC XML.",
     "verified_on": "2026-11-14"
+  },
+  {
+    "id": "gothenburg-move-video-exercise-medulloblastoma-trial-2025",
+    "title": "Recruiting in Sweden: video-call exercise program with balance and coordination training for children after medulloblastoma",
+    "source": "ClinicalTrials.gov (MOVE study, Queen Silvia Children's Hospital, Gothenburg)",
+    "url": "https://clinicaltrials.gov/study/NCT06898684",
+    "date_published": "2025-12-16",
+    "date_added": "2026-11-15",
+    "date_note": "Registry record first posted March 27, 2025; last updated December 16, 2025. Status checked November 15, 2026.",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Leg",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "This small pilot study tests whether children and teens who finished treatment for medulloblastoma, a brain tumor, can exercise at home with a trainer over video calls. Sessions are individualized, three times a week for 12 weeks, and mix aerobic work, strength training, and exercises for coordination and balance. The main goal is to see whether this remote setup is practical and safe, not yet to prove it improves movement. If it works, it could make guided rehab easier to reach for families who live far from a specialist center.",
+    "summary": "Single-group feasibility study planning about 15 participants. Feasibility targets include at least 70% session adherence and at least 90% of video-based measurements completed per protocol, plus adverse-event tracking. Gothenburg is listed as recruiting and Technical University Munich as not yet recruiting.",
+    "why_it_matters": "Remote supervised exercise could extend balance and coordination training after a brain tumor beyond the clinic.",
+    "relevance_reason": "Non-surgical brain tumor rehab trial with coordination and balance training; pediatric only and feasibility-focused.",
+    "relevance_score": 8,
+    "evidence_level": "Registered single-arm feasibility pilot (no results yet)",
+    "trial_url": "https://clinicaltrials.gov/study/NCT06898684",
+    "trial_status": {
+      "status": "Recruiting (Gothenburg); Munich site not yet recruiting. Record last updated December 16, 2025. Checked November 15, 2026.",
+      "phase": "Not applicable",
+      "location": "Queen Silvia Children's Hospital, Gothenburg, Sweden; Technical University Munich, Germany",
+      "key_eligibility": "Ages 3 to 18. Completed medulloblastoma therapy, including craniospinal radiation, within 36 months before entry. Excludes inability to walk without support and progressive disease. Tumor-related damage is the study's focus."
+    },
+    "verified_on": "2026-11-15"
+  },
+  {
+    "id": "hku-rtms-pediatric-cerebellar-ataxia-trial-2025",
+    "title": "Planned Hong Kong trial: magnetic brain stimulation plus motor training for children with ataxia from cerebellar lesions, including tumors",
+    "source": "ClinicalTrials.gov (The University of Hong Kong)",
+    "url": "https://clinicaltrials.gov/study/NCT07211490",
+    "date_published": "2025-10-08",
+    "date_added": "2026-11-15",
+    "date_note": "Registry record first posted and last updated October 8, 2025; listed start date October 1, 2025 is an estimate. Status checked November 15, 2026.",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Any cause",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "This randomized trial plans to test gentle magnetic stimulation through the scalp (rTMS), with no surgery, in children whose balance and coordination problems come from damage to the cerebellum. Each session pairs 20 minutes of real or sham stimulation with about 1.5 hours of motor training. The registry notes that such damage can come from stroke or a tumor, and children with genetic ataxia are excluded. It has not started recruiting yet, so there are no results, but it is one of few trials testing noninvasive stimulation for lesion-related incoordination in children.",
+    "summary": "Planned 20 participants randomized to 1 Hz rTMS or sham, each followed by motor training. Main outcomes are the SARA and ICARS ataxia scales, which include finger-chase, finger-to-nose, fast alternating hand movement, gait and stance items, measured during treatment and two months after.",
+    "why_it_matters": "Tests whether a noninvasive stimulation approach studied in adults can help children with lesion-related ataxia.",
+    "relevance_reason": "Non-surgical stimulation for lesional incoordination; tumor-caused cerebellar lesions appear eligible; not yet recruiting.",
+    "relevance_score": 7,
+    "evidence_level": "Registered randomized sham-controlled trial (not yet recruiting; no results)",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07211490",
+    "trial_status": {
+      "status": "Not yet recruiting; record last updated October 8, 2025. Checked November 15, 2026.",
+      "phase": "Not applicable",
+      "location": "The University of Hong Kong, Hong Kong",
+      "key_eligibility": "Ages 4 to 18. Clinical cerebellar ataxia with a cerebellar lesion on MRI and IQ of at least 50. Excludes genetic ataxia, sensory ataxia, rTMS contraindications, severe spasticity or contractures, uncontrolled epilepsy, and Botox or arm casting in the prior 6 months. Lesions from tumors are not excluded; the registry names tumor among acquired causes."
+    },
+    "verified_on": "2026-11-15"
+  },
+  {
+    "id": "xian-home-mcimt-after-botox-chronic-stroke-2026",
+    "title": "Hand training with the stronger arm mitted, started days after Botox, gave better hand recovery than usual home therapy after stroke",
+    "source": "Frontiers in Neurology (Zhang and colleagues, Xi'an International Medical Center Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13590366/",
+    "date_published": "2026-09-07",
+    "date_added": "2026-11-15",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Stroke",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm"
+    ],
+    "quick_read": "Botox can loosen tight, cramping finger muscles, but looser muscles do not always mean a more useful hand. This study looked back at 98 adults with stiff fingers after a stroke who got Botox and then four weeks of home therapy starting around day 3. Those who did constraint-induced therapy, wearing a mitt on the stronger hand for about 4 hours a day while practicing grasping, pinching and daily tasks, regained more hand function and used the weaker arm more in daily life than those who did usual home occupational therapy. Both groups had similar loosening from the Botox, so the difference came from the type of training afterward.",
+    "summary": "Single-center retrospective cohort of 102 eligible adults (98 analyzed) with chronic stroke (at least 6 months) and finger flexor spasticity treated with ultrasound-guided Botox. Rehab ran 5 days a week for 4 weeks. The constraint group had significantly greater distal Fugl-Meyer arm and hand scores at 4 weeks and 3 months, and higher Motor Activity Log scores for real-world use. Spasticity reduction was similar in both groups.",
+    "why_it_matters": "Suggests the weeks right after a Botox injection are a window where structured, task-focused hand training matters.",
+    "relevance_reason": "Non-surgical Botox plus OT strategy for lesional hand spasticity; stroke, not tumor; retrospective.",
+    "relevance_score": 7,
+    "evidence_level": "Adult single-center retrospective cohort comparison",
+    "limitation": "Retrospective, non-randomized; therapy type was chosen in routine care, so selection bias and confounding are possible. Stroke only, ages 18-80, required Brunnstrom stage III or higher and normal cognitive screening. Tumor-related spasticity was not studied.",
+    "verified_on": "2026-11-15"
+  },
+  {
+    "id": "cairo-motor-imagery-ataxia-medulloblastoma-2024",
+    "title": "Picturing movements in the mind, added to physical therapy, improved balance and walking in children with ataxia after medulloblastoma",
+    "source": "Scientific Reports (Alsakhawi and colleagues, Cairo University)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11603029/",
+    "date_published": "2024-11-27",
+    "date_added": "2026-11-15",
+    "date_note": "Published November 27, 2024; added as a Sunday back-catalog item.",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Leg",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "quick_read": "Fifty children aged 7 to 9 with balance and coordination problems (ataxia) after surgery for medulloblastoma, a brain tumor in the cerebellum, were randomly split into two groups. Both got one hour of physical therapy three times a week for three months, and one group also practiced motor imagery, which means vividly imagining doing a movement before or instead of doing it. Both groups improved, but the imagery group improved more in ataxia severity, balance and walking measures. Motor imagery costs nothing and does not tire the body, so it may be a useful add-on to regular rehab for tumor-related ataxia.",
+    "summary": "Randomized trial (NCT05992207) with assessments before and after the three-month program using the SARA ataxia scale, the Pediatric Berg Balance Scale and video gait analysis. After treatment the imagery group had significantly better ataxia severity, balance score, step length, step width, foot angle, gait velocity and cadence than the physical-therapy-only group. Children had also received radiotherapy and chemotherapy.",
+    "why_it_matters": "A free, low-effort add-on to physical therapy showed extra benefit for tumor-related ataxia in a randomized comparison.",
+    "relevance_reason": "Non-surgical randomized rehab trial in brain tumor ataxia; children only, short follow-up.",
+    "relevance_score": 8,
+    "evidence_level": "Pediatric single-center randomized controlled trial",
+    "limitation": "Small sample from one hospital; outcomes measured only right after the three-month program, so lasting effects are unknown. Ages 7-9 only; children with hydrocephalus, other posterior fossa tumors such as pilocytic astrocytoma, or chemotherapy neuropathy were excluded. The abstract's significance wording is inconsistent with the full-text results.",
+    "verified_on": "2026-11-15"
+  },
+  {
+    "id": "cairo-dual-task-balance-ataxia-medulloblastoma-2023",
+    "title": "Balance training combined with thinking tasks helped steadiness more than standard therapy in children with ataxia after medulloblastoma",
+    "source": "Pediatric Blood & Cancer (Selim and colleagues, Cairo University and Children's Cancer Hospital Egypt 57357)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37561355/",
+    "date_published": "2023-08-10",
+    "date_added": "2026-11-15",
+    "date_note": "Published online August 10, 2023 (November 2023 issue); added as a Sunday back-catalog item.",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Leg",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "quick_read": "Thirty children with ataxia, meaning poor balance and coordination, after surgery for medulloblastoma were randomly split into two groups. Both did mobility, balance and walking exercises, and one group also practiced dual-task training, doing balance work while solving a thinking task at the same time, three days a week for 8 weeks. The dual-task group gained more on a pediatric balance scale and a stability test. Everyday independence scores rose in both groups but did not differ between them, so the extra benefit was mainly in balance.",
+    "summary": "Randomized controlled trial with two groups of 15 at Children's Cancer Hospital Egypt. Outcomes were the SARA ataxia scale, HUMAC balance system, Pediatric Balance Scale and Functional Independence Measure. Pediatric Balance Scale (p = .028) and stability test (p = .0001) favored the dual-task group; Functional Independence Measure did not differ between groups (p = .158).",
+    "why_it_matters": "Adds a simple, non-surgical way to make balance practice more effective for tumor-related ataxia.",
+    "relevance_reason": "Non-surgical randomized balance rehab in brain tumor ataxia; small pediatric trial, abstract-level detail only.",
+    "relevance_score": 7,
+    "evidence_level": "Pediatric single-center randomized controlled trial (abstract reviewed; full text paywalled)",
+    "limitation": "Small sample of 30 children; no long-term follow-up reported in the abstract; no difference in daily-life independence. Children only.",
+    "verified_on": "2026-11-15"
   }
 ]
