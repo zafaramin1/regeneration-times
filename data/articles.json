@@ -4493,5 +4493,51 @@
     "date_note": "Date is registry first posting, not results publication.",
     "limitation": "Retrospective registration. Biofeedback and stimulation descriptions repeat identical stimulation text, limiting protocol interpretation. Cohort overlap unreported. No primary-outcome results or cure evidence.",
     "verified_on": "2026-11-15"
+  },
+  {
+    "id": "adult-cerebellar-mutism-after-brain-tumor-surgery-review-2026",
+    "title": "Review of 29 adults: speech loss after brain-tumor surgery usually returned within weeks, but slurred speech or poor coordination often stayed",
+    "source": "World Neurosurgery (PubMed 43025631)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43025631/",
+    "date_published": "2026-11-13",
+    "date_added": "2026-11-16",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "quick_read": "Some people lose the ability to speak for a while after an operation on a tumor at the back of the brain, a problem called cerebellar mutism. It is well known in children, so this review gathered every adult case it could find from 23 reports. Speech usually came back within weeks. But in 10 of the 18 adults with clearly documented speech loss, slurred speech, poor coordination (ataxia) or thinking problems remained afterward, so getting speech back does not mean full recovery.",
+    "summary": "Researchers searched PubMed, Scopus and Web of Science in September 2026 and included 23 reports describing 29 adults aged 18 to 81 with new speech loss after tumor surgery. Eighteen had documented mutism (10 alert type, 8 akinetic type); tumors included medulloblastoma, glial, glioneuronal, ependymal, metastatic and benign lesions. The alert type began on days 1 to 4 after surgery, while the akinetic type often began later, frequently with bleeding, hydrocephalus or other complications. Residual dysarthria, ataxia or cognitive deficits were reported in 10 of the 18.",
+    "why_it_matters": "Adults recovering from back-of-brain tumor surgery and their rehab teams should plan for lasting speech and coordination therapy even after talking returns.",
+    "relevance_reason": "Brain tumor; residual ataxia and dysarthria in adults; rehab planning; non-surgical relevance only.",
+    "relevance_score": 6,
+    "evidence_level": "Systematic review of case reports and small series (29 adults)",
+    "limitation": "Small number of mostly case-level reports with inconsistent terminology; no treatment comparisons; abstract-level details only.",
+    "verified_on": "2026-11-16"
+  },
+  {
+    "id": "brain-tumor-neurological-medical-complications-2026-update",
+    "title": "2026 expert update on brain-tumor complications: seizures, swelling, clots, hormone and thinking problems, and the role of steroids and rehab",
+    "source": "Current Neurology and Neuroscience Reports (University of Virginia, University of Louisville)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13748063/",
+    "date_published": "2026-11-09",
+    "date_added": "2026-11-16",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "quick_read": "This free review from brain tumor specialists updates a 2020 overview of the problems people with brain tumors face beyond the tumor itself. It covers seizures, brain swelling, infections, blood clots, hormone problems and memory or thinking trouble. It notes that blood thinner pills are the preferred treatment for clots and that seizure medicines, steroids and thinking-skills rehab are core supportive care. The authors stress that spotting these problems early and treating them with a team approach can reduce the harm they cause.",
+    "summary": "The review discusses tumor-related epilepsy, vasogenic edema, infection, thromboembolism, endocrine abnormalities and cognitive impairment. Recent findings: IDH-mutant gliomas drive nerve-cell overexcitability, and IDH inhibitors may lower seizure rates; newer data suggest no difference in hospitalization or survival with Pneumocystis antibiotic prophylaxis during temozolomide chemoradiation; direct oral anticoagulants are the treatment of choice for clots, with retrospective studies supporting safety in brain tumor patients. Management calls for antiseizure medicines, corticosteroids, anticoagulants and neurocognitive rehabilitation.",
+    "why_it_matters": "A current, open-access checklist of treatable complications that can worsen daily function in people living with a brain tumor.",
+    "relevance_reason": "Brain tumor survivorship and supportive medical care; non-surgical; not specific to tremor or limb control.",
+    "relevance_score": 5,
+    "evidence_level": "Narrative expert review",
+    "limitation": "Narrative review, not a systematic analysis; does not focus on movement, tremor or nerve recovery.",
+    "verified_on": "2026-11-16"
   }
 ]
