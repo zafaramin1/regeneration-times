@@ -4539,5 +4539,129 @@
     "evidence_level": "Narrative expert review",
     "limitation": "Narrative review, not a systematic analysis; does not focus on movement, tremor or nerve recovery.",
     "verified_on": "2026-11-16"
+  },
+  {
+    "id": "ipsilateral-high-frequency-rtms-safety-brain-tumour-2026",
+    "title": "Magnetic brain stimulation on the tumor side looked safe in a small study and strength improved after brain tumor surgery",
+    "source": "Frontiers in Neurology (The Walton Centre NHS Foundation Trust, MD Anderson Cancer Center)",
+    "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1814880/full",
+    "date_published": "2026-06-10",
+    "date_added": "2026-11-17",
+    "date_note": "Published June 2026; not previously on the site.",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "quick_read": "Repetitive transcranial magnetic stimulation (rTMS) uses a magnetic coil held against the head to nudge brain activity, with no surgery or implant. Doctors usually stimulate the healthy side of the brain after brain tumor surgery, because stimulating the side near the tumor raised worries about seizures, wound healing and implant heating. In this small study, 4 patients had fast stimulation on the tumor side and 6 had the standard slow stimulation on the other side, alongside physical and occupational therapy. Strength improved in both groups, no seizures or heating occurred, and one patient with programmable brain shunts had no change in shunt settings. It is an early safety signal that could open more ways to use noninvasive stimulation for weakness after brain tumors.",
+    "summary": "Four patients received ipsilesional high-frequency rTMS (IL-HFS) and six received standard contralesional low-frequency rTMS (CL-LFS) after resection of motor-eloquent intrinsic brain tumours, during their inpatient stay alongside routine physical and occupational therapy. IL-HFS was offered only if ipsilateral motor evoked potentials were preserved. All patients showed significant improvement in MRC strength grade (p < 0.05), with greater gains in lower-limb muscles, and AMPAC 6-Click activity and mobility scores improved in both groups. No seizures or heating effects occurred. One IL-HFS patient needed wound revision of a third-time operated wound and had a 30-second fainting episode without seizure features; another had 24 hours of tingling in the unaffected foot; a patient with two programmable ventriculoperitoneal shunts had no shunt setting changes. The authors call for prospective trials.",
+    "why_it_matters": "Suggests tumor-side noninvasive brain stimulation, already used in stroke recovery, may be safe enough to test properly in people with brain tumor weakness, including some with shunts.",
+    "relevance_reason": "Brain tumor; noninvasive stimulation for motor recovery; shunt safety detail; tiny uncontrolled study in early post-op period.",
+    "relevance_score": 7,
+    "evidence_level": "Small retrospective case series (10 patients), no sham control",
+    "limitation": "Only 10 patients, no sham group, early post-operative setting only; strength gains cannot be separated from natural recovery and therapy.",
+    "verified_on": "2026-11-17"
+  },
+  {
+    "id": "incobotulinumtoxina-upper-limb-tremor-rct-2026",
+    "title": "Botox-type injections for arm tremor missed their main goal in a placebo-controlled trial, though arm task scores improved",
+    "source": "Toxins (Icahn School of Medicine at Mount Sinai and others; sponsored by Merz Therapeutics)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13709707/",
+    "date_published": "2026-10-09",
+    "date_added": "2026-11-17",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Disease",
+      "approach": "Drug",
+      "stage": "Human trial"
+    },
+    "quick_read": "This phase II trial tested incobotulinumtoxinA (Xeomin, a Botox-type drug) injected into the muscles of the dominant arm in 77 adults with essential tremor, compared with placebo shots. The main measure, how far the wrist shook on a sensor at 6 weeks, did not improve more than with placebo. A doctor-rated arm performance score did improve more with the drug, but the authors say this is exploratory and needs confirmation. The shots were generally well tolerated. The trial was in essential tremor, not tremor from brain lesions, so it shows how hard it is to prove muscle injections help shaking even when patients and doctors see some benefit.",
+    "summary": "Double-blind, placebo-controlled phase II trial (NCT04766723): adults with upper-limb essential tremor were randomized 2:1 (n = 78; 77 treated) to semi-flexible intramuscular doses of incobotulinumtoxinA or placebo in the motor-dominant arm. The primary endpoint, change in maximum wrist tremor amplitude at week 6, was not met; amplitude fell in both groups, numerically favoring placebo (difference 0.21, p = 0.28). Exploratory secondary outcomes favored the drug for TETRAS dominant upper-limb performance (p = 0.006) and, less clearly, QUEST quality of life (p = 0.073). TETRAS upper-limb daily-activity scores were similar between groups (p = 0.933). No new safety concerns were seen.",
+    "why_it_matters": "A rigorous placebo-controlled test of a Botox-type drug for arm tremor; useful context for anyone weighing injections for a shaking arm.",
+    "relevance_reason": "Non-surgical Botox for arm tremor, but essential tremor rather than lesional or tumor-related tremor; negative primary endpoint.",
+    "relevance_score": 5,
+    "evidence_level": "Randomized, double-blind, placebo-controlled phase II trial",
+    "limitation": "Essential tremor only; primary endpoint not met; positive findings are exploratory; sponsor involved in design, analysis and writing.",
+    "trial_url": "https://clinicaltrials.gov/study/NCT04766723",
+    "verified_on": "2026-11-17"
+  },
+  {
+    "id": "brainstem-glioma-cst-pattern-motor-recovery-2026",
+    "title": "How a brainstem tumor sits against the main movement pathway predicted who regained strength over time",
+    "source": "Journal of Neuro-Oncology (Beijing Tiantan Hospital, Capital Medical University)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42878965/",
+    "date_published": "2026-10-15",
+    "date_added": "2026-11-17",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "Researchers in Beijing used a special MRI scan (DTI) to see how brainstem tumors in 180 patients related to the corticospinal tract, the main wiring that carries movement signals from the brain to the body. They sorted tumors into three types: pushing the tract aside, growing into it, or running through it. Patients whose tract was only pushed aside, mostly with low-grade tumors, regained movement fastest, while those with the tract running through the tumor recovered least. The scan pattern gives doctors and families an earlier, more realistic picture of how much movement may come back.",
+    "summary": "180 brainstem glioma patients who had craniotomy between 2020 and 2023 were classified by preoperative DTI tractography as displacement (51), infiltration (83) or traverse (46) corticospinal tract (CST) types, with high inter-rater agreement (kappa 0.93). Displacement cases were mostly low-grade (74.5%), had the highest CST fractional anisotropy and better function; traverse cases were 97.8% high-grade with the poorest KPS/mRS. Fractional anisotropy correlated with preoperative muscle strength. Longitudinal motor trajectories differed significantly: displacement patients recovered rapidly, traverse patients showed minimal recovery with late decline, infiltration was intermediate. Median survival was not reached for displacement versus 15.3 and 12.0 months for infiltration and traverse.",
+    "why_it_matters": "Shows that the state of the movement pathway on imaging, not just the tumor, shapes how much strength returns, which helps set rehab goals.",
+    "relevance_reason": "Brain tumor near midbrain/brainstem movement pathways; motor recovery prognosis; cohort was surgical, item is assessment not a treatment.",
+    "relevance_score": 5,
+    "evidence_level": "Single-center retrospective-prospective cohort (180 patients)",
+    "limitation": "All patients had surgery at one center; mostly about strength, not tremor or coordination; hypothesis-generating.",
+    "verified_on": "2026-11-17"
+  },
+  {
+    "id": "copenhagen-young-adult-glioma-quality-of-life-2026",
+    "title": "Pain, low energy, seizures and thinking trouble drove quality of life in young adults with gliomas, more than tumor grade",
+    "source": "Acta Neurochirurgica (Rigshospitalet, Copenhagen)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13683255/",
+    "date_published": "2026-09-07",
+    "date_added": "2026-11-17",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "This Danish study followed 46 people aged 18 to 35 with a glioma, a tumor that grows from the brain's support cells, asking them about quality of life and mood four times a year. People with more pain, less energy, more seizures and more thinking problems reported worse quality of life. Tumor grade, time since surgery, sex and number of operations did not predict it. The authors say treating pain and seizures well and screening for fatigue and thinking problems can guide rehab and help young survivors live better.",
+    "summary": "Prospective longitudinal study with consecutive inclusion of 46 glioma patients aged 18 to 35, assessed online pre- and postoperatively four times per year using FACT-Br and the Major Depression Inventory. At group level, greater pain burden, lack of energy, greater seizure burden and lower subjective cognitive function significantly predicted total quality of life; tumor grade, time since surgery, sex and number of neurosurgical interventions did not. The authors recommend optimizing seizure control and pain treatment, assessing fatigue and cognition, and routine standardized QoL screening to target rehabilitation.",
+    "why_it_matters": "Points young brain tumor survivors and their teams to treatable everyday problems, pain, fatigue, seizures and thinking, as levers for a better life.",
+    "relevance_reason": "Brain tumor survivorship in young adults; non-surgical supportive care; not movement-specific.",
+    "relevance_score": 4,
+    "evidence_level": "Prospective longitudinal cohort (46 patients)",
+    "limitation": "Small single-center Danish cohort; self-report measures; not focused on movement or tremor.",
+    "verified_on": "2026-11-17"
+  },
+  {
+    "id": "brigham-exercise-testing-neurological-conditions-nct07883720",
+    "title": "Recruiting in Boston: one-day exercise test study for adults with neurological conditions, including brain tumors",
+    "source": "ClinicalTrials.gov (Brigham and Women's Hospital)",
+    "url": "https://clinicaltrials.gov/study/NCT07883720",
+    "date_published": "2026-10-20",
+    "date_added": "2026-11-17",
+    "date_note": "Date is first posting on ClinicalTrials.gov; study start July 22, 2026.",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "This Brigham and Women's Hospital study is looking at how a single hard exercise session on a stationary bike affects the brain in people with neurological conditions, compared with healthy volunteers. Adults 18 and older with a brain tumor, epilepsy, Parkinson's disease, concussion, mild cognitive impairment, dementia or functional neurological disorder can take part. In one visit, participants have a brain MRI, a blood draw and nervous system measurements before and after the bike test. It is not a treatment, but it could help researchers learn how exercise changes the brain in people with brain tumors, a step toward better exercise rehab.",
+    "summary": "Interventional single-visit study (phase not applicable), estimated enrollment 240. All participants perform one exhaustive cardiopulmonary exercise test on a bicycle ergometer, with brain MRI, blood sampling and autonomic measurements before and after. Aims: compare fitness, exercise performance and exhaustion between patients and healthy controls, and measure acute exercise effects on brain function and physiological biomarkers. Inclusion: age 18 or older with a clinical diagnosis of epilepsy, functional neurological disorder, mild cognitive impairment, dementia, Parkinson's disease, concussion or brain tumor, or healthy controls. Exclusions include non-English speakers, physical impairments limiting bike use, severe heart disease, uncontrolled hypertension, exercise-associated seizures, cardiac rhythm or rate medicines, and MRI contraindications such as electrical or ferromagnetic implants.",
+    "why_it_matters": "One of few open studies that explicitly lists brain tumor; it studies exercise effects on the brain rather than treating symptoms.",
+    "relevance_reason": "Recruiting, tumor-related conditions allowed, non-surgical; one-time exercise test only, not a therapy; MRI and bike requirements limit eligibility.",
+    "relevance_score": 4,
+    "evidence_level": "Recruiting interventional study (single visit)",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07883720",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable",
+      "location": "Brigham and Women's Hospital, Boston, Massachusetts, United States",
+      "key_eligibility": "Age 18+ (no upper limit); brain tumor or other listed neurological condition, or healthy; English speaking; able to use a bicycle ergometer; no MRI contraindications such as electrical or metal implants; no exercise-associated seizures. Tumor-related damage allowed."
+    },
+    "verified_on": "2026-11-17"
   }
 ]
