@@ -4663,5 +4663,33 @@
       "key_eligibility": "Age 18+ (no upper limit); brain tumor or other listed neurological condition, or healthy; English speaking; able to use a bicycle ergometer; no MRI contraindications such as electrical or metal implants; no exercise-associated seizures. Tumor-related damage allowed."
     },
     "verified_on": "2026-11-17"
+  },
+  {
+    "id": "moscow-short-visual-motor-training-childhood-pft-2021",
+    "title": "Short hand-eye training showed mixed results after childhood brain tumors",
+    "source": "European Journal of Physical and Rehabilitation Medicine (Kasatkin and colleagues)",
+    "url": "https://doi.org/10.23736/S1973-9087.21.06854-4",
+    "date_published": "2021-07-12",
+    "date_added": "2026-11-17",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "A Moscow study tested short hand-eye and hand-foot training in 63 childhood brain-tumor survivors ages 6-17. Overall motor and visual-motor integration scores improved during training periods. Other outcomes did not significantly improve, and repeat testing may explain some gains.",
+    "summary": "This quasi-randomized crossover study compared training and control periods in 2017-2018, at least three years into remission. Methods describe six to eight sessions over two weeks; the abstract says six. Rapid visual processing improved after training; visual perception also improved during control periods. Other activities continued during control periods. Original paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC9980593/ .",
+    "why_it_matters": "Examines coordination relevant to hand use, without establishing daily grasp or release recovery.",
+    "relevance_score": 8,
+    "evidence_level": "Pediatric controlled crossover experiment; quasi-randomized; 63 participants",
+    "date_note": "Background research: first published July 12, 2021; February 2022 journal issue.",
+    "limitation": "Severe motor, visual or cognitive deficits and seizure history were excluded. Durable daily-life benefit and adult applicability remain unproven. Participant overlap with the separately covered Moscow 2022 comparison and 2024 pilot is unresolved; these reports should not be counted as independent replication.",
+    "care_question": "Could a therapist assess whether hand-eye coordination training fits my child's goals?",
+    "verified_on": "2026-11-17"
   }
 ]

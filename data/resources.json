@@ -1611,5 +1611,52 @@
         "source_url": "https://www.kansashealthsystem.com/care/treatments/neurorehabilitation"
       }
     ]
+  },
+  {
+    "id": "nyp-pediatric-movement-disorders-rehabilitation",
+    "name": "NewYork-Presbyterian Children's Hospital of New York: Pediatric Movement Disorders and Rehabilitation Assessment",
+    "kind": "Care program",
+    "location": "New York, New York, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Pediatric spasticity, dystonia, ataxia, fine motor difficulties, weakness and gait assessment, with physical and occupational therapy.",
+    "why_relevant": "The official pediatric movement-disorders page explicitly includes tumors, traumatic brain injury and spinal cord injury, and describes multidisciplinary assessment with rehabilitation specialists. The rehabilitation page lists fine motor skills, weakness, brachial plexus injury, nerve injury and gait concerns. Together these offer an assessment route for hand or arm clenching and coordination concerns.",
+    "url": "https://www.nyp.org/pediatrics/neurology-and-neurosurgery/spasticity-dystonia",
+    "search_terms": "brain tumor hand arm clenching stiffness spasticity dystonia weakness coordination fine motor grasp release gait balance ataxia rehabilitation occupational therapy traumatic brain injury spinal cord injury brachial plexus peripheral nerve accident New York pediatric",
+    "caution": "Children and adolescents are explicitly served. Tumor-related movement disorders are listed at program level; brain-tumor-specific hand treatment, a particular therapy, individual acceptance and outcomes are not confirmed. Clenching needs assessment rather than an assumed spasticity or dystonia diagnosis. For accident-related arm dysfunction, confirm whether the injury involves the brain, spinal cord or peripheral nerves and which service accepts it. This is not a verified nerve-reconstruction program. Confirm exact age cutoff, campus, referral, insurance and availability; adult intake is unverified. Published phone routes were not tested and nobody was contacted.",
+    "phone": "212-305-1396 (Morgan Stanley); 212-746-2363 (Komansky), listed pediatric movement-disorders contact routes",
+    "verified_on": "2026-11-17",
+    "source_urls": [
+      "https://www.nyp.org/pediatrics/neurology-and-neurosurgery/spasticity-dystonia",
+      "https://www.nyp.org/pediatrics/physical-medicine-and-rehabilitation"
+    ],
+    "contacts": [
+      {
+        "name": "NewYork-Presbyterian Morgan Stanley Children's Hospital",
+        "phone": "212-305-1396",
+        "role": "Published pediatric movement-disorders contact route",
+        "source_url": "https://www.nyp.org/pediatrics/neurology-and-neurosurgery/spasticity-dystonia"
+      },
+      {
+        "name": "NewYork-Presbyterian Komansky Children's Hospital",
+        "phone": "212-746-2363",
+        "role": "Published pediatric movement-disorders contact route",
+        "source_url": "https://www.nyp.org/pediatrics/neurology-and-neurosurgery/spasticity-dystonia"
+      }
+    ]
   }
 ]
