@@ -4778,5 +4778,28 @@
     "limitation": "Describes program content only; it does not measure benefit, and the earlier feasibility study was small and in children.",
     "care_question": "Could a group exercise program with coordination games fit my recovery goals?",
     "verified_on": "2026-11-18"
+  },
+  {
+    "id": "toronto-postoperative-brain-tumor-prehabilitation-cohort-2026",
+    "title": "Daily independence improved during rehab between brain tumor surgery and further treatment",
+    "source": "Current Oncology (Sun and colleagues, University of Toronto and University Health Network)",
+    "url": "https://doi.org/10.3390/curroncol33050242",
+    "date_published": "2026-04-24",
+    "date_added": "2026-11-18",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "quick_read": "Toronto researchers reviewed 58 adults receiving inpatient rehabilitation after brain tumor surgery but before chemotherapy or radiation. Daily independence scores improved during their stays. Compared with 112 other brain-injury rehabilitation patients, neither overall score improvement nor improvement per day differed significantly. This observational study cannot establish that rehabilitation caused the gains.",
+    "summary": "Records covered March 2020 to December 2024. The authors call this interval prehabilitation, meaning before further cancer treatment, not before surgery. Patients received multidisciplinary care. The comparison group also allowed grade 1 meningiomas without immediate additional cancer treatment. Three tumor-group patients lacked complete functional scores after transfer to acute care. Full paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC13206686/ .",
+    "why_it_matters": "Examines neurological rehabilitation during a gap in cancer treatment.",
+    "evidence_level": "Adult single-center retrospective cohort; randomly sampled records, not randomized treatment",
+    "relevance_score": 8,
+    "limitation": "No untreated brain-tumor comparator; selective referrals and different diagnoses limit comparisons. Functional Independence Measure scores have ceiling effects and limited cognitive sensitivity. The study does not establish hand-dexterity recovery, lasting benefit or pediatric applicability.",
+    "care_question": "Would rehabilitation assessment be appropriate between surgery and further cancer treatment?",
+    "verified_on": "2026-11-18"
   }
 ]

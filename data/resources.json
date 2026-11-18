@@ -1658,5 +1658,53 @@
         "source_url": "https://www.nyp.org/pediatrics/neurology-and-neurosurgery/spasticity-dystonia"
       }
     ]
+  },
+  {
+    "id": "franciscan-childrens-neurological-rehabilitation",
+    "name": "Franciscan Children's: Inpatient Neurological Rehabilitation and Outpatient Therapies",
+    "kind": "Care program",
+    "location": "Brighton, Massachusetts, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Pediatric neurological rehabilitation, fine motor and handwriting skills, self-care, weakness, walking, balance and muscle tightness.",
+    "why_relevant": "The inpatient program explicitly lists brain tumors, brain injury, stroke and spinal cord injury. It serves infants through young adults. The separate outpatient page describes fine motor and handwriting therapy, walking and balance work, and management of muscle tightness.",
+    "url": "https://franciscans.childrenshospital.org/medical-rehabilitation/inpatient-post-acute-medical-care/acute-rehabilitation",
+    "search_terms": "brain tumor hand fine motor handwriting coordination weakness clenching muscle tightness spasticity gait balance walking rehabilitation self care traumatic brain injury spinal cord injury pediatric Massachusetts Boston New England",
+    "caution": "Brain tumors are listed for inpatient rehabilitation; tumor-specific outpatient acceptance and hand or clenching treatment need confirmation. Muscle-tightness care is not confirmation of a dedicated spasticity or dystonia service. Confirm exact age cutoff, referral, insurance and availability, including young-adult eligibility. Accident-related dysfunction does not establish brain, spinal cord or peripheral-nerve injury. Brachial plexus reconstruction and neuro-ophthalmology are not verified. Nobody contacted; contact routes not tested.",
+    "phone": "617-254-3800 ext. 2600 (inpatient program); 617-779-1357 (outpatient scheduling)",
+    "email": "admissions@franciscanchildrens.org",
+    "verified_on": "2026-11-18",
+    "source_urls": [
+      "https://franciscans.childrenshospital.org/medical-rehabilitation/inpatient-post-acute-medical-care/acute-rehabilitation",
+      "https://franciscans.childrenshospital.org/medical-rehabilitation/outpatient-therapies"
+    ],
+    "contacts": [
+      {
+        "name": "Franciscan Children's Inpatient Rehabilitation Admissions",
+        "phone": "617-254-3800 ext. 2600",
+        "email": "admissions@franciscanchildrens.org",
+        "role": "Published inpatient program information route",
+        "source_url": "https://franciscans.childrenshospital.org/medical-rehabilitation/inpatient-post-acute-medical-care/acute-rehabilitation"
+      },
+      {
+        "name": "Franciscan Children's Outpatient Therapy Scheduling",
+        "phone": "617-779-1357",
+        "role": "Published outpatient appointment route; physician referral requested",
+        "source_url": "https://franciscans.childrenshospital.org/medical-rehabilitation/outpatient-therapies"
+      }
+    ]
   }
 ]
