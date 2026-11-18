@@ -4691,5 +4691,92 @@
     "limitation": "Severe motor, visual or cognitive deficits and seizure history were excluded. Durable daily-life benefit and adult applicability remain unproven. Participant overlap with the separately covered Moscow 2022 comparison and 2024 pilot is unresolved; these reports should not be counted as independent replication.",
     "care_question": "Could a therapist assess whether hand-eye coordination training fits my child's goals?",
     "verified_on": "2026-11-17"
+  },
+  {
+    "id": "aspect-vr-ataxia-posterior-fossa-feasibility-2026",
+    "title": "UK feasibility trial: Xbox Kinect game training for balance and coordination problems in children after posterior fossa tumor surgery",
+    "source": "Pilot and Feasibility Studies (Hartley and colleagues, Alder Hey Children's NHS Foundation Trust)",
+    "url": "https://link.springer.com/article/10.1186/s40814-026-01944-1",
+    "date_published": "2026-11-18",
+    "date_added": "2026-11-18",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Clumsy, unsteady movement (ataxia) is the most common movement problem in children after surgery for tumors at the back of the brain. This small UK study tested whether a full trial of Xbox Kinect video-game training added to usual physiotherapy is practical. Twelve children aged 4 to 17, one to three years after surgery, took part, training three times a week for eight weeks, first at hospital and then at home. Families were willing to be randomized, but recruitment was low and home training was done less often than hospital sessions. The study did not test whether the games work; it says a larger trial looks possible with better recruitment.",
+    "summary": "A multi-site mixed-methods feasibility randomized trial compared Xbox Kinect virtual reality training plus usual care with usual care alone for ataxia in children after posterior fossa tumor resection. The 8-week program ran 4 weeks as outpatient and 4 weeks at home, three sessions per week. Twelve children aged 4 to 17 and eleven parents took part. Eligibility was 29 to 50 percent and recruitment 0 to 45 percent depending on site. Average adherence was 73 percent for hospital sessions and 62 percent for home sessions. No issues with willingness to be randomized were found and assessment time points were practical. The authors conclude a definitive trial may be feasible with adapted recruitment. Registered as NCT03945682 (retrospectively, May 2019).",
+    "why_it_matters": "Game-based balance and coordination training is a non-surgical option families ask about; this lays groundwork for a proper test of whether it helps after brain tumor surgery.",
+    "relevance_reason": "Brand-new, brain tumor, non-surgical coordination rehab; feasibility only, pediatric, posterior fossa rather than midbrain.",
+    "relevance_score": 8,
+    "evidence_level": "Feasibility randomized controlled trial with qualitative study; 12 children",
+    "trial_url": "https://clinicaltrials.gov/study/NCT03945682",
+    "limitation": "Very small feasibility study not designed to show benefit; children only; adherence at home was lower.",
+    "care_question": "Could supervised video-game balance and coordination training be part of a physiotherapy plan after a brain tumor?",
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "beijing-nrtms-postop-glioma-motor-nct07285525",
+    "title": "Beijing trial testing magnetic brain stimulation to speed arm and hand recovery after glioma surgery (not recruiting)",
+    "source": "ClinicalTrials.gov (Beijing Neurosurgical Institute, Beijing Tiantan Hospital)",
+    "url": "https://clinicaltrials.gov/study/NCT07285525",
+    "date_published": "2025-12-16",
+    "date_added": "2026-11-18",
+    "date_note": "Date is first posting on ClinicalTrials.gov; study start April 1, 2025; listed as active, not recruiting; estimated completion October 2027.",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Brain"
+    ],
+    "quick_read": "This Chinese trial tests navigated magnetic brain stimulation (nrTMS), a non-invasive treatment given through the scalp, for people who lost strength after surgery for a glioma. Patients are randomly given real or sham stimulation over the hand area of the brain for 7 days in a row. The team will measure muscle strength recovery in the weak limb and a standard movement score, and check MRI scans for safety. It is no longer enrolling and only accepts newly diagnosed adults shortly after surgery, so it mainly matters for what its results may show later.",
+    "summary": "Randomized trial with sham control (the summary calls it double-blind; the registry masking field lists none) in postoperative glioma patients with motor deficits still present on day 7 after surgery. High-frequency nrTMS or sham targets the contralateral hand motor area (thumb region) for 7 consecutive days. Primary outcome is muscle strength recovery rate of the affected limb; secondary is Fugl-Meyer Assessment recovery; MRI before and after checks safety. The study has two parts of 43 patients each and also looks at changes in motor brain networks.",
+    "why_it_matters": "One of few sham-controlled tests of a non-invasive stimulation for weakness caused by brain tumor treatment.",
+    "relevance_reason": "Tumor-specific non-invasive stimulation trial; not recruiting, newly diagnosed adults only, acute postoperative window.",
+    "relevance_score": 6,
+    "evidence_level": "Randomized sham-controlled interventional trial (registry entry, no results yet)",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07285525",
+    "trial_status": {
+      "status": "Active, not recruiting",
+      "phase": "Not applicable",
+      "location": "Beijing Tiantan Hospital, Capital Medical University, Beijing, China",
+      "key_eligibility": "Ages 25 to 65; right-handed; newly diagnosed glioma confirmed by pathology; awake surgery with motor mapping; weakness not back to pre-surgery level on day 7 after surgery; no prior neurological disease; excludes tumors crossing the midline. Tumor-related damage is the focus."
+    },
+    "verified_on": "2026-11-18"
+  },
+  {
+    "id": "sickkids-group-exercise-content-children-brain-tumors-2026",
+    "title": "Toronto team breaks down what was in a group exercise program that helped children treated for brain tumors: games, sports, coordination and cardio",
+    "source": "Frontiers in Rehabilitation Sciences (Ryan and colleagues, The Hospital for Sick Children)",
+    "url": "https://www.frontiersin.org/journals/rehabilitation-sciences/articles/10.3389/fresc.2025.1709309/full",
+    "date_published": "2026-01-15",
+    "date_added": "2026-11-18",
+    "date_note": "Published January 15, 2026.",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "quick_read": "Earlier, this Toronto group ran a 12-week group exercise program for children treated for brain tumors and found better thinking and physical results in a feasibility study. Here they reviewed 50 session videos to describe exactly what the program contained. Most time went to games and sports, with a lot of heart-pumping activity and coordination and ball-handling work, and the most mentally demanding exercises had the most coordination content. This does not prove which parts help, but it gives therapists and families a clearer picture of a program that has been tried in this group.",
+    "summary": "Retrospective descriptive analysis of 50 videos from a 12-week group exercise program for children treated for brain tumors. Exercises were coded by category (warm-up, aerobic training, games, sports, cool-down), fitness components (cardiovascular, coordination, speed, agility, object control, strength, balance, flexibility) and cognitive demand. Games took the most session time, followed by sports. 33 percent of session time had high and 46 percent moderate cardiovascular content. High cognitive demand exercises had the most coordination and object control content. The authors say these features should be varied in future trials to see their effect on outcomes.",
+    "why_it_matters": "Describes a practical, non-surgical exercise format already tested with brain tumor survivors, useful for planning coordination-focused activity.",
+    "relevance_reason": "Brain tumor, non-surgical coordination exercise; descriptive only, pediatric, no outcome data in this paper.",
+    "relevance_score": 5,
+    "evidence_level": "Retrospective descriptive analysis of exercise session videos",
+    "limitation": "Describes program content only; it does not measure benefit, and the earlier feasibility study was small and in children.",
+    "care_question": "Could a group exercise program with coordination games fit my recovery goals?",
+    "verified_on": "2026-11-18"
   }
 ]
