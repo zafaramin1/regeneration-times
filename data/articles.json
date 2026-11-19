@@ -4855,5 +4855,39 @@
     "limitation": "Small, retrospective and uncontrolled; focuses on thinking and work skills, not hand, arm or leg movement.",
     "care_question": "Is vocational or cognitive rehab available by video for brain tumor survivors where we live?",
     "verified_on": "2026-11-19"
+  },
+  {
+    "id": "shinshu-occupation-based-brain-tumor-trial-umin049486",
+    "title": "Brain-tumor occupational-therapy trial includes grip strength; recruitment has ended with no registry results",
+    "source": "UMIN Clinical Trials Registry (Shinshu University Hospital)",
+    "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000056353",
+    "date_published": "2022-11-15",
+    "date_added": "2026-11-19",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "This Japanese trial compares occupational therapy centered on personally meaningful activities with therapy centered mainly on functional exercises after brain-tumor surgery. Grip strength and walking are secondary measures; quality of life is primary. The registry says recruitment has ended and results are unpublished. No hand-recovery benefit is established.",
+    "summary": "UMIN000049486 describes an open-label, cluster-randomized, two-arm pilot targeting 80 participants, not a confirmed enrollment count. A separate earlier pilot publication used UMIN000043614; it is not this trial's results. Participant overlap is unconfirmed.",
+    "why_it_matters": "Includes a hand-strength measure, while keeping effectiveness and recruitment uncertainty visible.",
+    "evidence_level": "Adult randomized pilot protocol; no results reported",
+    "relevance_score": 8,
+    "date_note": "Background research: disclosed November 15, 2022; UMIN last modified July 13, 2025. Status rechecked November 19, 2026.",
+    "trial_url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000056353",
+    "trial_status": {
+      "status": "No longer recruiting; results unpublished in registry",
+      "phase": "Not applicable",
+      "location": "Japan; sponsor Shinshu University Hospital",
+      "key_eligibility": "After tumor resection; age 20 to under 80; MMSE-J at least 24. Excludes congenital/CNS disease history, lower MMSE-J, absent consent or investigator-determined unsuitability."
+    },
+    "limitation": "The record lists 2025 follow-up and analysis dates, but these do not establish study completion or outcomes. No pediatric evidence.",
+    "verified_on": "2026-11-19"
   }
 ]

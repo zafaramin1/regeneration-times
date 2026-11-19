@@ -1706,5 +1706,46 @@
         "source_url": "https://franciscans.childrenshospital.org/medical-rehabilitation/outpatient-therapies"
       }
     ]
+  },
+  {
+    "id": "chop-pediatric-tumor-rehabilitation-occupational-therapy",
+    "name": "Children's Hospital of Philadelphia: Tumor Rehabilitation and Occupational Therapy Assessment",
+    "kind": "Care program",
+    "location": "Philadelphia, Pennsylvania, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Spine tumor",
+      "Trauma",
+      "Disease"
+    ],
+    "focus": "Pediatric tumor rehabilitation and occupational therapy for grasping, fine motor skills, strength, sensory processing and self-care.",
+    "why_relevant": "CHOP's official neuro-oncology page describes collaboration with rehabilitation for children with brain and spinal cord tumors during treatment. Its occupational therapy page explicitly addresses grasping objects, reaching, fine motor skills, sensory processing and strength.",
+    "url": "https://www.chop.edu/centers-programs/occupational-therapy",
+    "search_terms": "brain tumor spine tumor hand arm weakness grasp release dexterity fine motor coordination sensory sensation numbness occupational therapy self care rehabilitation pediatric Pennsylvania Philadelphia",
+    "caution": "Tumor rehabilitation is confirmed at program level; specific hand-treatment acceptance, clenching/spasticity/dystonia assessment and neuro-ophthalmology need confirmation. Pediatric care is explicit; confirm exact age cutoff and young-adult eligibility. Ask about diagnosis, campus, referral, insurance and availability. After an accident, confirm injury location; this is not verified as a brachial plexus reconstruction route. Nobody contacted; published phone not tested.",
+    "phone": "215-590-5819 (Occupational Therapy)",
+    "verified_on": "2026-11-19",
+    "source_urls": [
+      "https://www.chop.edu/centers-programs/occupational-therapy",
+      "https://gps.chop.edu/medical-program/neuro-oncology-program",
+      "https://www.chop.edu/centers-programs/occupational-therapy/our-team"
+    ],
+    "contacts": [
+      {
+        "name": "CHOP Occupational Therapy",
+        "phone": "215-590-5819",
+        "role": "Published occupational therapy contact route",
+        "source_url": "https://www.chop.edu/centers-programs/occupational-therapy"
+      }
+    ]
   }
 ]
