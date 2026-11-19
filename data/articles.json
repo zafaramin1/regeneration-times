@@ -4801,5 +4801,59 @@
     "limitation": "No untreated brain-tumor comparator; selective referrals and different diagnoses limit comparisons. Functional Independence Measure scores have ceiling effects and limited cognitive sensitivity. The study does not establish hand-dexterity recovery, lasting benefit or pediatric applicability.",
     "care_question": "Would rehabilitation assessment be appropriate between surgery and further cancer treatment?",
     "verified_on": "2026-11-18"
+  },
+  {
+    "id": "toronto-home-vr-hemianopia-pediatric-brain-tumor-nct05065268",
+    "title": "Toronto pilot: home virtual-reality training improved vision in most children who lost half their visual field after a brain tumor",
+    "source": "eClinicalMedicine (Misawa and colleagues, University Health Network and SickKids, Toronto)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11646794/",
+    "date_published": "2024-11-29",
+    "date_added": "2026-11-19",
+    "date_note": "Older study (published November 2024) added as a back-catalog item; trial NCT05065268 ran July 2022 to October 2023.",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "Some children lose vision on one side of both eyes (hemianopia) after a brain tumor, and there has been no proven treatment. In this small Toronto trial, 10 children and teens with stable hemianopia played a 20-minute audiovisual virtual-reality tracking game at home every other day for six weeks. All finished the program with no reported side effects, and 9 of 10 showed meaningful gains in seeing across both eyes or in reading speed, which lasted at 6 months. Two also had some worsening of the visual field in one eye, and there was no comparison group, so a larger randomized trial is still needed.",
+    "summary": "Phase 2a open-label, nonrandomized single-arm feasibility and proof-of-concept trial (NCT05065268) of home-based 3D multiple-object tracking in immersive virtual reality (3D-MOT-IVR). Feasibility, cybersickness safety, and standardized low-vision assessments were measured before and after, with 1- and 6-month follow-ups. All participants completed the stimulations and pre/post assessments; 90% completed follow-ups. Gains included binocular visual field restoration and faster reading; two participants showed concomitant deterioration in monocular visual field. Better performance in the VR task correlated with better binocular visual field perception.",
+    "why_it_matters": "A non-surgical, home-based option for vision loss caused by a brain tumor, an area with few treatments.",
+    "relevance_reason": "Brain tumor vision rehab, non-invasive and home based; pediatric, tiny, uncontrolled.",
+    "relevance_score": 7,
+    "evidence_level": "Phase 2a single-arm feasibility trial (10 participants); no control group",
+    "trial_url": "https://clinicaltrials.gov/study/NCT05065268",
+    "limitation": "Only 10 children and teens, no control group, open label; addresses visual field loss, not eye movement problems such as gaze palsy or double vision.",
+    "care_question": "Is home-based visual field training an option for vision loss after a brain tumor, and is it studied in adults?",
+    "verified_on": "2026-11-19"
+  },
+  {
+    "id": "ucsf-tele-vocational-cognitive-rehab-brain-tumor-2026",
+    "title": "UCSF: most brain tumor survivors who had video-based job and thinking-skills rehab got back to work",
+    "source": "Neuro-Oncology Practice (Weyer Jamora and colleagues, University of California, San Francisco)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13773851/",
+    "date_published": "2026-07-06",
+    "date_added": "2026-11-19",
+    "date_note": "Published online July 6, 2026; December 2026 journal issue, newly indexed in PubMed in November 2026.",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "quick_read": "UCSF reviewed records of 77 adult brain tumor survivors aged 65 or younger, 42 of whom were out of work when referred. Being out of work was linked to weaker verbal learning and memory. Of the 28 people who received video-based vocational cognitive rehabilitation, averaging about 10 sessions, 82% returned to work. The helpful pieces were planning and organizing skills, mental health counseling, job practice and workplace accommodations, and advice on managing fatigue, though without a comparison group the study cannot prove the rehab caused the gains.",
+    "summary": "Retrospective review of adults with primary brain tumors who completed cognitive and patient-reported measures between May 2018 and May 2022. Treatment response meant returning to work, moving to full-time work, or graduating from a workplace improvement plan. Unemployment was associated with worse verbal learning and memory (P < .003). Among 28 who had tele-based vocational cognitive rehabilitation during standard care, 82% returned to work. PubMed: https://pubmed.ncbi.nlm.nih.gov/43047566/ .",
+    "why_it_matters": "A remote, practical rehab option aimed at returning brain tumor survivors to work.",
+    "relevance_reason": "Brain tumor survivorship rehab delivered remotely; cognitive and work focus rather than movement.",
+    "relevance_score": 6,
+    "evidence_level": "Single-center retrospective cohort; no control group",
+    "limitation": "Small, retrospective and uncontrolled; focuses on thinking and work skills, not hand, arm or leg movement.",
+    "care_question": "Is vocational or cognitive rehab available by video for brain tumor survivors where we live?",
+    "verified_on": "2026-11-19"
   }
 ]
