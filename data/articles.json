@@ -4889,5 +4889,81 @@
     },
     "limitation": "The record lists 2025 follow-up and analysis dates, but these do not establish study completion or outcomes. No pediatric evidence.",
     "verified_on": "2026-11-19"
+  },
+  {
+    "id": "scct-vr-cerebellar-ataxia-pediatric-brain-tumor-2026",
+    "title": "Short virtual-reality reaching sessions eased walking, standing and speech problems from ataxia after childhood brain tumors in a Japanese pilot",
+    "source": "Neuro-Oncology Pediatrics (Yokohama City University Hospital and mediVR Rehabilitation Center)",
+    "url": "https://doi.org/10.1093/neuped/wuag026.327",
+    "date_published": "2026-06-23",
+    "date_added": "2026-11-20",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg",
+      "Arm"
+    ],
+    "quick_read": "Doctors in Japan tried a new kind of virtual-reality therapy on 12 children who had poor coordination (ataxia) after treatment for brain tumors, mostly tumors in the back of the brain. Each session lasted about 10 minutes and had the child reach for targets while seeing less of their own arm, which forces the brain to rely more on body sense. Ataxia scores for walking, standing and speech improved, and some children improved after just one session, with no treatment-related side effects. This is a small look back at clinic records, not a controlled trial, so it shows promise rather than proof.",
+    "summary": "A conference abstract retrospectively analyzed 12 pediatric patients with cerebellar ataxia after brain tumor treatment who received Somato-Cognitive Coordination Therapy (SCCT) at a university hospital between August 2023 and April 2025. SCCT uses repetitive reaching tasks in a virtual reality system with limited visual feedback to raise proprioceptive demand. Patients had 1 to 7 sessions of about 10 minutes. Across 21 paired observations, pooled SARA subscores for gait, stance and speech fell from a median of 3.0 to 1.0 (P < .001). Seven patients improved after a single session, effects were sustained without deterioration at later follow-up, and no treatment-related adverse events were reported. One patient with persistent cerebellar mutism showed marked speech improvement after one session.",
+    "why_it_matters": "Ataxia after brain tumor treatment has no established rehab method; this is a low-risk, non-surgical approach worth testing in proper trials.",
+    "relevance_reason": "Non-surgical coordination rehab directly in brain tumor survivors; small retrospective pilot.",
+    "relevance_score": 9,
+    "evidence_level": "Retrospective pilot case series (12 children), conference abstract; no control group",
+    "date_note": "Published June 23, 2026 in a Neuro-Oncology Pediatrics conference supplement (abstract ID #783)."
+  },
+  {
+    "id": "frontiers-oncology-exercise-brain-tumor-systematic-review-2026",
+    "title": "Review of 31 studies: exercise, including strength, balance and yoga, looks safe for people with brain tumors, with early signs of better physical function",
+    "source": "Frontiers in Oncology (via PubMed Central)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13590378/",
+    "date_published": "2026-09-07",
+    "date_added": "2026-11-20",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "quick_read": "Researchers gathered every study they could find, up to December 2025, on physical exercise for people with brain tumors. They found 31 studies covering aerobic exercise, strength training, mixed programs, yoga and balance exercise. People with brain tumors were able to take part, side effects were rare and similar to those seen in people without cancer, and results hinted at better physical and thinking function and quality of life. The authors stress that most studies were small and at high risk of bias, so exercise looks safe but its exact benefit still needs larger trials.",
+    "summary": "A PRISMA-guided systematic review searched PubMed and the Cochrane Library through December 2025 and included 31 studies (23 clinical trials, 4 observational studies, 2 qualitative analyses, 1 case report and 1 case study) of exercise in primary or metastatic brain tumor patients. Patients could participate in aerobic, strength, mixed, yoga and balance interventions. Findings suggest potential improvements in physical and cognitive function and quality of life. Adverse events were rare and consistent with exercise-related events in people without cancer. Most studies had high risk of bias and small samples, so clinical effectiveness remains preliminary.",
+    "why_it_matters": "Supports supervised exercise, including balance work, as a safe part of life after a brain tumor while showing where better trials are needed.",
+    "relevance_reason": "Non-surgical, brain tumor specific; review of feasibility and safety rather than proven motor gains.",
+    "relevance_score": 7,
+    "evidence_level": "Systematic review of 31 mostly small studies; high risk of bias in most"
+  },
+  {
+    "id": "mdanderson-rise-ya-tele-exercise-aya-brain-tumor-nct07186556",
+    "title": "Recruiting in Houston: video-call strength and aerobic coaching for young adult brain tumor survivors with fatigue",
+    "source": "ClinicalTrials.gov (M.D. Anderson Cancer Center)",
+    "url": "https://clinicaltrials.gov/study/NCT07186556",
+    "date_published": "2025-09-22",
+    "date_added": "2026-11-20",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Recruiting trial"
+    },
+    "quick_read": "MD Anderson in Houston is testing a 12-week program called RISE-YA for young adults who finished brain tumor treatment and still feel worn out. A trainer meets each person by video to coach energy-saving habits and guide gradually harder strength and aerobic exercise, with home sessions in between. It is compared with video calls on general survivorship education, and the main goal is less cancer-related fatigue. It is open to ages 18 to 39 who were treated with both chemotherapy and radiation, so it does not fit everyone with tumor-related nerve damage.",
+    "summary": "NCT07186556 is a randomized behavioral study at M.D. Anderson Cancer Center comparing the RISE-YA intervention (one-on-one energy conservation counseling, behavior coaching and individualized progressive strength and aerobic training by videoconference, twice weekly in weeks 1 to 6 and weekly in weeks 7 to 12, plus self-led sessions) with a survivorship education attention control. The primary outcome is cancer-related fatigue on the Multi-dimensional Fatigue Inventory at 12 and 24 weeks. Estimated enrollment is 75. The registry lists it as recruiting (status verified August 2026).",
+    "why_it_matters": "A rare recruiting, non-surgical exercise trial built specifically for brain tumor survivors.",
+    "relevance_reason": "Recruiting brain tumor survivorship exercise trial; outcome is fatigue, not movement, and requires prior chemo plus radiation.",
+    "relevance_score": 6,
+    "evidence_level": "Randomized trial, recruiting; no results yet",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07186556",
+    "trial_status": {
+      "status": "Recruiting (registry verified August 2026)",
+      "phase": "Not applicable",
+      "location": "The University of Texas M.D. Anderson Cancer Center, Houston, Texas",
+      "key_eligibility": "Ages 18 to 39; primary brain tumor diagnosed at age 15 to 39; 6 months to under 5 years after curative treatment; treated with chemotherapy and radiation; fatigue screen (FACIT-Fatigue 43 or lower); currently under 150 minutes of activity per week; English speaking. Tumor-related damage is allowed, but cognitive or major sensory deficits that impede study tasks, recurrent disease needing brain re-irradiation, and some other conditions exclude."
+    },
+    "date_note": "First posted September 22, 2025; registry last updated August 12, 2026. Status checked November 20, 2026."
   }
 ]
