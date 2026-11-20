@@ -4965,5 +4965,31 @@
       "key_eligibility": "Ages 18 to 39; primary brain tumor diagnosed at age 15 to 39; 6 months to under 5 years after curative treatment; treated with chemotherapy and radiation; fatigue screen (FACIT-Fatigue 43 or lower); currently under 150 minutes of activity per week; English speaking. Tumor-related damage is allowed, but cognitive or major sensory deficits that impede study tasks, recurrent disease needing brain re-irradiation, and some other conditions exclude."
     },
     "date_note": "First posted September 22, 2025; registry last updated August 12, 2026. Status checked November 20, 2026."
+  },
+  {
+    "id": "osaka-postoperative-balance-walking-predictors-2025",
+    "title": "Early balance assessment was linked to walking independence after brain tumor surgery",
+    "source": "Archives of Physical Medicine and Rehabilitation (Ishida and colleagues, Osaka)",
+    "url": "https://doi.org/10.1016/j.apmr.2025.09.036",
+    "date_published": "2025-10-27",
+    "date_added": "2026-11-20",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "A Japanese study followed 105 people after brain-tumor surgery. Better early balance scores, younger age and absence of postoperative complications were associated with independent walking at discharge. Sixty-four walked independently and 41 needed help. This was a prediction study, not a test of a treatment.",
+    "summary": "The prospective university-hospital cohort included 65 malignant and 40 benign tumors. Assessments occurred about seven days after surgery; discharge averaged 42.3 days postoperatively. A 29-point Postural Assessment Scale for Stroke Patients cutoff distinguished walking groups in this sample. Despite its name, the scale was tested here in brain-tumor patients. Abstract: https://pubmed.ncbi.nlm.nih.gov/41161465/ .",
+    "why_it_matters": "Supports discussing early balance assessment and discharge planning.",
+    "relevance_score": 8,
+    "evidence_level": "Prospective observational cohort; 105 participants; no experimental treatment",
+    "date_note": "Background research: online October 27, 2025; May 2026 print issue.",
+    "limitation": "A cutoff from one cohort cannot guarantee an individual's recovery. Full text was inaccessible; exact age range, eligibility details, additional negative findings and cohort overlap were not verified. No hand-recovery or treatment-effect claim is supported.",
+    "verified_on": "2026-11-20"
   }
 ]

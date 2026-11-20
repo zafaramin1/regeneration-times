@@ -1747,5 +1747,53 @@
         "source_url": "https://www.chop.edu/centers-programs/occupational-therapy"
       }
     ]
+  },
+  {
+    "id": "childrens-national-neurological-hand-rehabilitation",
+    "name": "Children's National: Pediatric Neurological Rehabilitation and Hand Therapy Assessment",
+    "kind": "Care program",
+    "location": "Washington, District of Columbia, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Pediatric hand and arm therapy, spasticity, weakness, sensory processing and gait assessment.",
+    "why_relevant": "The Brain Tumor Institute team includes pediatric rehabilitation specialists. Rehabilitation Medicine lists hemiparesis, spasticity, weakness, brachial plexus palsy and spinal cord injury, with gait training and sensory integration. Occupational Therapy offers pediatric hand therapy for neurological conditions and injuries, including upper-extremity trauma and brachial plexus care.",
+    "url": "https://www.childrensnational.org/get-care/departments/rehabilitation-medicine",
+    "search_terms": "brain tumor hand arm weakness clenching spasticity dexterity fine motor coordination sensory sensation numbness gait balance walking brachial plexus spinal cord traumatic brain injury rehabilitation occupational therapy pediatric Washington DC",
+    "caution": "Brain-tumor rehabilitation involvement is confirmed at team level; individual diagnosis acceptance and tumor-specific hand or clenching treatment need confirmation. Spasticity care does not establish dystonia expertise or a clenching diagnosis. Infants, children and teens are explicitly served; confirm age cutoff, campus, referral, insurance and availability. For accident-related arm dysfunction, confirm brain, spinal cord or peripheral-nerve injury; reconstruction surgery is not verified here. Children's National also provides pediatric care in the MedStar rehabilitation continuum already listed separately. Nobody contacted; phone routes not tested.",
+    "phone": "202-476-3094 (Rehabilitation Medicine information); 202-476-5567 (Occupational Therapy information)",
+    "verified_on": "2026-11-20",
+    "source_urls": [
+      "https://www.childrensnational.org/get-care/departments/rehabilitation-medicine",
+      "https://www.childrensnational.org/get-care/departments/physical-and-occupational-therapy/occupational-therapy",
+      "https://www.childrensnational.org/get-care/departments/brain-tumor-institute-neurooncology-program/meet-the-team"
+    ],
+    "contacts": [
+      {
+        "name": "Children's National Rehabilitation Medicine",
+        "phone": "202-476-3094",
+        "role": "Published rehabilitation information route",
+        "source_url": "https://www.childrensnational.org/get-care/departments/rehabilitation-medicine"
+      },
+      {
+        "name": "Children's National Occupational Therapy",
+        "phone": "202-476-5567",
+        "role": "Published occupational therapy information route",
+        "source_url": "https://www.childrensnational.org/get-care/departments/physical-and-occupational-therapy/occupational-therapy"
+      }
+    ]
   }
 ]
