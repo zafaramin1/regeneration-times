@@ -4991,5 +4991,58 @@
     "date_note": "Background research: online October 27, 2025; May 2026 print issue.",
     "limitation": "A cutoff from one cohort cannot guarantee an individual's recovery. Full text was inaccessible; exact age range, eligibility details, additional negative findings and cohort overlap were not verified. No hand-recovery or treatment-effect claim is supported.",
     "verified_on": "2026-11-20"
+  },
+  {
+    "id": "kings-neuromodulation-neuro-oncology-scoping-review-2026",
+    "title": "London review of 79 studies: magnetic and mild electrical brain stimulation in brain tumor care, with early signs of help for movement recovery",
+    "source": "Journal of Personalized Medicine (King's College Hospital, via PubMed Central)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13413177/",
+    "date_published": "2026-06-28",
+    "date_added": "2026-11-21",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Review"
+    },
+    "quick_read": "Doctors at King's College Hospital in London gathered 79 studies on using electrical or magnetic stimulation in people with brain tumors. Most of the human studies used stimulation from outside the head to map movement and speech areas before surgery or to help the brain adapt. Only three small studies, with 60 patients in all, used repeated magnetic stimulation through the scalp to help movement recover after glioma surgery, and they reported meaningful gains in arm and leg movement scores with no serious side effects. The authors call this an early field: it is promising for rehabilitation, but much larger trials are still needed.",
+    "summary": "A scoping review searched MEDLINE from inception to 1 December 2024 and included 79 studies (18 preclinical, 61 clinical) on neuromodulation in brain tumor patients. Preoperative uses included navigated TMS mapping, cortical stimulation prehabilitation and tDCS. Postoperative uses included TMS for rehabilitation, tumor treating fields and spinal cord stimulation. For rehabilitation, three studies with 60 patients were found; in a small randomized study of 22 patients, seven days of low-frequency navigated rTMS raised the Fugl-Meyer motor score by 31.9 points versus 4.2 with sham. No formal risk-of-bias assessment was done.",
+    "why_it_matters": "It maps where noninvasive brain stimulation stands for people with movement loss after a brain tumor and shows how thin the evidence still is.",
+    "relevance_reason": "Brain tumor specific review covering noninvasive stimulation for motor recovery.",
+    "relevance_score": 8,
+    "evidence_level": "Scoping review of 79 studies; no formal risk-of-bias assessment"
+  },
+  {
+    "id": "georgetown-vibrant-trns-visual-training-nct07105358",
+    "title": "Recruiting at Georgetown: mild scalp stimulation plus vision training for sight loss after stroke, head injury or a stable brain tumor",
+    "source": "ClinicalTrials.gov (Georgetown University)",
+    "url": "https://clinicaltrials.gov/study/NCT07105358",
+    "trial_url": "https://clinicaltrials.gov/study/NCT07105358",
+    "date_published": "2025-08-05",
+    "date_added": "2026-11-21",
+    "date_note": "Date the study was first posted on ClinicalTrials.gov; it started in July 2025 and is listed as recruiting.",
+    "category": "Clinical Trials & Experimental Opportunities",
+    "tags": {
+      "body_area": "Eye",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Recruiting trial"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "The VIBRANT study at Georgetown University in Washington, D.C. is testing whether a weak, painless electrical current through the scalp, called random noise stimulation, can boost vision training in people who lost half or part of their field of vision from brain damage. Each person does visual training sessions with real stimulation and, at another time, with fake stimulation, so the two can be compared. Adults 18 and older can join if the vision loss came from a stroke or head injury at least three months ago, or from a brain tumor that has been stable within the past year. It uses no surgery or drugs, and it does not promise that lost vision will return.",
+    "summary": "NCT07105358 (VIBRANT) is a prospective, double-blind, within-subject crossover study in adults with homonymous visual field loss from post-chiasmatic brain damage. Sessions pair up to three 18-minute transcranial random noise stimulation (tRNS) or sham blocks with perceptual learning-based training. The primary outcome is change in motion discrimination performance. Estimated enrollment is 30. Healthy age-matched volunteers are also enrolled as controls.",
+    "why_it_matters": "It is one of few noninvasive stimulation trials that openly accepts people whose vision loss comes from a stable brain tumor.",
+    "relevance_reason": "Recruiting non-surgical stimulation trial that explicitly admits stable brain tumor patients.",
+    "relevance_score": 8,
+    "evidence_level": "Recruiting trial (double-blind crossover, sham controlled, estimated 30 participants)",
+    "trial_status": {
+      "status": "Recruiting",
+      "phase": "Not applicable",
+      "location": "Georgetown University Medical Center, Washington, D.C., United States",
+      "key_eligibility": "Adults 18 or older with vision loss from one-sided or two-sided focal brain damage, at least three months after stroke or traumatic brain injury, or a stable brain tumor within the past year; no upper age limit; excludes vision loss from eye disease, severe unrelated brain disorders, severe mental health problems, and recent drug or alcohol abuse. Tumor-related damage is allowed."
+    }
   }
 ]
