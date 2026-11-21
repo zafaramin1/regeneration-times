@@ -5044,5 +5044,31 @@
       "location": "Georgetown University Medical Center, Washington, D.C., United States",
       "key_eligibility": "Adults 18 or older with vision loss from one-sided or two-sided focal brain damage, at least three months after stroke or traumatic brain injury, or a stable brain tumor within the past year; no upper age limit; excludes vision loss from eye disease, severe unrelated brain disorders, severe mental health problems, and recent drug or alcohol abuse. Tumor-related damage is allowed."
     }
+  },
+  {
+    "id": "shinshu-goal-based-occupational-therapy-pilot-2024",
+    "title": "Goal-based therapy after brain tumors showed mixed outcomes and no clear grip-strength benefit",
+    "source": "Asian Journal of Occupational Therapy (Ito and colleagues, Shinshu University)",
+    "url": "https://doi.org/10.11596/asiajot.20.93",
+    "date_published": "2024-11-29",
+    "date_added": "2026-11-21",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "This adult pilot compared therapy built around meaningful daily activities with impairment-focused therapy after brain-tumor surgery. Anxiety scores favored goal-based therapy, but depression, insomnia and overall quality-of-life scores worsened within that group. Grip strength showed no significant between-group difference. The small, nonrandomized study cannot establish treatment effects.",
+    "summary": "Of 101 screened patients, 42 were analyzed and six per group were matched. Groups came from different calendar periods. Main outcomes concerned mood and quality of life; grip strength was secondary (between-group p=0.462). Baseline quality of life differed. Matched participants had high independence scores.",
+    "why_it_matters": "Hand-strength findings and unfavorable mood outcomes qualify the anxiety result.",
+    "relevance_score": 8,
+    "evidence_level": "Adult prospective nonrandomized comparison; 42 analyzed, 12 matched",
+    "date_note": "Background research: released November 29, 2024 on J-STAGE.",
+    "limitation": "Small matched sample and calendar-period bias; no established benefit for severe hand impairment. The abstract cites UMIN000043614 but methods cite UMIN000049799. This unresolved discrepancy and uncertain participant overlap with the later UMIN000049486 trial prevent treating the reports as independent replication.",
+    "verified_on": "2026-11-21"
   }
 ]

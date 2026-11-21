@@ -1795,5 +1795,50 @@
         "source_url": "https://www.childrensnational.org/get-care/departments/physical-and-occupational-therapy/occupational-therapy"
       }
     ]
+  },
+  {
+    "id": "unm-hand-neurological-occupational-rehabilitation",
+    "name": "UNM Health: Hand and Neurological Occupational Rehabilitation",
+    "kind": "Care program",
+    "location": "Albuquerque and Rio Rancho, New Mexico, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Hand, wrist and elbow therapy, neurological rehabilitation, daily living skills and upper-extremity amputation rehabilitation.",
+    "why_relevant": "UNM's official rehabilitation page lists cancer rehabilitation, brain injury and hand therapy. Occupational Therapy describes neurological rehabilitation, customized splinting and hand therapy after trauma. It also explicitly provides prosthetic training and adaptive equipment for upper-extremity amputations.",
+    "url": "https://unmhealth.org/services/rehabilitation/occupational-therapy.html",
+    "search_terms": "brain tumor cancer rehabilitation hand arm weakness grasp dexterity fine motor coordination traumatic brain injury stroke accident upper extremity amputation prosthetic splint occupational therapy New Mexico Southwest",
+    "caution": "General assessment route: cancer rehabilitation is listed, but brain-tumor-specific acceptance and hand recovery are unconfirmed. Dedicated spasticity, dystonia, sensory-loss and neuro-ophthalmology services are not verified here. Age eligibility is unconfirmed. Ask about exact clinic, age, diagnosis, referral, insurance and availability. After an accident, distinguish limb amputation from weakness due to brain, spinal cord or peripheral-nerve injury; no injury location or reconstruction service is assumed. Nobody contacted; published phones not tested.",
+    "phone": "505-272-9020 (UNMH Rehab); 505-994-7131 (SRMC Rehab)",
+    "verified_on": "2026-11-21",
+    "source_urls": [
+      "https://unmhealth.org/services/rehabilitation/occupational-therapy.html",
+      "https://unmhealth.org/services/rehabilitation/"
+    ],
+    "contacts": [
+      {
+        "name": "UNM Hospital Outpatient Rehabilitation",
+        "phone": "505-272-9020",
+        "role": "Published consultation and appointment route",
+        "source_url": "https://unmhealth.org/services/rehabilitation/occupational-therapy.html"
+      },
+      {
+        "name": "UNM Sandoval Regional Medical Center Rehabilitation",
+        "phone": "505-994-7131",
+        "role": "Published consultation and appointment route",
+        "source_url": "https://unmhealth.org/services/rehabilitation/occupational-therapy.html"
+      }
+    ]
   }
 ]
