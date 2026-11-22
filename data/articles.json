@@ -5070,5 +5070,130 @@
     "date_note": "Background research: released November 29, 2024 on J-STAGE.",
     "limitation": "Small matched sample and calendar-period bias; no established benefit for severe hand impairment. The abstract cites UMIN000043614 but methods cite UMIN000049799. This unresolved discrepancy and uncertain participant overlap with the later UMIN000049486 trial prevent treating the reports as independent replication.",
     "verified_on": "2026-11-21"
+  },
+  {
+    "id": "nexstim-nbs6-eu-mdr-post-brain-tumor-surgery-rehab-2026",
+    "title": "EU clears a navigated magnetic brain stimulation system to help arm weakness after brain tumor surgery",
+    "source": "Nexstim Plc press release",
+    "url": "https://www.nexstim.com/news-and-events/news/press-release/nexstims-nbs-6-system-receives-mdr-certification-in-the-eu-for-use-in-post-operative-rehabilitation",
+    "date_published": "2026-02-19",
+    "date_added": "2026-11-22",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Approved"
+    },
+    "quick_read": "A Finnish company says its NBS 6 system can now be sold in the European Union to help adults whose arm movement got worse after brain tumor surgery. The device uses magnetic pulses through the scalp, aimed with 3D brain navigation at the healthy side of the movement area, and it is used together with physical therapy. No surgery or implant is involved. This is a company announcement of a regulatory approval, not a new study, and it applies to the EU only.",
+    "summary": "Nexstim reports MDR certification in the EU for NBS 6 as an adjunct therapy for surgically induced new or worsening upper-limb motor deficits in adults after brain tumor surgery. Navigated rTMS is applied to the non-injured motor cortex combined with physical therapy. The company cites a multicenter study from Heidelberg, Technical University of Munich, Charite Berlin, King's College Hospital London and MD Anderson. The system was already certified for pre-surgical mapping, depression and chronic neuropathic pain.",
+    "why_it_matters": "It is a noninvasive, regulator-cleared option for arm weakness after brain tumor surgery in Europe, though the approval covers new post-surgical deficits rather than long-standing ones.",
+    "relevance_reason": "Noninvasive stimulation approved specifically for arm deficits after brain tumor surgery.",
+    "relevance_score": 9,
+    "evidence_level": "Regulatory certification announced by the manufacturer; supporting multicenter study cited but not detailed in the release",
+    "date_note": "Announced February 19, 2026; added as a strong recent item not yet on the site.",
+    "verified_on": "2026-11-22"
+  },
+  {
+    "id": "holmes-tremor-postpartum-thalamic-subthalamic-lesion-tohm-2026",
+    "title": "Holmes tremor after a thalamus lesion: levodopa and three more inexpensive pills gave moderate relief in one case",
+    "source": "Tremor and Other Hyperkinetic Movements (Nag, Ghosh, Benito-Leon and colleagues)",
+    "url": "https://tremorjournal.org/articles/10.5334/tohm.1308",
+    "date_published": "2026-11-19",
+    "date_added": "2026-11-22",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Stroke",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain",
+      "Hand"
+    ],
+    "quick_read": "A 27-year-old woman developed a large, slow shaking of her right arm three months after a presumed stroke that left a scar in the thalamus and the area just below it. The shaking was present at rest, when holding her arms out, and got much worse when reaching. Doctors tried levodopa first, then added levetiracetam, trihexyphenidyl and a small bedtime dose of clonazepam one after another, and the overall mix gave moderate improvement. It is a single video case, but it shows a pill-only approach for this hard-to-treat tremor.",
+    "summary": "Video case report of Holmes tremor in the right upper limb that began about three months after acute postpartum right hemiparesis, treated elsewhere as a presumed stroke. MRI later showed a chronic left thalamic-subthalamic cavity. Treatment: levodopa/carbidopa 100/25 mg up to one tablet three times daily, then levetiracetam 500 mg twice daily, trihexyphenidyl titrated to 2 mg three times daily, and clonazepam 0.25 to 0.5 mg at bedtime, used sequentially, with moderate overall improvement. The authors note levodopa has the most consistent observational support and evidence for other drugs is limited.",
+    "why_it_matters": "Adds a recent example of nonsurgical, step-by-step medicine treatment for Holmes tremor from a thalamic lesion.",
+    "relevance_reason": "Non-surgical drug treatment of thalamic lesional Holmes tremor; newest item found.",
+    "relevance_score": 9,
+    "evidence_level": "Single-patient video case report",
+    "date_note": "Published November 19, 2026. The original event was a presumed stroke without full records, so the exact lesion type is unknown.",
+    "verified_on": "2026-11-22"
+  },
+  {
+    "id": "wuhan-noninvasive-bci-exoskeleton-walking-after-meningioma-2026",
+    "title": "Noninvasive brain-signal cap linked to a leg robot: a woman paralyzed on one side after meningioma surgery walked again, news report says",
+    "source": "Global Times",
+    "url": "https://www.globaltimes.cn/page/202606/1364357.shtml",
+    "date_published": "2026-06-24",
+    "date_added": "2026-11-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Leg",
+      "cause": "Brain tumor",
+      "approach": "Device",
+      "stage": "Human study"
+    },
+    "quick_read": "A 36-year-old woman in Wuhan lost movement on her left side after surgery for a meningioma, a usually benign brain tumor. In rehab she wore an EEG cap and imagined steps; when the system read her intent, a robotic exoskeleton moved her legs through a normal walking pattern. The report says she walked on her own and climbed stairs after less than a month. This is one patient described in a news story using company and hospital statements, not a published trial.",
+    "summary": "Global Times reports that a patient treated at Zhongnan Hospital of Wuhan University's neurological rehabilitation department regained independent walking and stair climbing after under one month of training with the HanBRAIN ZhiXing noninvasive brain-computer interface from Wuhan Yiruide Medical Equipment New Technology Co. Imagined leg movements decoded from EEG triggered an exoskeleton. The company claims intention-decoding accuracy up to 97 percent. It is described as the first reported case in China of a brain tumor patient regaining walking through noninvasive BCI rehab.",
+    "why_it_matters": "Shows how noninvasive brain-computer interface rehab is being tried for leg weakness after brain tumor surgery, though the evidence is a single news-reported case.",
+    "relevance_reason": "Noninvasive brain-tumor motor rehab; low evidence, news source.",
+    "relevance_score": 7,
+    "evidence_level": "News report of a single case, based on hospital and company statements; not peer reviewed",
+    "date_note": "Published June 24, 2026; added as a recent item not yet on the site.",
+    "verified_on": "2026-11-22"
+  },
+  {
+    "id": "tumor-related-spinal-cord-injury-rehab-timing-turkey-2026",
+    "title": "Turkish study of 29 people with spinal cord damage from tumors: rehab helped walking and daily living whether it started early or late",
+    "source": "Turkish Journal of Physical Medicine and Rehabilitation (Yorulmaz and colleagues)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13266558/",
+    "date_published": "2026-06-10",
+    "date_added": "2026-11-22",
+    "category": "Spinal Cord & Nerve Roots",
+    "tags": {
+      "body_area": "Back spine",
+      "cause": "Spine tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Researchers looked back at 29 people, aged 8 to 78, whose spinal cord was damaged by a tumor, mostly in the mid-back. Both the group that started rehab early and the group that started later improved in walking and in daily self-care scores. The amount of improvement was similar between the two groups, and starting early did not seem to raise the risk of surgery-related problems. It suggests rehab is worth doing for tumor-related spinal cord damage, even if it cannot start right away.",
+    "summary": "Retrospective cohort, January 2015 to March 2021: 31 patients with tumor-related spinal cord injury assessed, 29 analyzed (15 early rehabilitation, 14 late). Most were thoracic level and ASIA D. Functional Ambulation Category and Barthel Index improved significantly within both groups. The late group had higher scores before and after rehab, but changes did not differ significantly between groups. Early rehab did not appear to increase surgery-related adverse events.",
+    "why_it_matters": "Supports offering rehab to people with tumor-related spinal cord damage without waiting, and shows gains are still possible when rehab starts later.",
+    "relevance_reason": "Spine tumor rehab outcomes; small retrospective study.",
+    "relevance_score": 7,
+    "evidence_level": "Single-center retrospective cohort; 29 patients",
+    "date_note": "Published online June 10, 2026 (June 2026 issue).",
+    "verified_on": "2026-11-22"
+  },
+  {
+    "id": "peripheral-cooling-ms-intention-tremor-jcm-2023",
+    "title": "Cooling the arm with cold packs for 15 minutes calmed intention tremor for about half an hour in people with MS",
+    "source": "Journal of Clinical Medicine (Feys and colleagues, Hasselt University and National MS Center Melsbroek)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10342717/",
+    "date_published": "2023-07-07",
+    "date_added": "2026-11-22",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Disease",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "People with multiple sclerosis often have a shaking that gets worse as the hand nears a target, caused by damage in the brain's coordination pathways. In two small experiments, 17 and then 22 patients had their forearm or whole arm cooled for 15 minutes with cold packs or a cooling cuff. Tremor scores and some hand tasks improved right after cooling, and the effect lasted at least 25 minutes, strongest in the first half hour. Cooling is cheap and noninvasive and could be tried before meals or fine tasks, though the effect is short-lived.",
+    "summary": "Experiment 1: 17 patients had two 15-minute forearm cooling conditions (cold pack and cryomanchet) and one control. Experiment 2: 22 patients had whole-arm cooling with multiple cold packs. Testing used the Fahn tremor rating scale, Nine Hole Peg Test and TEMPA tasks at four time points. Forearm cooling reduced tremor scores and improved several tasks, mostly regardless of method; whole-arm cooling gave a clinically noticeable tremor reduction and faster performance on two of four tasks, pronounced in the first 30 minutes.",
+    "why_it_matters": "A simple, no-cost way to briefly reduce lesional intention tremor during important daily tasks.",
+    "relevance_reason": "Sunday back-catalog: noninvasive treatment of lesional intention tremor.",
+    "relevance_score": 7,
+    "evidence_level": "Two small experimental within-subject studies (17 and 22 patients)",
+    "date_note": "Background research: published July 7, 2023; added as a Sunday back-catalog item. Studied MS tremor, not tumor-related tremor.",
+    "verified_on": "2026-11-22"
   }
 ]
