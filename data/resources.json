@@ -1840,5 +1840,52 @@
         "source_url": "https://unmhealth.org/services/rehabilitation/occupational-therapy.html"
       }
     ]
+  },
+  {
+    "id": "uofl-frazier-tumor-spasticity-hand-assessment",
+    "name": "UofL Health and Frazier: Brain Tumor Rehabilitation, Spasticity and Hand Assessment",
+    "kind": "Care program",
+    "location": "Louisville, Kentucky, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Brain-tumor rehabilitation, spasticity and dystonia assessment, and hand or arm therapy.",
+    "why_relevant": "Physical Medicine and Rehabilitation explicitly lists brain tumors, stroke and brain or spinal cord injury. The specialty-injection clinic lists muscle spasticity and dystonia. Frazier's Kleinert Kutz Hand Therapy provides upper-extremity rehabilitation, strengthening, adaptive equipment and custom orthoses.",
+    "url": "https://uoflhealth.org/services/physical-medicine-and-rehabilitation/",
+    "search_terms": "brain tumor hand arm weakness clenching spasticity dystonia grasp dexterity fine motor orthoses rehabilitation traumatic brain injury spinal cord injury stroke Kentucky Louisville",
+    "caution": "Confirmed program-level brain-tumor rehabilitation; individual acceptance, tumor-specific hand treatment and injection suitability require assessment. Clenching does not establish spasticity or dystonia. Hand therapy states all ages, but age eligibility across PM&R and injection services is unconfirmed. Confirm age, campus, referral, insurance and availability. For accident-related dysfunction, confirm whether injury involves the brain, spinal cord or peripheral nerves; brachial plexus reconstruction is not verified here. Nobody contacted; published numbers not tested.",
+    "phone": "502-588-2160 (PM&R appointments); 502-588-0425 (specialty injections appointments)",
+    "verified_on": "2026-11-22",
+    "source_urls": [
+      "https://uoflhealth.org/services/physical-medicine-and-rehabilitation/",
+      "https://uoflhealth.org/services/specialty-injections/",
+      "https://uoflhealth.org/kleinert-kutz-hand-care/kleinert-kutz-hand-surgery-services/hand-therapy-orthotics/"
+    ],
+    "contacts": [
+      {
+        "name": "UofL Physicians Physical Medicine and Rehabilitation",
+        "phone": "502-588-2160",
+        "role": "Published rehabilitation appointment route",
+        "source_url": "https://uoflhealth.org/services/physical-medicine-and-rehabilitation/"
+      },
+      {
+        "name": "UofL Health Specialty Injections",
+        "phone": "502-588-0425",
+        "role": "Published specialty-injection appointment route; assessment required",
+        "source_url": "https://uoflhealth.org/services/specialty-injections/"
+      }
+    ]
   }
 ]

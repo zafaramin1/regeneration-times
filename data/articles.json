@@ -5195,5 +5195,31 @@
     "evidence_level": "Two small experimental within-subject studies (17 and 22 patients)",
     "date_note": "Background research: published July 7, 2023; added as a Sunday back-catalog item. Studied MS tremor, not tumor-related tremor.",
     "verified_on": "2026-11-22"
+  },
+  {
+    "id": "md-anderson-glioma-daily-independence-dexterity-2025",
+    "title": "Daily independence declined after glioma surgery without a significant hand-dexterity change",
+    "source": "Neuro-Oncology Advances (Noll and colleagues, MD Anderson)",
+    "url": "https://doi.org/10.1093/noajnl/vdaf192",
+    "date_published": "2025-09-02",
+    "date_added": "2026-11-22",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Fifteen adults were assessed before and about a month after awake surgery for gliomas near language areas. Eighty percent needed more help with at least one complex daily activity. Hand-dexterity scores did not change significantly, and dexterity was not associated with independence ratings. This was an observational assessment, not a rehabilitation trial.",
+    "summary": "Twenty-three enrolled; 15 completed the required assessments. Caregivers rated daily activities. Complex-activity scores worsened, while basic self-care totals did not change significantly. Pegboard results were nonsignificant for both hands. Brain-network changes correlated with complex-activity assistance needs. The paper reuses previously reported neurocognitive data from the same sample, rather than providing independent replication.",
+    "why_it_matters": "Hand testing alone may miss other daily-living support needs.",
+    "relevance_score": 8,
+    "evidence_level": "Adult prospective observational cohort; 15 analyzed; no experimental treatment",
+    "date_note": "Background research: published September 2, 2025.",
+    "limitation": "Small, selected, right-handed English-speaking sample with left-sided tumors; short follow-up and caregiver ratings limit generalization. No proven hand-recovery intervention or pediatric evidence. Long-term recovery was not established.",
+    "verified_on": "2026-11-22"
   }
 ]
