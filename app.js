@@ -998,7 +998,11 @@
     careResources = data; careResourcesLoaded = true; renderCareResources(); openRequestedInquiry();
   }).catch(function () { careResourcesLoaded = true; careResourceError = true; renderCareResources(); openRequestedInquiry(); });
 
-  fetch("data/articles.json", { cache: "no-cache" })
+  function loadArticles() {
+    contentEl.innerHTML = '<p class="loading" id="loading">Loading stories…</p>';
+    document.getElementById("search-status").textContent = "Loading stories…";
+    document.getElementById("search-view").hidden = true;
+    return fetch("data/articles.json", { cache: "no-cache" })
     .then(function (response) {
       if (!response.ok) {
         throw new Error("Could not load stories (" + response.status + ").");
@@ -1014,10 +1018,16 @@
       render();
       openRequestedInquiry();
     })
-    .catch(function (error) {
-      contentEl.innerHTML = '<p class="empty">' + escapeHtml(error.message || "Could not load stories.") + " Open this site over a local server, not as a file on disk.</p>";
+    .catch(function () {
+      contentEl.innerHTML = '<div class="empty" role="status"><p>We could not load the research stories. Check your connection and try again. Your care-desk notes stay in this page.</p><button type="button" class="reader-action" id="retry-stories">Try loading stories again</button></div>';
       countEl.textContent = "";
-      document.getElementById("search-status").textContent = "Stories could not load. Please reload the page to try again.";
+      document.getElementById("search-status").textContent = "Stories could not load. Use Try loading stories again below to retry without reloading the page.";
       document.getElementById("search-view").hidden = true;
+      document.getElementById("retry-stories").addEventListener("click", function () {
+        loadArticles().then(function () { contentEl.focus({ preventScroll: true }); });
+      });
     });
+  }
+  loadArticles();
 })();
+
