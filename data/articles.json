@@ -5221,5 +5221,84 @@
     "date_note": "Background research: published September 2, 2025.",
     "limitation": "Small, selected, right-handed English-speaking sample with left-sided tumors; short follow-up and caregiver ratings limit generalization. No proven hand-recovery intervention or pediatric evidence. Long-term recovery was not established.",
     "verified_on": "2026-11-22"
+  },
+  {
+    "id": "ille-nrtms-postsurgical-arm-paresis-glioma-rct-2021",
+    "title": "Double-blind trial: a week of magnetic brain stimulation before physio helped arm weakness recover after glioma surgery",
+    "source": "Brain Stimulation (Ille, Krieg and colleagues, Technical University of Munich)",
+    "url": "https://doi.org/10.1016/j.brs.2021.04.026",
+    "date_published": "2021-05-11",
+    "date_added": "2026-11-23",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "This randomized, sham-controlled, double-blind trial tested navigated repetitive transcranial magnetic stimulation (nrTMS), a noninvasive magnetic pulse delivered through the scalp, in people with new arm weakness after glioma surgery. Patients got either low-frequency stimulation of the healthy side of the brain or a sham session, each just before physical therapy, for 7 days in a row. At 3 months, arm movement scores improved much more in the real stimulation group than in the sham group. It suggests that a short course of noninvasive brain stimulation paired with therapy may help movement come back after brain tumor treatment, though the trial was small and focused on early weakness right after surgery.",
+    "summary": "Patients with acute surgery-related upper-extremity paresis caused by subcortical ischemia after glioma resection were randomly assigned to low-frequency nrTMS (1 Hz, 15 minutes) of the unaffected hemisphere or sham, given directly before physical therapy on 7 consecutive days. Outcomes were measured on day 1, day 7 and at 3-month follow-up. The primary endpoint, change in Fugl-Meyer Assessment from day 1 to follow-up, was +31.9 points with nrTMS versus +4.2 with sham (P = .001). NIHSS scores also improved more with nrTMS (-5.6 versus -2.4; P = .02). The authors report a number needed to treat of 2.19 to reach a 10-point Fugl-Meyer improvement. Registered as NCT03982329.",
+    "why_it_matters": "One of the few double-blind, sham-controlled trials of a noninvasive stimulation method for movement loss after brain tumor treatment.",
+    "relevance_reason": "Non-surgical, randomized sham-controlled stimulation trial for arm weakness after brain tumor treatment; early postoperative setting rather than long-standing deficits.",
+    "relevance_score": 8,
+    "evidence_level": "Randomized, sham-controlled, double-blind trial; small single-center study",
+    "date_note": "Back-catalog research: published online May 11, 2021 (July 2021 issue).",
+    "limitation": "Tested only acute weakness from surgery-related subcortical ischemia in the first days after glioma surgery. It does not show benefit for long-standing deficits, tremor, or deficits from inoperable tumors.",
+    "verified_on": "2026-11-23"
+  },
+  {
+    "id": "kazakhstan-national-rehab-pediatric-cns-tumor-survivors-2026",
+    "title": "Kazakhstan national study of 600 children: structured multidisciplinary rehab after brain and spinal cord tumors improved independence and quality of life",
+    "source": "Medical Journal of the Islamic Republic of Iran (Bikhanov and colleagues, Kazakhstan)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13404474/",
+    "date_published": "2026-04-28",
+    "date_added": "2026-11-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "quick_read": "Researchers compared 300 children aged 3 to 17 who finished treatment for a central nervous system tumor and then got a structured rehab program with 300 similar children who got standard follow-up only. The program combined physical therapy, occupational therapy, speech therapy, neuropsychological therapy, psychological support, sensory integration and hippotherapy (therapy on horseback). The rehab group improved more in daily independence, quality of life, caregiver ratings and thinking tests, with reported gains including walking again and better school participation, and no serious side effects. It supports building organized, team-based rehab into care after a brain tumor, though the groups were not randomly assigned.",
+    "summary": "A retrospective cohort with prospective follow-up drawn from Kazakhstan's new pediatric oncology registry. The intervention group (n=300) received structured multidisciplinary rehabilitation; the control group (n=300) received standard post-treatment follow-up without rehabilitation, which was not systematically available at the time. Compared with controls, the rehabilitation group showed greater gains in functional independence (+14.23 PEDI points), quality of life (+20.04 PedsQL points), caregiver-reported outcomes (+15.23 OncoLife points) and neuropsychological performance (+17.75 points), all P<0.001. All children in the program completed it without serious adverse events. A national rehabilitation protocol was then endorsed by the Ministry of Health.",
+    "why_it_matters": "Large real-world evidence that a full rehab team, not just one therapy, can improve function after a childhood brain tumor.",
+    "relevance_reason": "Non-surgical rehab in brain tumor survivors with motor and function outcomes; large but non-randomized and pediatric.",
+    "relevance_score": 7,
+    "evidence_level": "National retrospective cohort with prospective follow-up; 600 children; non-randomized comparison",
+    "date_note": "Background research: published April 28, 2026.",
+    "limitation": "Groups were formed by time period, not randomization, and the authors acknowledge this. Children only (3 to 17). Results are combined across tumor types, and the paper does not single out tremor or hand control outcomes.",
+    "verified_on": "2026-11-23"
+  },
+  {
+    "id": "vertebrobasilar-dolichoectasia-midbrain-holmes-tremor-levodopa-2026",
+    "title": "Holmes tremor from an enlarged artery pressing on the midbrain resolved on levodopa and two other pills, one case report",
+    "source": "Medicine (Li and colleagues, Zibo, China)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12826178/",
+    "date_published": "2026-01-01",
+    "date_added": "2026-11-23",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Disease",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Arm"
+    ],
+    "quick_read": "This case report describes a 54-year-old man whose tremor at rest and during movement worsened over 2 years. Scans showed a widened, stretched artery at the base of the brain (vertebrobasilar dolichoectasia) pressing on the midbrain, and he was also diagnosed with Parkinson disease. Doctors treated him with levodopa-benserazide, pramipexole and trihexyphenidyl, all common oral medicines. His tremor eased within about 6 days, and at the 1-month visit his right hand showed no tremor, with no reported side effects. It is a single patient who also had Parkinson disease, but it adds to reports that pills can help some midbrain-related Holmes tremor without surgery.",
+    "summary": "A 54-year-old man had a 2-year gradual worsening of rest and kinetic postural tremor. MRI showed vertebrobasilar dolichoectasia compressing the midbrain, and transcranial ultrasound supported a Parkinson disease diagnosis, so the authors describe Parkinson disease together with Holmes tremor. Medication was adjusted to levodopa and benserazide (0.125 g three times daily and at night), pramipexole (0.125 mg three times daily) and trihexyphenidyl (1 mg three times daily). After 6 days the tremors in all limbs were alleviated, and at 1-month follow-up the right hand showed no tremor and daily life had returned to normal without adverse events. The authors note that microvascular decompression, deep brain stimulation or thalamotomy are later options.",
+    "why_it_matters": "Adds a medicine-only success to the evidence on midbrain lesional tremor, where levodopa-type drugs are often tried first.",
+    "relevance_reason": "Non-surgical drug response in midbrain compression Holmes tremor; single case, confounded by Parkinson disease, not tumor-related.",
+    "relevance_score": 6,
+    "evidence_level": "Single case report; 1-month follow-up",
+    "date_note": "Published in the January 2026 issue of Medicine (volume 105, issue 3).",
+    "limitation": "One patient with Parkinson disease as well, so the response may not carry over to Holmes tremor from a tumor or other lesion without Parkinson disease. Short follow-up. The cause was an enlarged artery, not a tumor.",
+    "verified_on": "2026-11-23"
   }
 ]
