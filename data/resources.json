@@ -1887,5 +1887,48 @@
         "source_url": "https://uoflhealth.org/services/specialty-injections/"
       }
     ]
+  },
+  {
+    "id": "uw-health-middleton-neurological-rehabilitation",
+    "name": "UW Health: Neurological Rehabilitation and Hand Assessment",
+    "kind": "Care program",
+    "location": "Middleton, Wisconsin, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Spine tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Tumor-related neurological rehabilitation, hand and arm movement, dystonia, coordination, sensory processing and gait.",
+    "why_relevant": "The program explicitly lists brain and spinal cord tumors, dystonia, traumatic brain injury and spinal cord injury. Services include occupational therapy for arm and hand movement, daily activities, strengthening, splinting, gait and balance assessment, and sensory integration.",
+    "url": "https://www.uwhealth.org/treatments/neurological-rehabilitation",
+    "search_terms": "brain tumor hand arm weakness coordination dexterity clenching dystonia sensory gait balance traumatic brain injury spinal cord injury Wisconsin Middleton",
+    "caution": "Program-level conditions and services are verified; individual acceptance, age eligibility, referral, insurance and availability require confirmation. Clenching alone does not establish dystonia or spasticity. This is a rehabilitation route, not verified injection or neuro-ophthalmology care. After an accident, injury location needs assessment; brachial plexus reconstruction is not verified here. Nobody contacted; phone not tested.",
+    "phone": "608-263-8412",
+    "verified_on": "2026-11-23",
+    "source_urls": [
+      "https://www.uwhealth.org/treatments/neurological-rehabilitation",
+      "https://www.uwhealth.org/locations/rehabilitation-clinic-138",
+      "https://www.uwhealth.org/refer-a-patient"
+    ],
+    "contacts": [
+      {
+        "name": "University Ave Rehabilitation Clinic: Neuro Rehabilitation Clinic",
+        "phone": "608-263-8412",
+        "role": "Published clinic contact for rehabilitation inquiries",
+        "source_url": "https://www.uwhealth.org/locations/rehabilitation-clinic-138"
+      }
+    ]
   }
 ]

@@ -5300,5 +5300,38 @@
     "date_note": "Published in the January 2026 issue of Medicine (volume 105, issue 3).",
     "limitation": "One patient with Parkinson disease as well, so the response may not carry over to Holmes tremor from a tumor or other lesion without Parkinson disease. Short follow-up. The cause was an enlarged artery, not a tumor.",
     "verified_on": "2026-11-23"
+  },
+  {
+    "id": "resist-glioblastoma-grip-strength-preliminary-2023",
+    "title": "Early RESIST trial report found no significant grip-strength benefit during glioblastoma treatment",
+    "source": "Neuro-Oncology conference supplement (Keats and colleagues, Dalhousie and Acadia)",
+    "url": "https://doi.org/10.1093/neuonc/noad179.0959",
+    "date_published": "2023-11-10",
+    "date_added": "2026-11-23",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human trial"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "RESIST tested resistance exercise during glioblastoma treatment in adults receiving steroids. This preliminary conference abstract reported no statistically significant exercise benefit for grip strength or lower-body function. Fifteen people were randomized, but only ten had finished and one exercise participant lacked complete fitness data. This does not establish hand recovery.",
+    "summary": "Participants received exercise or wait-list care. In-person exercise attendance was high, but home participation was low. Three serious events were judged unrelated, including two disease-related deaths. This is an early report from NCT05116137, not independent replication of its protocol. A later cognitive-outcome abstract from this research program may overlap; exact overlap is not enumerated (https://pmc.ncbi.nlm.nih.gov/articles/PMC12398739/). Protocol: https://doi.org/10.2196/37709 .",
+    "why_it_matters": "Grip strength and fine finger control are different outcomes.",
+    "evidence_level": "Preliminary conference abstract from an adult randomized trial; incomplete follow-up, not a full efficacy paper",
+    "relevance_score": 8,
+    "date_note": "Background research: published November 10, 2023. Registry status checked November 23, 2026.",
+    "limitation": "Small interim analysis with attrition. No demonstrated dexterity, nerve regeneration or pediatric benefit. Later reports from RESIST may overlap and must not be counted as separate trials.",
+    "trial_url": "https://clinicaltrials.gov/study/NCT05116137",
+    "trial_status": {
+      "status": "Enrolling by invitation; record updated May 29, 2026, verified May 2026. Not open general recruitment.",
+      "phase": "Not applicable; behavioral trial",
+      "location": "QEII Health Sciences Centre, Halifax, Nova Scotia, Canada",
+      "key_eligibility": "Adults 18+ with histologically confirmed primary or secondary glioblastoma, any dexamethasone exposure, Karnofsky score >70, English fluency, physician approval and willingness to travel to Halifax. Active-treatment study after surgery with radiation and temozolomide planned. Excludes unsafe exercise due to unstable/symptomatic heart or lung disease, injury or comorbidity; significant cognitive limitations; and uncontrolled seizures with impaired awareness. Individual eligibility requires study review."
+    },
+    "verified_on": "2026-11-23"
   }
 ]
