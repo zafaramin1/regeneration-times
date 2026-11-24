@@ -5333,5 +5333,83 @@
       "key_eligibility": "Adults 18+ with histologically confirmed primary or secondary glioblastoma, any dexamethasone exposure, Karnofsky score >70, English fluency, physician approval and willingness to travel to Halifax. Active-treatment study after surgery with radiation and temozolomide planned. Excludes unsafe exercise due to unstable/symptomatic heart or lung disease, injury or comorbidity; significant cognitive limitations; and uncontrolled seizures with impaired awareness. Individual eligibility requires study review."
     },
     "verified_on": "2026-11-23"
+  },
+  {
+    "id": "pramipexole-tremor-thalamic-midbrain-glioma-mds-2021",
+    "title": "Tremor from a slow-growing thalamus and midbrain glioma improved on a low dose of the dopamine pill pramipexole, one case",
+    "source": "MDS Virtual Congress 2021 abstract 1367 (Yen, Yaworski, Bussiere and Ba, Edmonton)",
+    "url": "https://www.mdsabstracts.org/abstract/cerebellar-pathway-outflow-tremor-from-thalamic-and-midbrain-glioma-responded-to-dopaminergic-therapy/",
+    "date_published": "2021-09-01",
+    "date_added": "2026-11-24",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Leg"
+    ],
+    "quick_read": "A 48-year-old man had a large, slow, wing-beating tremor and poor coordination in his left arm and leg from a low-grade glioma in the thalamus and midbrain that had stayed stable for 7 years. A special brain scan (DaTscan) showed that the brain's dopamine pathway on the tumor side was badly damaged, more than in most people with Parkinson's. A low dose of pramipexole, a common dopamine pill, clearly improved his tremor and also some non-movement symptoms. The authors suggest that when tremor follows a lesion in this deep area, doctors should check whether the dopamine system is involved, because dopamine medicine may help. This is a single case, so it shows a possibility, not a proven treatment.",
+    "summary": "Case abstract of a 48-year-old man with left-sided tremor that began about 10 years earlier with dropping objects and progressed to large-amplitude 2-3 Hz postural tremor, worst in a wing-beating position, with mild rest tremor, marked kinetic tremor, dysmetria, dysdiadochokinesia and left leg coordination problems, plus left esotropia. MRI showed a right paramedian thalamic and midbrain mass consistent with a low-grade primary glioma, stable for 7 years. Dopamine transporter imaging showed severe right-sided striatal dopaminergic denervation. He had a significant response to low-dose pramipexole, with improvement in tremor and non-motor symptoms. The authors conclude dopaminergic dysfunction should be considered in cerebellar outflow tremor after midbrain peduncle lesions.",
+    "why_it_matters": "Points to an oral, non-surgical medicine and a simple scan that may guide treatment for tremor caused by deep thalamic and midbrain tumors.",
+    "relevance_reason": "Non-surgical drug response in rubral-type tremor from a thalamic and midbrain low-grade glioma; very close to the site focus.",
+    "relevance_score": 10,
+    "evidence_level": "Conference abstract; single case report, no control",
+    "limitation": "One patient. Dose, tremor scores and length of follow-up are not given in the abstract. Not a trial.",
+    "date_note": "Background research: presented at the MDS Virtual Congress 2021 (September 2021); the abstract page does not give an exact posting date.",
+    "verified_on": "2026-11-24"
+  },
+  {
+    "id": "mixed-holmes-cerebellar-tremor-medulloblastoma-propranolol-topiramate-2026",
+    "title": "Shoulder and arm shaking after medulloblastoma surgery was tremor, not seizures, and eased on propranolol and topiramate, one case",
+    "source": "Malang Neurology Journal (Subagya and colleagues, Universitas Gadjah Mada)",
+    "url": "https://mnj.ub.ac.id/index.php/mnj/article/view/1093",
+    "date_published": "2026-07-01",
+    "date_added": "2026-11-24",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "quick_read": "A 25-year-old man had a shunt for blocked brain fluid and then surgery to remove a medulloblastoma, a tumor in the back of the brain. After surgery his left shoulder and arm kept jerking, and doctors first treated it as seizures, but seizure pills did not help. A closer exam showed two kinds of tremor: Holmes tremor in the shoulder and a cerebellar tremor with poor aim in the arm. The movements improved with two common pills, propranolol and topiramate, alongside his seizure medicine levetiracetam. The lesson is that shaking after brain tumor surgery should be carefully examined, since the right label leads to the right non-surgical treatment.",
+    "summary": "Case report of a 25-year-old man with obstructive hydrocephalus from a fourth ventricular mass, treated first with a ventriculoperitoneal shunt and then suboccipital decompressive craniectomy with transvermian removal of a desmoplastic/nodular medulloblastoma (CNS WHO grade 4). Persistent involuntary left shoulder movements after surgery were first considered refractory focal seizures and did not respond to antiseizure medicines. Evaluation found Holmes tremor of the left shoulder at about 6 to 8 Hz and cerebellar intention tremor with dysmetria of the left arm. The movements improved after propranolol and topiramate alongside levetiracetam.",
+    "why_it_matters": "Shows that post-tumor tremor can be mistaken for seizures and that inexpensive oral medicines may help once it is correctly identified.",
+    "relevance_reason": "Lesional Holmes and cerebellar tremor after a brain tumor and shunt, treated without further surgery.",
+    "relevance_score": 9,
+    "evidence_level": "Single case report",
+    "limitation": "One adult patient. The abstract does not give doses, tremor scores or follow-up length. Propranolol does not help every lesional tremor.",
+    "date_note": "Published in Volume 12, Number 2 (July 2026) of the journal; exact day not stated.",
+    "verified_on": "2026-11-24"
+  },
+  {
+    "id": "wuhan-noninvasive-bci-fes-finger-glioma-2026",
+    "title": "Wuhan study: a noninvasive brain-signal cap with muscle stimulation helped a woman's hand play simple tunes after glioma surgery",
+    "source": "China Daily (Union Hospital, Tongji Medical College, Wuhan)",
+    "url": "https://www.chinadaily.com.cn/a/202610/22/WS6ad9618be4b06d4aa056417f.html",
+    "date_published": "2026-10-22",
+    "date_added": "2026-11-24",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Device",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm"
+    ],
+    "quick_read": "A 39-year-old woman was left with right-side paralysis after surgery for a returning glioma in 2022, and a year of standard rehab brought little change. Doctors in Wuhan tested a system where a cap reads brain signals while she imagines moving a finger, then sends timed electrical pulses through a grid of skin electrodes to move that finger. After about two months of finger training she could play simple tunes, and she now plays some without the device, though her hand gets stiff. Only four people have been in this early study and there is no control group yet, so it is a hopeful sign, not proof. Nothing is implanted.",
+    "summary": "News report on an early-stage study at Union Hospital, Wuhan, of a noninvasive brain-computer interface that decodes imagined finger movements from scalp signals and triggers high-channel matrix functional electrical stimulation of hand muscles. The patient, diagnosed with glioma in 2018, developed right-sided paralysis after surgery for recurrence in May 2022. She began BCI training in May 2026 and harder finger exercises in August, and after nearly two months could play simple tunes, hold large bottles without shaking and reach farther with chopsticks. Lead neurosurgeon Jiang Xiaobing said the study has included only four patients, has no controlled trial yet, and larger studies and long-term follow-up are needed.",
+    "why_it_matters": "A non-surgical way to retrain fine finger control after brain tumor treatment, targeting individual fingers rather than simple grasping.",
+    "relevance_reason": "Noninvasive device rehab for hand loss after brain tumor surgery; early and uncontrolled.",
+    "relevance_score": 8,
+    "evidence_level": "News report of an early uncontrolled study (four patients); no published paper yet",
+    "limitation": "Single patient described in detail; no published data, scores or control group. Extent of recovery still needs formal evaluation, per the lead doctor.",
+    "verified_on": "2026-11-24"
   }
 ]
