@@ -5411,5 +5411,31 @@
     "evidence_level": "News report of an early uncontrolled study (four patients); no published paper yet",
     "limitation": "Single patient described in detail; no published data, scores or control group. Extent of recovery still needs formal evaluation, per the lead doctor.",
     "verified_on": "2026-11-24"
+  },
+  {
+    "id": "glioblastoma-resistance-training-walking-case-2026",
+    "title": "Walking endurance improved during glioblastoma exercise program, but quality-of-life results were mixed",
+    "source": "Frontiers in Oncology (Nakfoor and Fairman)",
+    "url": "https://doi.org/10.3389/fonc.2026.1711875",
+    "date_published": "2026-01-21",
+    "date_added": "2026-11-24",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "One adult undertook supervised resistance training during glioblastoma chemoradiation. Walking endurance and chair-rise performance improved over 12 weeks. Balance and gait-speed scores were unchanged, while several quality-of-life measures worsened. Without a comparison group, exercise cannot be credited with causing the improvements.",
+    "summary": "Six-minute walking distance increased from 600 to 630 meters. Lower-body performance rose from 10 to 12 points, driven by chair rises. The participant attended 20 of 36 sessions; no adverse events were reported. Physical-role limitations, vitality, social functioning and general-health ratings worsened. This case came from a larger cancer-exercise trial, not an independent replication.",
+    "why_it_matters": "Measured physical gains can coexist with greater everyday limitations.",
+    "evidence_level": "Peer-reviewed single-adult case report; uncontrolled",
+    "relevance_score": 6,
+    "date_note": "Background research: published January 21, 2026.",
+    "limitation": "Relatively high starting function and concurrent treatment limit interpretation. No hand-dexterity, pediatric or lasting-recovery evidence; this does not establish safety for everyone.",
+    "verified_on": "2026-11-24"
   }
 ]
