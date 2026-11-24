@@ -433,7 +433,11 @@
     "why_it_matters": "Especially relevant to hand clumsiness, accuracy and coordination after tumor surgery. A rehabilitation specialist must assess suitability; restricting the stronger hand is not an unsupervised exercise recommendation.",
     "relevance_score": 9,
     "evidence_level": "Single adult case report; no control group",
-    "date_note": "Published in 2019; added as directly relevant background, not recent news."
+    "date_note": "Published in the journal collection May 30, 2019; older background research, rechecked against the original report on November 24, 2026.",
+    "limitation": "One adult was assessed before and immediately after treatment, without a comparison group or long-term follow-up. Not every timed task improved. This does not establish lasting benefit, nerve regeneration or effectiveness for other tumor sites, severe weakness or children.",
+    "verified_on": "2026-11-24",
+    "care_question": "Does the main hand problem involve coordination, strength or both, and what supervised training and outcome measures would be appropriate?",
+    "doi": "10.1590/1980-5918.032.AO19"
   },
   {
     "id": "low-frequency-rtms-hand-recovery-rct-2024",
@@ -483,7 +487,11 @@
     "why_it_matters": "Adds tumor-specific evidence about intensive practice of the affected arm and hand. Age and study size limit how broadly the findings apply.",
     "relevance_score": 8,
     "evidence_level": "Pediatric before-and-after pilot; 9 participants; no control group",
-    "date_note": "The journal gives January 2017 without a specific day; January 1 is used for sorting. Older background research."
+    "date_note": "The journal gives January 2017 without a specific day; January 1 is used for sorting. Older background research.",
+    "limitation": "Only nine children were studied, without random assignment or an untreated comparison. Arm-use gains do not establish effectiveness in adults or nerve regrowth. Quality of life showed no lasting improvement, and the supervised program was demanding for some families.",
+    "verified_on": "2026-11-24",
+    "care_question": "What assessment would show whether supervised affected-arm training is appropriate, and how would we measure useful daily hand use?",
+    "doi": "10.1097/PEP.0000000000000331"
   },
   {
     "id": "glioma-pt-ot-randomized-trial-2020",
@@ -528,7 +536,11 @@
     "why_it_matters": "Supports considering a rehabilitation assessment after tumor surgery, including goals for useful arm function and independence. It does not predict an individual's outcome.",
     "relevance_score": 8,
     "evidence_level": "Retrospective cohort; 35 brain-tumor patients and 108 stroke comparators",
-    "date_note": "Published online April 30, 2019; added as background research."
+    "date_note": "Published April 30, 2019. Original paper rechecked via its PMC full text on November 24, 2026; the publisher link returned HTTP 403 in this check, which does not establish a dead link.",
+    "limitation": "This small, retrospective adult cohort had no untreated tumor comparison, so natural recovery cannot be separated from rehabilitation effects. Similar gains to stroke patients do not prove equivalent effectiveness. Later caregiver reports may be affected by recall bias and do not establish sustained measured function.",
+    "verified_on": "2026-11-24",
+    "care_question": "Which daily-function goals could a rehabilitation assessment address after tumor surgery, and how would progress be measured?",
+    "doi": "10.5535/arm.2019.43.2.129"
   },
   {
     "id": "brain-tumor-hand-dexterity-connectivity-2026",

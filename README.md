@@ -96,7 +96,7 @@ Search normalizes tumour/tumor, common movement and rehabilitation terms, cranio
 
 Save buttons store only stable article IDs in this browser's localStorage. Saved reading is device-specific, and storage failures are announced. Search links do not transfer a user's saved list. Discussion notes copy a source, date, evidence type and a question for a care team, never personalized treatment instructions. Top Stories and Latest each preview six entries to reduce repetition; topic sections and search retain all entries.
 
-Optional editorial fields: `limitation` (what the study does not establish), `care_question` (a discussion prompt), `verified_on` (date the source was checked, not a guarantee of clinical review). Evidence type is visible on closed cards. Original dates are retained for all backfilled coverage. Reviews may synthesize studies already covered; do not count a review as a distinct clinical trial.
+Optional editorial fields: `doi` (original study identifier, when verified), `limitation` (what the study does not establish), `care_question` (a discussion prompt), `verified_on` (date the source was checked, not a guarantee of clinical review). Evidence type is visible on closed cards. Original dates are retained for all backfilled coverage. Reviews may synthesize studies already covered; do not count a review as a distinct clinical trial.
 
 ## Run locally
 

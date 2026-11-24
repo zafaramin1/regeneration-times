@@ -21,6 +21,16 @@ Continue from this backlog and the current README. The existing research task ad
 
 ## Completed work
 
+### November 24, 2026
+
+- Rotating editorial batch: rechecked `cimt-children-brain-tumors-pilot-2017`, `intensive-rehab-brain-tumor-surgery-cohort-2019` and `cimt-hand-ataxia-cerebellar-tumor-2019` against original papers (PMC5172401, PMC6509576 and DOI 10.1590/1980-5918.032.AO19). Added dedicated limitations, verified DOI identifiers, source-check dates and care-team questions. Retained original publication dates and all stable IDs.
+- Made the pediatric/adult and tumor/stroke-comparator distinctions explicit in limitations. Included no lasting quality-of-life improvement in the pediatric pilot, recall/natural-recovery limits in the adult cohort, and lack of long-term follow-up and uneven task gains in the adult case.
+- Publisher cohort page returned HTTP 403; its original full text was reviewed through PMC. Retained the publisher URL and recorded this access limit in the entry. PMC pediatric paper initially returned full text; a subsequent request showed a verification interstitial. Initial full text and indexed original-paper discussion supported the bounded additions; no claim that the link is dead or currently freely reachable.
+- Checked the three studies against canonical source URLs, DOI strings and related CIMT/review coverage. The 2019 case cites the 2017 pilot as background; these are distinct participants, and citations/reviews were not counted as additional confirmation. No entries added or removed.
+- Validation: 201 articles with unique IDs and 56 resources; only the three selected article objects changed. All existing JavaScript passes syntax checks. Live desktop keyboard search (typing plus Enter) found the cerebellar writing case and moved focus to results. Post-publication detail checks remain to be performed in this run; mobile rendering and screen-reader output are not established by this check.
+- Remaining gaps after this batch: 38 summaries lack `limitation`; 24 lack `verified_on`. Next editorial batch: `glioma-pt-ot-randomized-trial-2020` plus older recruitment records, starting with HYPE (`NCT05740839`). Preserve negative primary outcomes and check both inclusion and exclusion criteria.
+- Presentation, collector, private helpers, forms and access settings unchanged. No new owner decision is needed for the next batch.
+
 ### November 23, 2026
 
 - Added a homepage canonical URL, accurate Open Graph and Twitter title/description metadata, and JavaScript-disabled guidance. Existing founder-site footer link is retained. Social preview rendering remains controlled by the receiving platform.
