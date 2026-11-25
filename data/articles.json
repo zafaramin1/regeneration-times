@@ -5573,5 +5573,33 @@
     "evidence_level": "Single case report with video",
     "limitation": "One patient; improvement cannot be separated between MS treatment and primidone; not tumor-related.",
     "verified_on": "2026-11-25"
+  },
+  {
+    "id": "tiantan-sma-hand-motor-cortex-recovery-pilot-2024",
+    "title": "Small study targets hand-motor cortex for early weakness after glioma surgery",
+    "source": "CNS Neuroscience & Therapeutics (Weng and colleagues)",
+    "url": "https://doi.org/10.1111/cns.70112",
+    "doi": "10.1111/cns.70112",
+    "date_published": "2024-11-12",
+    "date_added": "2026-11-25",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Arm"
+    ],
+    "quick_read": "Researchers studied weakness after supplementary motor area glioma surgery. A nine-adult comparison targeted the hand-motor cortex with magnetic stimulation or sham. Average recovery was 12 versus 29.5 days. This small experimental study does not establish fine-hand recovery.",
+    "summary": "A separate retrospective analysis included 34 patients. The nine prospective participants were excluded from that cohort. Seven-day stimulation began on postoperative day 8. Recovery meant return to preoperative muscle strength. One stimulated participant developed postoperative generalized seizures; causation is uncertain. Preoperative network measures did not significantly distinguish faster recovery.",
+    "why_it_matters": "Explores a tumor-specific motor-recovery target.",
+    "evidence_level": "Retrospective cohort plus nine-adult prospective sham comparison; randomization not reported",
+    "relevance_score": 8,
+    "date_note": "Background research: published November 12, 2024.",
+    "limitation": "Early postoperative low-grade glioma evidence, not longstanding weakness or pediatric evidence. No dexterity outcome. Other reports from this research program may overlap; cross-report overlap is unquantified.",
+    "verified_on": "2026-11-25"
   }
 ]

@@ -1978,5 +1978,54 @@
         "source_url": "https://www.pennmedicine.org/services/occupational-therapy"
       }
     ]
+  },
+  {
+    "id": "riley-pediatric-rehabilitation-movement-assessment",
+    "name": "Riley Children's Health: Pediatric Rehabilitation and Movement Assessment",
+    "kind": "Care program",
+    "location": "Indianapolis, Indiana, USA",
+    "age_groups": [
+      "pediatric"
+    ],
+    "body_areas": [
+      "Brain",
+      "Spine",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Trauma",
+      "Stroke",
+      "Disease"
+    ],
+    "focus": "Pediatric rehabilitation, fine-motor and upper-limb assessment, spasticity, dystonia and sensory processing.",
+    "why_relevant": "PM&R treats cancer, brain injury and spinal cord injury and links to neuro-oncology follow-up. Occupational therapy addresses upper-extremity strength, range of motion, handwriting and daily activities. Movement Disorders Services assesses spasticity, dystonia and contractures and offers therapy, Botox and phenol blocks.",
+    "url": "https://www.rileychildrens.org/departments/physical-medicine-rehabilitation",
+    "search_terms": "brain tumor pediatric hand arm weakness dexterity fine motor clenching spasticity dystonia contracture sensory processing traumatic brain injury spinal cord injury Indiana Indianapolis",
+    "caution": "General assessment route: program-level cancer rehabilitation and neuro-oncology linkage are verified, but individual brain-tumor hand-treatment acceptance requires confirmation. Pediatric service; confirm exact age cutoff, clinic, referral, insurance and availability. OT usually begins with a doctor's prescription. Clenching does not establish spasticity or dystonia. After an accident, confirm brain, spinal cord or peripheral-nerve injury location; brachial plexus reconstruction is not verified here. Nobody contacted; published phones not tested.",
+    "phone": "317-944-2353 (PM&R); 317-948-8381 (movement program coordinator)",
+    "verified_on": "2026-11-25",
+    "source_urls": [
+      "https://www.rileychildrens.org/departments/physical-medicine-rehabilitation",
+      "https://www.rileychildrens.org/health-info/occupational-therapy",
+      "https://www.rileychildrens.org/departments/movement-disorders-services",
+      "https://www.rileychildrens.org/practice-location/riley-outpatient-center-at-iu-health-pediatric-physical-medicine-rehabilitation"
+    ],
+    "contacts": [
+      {
+        "name": "Riley Pediatric Physical Medicine & Rehabilitation",
+        "phone": "317-944-2353",
+        "role": "Published outpatient clinic contact",
+        "source_url": "https://www.rileychildrens.org/practice-location/riley-outpatient-center-at-iu-health-pediatric-physical-medicine-rehabilitation"
+      },
+      {
+        "name": "Riley Movement Disorders Services program coordinator",
+        "phone": "317-948-8381",
+        "role": "Published program and physician-referral contact",
+        "source_url": "https://www.rileychildrens.org/departments/movement-disorders-services"
+      }
+    ]
   }
 ]
