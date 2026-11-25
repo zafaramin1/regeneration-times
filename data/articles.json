@@ -5449,5 +5449,129 @@
     "date_note": "Background research: published January 21, 2026.",
     "limitation": "Relatively high starting function and concurrent treatment limit interpretation. No hand-dexterity, pediatric or lasting-recovery evidence; this does not establish safety for everyone.",
     "verified_on": "2026-11-24"
+  },
+  {
+    "id": "pediatric-braf-v600-low-grade-glioma-targeted-therapy-meta-analysis-2026",
+    "title": "Review of 10 studies: BRAF and MEK pills controlled about 4 in 10 children's low-grade gliomas, with some signs of better vision and daily function",
+    "source": "Neuro-Oncology Advances (London South Bank University)",
+    "url": "https://academic.oup.com/noa/article/8/1/vdag192/8743618",
+    "date_published": "2026-07-27",
+    "date_added": "2026-11-25",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Eye"
+    ],
+    "quick_read": "Researchers pooled 10 studies of children aged 1 to 17 with low-grade gliomas carrying the BRAF V600 gene change who took targeted pills that block that change (BRAF and MEK inhibitors). About 4 in 10 tumors shrank, and on average the tumors stayed controlled for almost 2 years. Serious side effects such as rash, tiredness and fever happened in about 3 in 10 children. Some studies reported better vision and day-to-day functioning, but these were not measured consistently, so the effect on nerve function is still uncertain.",
+    "summary": "Systematic review and meta-analysis of 10 studies (4 randomized trials and 6 retrospective studies, 16 treatment arms). Pooled overall response rate was 42.35% (95% CI 29.41 to 55.29) and median progression-free survival was 23.03 months. Grade 3 or 4 adverse events occurred in 30.56%, most often rash, fatigue and fever. Subgroup analyses suggested better results and lower toxicity with BRAF inhibitors or combination therapy. Functional outcomes were reported inconsistently, though some evidence suggested improvements in vision and performance status.",
+    "why_it_matters": "Targeted pills are a non-surgical option for BRAF-mutant low-grade gliomas, and the authors call for standard measures of function and quality of life in future studies.",
+    "relevance_reason": "Non-surgical drug evidence for BRAF V600 low-grade glioma, including functional outcomes.",
+    "relevance_score": 8,
+    "evidence_level": "Systematic review and meta-analysis of randomized and retrospective studies",
+    "date_note": "Published July 27, 2026.",
+    "limitation": "Mixed study designs and inconsistent functional reporting; children only; no direct data on tremor, hand control or coordination.",
+    "verified_on": "2026-11-25"
+  },
+  {
+    "id": "dabrafenib-trametinib-pediatric-long-term-follow-up-asco-2026",
+    "title": "Long-term follow-up of 165 young patients on dabrafenib and trametinib found no new safety signals and no major effect on growth",
+    "source": "Journal of Clinical Oncology (2026 ASCO Annual Meeting abstract)",
+    "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.10031",
+    "trial_url": "https://clinicaltrials.gov/study/NCT03975829",
+    "date_published": "2026-05-27",
+    "date_added": "2026-11-25",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "quick_read": "This is an interim report from a long-term study following children and teens who stayed on the targeted pills dabrafenib and/or trametinib after earlier trials, most of them with BRAF V600 gliomas. After a median of about 21 months on treatment, side effects matched what was already known, with fever the most common, and only about 4% stopped because of side effects. Apart from more weight gain than normal, the drugs did not clearly affect growth, puberty or bone development. It does not measure nerve or movement recovery, but it gives families useful safety information about staying on these pills for years.",
+    "summary": "Of 165 patients, 157 received treatment (dabrafenib 28, trametinib 21, combination 108) and 8 were observation only; 129 had BRAF V600 mutations. Median exposure was about 21 months. 94.3% had at least one adverse event and 28% had serious adverse events; pyrexia was most common (36.9%). Discontinuation for adverse events was 3.8%. In the combination arm, overall response was 27.7% for BRAF V600E low-grade glioma (stable disease 63.9%) and 41.2% for high-grade glioma. Apart from more than normal weight gain, no significant impact on growth, sexual maturation or skeletal development was seen.",
+    "why_it_matters": "Long-term safety data matter for people who take these tumor-control pills for years.",
+    "relevance_reason": "Long-term safety of BRAF/MEK pills used for low-grade glioma; survivorship relevance.",
+    "relevance_score": 6,
+    "evidence_level": "Conference abstract; interim results of an open-label, multicenter follow-up study (sponsor-affiliated authors)",
+    "date_note": "Presented at ASCO 2026; data cutoff October 2024.",
+    "limitation": "Abstract only, interim data, industry-sponsored, no comparison group, and no neurological or motor function outcomes.",
+    "verified_on": "2026-11-25"
+  },
+  {
+    "id": "brain-tumour-survivorship-physical-self-management-ireland-2026",
+    "title": "Irish interviews with 21 brain tumor survivors: people rebuild physical independence by pacing energy, often without structured rehab after discharge",
+    "source": "Neuro-Oncology (South East Technological University Ireland, with Brain Tumour Ireland)",
+    "url": "https://doi.org/10.1093/neuonc/noag245.369",
+    "date_published": "2026-11-23",
+    "date_added": "2026-11-25",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "quick_read": "Researchers interviewed 21 adults living with many types of brain tumors about how they look after their bodies day to day once treatment ends. People described constantly watching their symptoms, managing their energy and adjusting activities to keep their independence, with fatigue shaping almost everything. Exercise felt helpful but could also set them back, so careful pacing mattered. Many said they had little structured support after leaving hospital, which points to a need for clearer rehab pathways for survivors.",
+    "summary": "Qualitative grounded-theory study of 21 adults with low- to high-grade brain tumours, developed with Brain Tumour Ireland. Analysis identified a process of 'restoring physical autonomy': monitoring symptoms, regulating energy and adapting activities to maintain function. Fatigue was a central organising influence, and physical activity was experienced as both restorative and potentially destabilising. Many participants reported a lack of structured support after discharge from acute care.",
+    "why_it_matters": "It shows why survivors with lasting physical problems need ongoing, paced rehab and clear guidance after treatment ends.",
+    "relevance_reason": "Brain tumor survivorship and long-term physical self-management; non-surgical.",
+    "relevance_score": 5,
+    "evidence_level": "Conference abstract; qualitative interview study",
+    "limitation": "Interviews only, no measured outcomes or treatment tested; abstract-level detail.",
+    "verified_on": "2026-11-25"
+  },
+  {
+    "id": "exercise-fatigue-primary-brain-tumors-systematic-review-2026",
+    "title": "Review of 12 exercise studies in adults with brain tumors: fatigue tended to ease when exercise came after treatment, but results were mixed during treatment",
+    "source": "Neuro-Oncology (SNO 2026 abstract)",
+    "url": "https://doi.org/10.1093/neuonc/noag189.1082",
+    "date_published": "2026-11-13",
+    "date_added": "2026-11-25",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "quick_read": "This review gathered 12 studies (286 adults with primary brain tumors) that tested exercise and measured tiredness before and after. Studies done after treatment ended generally showed fatigue going down, while studies during active treatment showed no change or even more fatigue. The programs and measures varied a lot, and many people did not start out very tired, which makes results hard to compare. For survivors living with motor problems and fatigue, it suggests exercise may help most once treatment is finished.",
+    "summary": "Systematic review of studies from 2002 to 2026: 12 studies (N = 286), including six randomized, four single-arm and two case reports. Eight enrolled participants during active treatment (often high-grade glioma), three post-treatment and one mixed. Fatigue outcomes varied during active treatment, with some reporting no change or worsening, whereas post-treatment studies showed fatigue reductions. Heterogeneity in interventions, measures and baseline fatigue limited comparisons.",
+    "why_it_matters": "Timing may matter for exercise programs after brain tumors, and fatigue is a major barrier to rehab.",
+    "relevance_reason": "Exercise-based rehab evidence for brain tumor survivors; non-surgical.",
+    "relevance_score": 5,
+    "evidence_level": "Conference abstract; systematic review",
+    "limitation": "Abstract only; small, varied studies; fatigue usually a secondary outcome; no hand or coordination outcomes.",
+    "verified_on": "2026-11-25"
+  },
+  {
+    "id": "holmes-tremor-multiple-sclerosis-primidone-case-2026",
+    "title": "Holmes tremor that was first blamed on medication turned out to be from MS, and eased over two years with MS treatment plus primidone",
+    "source": "Tremor and Other Hyperkinetic Movements (Shahid Sadoughi University, Iran)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13787269/",
+    "date_published": "2026-11-18",
+    "date_added": "2026-11-25",
+    "category": "Experimental Drug Research",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Disease",
+      "approach": "Drug",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Brain"
+    ],
+    "quick_read": "A 39-year-old woman had a slow, coarse left-arm shake at rest, when holding her arm out and when reaching, which doctors first thought was a side effect of her psychiatric medicine. When stopping that medicine did not help and walking problems began, an MRI showed multiple sclerosis lesions, and the tremor was recognized as Holmes tremor. She received steroids and an MS drug, plus the inexpensive tremor pill primidone, and her shaking and coordination improved markedly at six months and stayed better at two years. It is one case and the MS treatment may explain much of the gain, but it adds primidone to the list of non-surgical options tried for Holmes tremor.",
+    "summary": "Case report: rest, postural, wing-beating and intention tremor of the left upper limb with limb and gait ataxia; MRI showed demyelinating lesions consistent with MS. Treatment was IV methylprednisolone 1 g/day for 5 days, ocrelizumab every six months, and primidone for tremor. Rest tremor markedly improved, action tremor improved significantly and ataxia improved substantially at six months, with continued improvement at two-year follow-up. The authors note that corticosteroids and ocrelizumab support an inflammatory origin, while primidone may also have helped.",
+    "why_it_matters": "Holmes tremor from a brain lesion can respond to non-surgical treatment, and a careful diagnosis changes what helps.",
+    "relevance_reason": "Lesional (non-tumor) Holmes tremor with long-term non-surgical drug response.",
+    "relevance_score": 6,
+    "evidence_level": "Single case report with video",
+    "limitation": "One patient; improvement cannot be separated between MS treatment and primidone; not tumor-related.",
+    "verified_on": "2026-11-25"
   }
 ]
