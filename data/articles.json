@@ -498,7 +498,7 @@
     "title": "Physical and occupational therapy during glioma treatment: some benefits, but the main quality-of-life result was inconclusive",
     "source": "Physical Therapy / University of Southern Denmark",
     "url": "https://portal.findresearcher.sdu.dk/en/publications/effectiveness-of-physical-therapy-and-occupational-therapy-based-/",
-    "date_published": "2020-03-10",
+    "date_published": "2020-02-10",
     "date_added": "2026-10-22",
     "category": "Brain Tumor Recovery",
     "tags": {
@@ -508,11 +508,15 @@
       "stage": "Human trial"
     },
     "quick_read": "A Danish trial compared supervised physical and occupational therapy with usual rehabilitation during glioma treatment. It enrolled 64 people who were functionally independent. After six weeks, the main overall quality-of-life measure was not significantly better with the program. Some secondary measures, including fatigue, thinking-related functioning and aerobic capacity, favored rehabilitation.",
-    "summary": "Thirty-two participants were assigned to each group. Recruitment and follow-up were insufficient to determine superiority for the primary outcome. The study supports further evaluation of rehabilitation during cancer treatment but does not establish a specific treatment for loss of hand control.",
+    "summary": "In trial NCT02221986, 32 adults were assigned to each group; 55 attended the six-week follow-up. The main quality-of-life comparison did not show a statistically significant advantage over usual care. Secondary findings support further study, but do not establish a specific treatment for loss of hand control.",
     "why_it_matters": "Rehabilitation can be considered during ongoing treatment, with goals matched to the person's abilities. Promising secondary results should not be confused with a positive primary endpoint.",
     "relevance_score": 7,
     "evidence_level": "Single-blind randomized controlled trial; 64 participants",
-    "date_note": "Older controlled research added as background."
+    "date_note": "First published online February 10, 2020; appeared in the March 2020 issue. The university record uses March 10. Original publisher paper rechecked November 25, 2026; older background research.",
+    "doi": "10.1093/ptj/pzz180",
+    "limitation": "Only 64 adults enrolled, below the planned 176, and follow-up was six weeks. The primary quality-of-life comparison was not statistically significant. Secondary benefits are exploratory. Participants were functionally independent adults with glioma, so this does not establish benefit for children or severe hand impairment.",
+    "care_question": "Which rehabilitation goals and measures would be useful during active treatment, and how should we interpret an inconclusive overall quality-of-life result?",
+    "verified_on": "2026-11-25"
   },
   {
     "id": "intensive-rehab-brain-tumor-surgery-cohort-2019",
@@ -1941,7 +1945,7 @@
   },
   {
     "id": "hype-hiit-young-adult-pediatric-brain-tumor-survivors-dfci",
-    "title": "Recruiting in Boston: home interval-exercise study for young adults who had a brain tumor as children",
+    "title": "Listed as recruiting in Boston: home interval-exercise pilot for young adults after childhood brain tumors or with IDH-mutant glioma",
     "source": "ClinicalTrials.gov (Dana-Farber Cancer Institute)",
     "url": "https://clinicaltrials.gov/study/NCT05740839",
     "trial_url": "https://clinicaltrials.gov/study/NCT05740839",
@@ -1954,7 +1958,7 @@
       "approach": "Rehab",
       "stage": "Recruiting trial"
     },
-    "quick_read": "The HYPE study at Dana-Farber in Boston is testing a 16-week, home-based, virtual high-intensity interval exercise program for young adults who had a brain tumor in childhood. Participants are randomly placed in the exercise group or a waitlist group that can try the program later. The team wants to see whether the program is doable and whether it helps physical, thinking and emotional health. It is a small pilot about fitness and well-being, not a treatment designed to repair nerves, but it is one of few studies built specifically for adult survivors of childhood brain tumors.",
+    "quick_read": "Dana-Farber lists HYPE as recruiting adults aged 18 to 45 who had a brain tumor in childhood or have an adult-diagnosed IDH-mutant glioma. The study compares 16 weeks of supervised home interval exercise with a waitlist group. Testing still requires visits to Boston. Its main question is whether the program is feasible, not whether it repairs nerves or restores hand control. The study team must assess eligibility and current availability.",
     "summary": "Randomized pilot feasibility study (NCT05740839, HYPE) of a 16-week virtual, home-based high-intensity interval training program versus a waitlist control in young adult survivors of pediatric brain tumors, and adults with IDH-mutant glioma. Estimated enrollment 30. Primary outcomes are feasibility measures: session attendance, minutes completed, HIIT compliance, barriers to adherence and participant burden. Registry lists it as recruiting at Dana-Farber Cancer Institute.",
     "why_it_matters": "Adult survivors of childhood brain tumors often live with long-term physical limits, and this study is designed specifically for them.",
     "relevance_reason": "Recruiting trial that explicitly enrolls adult survivors of childhood brain tumors.",
@@ -1964,11 +1968,12 @@
       "status": "Recruiting",
       "phase": "Not applicable",
       "location": "Dana-Farber Cancer Institute, Boston, Massachusetts, United States",
-      "key_eligibility": "Ages 18 to 45 with a brain tumor diagnosed in childhood (at least 2 years after tumor treatment) or an adult IDH-mutant glioma (at least 1 year after last treatment); cleared by a doctor to exercise; currently doing 60 minutes or less of structured exercise a week; seizures well controlled; no progressive cancer in the last 3 months; no primary spinal cord tumor; must travel to Dana-Farber for testing. Tumor-related damage is allowed."
+      "key_eligibility": "Adults 18 to 45 with a childhood brain tumor or adult-diagnosed IDH-mutant glioma. Timing is generally at least two years after pediatric tumor therapy or one year after the most recent glioma surgery, radiation or chemotherapy, with treating-physician assessment provisions; IDH-inhibitor maintenance is allowed. Exercise clearance and Boston visits are required. Exclusions include a primary spinal cord tumor, recent progressive CNS/systemic cancer, uncontrolled exercise-sensitive illness, pregnancy/planned pregnancy, active weight-loss dieting, regular smoking or more than 60 minutes of structured moderate/vigorous exercise weekly. Tumor-related epilepsy requires good control and no generalized seizures in the preceding six months. This is a summary, not an eligibility decision."
     },
-    "date_note": "First posted 2023-02-23; registry last updated 2026-02-24 and still lists recruiting, though its estimated primary completion date (2026-09-24) has passed. Confirm with the study team.",
-    "care_question": "Would my current walking, balance or hand limits still let me safely join a home interval-exercise program?",
-    "verified_on": "2026-10-27"
+    "date_note": "First posted February 23, 2023. Registry last updated November 6, 2026, with estimated primary completion September 24, 2027 and study completion September 24, 2028. Registry API and Dana-Farber listing rechecked November 25, 2026; listed as recruiting/enrolling, not confirmed space.",
+    "care_question": "Could my care team review the exercise-safety criteria and travel demands with the HYPE team before I consider screening?",
+    "verified_on": "2026-11-25",
+    "limitation": "Small, open-label feasibility pilot with no results posted in the registry at this check. Recruitment status is not proof of eligibility or benefit. Home exercise still involves Boston testing visits; exercise safety and the full inclusion and exclusion criteria require study-team review."
   },
   {
     "id": "et-neuro-exercise-together-brain-tumor-dyads-ohsu",
