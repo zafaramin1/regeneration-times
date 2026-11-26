@@ -21,6 +21,17 @@ Continue from this backlog and the current README. The existing research task ad
 
 ## Completed work
 
+### November 26, 2026
+
+- Continued the next recorded batch: `smart-glove-home-hand-rehab-trial-nct06837324` and `smart-board-home-arm-rehab-trial-nct06837363`. Retrieved each original registry record through https://clinicaltrials.gov/api/v2/studies/NCT06837324 and https://clinicaltrials.gov/api/v2/studies/NCT06837363 on November 26. Search's HTML view returned only the page shell; direct registry API retrieval succeeded, including criteria, outcomes, status and public contacts.
+- Both are still listed Recruiting, last registry update April 24, 2026, with estimated primary/study completion December 31, 2026 and no posted results. Kept first-posted dates February 20, 2025. Titles now say "Listed as recruiting"; date notes separate the record-update date from today's source check and ask readers to confirm availability.
+- Removed wording that tumor-related weakness "qualifies" a reader and unsupported comparisons with most other rehab trials. Expanded the existing criteria summaries with overlooked exclusions, including inability to sit more than ten minutes, arm wounds/injuries and pre-existing conditions. Retained the different wrist/finger versus shoulder thresholds, K-MMSE minimum and adult 19-to-85 age limits.
+- Limitations now distinguish mixed stroke/brain-injury/tumor populations from demonstrated tumor-specific benefit, and note the short program, no posted results and one listed Seoul site despite multicenter titles. No pediatric benefit, international availability or individual eligibility is inferred.
+- Deduplication: each NCT identifier and canonical source URL maps to one existing story; distinct protocol IDs are 2024-09-104 and 2024-09-105. These related device trials do not yet provide independent confirmation of benefit; participant overlap is not established. No corresponding trial-specific care resource exists in the current directory, so no duplicate resource was created. Registry central/site contact fields were inspected, with different phone listings noted; no contact details were changed or tested and nobody was contacted.
+- Checks: JSON parses; 212 article IDs and 58 resource IDs unique; only the two selected article objects changed; app.js syntax passes. Full-app DOM integration tested smart-glove and smart-board search results, original links, rendered source-check/registry-update dates, limitations and additional screening text against the retrieved records. No scripts or layout changed. Rendered mobile/screen-reader testing remains outstanding. Live publication checks will be recorded after deployment.
+- Remaining gaps: 36 articles lack dedicated limitations and 23 lack source-check dates. Next useful reader work is the pending phone/questionnaire/care-directory walkthrough; next editorial rotation can inspect Georgetown vision studies (NCT07105358 and the BRIGHT record) for stale status and precise inclusion/exclusion distinctions.
+- Separate collector, accounts, private helpers, forms, access and billing unchanged. No owner decision required.
+
 ### November 25, 2026
 
 - Continued the recorded editorial rotation with `glioma-pt-ot-randomized-trial-2020` and `hype-hiit-young-adult-pediatric-brain-tumor-survivors-dfci`. No new stories, programs or recruitment contacts were added.
