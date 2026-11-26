@@ -5606,5 +5606,114 @@
     "date_note": "Background research: published November 12, 2024.",
     "limitation": "Early postoperative low-grade glioma evidence, not longstanding weakness or pediatric evidence. No dexterity outcome. Other reports from this research program may overlap; cross-report overlap is unquantified.",
     "verified_on": "2026-11-25"
+  },
+  {
+    "id": "gosh-pediatric-low-grade-glioma-long-term-function-814-2024",
+    "title": "Great Ormond Street study of 814 children with low-grade glioma: 42% had a lasting functional deficit, and many adult survivors still report physical problems 21 years on",
+    "source": "Neuro-Oncology (ISPNO 2024 abstract, Green and colleagues)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11183762/",
+    "doi": "10.1093/neuonc/noae064.603",
+    "date_published": "2024-06-18",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "quick_read": "Doctors at Great Ormond Street Hospital in London looked back at 814 children treated for low-grade glioma, a slow-growing brain tumor, between 1980 and 2021. Most survived, but 42% had at least one functional deficit at their last check-up. Of 122 long-term survivors who answered questionnaires about 21 years after diagnosis, 60% reported physical problems and 50% reported vision problems. The study shows these tumors often act as a lifelong condition, so survivors may need rehab and support well into adulthood.",
+    "summary": "Retrospective cohort of 814 pediatric low-grade glioma patients (diagnosed 1980 to 2021) with overall survival 94.3% at median 8-year follow-up; 42% had at least one functional deficit at last clinical follow-up. Age at diagnosis, tumor location, surgical resection and chemotherapy or radiotherapy were independently associated with functional outcomes. Among 122 long-term survivors (median 21 years) completing questionnaires, 87% reported some dysfunction: physical 60%, visual 50%, neurocognitive 49%. Quality-of-life scores were lower than healthy controls and similar to people with chronic illness. Worse quality-of-life scores were associated with NF1, BRAF V600E mutation, optic pathway glioma and seizures.",
+    "why_it_matters": "Large long-term evidence that low-grade glioma survivors carry lasting physical and visual deficits, supporting ongoing adult rehab and follow-up.",
+    "relevance_reason": "Long-term motor and visual outcomes in childhood low-grade glioma survivors; non-surgical survivorship evidence.",
+    "relevance_score": 8,
+    "evidence_level": "Conference abstract; single-center retrospective cohort plus survivor questionnaires",
+    "limitation": "Abstract only; single center; questionnaire responders are a small subset; associations are not causes; no specific treatment tested.",
+    "date_note": "Background research: published June 18, 2024.",
+    "date_added": "2026-11-26",
+    "verified_on": "2026-11-26"
+  },
+  {
+    "id": "glioma-motor-network-reorganization-narrative-review-brain-circ-2026",
+    "title": "Review: how the brain's movement network rewires around a glioma, and why slow-growing tumors allow more adaptation",
+    "source": "Brain Circulation (Schehr and Ding)",
+    "url": "https://doi.org/10.4103/bc.bc_89_26",
+    "doi": "10.4103/bc.bc_89_26",
+    "date_published": "2026-08-25",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Review",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Arm",
+      "Hand"
+    ],
+    "quick_read": "This review pulls together research from 2005 to 2026 on how the brain's movement wiring changes when a glioma grows in or near it. It describes how the main movement pathway from brain to spinal cord, and nearby helper movement areas, can take over some work when the main areas are damaged. Slow-growing tumors seem to give the brain more time to adapt than fast-growing ones. For people with movement loss after a brain tumor, it explains the brain plasticity that rehab and stimulation therapies try to tap into.",
+    "summary": "Narrative review of literature from 2005 to 2026 on structural and functional plasticity in the corticospinal tract, primary and secondary motor cortices, premotor-motor connections and corticocortical association fibers in glioma. Motor reorganization appears more limited than language reorganization and is mostly within the same hemisphere, with recruitment of premotor cortex and supplementary motor area and limited change in primary motor cortex. Recovery often depends on compensatory recruitment of premotor, supplementary motor and opposite-hemisphere networks. Tumor growth rate, location and white matter involvement shape the extent of adaptation.",
+    "why_it_matters": "Explains the recovery mechanisms that rehab and noninvasive stimulation aim to strengthen after brain tumor damage.",
+    "relevance_reason": "Brain tumor motor plasticity background, including corticospinal tract; supports non-surgical rehab rationale.",
+    "relevance_score": 6,
+    "evidence_level": "Narrative review",
+    "limitation": "Narrative, not systematic; mostly surgical and imaging studies of cerebral gliomas, not deep thalamic or midbrain tumors; no treatment tested.",
+    "date_added": "2026-11-26",
+    "verified_on": "2026-11-26"
+  },
+  {
+    "id": "tdcs-plus-botulinum-toxin-ms-intention-tremor-case-2021",
+    "title": "Botox injections followed by mild scalp stimulation (tDCS) eased arm intention tremor and improved hand dexterity in a man with MS",
+    "source": "Case Reports in Neurology (Facciorusso and colleagues, University of Foggia)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7923919/",
+    "doi": "10.1159/000512324",
+    "date_published": "2021-02-15",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Disease",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Brain"
+    ],
+    "quick_read": "A 59-year-old man with multiple sclerosis had a disabling action tremor in his left arm. Doctors first gave ultrasound-guided Botox injections into shoulder, elbow and wrist muscles, then 15 sessions of weak direct current on the scalp over the movement area of the brain. His tremor score, peg-board time and block-moving test improved after Botox and improved further after the stimulation. It is only one person, but it shows two non-surgical tools that might be combined for tremor caused by brain lesions.",
+    "summary": "Single case: 59-year-old man with relapsing-remitting MS and 3 to 5 Hz left upper-limb intention, postural and task-related tremor. 1,000 U abobotulinumtoxinA was injected under ultrasound into six muscles of the left shoulder, elbow and wrist, followed 15 days later by 15 sessions (25 minutes, 5 per week) of 2 mA cathodal tDCS over the primary motor cortex opposite the tremor. Left 9-hole peg test improved from 138 to 118 to 105 seconds, Box and Block from 15 to 22 to 28, tremor severity from 7 to 5 to 4, and daily-activity questionnaire from 16 to 11 to 8. Surface EMG showed lower muscle activity after each step; tremor frequency was unchanged after Botox alone. No adverse effects were reported.",
+    "why_it_matters": "Lesional action tremor is hard to treat with pills; this pairs two non-surgical options with measurable dexterity gains.",
+    "relevance_reason": "Non-surgical Botox plus tDCS for lesional upper-limb tremor with dexterity outcomes.",
+    "relevance_score": 7,
+    "evidence_level": "Single case report; no control or sham",
+    "limitation": "One patient with MS, not a brain tumor; no sham stimulation; short follow-up; placebo and natural variation cannot be ruled out.",
+    "date_note": "Background research: published February 15, 2021.",
+    "date_added": "2026-11-26",
+    "verified_on": "2026-11-26"
+  },
+  {
+    "id": "emerging-noninvasive-tremor-suppression-review-ieee-rbme-2025",
+    "title": "Review of 134 studies: braces, electrical muscle stimulation, brain stimulation and wrist nerve stimulation as non-surgical ways to calm tremor",
+    "source": "IEEE Reviews in Biomedical Engineering (Montero-Pardo and colleagues)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41406268/",
+    "doi": "10.1109/RBME.2025.3639754",
+    "date_published": "2025-12-16",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Arm",
+      "cause": "Any cause",
+      "approach": "Device",
+      "stage": "Review"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "This review looked at 134 studies from 1969 to 2025 on non-surgical, non-drug ways to reduce tremor. It groups them into three kinds: devices that physically resist shaking (braces and electrical muscle stimulation), stimulation of the brain or spinal cord through the skin, and stimulation of nerves or vibration at the limb. Braces worked in the moment but were hard to wear and tired the muscles, brain stimulation had moderate effects, and limb nerve stimulation has moved furthest, with some devices already sold. For people who cannot or will not have surgery, it maps the options worth asking about, though studies were small and varied.",
+    "summary": "Clinical application review of 134 studies (1969 to 2025) on noninvasive tremor suppression in three modalities: force-controlling (orthoses and functional electrical stimulation), central neuromodulation (TMS, transcranial electrical stimulation, low-intensity focused ultrasound, transcutaneous spinal cord stimulation) and peripheral neuromodulation (afferent stimulation and vibration). Force-controlling strategies showed promising acute effects but were limited by wearability and muscle fatigue. Central neuromodulation produced moderate effects. Peripheral neuromodulation has gained clinical traction, with several commercial devices. Heterogeneous designs, populations and technology maturity prevent direct comparison.",
+    "why_it_matters": "Gives an overview of non-surgical tremor tools, noting that drugs often fall short and surgery is not suitable for everyone.",
+    "relevance_reason": "Non-surgical tremor options overview including wearables and noninvasive stimulation; mixed tremor populations.",
+    "relevance_score": 6,
+    "evidence_level": "Clinical application review of 134 studies",
+    "limitation": "Covers mixed tremor types, much of it essential tremor and Parkinson's; not specific to tumor-related or Holmes tremor; abstract-level detail checked.",
+    "date_added": "2026-11-26",
+    "verified_on": "2026-11-26"
   }
 ]
