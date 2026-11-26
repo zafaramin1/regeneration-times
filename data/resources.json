@@ -2027,5 +2027,42 @@
         "source_url": "https://www.rileychildrens.org/departments/movement-disorders-services"
       }
     ]
+  },
+  {
+    "id": "michigan-brachial-plexus-peripheral-nerve-program",
+    "name": "University of Michigan Health: Brachial Plexus and Peripheral Nerve Program",
+    "kind": "Care program",
+    "location": "Ann Arbor, Michigan, USA",
+    "age_groups": [
+      "adult",
+      "pediatric"
+    ],
+    "body_areas": [
+      "Peripheral nerve",
+      "Arm",
+      "Hand"
+    ],
+    "causes": [
+      "Trauma"
+    ],
+    "focus": "Assessment of brachial-plexus and peripheral-nerve dysfunction affecting arm and hand movement or sensation.",
+    "why_relevant": "The official program accepts adult and pediatric brachial-plexus and peripheral-nerve disorders. Its adult page describes traumatic neck/shoulder injuries affecting shoulder, arm, wrist, hand and fingers. Assessment can include electrodiagnostics, imaging and therapy recommendations, with hand surgery, neurosurgery and rehabilitation expertise.",
+    "url": "https://www.uofmhealth.org/our-care/specialties-services/brachial-plexus-program",
+    "search_terms": "accident trauma brachial plexus peripheral nerve arm hand weakness numbness sensory grasp release dexterity nerve injury Michigan Ann Arbor",
+    "caution": "Confirmed condition-specific program, not confirmation of individual acceptance or outcome. An accident alone does not locate an injury: brain, spinal cord and peripheral nerves need separate assessment. This listing does not establish brain-tumor hand-recovery care. Confirm injury timing, exact age pathway, referral, insurance and availability. Published contact not tested; nobody contacted.",
+    "phone": "734-936-5017",
+    "verified_on": "2026-11-26",
+    "source_urls": [
+      "https://www.uofmhealth.org/our-care/specialties-services/brachial-plexus-program",
+      "https://www.uofmhealth.org/our-care/specialties-services/brachial-plexus-adult"
+    ],
+    "contacts": [
+      {
+        "name": "University of Michigan Brachial Plexus Program",
+        "phone": "734-936-5017",
+        "role": "Published adult and pediatric appointment/referral contact",
+        "source_url": "https://www.uofmhealth.org/our-care/specialties-services/brachial-plexus-program"
+      }
+    ]
   }
 ]

@@ -5715,5 +5715,33 @@
     "limitation": "Covers mixed tremor types, much of it essential tremor and Parkinson's; not specific to tumor-related or Holmes tremor; abstract-level detail checked.",
     "date_added": "2026-11-26",
     "verified_on": "2026-11-26"
+  },
+  {
+    "id": "milan-m1-mapping-hand-function-glioma-2021",
+    "title": "Study tracks hand function during recovery from motor-cortex glioma surgery",
+    "source": "Cancers (Rossi and colleagues, University of Milan)",
+    "url": "https://doi.org/10.3390/cancers13153808",
+    "doi": "10.3390/cancers13153808",
+    "date_published": "2021-07-28",
+    "date_added": "2026-11-26",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Surgery",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand",
+      "Arm"
+    ],
+    "quick_read": "Surgeons used detailed electrical mapping during glioma removal to distinguish motor-cortex components. In the 66-person motor-cortex subgroup, early weakness was common and most recovered within a month. The hand-area subgroup had normal arm-and-hand task scores at follow-up. This studied surgical preservation, not treatment for longstanding hand impairment.",
+    "summary": "Complete removal was reported in 58 of 66. Compared with 51 historical controls, lasting motor deficits were not significantly different: 4.5% versus 3.9%. Twenty-two of 66 received rehabilitation. Hand function was assessed using the Action Research Arm Test. The groups came from different years; this was not randomized.",
+    "why_it_matters": "Tracks skilled hand function alongside muscle strength.",
+    "evidence_level": "Human surgical cohort with historical comparison; mean age 45.5 in motor-cortex subgroup",
+    "relevance_score": 8,
+    "date_note": "Background research: published July 28, 2021.",
+    "limitation": "Selected surgical population; pediatric applicability unestablished. Cross-report patient overlap is unquantified. Historical controls do not prove causal benefit.",
+    "verified_on": "2026-11-26"
   }
 ]
