@@ -5743,5 +5743,85 @@
     "date_note": "Background research: published July 28, 2021.",
     "limitation": "Selected surgical population; pediatric applicability unestablished. Cross-report patient overlap is unquantified. Historical controls do not prove causal benefit.",
     "verified_on": "2026-11-26"
+  },
+  {
+    "id": "barcelona-neuromodulation-prehabilitation-brain-tumor-2026",
+    "title": "Barcelona study: two to three weeks of scalp brain stimulation plus intensive hand training before brain tumor surgery showed two different response patterns",
+    "source": "Frontiers in Behavioral Neuroscience (Guttmann Institute, Barcelona)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13774256/",
+    "doi": "10.3389/fnbeh.2026.1930919",
+    "date_published": "2026-11-03",
+    "date_added": "2026-11-27",
+    "category": "Devices & Stimulation",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Arm"
+    ],
+    "quick_read": "Sixteen people with brain tumors near the movement areas had at least 10 sessions over one to three weeks that combined noninvasive brain stimulation through the scalp (magnetic stimulation and/or mild electrical current) with intensive motor training. Researchers measured hand dexterity, reaction time and grip strength, and scanned brain connections before and after. Overall performance stayed stable, but patients fell into two groups: some gained more in dexterity, others in strength, each with its own pattern of brain network changes. It is an early, small study of a non-surgical way to help the brain reorganize movement control, and it suggests stimulation and training may one day be tailored to each person.",
+    "summary": "Exploratory study of neuromodulation-induced prehabilitation (NIP) in 16 brain tumor patients before surgery near motor areas. The 1 to 3 week protocol had at least 10 sessions, twice daily when needed, combining low-frequency TMS and/or multichannel tDCS with intensive motor training. Clustering on pre-post changes in reaction time, 9-Hole Peg Test and handgrip split patients into dexterity-dominant and strength-dominant profiles. Overall performance remained stable. The dexterity group improved simple reaction time; in the strength group, increased frontal connectivity correlated with better manual dexterity.",
+    "why_it_matters": "Shows noninvasive stimulation plus training can be delivered to brain tumor patients and that responses differ person to person, a step toward individualized non-surgical motor therapy.",
+    "relevance_reason": "Recent, brain tumor, noninvasive TMS/tDCS plus hand training; small exploratory study set before surgery.",
+    "relevance_score": 8,
+    "evidence_level": "Small exploratory human study (16 patients), no control group",
+    "limitation": "Done before planned tumor surgery, not in long-term survivors; no sham comparison; overall performance did not improve on average.",
+    "verified_on": "2026-11-27"
+  },
+  {
+    "id": "milan-return-to-sports-pediatric-brain-tumors-2026",
+    "title": "Milan review: getting back to sports after a childhood brain tumor, with a risk-based plan for shunts, past treatment and lasting movement problems",
+    "source": "Neuro-Oncology Practice (Fondazione IRCCS Istituto Nazionale dei Tumori, Milan)",
+    "url": "https://academic.oup.com/nop/article/13/6/1031/8221095",
+    "doi": "10.1093/nop/npag078",
+    "date_published": "2026-07-31",
+    "date_added": "2026-11-27",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Review"
+    },
+    "quick_read": "Pediatric cancer doctors in Milan reviewed what is known about the risks and benefits of sports for children and teens treated for brain tumors. They note that sport can help functional recovery, fitness and well-being, but that shunts or other neurosurgical devices, past brain radiation, or remaining nerve problems can make returning to play harder. They propose a step-by-step, risk-based check involving the cancer doctor, neurosurgeon and a sports medicine specialist. For families of survivors with lasting movement problems, it offers a framework for safely staying active rather than avoiding sport altogether.",
+    "summary": "Narrative clinical review of sport-related injury risk in pediatric brain tumor patients and survivors, covering factors such as treatment history, neurosurgical devices, cranial radiotherapy, residual neurological deficits and sport characteristics. The authors propose a risk-based return-to-play framework with coordinated assessment by pediatric oncologists, neurosurgeons and sports medicine specialists. They note evidence for concussion prevention remains limited.",
+    "why_it_matters": "Practical guidance for keeping brain tumor survivors physically active, which supports motor recovery and fitness.",
+    "relevance_reason": "Recent tumor survivorship and activity guidance; review, no new outcome data.",
+    "relevance_score": 6,
+    "evidence_level": "Narrative clinical review",
+    "date_note": "Published online July 31, 2026, in the December 2026 issue.",
+    "limitation": "Expert review and proposed framework, not tested in a study; focused on children and adolescents.",
+    "verified_on": "2026-11-27"
+  },
+  {
+    "id": "fitlight-sensorimotor-training-posterior-fossa-survivors-2024",
+    "title": "Light-target reaction training: 48 young survivors of posterior fossa brain tumors got faster eye-hand and eye-foot responses in a short pilot",
+    "source": "Journal of Neuro-Oncology (Romanova and colleagues)",
+    "url": "https://doi.org/10.1007/s11060-024-04858-1",
+    "doi": "10.1007/s11060-024-04858-1",
+    "date_published": "2024-10-28",
+    "date_added": "2026-11-27",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Hand",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg"
+    ],
+    "quick_read": "Researchers gave 48 children and teens who had finished treatment for tumors at the back of the brain three weeks of short training sessions on a light-up target system (FitLight Trainer). The games asked them to tap or kick lights quickly, hold back from wrong targets, and remember color rules, training eye-hand and eye-foot coordination along with attention. On average participants completed about six 15-minute sessions, and their reaction times got significantly faster in nearly all tasks. It is a simple, low-cost, non-surgical training idea, but the study had no comparison group, so more research is needed.",
+    "summary": "Pilot study of 48 pediatric posterior fossa tumor survivors in remission (mean age 12.3; 56% malignant tumors). Three weeks of 2 to 3 fifteen-minute sessions per week on a FitLight Trainer targeted simple sensorimotor reaction (eye-hand and eye-foot coordination), inhibitory control and working memory. Average attendance was six sessions (moderate adherence). Visuomotor reaction time fell significantly across age and tumor subgroups in nearly all tasks. The authors call it feasible and say assessment issues and other limitations need further study.",
+    "why_it_matters": "An affordable, game-like coordination training option for brain tumor survivors with motor and attention problems.",
+    "relevance_reason": "Tumor survivors, non-surgical coordination training; uncontrolled pilot, children.",
+    "relevance_score": 6,
+    "evidence_level": "Uncontrolled pilot study (48 participants, mean age 12.3)",
+    "date_note": "Background research: published October 28, 2024.",
+    "limitation": "No control group; reaction time gains may partly reflect practice; long-term or daily-life benefit not shown.",
+    "verified_on": "2026-11-27"
   }
 ]
