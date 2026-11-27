@@ -21,6 +21,14 @@ Continue from this backlog and the current README. The existing research task ad
 
 ## Completed work
 
+### November 27, 2026
+
+- Continued reader-success backlog. Cloud desktop walkthrough with generic test choices passed: questionnaire (Brain tumor, Hand, Adult), Enter navigation through all three steps, topic-search results, opening the care directory and selecting Florida. The directory showed the age/location context and a matching Florida assessment route. No clinical eligibility was inferred and no provider contacted.
+- Added an in-page care-directory retry. A failed resource request now provides a keyboard-accessible recovery action; retry fetches resources only, preserving notes, questionnaire context and current search/age/location filters. Loading/errors are announced through the existing status region, focus moves to that region, duplicate in-flight requests are guarded and repeated failures remain retryable. Article search keeps working independently. Updated asset versions and README behavior notes. No research or care-resource data changed.
+- Checks: app.js syntax; full-app DOM integration injected HTTP 503, repeated 429, invalid-list JSON and then successful resources. Checked one in-flight retry, retained notes/context/hash/age/location/panel state, focus target and successful filtered rendering. Existing datasets validate with 216 unique article IDs and 59 unique resource IDs.
+- Limits: connected-browser plugin was unavailable; cloud desktop was usable. No phone viewport emulation was exposed in the supported browser controls, so rendered mobile checks remain pending. DOM status/focus checks are not a screen-reader audio test. Error recovery was simulated in the DOM harness; live-browser normal directory behavior is checked after publication.
+- Next: complete the phone and screen-reader pass when supported; next editorial batch is Georgetown vision studies (NCT07105358 and BRIGHT), checking recruitment, actual visual-field populations and exclusions. Collector, private helpers, account/access, forms and billing unchanged. No owner decision required.
+
 ### November 26, 2026
 
 - Continued the next recorded batch: `smart-glove-home-hand-rehab-trial-nct06837324` and `smart-board-home-arm-rehab-trial-nct06837363`. Retrieved each original registry record through https://clinicaltrials.gov/api/v2/studies/NCT06837324 and https://clinicaltrials.gov/api/v2/studies/NCT06837363 on November 26. Search's HTML view returned only the page shell; direct registry API retrieval succeeded, including criteria, outcomes, status and public contacts.

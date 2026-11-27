@@ -6,6 +6,7 @@
   var articlesReady = false;
   var careResources = [];
   var careResourcesLoaded = false;
+  var careResourcesLoading = false;
   var careResourceError = false;
   var sortMode = "relevance";
   var query = "";
@@ -927,11 +928,14 @@
     return areaMatch && causeMatch && wordsMatch && ageMatch && regionMatch;
   }
   function renderCareResources() {
-    if (!careResourcesLoaded) { return; }
     var grid = document.getElementById("care-resource-grid");
     var count = document.getElementById("care-resource-count");
     var status = document.getElementById("care-resource-status");
-    if (careResourceError) { count.textContent = "Directory temporarily unavailable"; status.textContent = "We could not load care resources. Article search remains available."; grid.innerHTML = ""; return; }
+    var retry = document.getElementById("retry-care-resources");
+    retry.hidden = !careResourceError;
+    retry.disabled = careResourcesLoading;
+    if (!careResourcesLoaded) { count.textContent = "Loading verified resources…"; status.textContent = "Loading care resources…"; grid.innerHTML = ""; return; }
+    if (careResourceError) { count.textContent = "Directory temporarily unavailable"; status.textContent = "We could not load care resources. Check your connection and try again below. Your notes and filters stay on this page; article search remains available."; grid.innerHTML = ""; return; }
     var matches = careResources.filter(matchesCareResource);
     count.textContent = matches.length + (matches.length === 1 ? " resource" : " resources");
     status.textContent = matches.length ? matches.length + " of " + careResources.length + " listed resources. Confirm suitability, appointments and trial openings directly." : "No listed care resources match this combination yet. Try fewer search words or a different age/location filter. This does not mean no suitable care exists.";
@@ -991,12 +995,26 @@
     var resource = careResources.find(function (item) { return item.url.replace(/\/$/, "") === (story.trial_url || story.url).replace(/\/$/, ""); });
     window.dispatchEvent(new CustomEvent("rt-prepare-inquiry", {detail:{story:story,resource:resource || null}}));
   }
-  fetch("data/resources.json", {cache:"no-cache"}).then(function (response) {
-    if (!response.ok) { throw new Error("Resources unavailable"); } return response.json();
-  }).then(function (data) {
-    if (!Array.isArray(data)) { throw new Error("Invalid resources"); }
-    careResources = data; careResourcesLoaded = true; renderCareResources(); openRequestedInquiry();
-  }).catch(function () { careResourcesLoaded = true; careResourceError = true; renderCareResources(); openRequestedInquiry(); });
+  function loadCareResources() {
+    if (careResourcesLoading) { return Promise.resolve(); }
+    careResourcesLoading = true; careResourcesLoaded = false; careResourceError = false;
+    renderCareResources();
+    return fetch("data/resources.json", {cache:"no-cache"}).then(function (response) {
+      if (!response.ok) { throw new Error("Resources unavailable"); } return response.json();
+    }).then(function (data) {
+      if (!Array.isArray(data)) { throw new Error("Invalid resources"); }
+      careResources = data; careResourcesLoading = false; careResourcesLoaded = true;
+      renderCareResources(); openRequestedInquiry();
+    }).catch(function () {
+      careResourcesLoading = false; careResourcesLoaded = true; careResourceError = true;
+      renderCareResources(); openRequestedInquiry();
+    });
+  }
+  document.getElementById("retry-care-resources").addEventListener("click", function () {
+    document.getElementById("care-resource-status").focus({preventScroll:true});
+    loadCareResources();
+  });
+  loadCareResources();
 
   function loadArticles() {
     contentEl.innerHTML = '<p class="loading" id="loading">Loading stories…</p>';
