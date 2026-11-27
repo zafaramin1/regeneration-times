@@ -5823,5 +5823,32 @@
     "date_note": "Background research: published October 28, 2024.",
     "limitation": "No control group; reaction time gains may partly reflect practice; long-term or daily-life benefit not shown.",
     "verified_on": "2026-11-27"
+  },
+  {
+    "id": "munich-hand-motor-mapping-malignant-tumors-2024",
+    "title": "Hand-muscle mapping study finds altered motor maps near malignant brain tumors",
+    "source": "Human Brain Mapping (Zhang and colleagues, Technical University of Munich)",
+    "url": "https://doi.org/10.1002/hbm.26642",
+    "doi": "10.1002/hbm.26642",
+    "date_published": "2024-03-04",
+    "date_added": "2026-11-27",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Assessment",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Hand"
+    ],
+    "quick_read": "Researchers mapped brain responses controlling thumb, little-finger and wrist muscles before tumor surgery. They compared 21 adults with tumors involving major movement regions against 24 with tumors elsewhere and intact motor function. Responses in a nearby parietal region were more frequent in the first group. This was an assessment study, not evidence that stimulation restored hand use.",
+    "summary": "Participants were right-handed adults with left-sided high-grade glioma or metastasis, enrolled in 2016-2020 with no previous brain surgery. Navigated magnetic stimulation separated responses by median and ulnar nerve supply. Motor-map centers, sizes and shapes did not differ significantly between groups; reconstructed movement-pathway volumes also did not differ. There were no healthy controls or long-term postoperative mapping data.",
+    "why_it_matters": "Examines hand-control organization relevant to planning care around motor regions.",
+    "relevance_score": 8,
+    "evidence_level": "Human observational comparison; adults over 18; no randomized treatment",
+    "date_note": "Background research: first published March 4, 2024.",
+    "limitation": "No demonstrated dexterity or rehabilitation benefit. Mixed tumor types and no before-tumor maps limit interpretation. Overlap with other institutional reports is unquantified, so this is not independent confirmation of rehabilitation trials.",
+    "verified_on": "2026-11-27"
   }
 ]

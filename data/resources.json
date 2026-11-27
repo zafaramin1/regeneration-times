@@ -2064,5 +2064,50 @@
         "source_url": "https://www.uofmhealth.org/our-care/specialties-services/brachial-plexus-program"
       }
     ]
+  },
+  {
+    "id": "emory-winship-oncology-rehabilitation",
+    "name": "Emory Winship: Oncology Rehabilitation and Brain Tumor Assessment",
+    "kind": "Care program",
+    "location": "Atlanta, Georgia, USA",
+    "age_groups": [
+      "confirm"
+    ],
+    "body_areas": [
+      "Brain",
+      "Arm",
+      "Hand",
+      "Leg"
+    ],
+    "causes": [
+      "Brain tumor",
+      "Spine tumor"
+    ],
+    "focus": "Cancer-related weakness, spasticity or muscle spasms, sensory symptoms and walking concerns; potential hand/arm assessment route.",
+    "why_relevant": "Winship's official rehabilitation page lists weakness, balance/walking difficulty, neuropathy and spasticity among reasons for oncology referral. Team member Jasmine Malhotra's institutional profile explicitly includes a clinical interest in brain and spinal tumors. The program provides physician assessment and coordination with rehabilitation therapists before, during and after cancer treatment.",
+    "url": "https://winshipcancer.emory.edu/patient-care/support-services/oncology-rehabilitation.php",
+    "search_terms": "brain tumor spinal tumor hand arm weakness clenching spasticity muscle spasms sensory numbness tingling balance gait walking rehabilitation Georgia Atlanta Jasmine Malhotra",
+    "caution": "Verified cancer-rehabilitation referral route with a tumor-focused team member, not confirmed acceptance of every tumor-related hand problem. Hand clenching needs assessment; these pages do not establish a dystonia service or a specific hand-recovery treatment. Age eligibility is not stated: confirm adult or pediatric acceptance, referral requirements, insurance and availability. Published contacts were not tested; nobody contacted.",
+    "phone": "404-778-1900",
+    "verified_on": "2026-11-27",
+    "source_urls": [
+      "https://winshipcancer.emory.edu/patient-care/support-services/oncology-rehabilitation.php",
+      "https://winshipcancer.emory.edu/profiles/malhotra-jasmine.php",
+      "https://www.emoryhealthcare.org/providers/jasmine-malhotra-3052623"
+    ],
+    "contacts": [
+      {
+        "name": "Winship Oncology Rehabilitation",
+        "phone": "404-778-1900",
+        "role": "Published appointment request line for oncology rehabilitation physicians",
+        "source_url": "https://winshipcancer.emory.edu/patient-care/support-services/oncology-rehabilitation.php"
+      },
+      {
+        "name": "Jasmine Malhotra, MD, MA",
+        "phone": "404-778-5770",
+        "role": "Published specialist appointment contact; Emory Brain Health Center",
+        "source_url": "https://www.emoryhealthcare.org/providers/jasmine-malhotra-3052623"
+      }
+    ]
   }
 ]
