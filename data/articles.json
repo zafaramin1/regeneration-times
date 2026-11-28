@@ -5850,5 +5850,87 @@
     "date_note": "Background research: first published March 4, 2024.",
     "limitation": "No demonstrated dexterity or rehabilitation benefit. Mixed tumor types and no before-tumor maps limit interpretation. Overlap with other institutional reports is unquantified, so this is not independent confirmation of rehabilitation trials.",
     "verified_on": "2026-11-27"
+  },
+  {
+    "id": "meningioma-inpatient-neurorehab-151-patients-brainsci-2026",
+    "title": "German rehab study of 151 people after meningioma surgery: long inpatient team rehab improved walking, stairs and dressing",
+    "source": "Brain Sciences (Gdynia, Haase, Gratzer, Auer and Gdynia)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13024094/",
+    "doi": "10.3390/brainsci16030263",
+    "date_published": "2026-02-26",
+    "date_added": "2026-11-28",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg",
+      "Arm"
+    ],
+    "quick_read": "Meningiomas are the most common tumors inside the skull in adults, and people can be left with movement, thinking or speech problems after treatment. This German study looked back at 151 people who went through a long, team-based inpatient rehabilitation program after meningioma surgery between 2019 and 2024. On a standard daily-living score, the average rose from 66.8 to 75.2 during the stay. In people who started with clear limits, the gains in moving around, climbing stairs and dressing were the clearest. There was no comparison group without rehab, so some recovery may have happened on its own, but the study supports structured rehab for people left with deficits after a brain tumor.",
+    "summary": "Retrospective single-clinic analysis of patients with cerebral meningioma treated in specialized long-term multidisciplinary inpatient neurological rehabilitation (2019 to 2024). Outcome was the Barthel Index in patients with a Barthel Index of 90 or less on admission. Of 151 patients, 93 had neuropsychological deficits and 9% had speech disorders. Mean Barthel Index rose from 66.8 to 75.2. Item-level gains in mobility, stair climbing and dressing remained significant after correction for multiple testing. Fewer secondary diagnoses at admission were linked to faster weekly improvement; age, sex, tumor location, stage, extent of resection, complications and length of stay showed no link with the change.",
+    "why_it_matters": "Real-world evidence that structured team rehab helps daily function after a brain tumor, whatever the tumor's location or how much was removed.",
+    "relevance_reason": "Non-surgical rehab outcomes after brain tumor treatment; adult cohort.",
+    "relevance_score": 7,
+    "evidence_level": "Retrospective cohort; no control group",
+    "limitation": "No group without rehab, so natural recovery cannot be separated from the effect of therapy. Meningioma only; one clinic.",
+    "verified_on": "2026-11-28"
+  },
+  {
+    "id": "glioma-interventional-neurorehab-systematic-review-nop-2024",
+    "title": "Review of 7 studies in glioma: magnetic and mild electrical brain stimulation improved at least one outcome after surgery in every noninvasive study",
+    "source": "Neuro-Oncology Practice (systematic review)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11567740/",
+    "doi": "10.1093/nop/npae066",
+    "date_published": "2024-07-16",
+    "date_added": "2026-11-28",
+    "category": "Reviews & Explainers",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Stimulation",
+      "stage": "Review"
+    },
+    "quick_read": "This review gathered every study it could find, up to November 2023, that used brain stimulation to help people with glioma, a common brain tumor, recover function. It found seven studies with 118 patients in total. Most used transcranial magnetic stimulation (TMS), a noninvasive magnetic pulse through the scalp, and one used tDCS, a mild current through scalp pads. Every study that used noninvasive stimulation to ease problems after surgery reported improvement on at least one measure, and the noninvasive methods looked safe. The evidence is still small, and the authors call for larger sham-controlled trials before this becomes routine care.",
+    "summary": "PRISMA systematic review of neuromodulation in glioma patients, searching Medline, Embase, Web of Science, APA PsycINFO and Cochrane from inception to November 28, 2023. Seven studies (118 patients) met criteria: TMS in five, tDCS in one, and continuous cortical electrical stimulation with grid electrodes in one. All studies applying noninvasive stimulation to ameliorate postoperative deficits showed improvement on at least one outcome measure. The two studies using tDCS or cortical stimulation to induce plasticity reported evidence of functional reorganization. Noninvasive stimulation had a favorable safety profile; the authors call for large double-blind sham-controlled trials.",
+    "why_it_matters": "A compact summary of the early evidence for noninvasive stimulation as an add-on to rehab after brain tumor treatment.",
+    "relevance_reason": "Noninvasive stimulation for brain tumor-related deficits; review level.",
+    "relevance_score": 7,
+    "evidence_level": "Systematic review of 7 small studies",
+    "date_note": "Background research: published July 16, 2024; covers studies up to November 2023.",
+    "limitation": "Few, small and varied studies; one included method (cortical grid stimulation) is invasive. Not limited to movement outcomes.",
+    "verified_on": "2026-11-28"
+  },
+  {
+    "id": "ghent-posterior-fossa-tumor-children-rehab-motor-iq-2022",
+    "title": "Ghent study of 56 children after posterior fossa brain tumors: rehab helped, but some motor skills still slipped during cancer treatment",
+    "source": "International Journal of Environmental Research and Public Health (Decock, De Wilde, Van der Looven and Vander Linden, Ghent University Hospital)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9222681/",
+    "doi": "10.3390/ijerph19127083",
+    "date_published": "2022-06-09",
+    "date_added": "2026-11-28",
+    "category": "Brain Tumor Recovery",
+    "tags": {
+      "body_area": "Brain",
+      "cause": "Brain tumor",
+      "approach": "Rehab",
+      "stage": "Human study"
+    },
+    "related_body_areas": [
+      "Leg",
+      "Arm"
+    ],
+    "quick_read": "Children treated for tumors at the back of the brain, near the cerebellum and brainstem, often have trouble with balance, coordination and thinking. This Belgian study looked back at 56 children who went through a multidisciplinary rehabilitation program at Ghent University Hospital between 2005 and 2020. The children had clear movement and thinking difficulties, and the authors judged the rehab to be beneficial. Even so, several motor skills and IQ scores kept declining while cancer treatment was going on, especially in children with medulloblastoma. Better gross motor function went along with higher IQ, which suggests movement and thinking recovery should be planned together.",
+    "summary": "Retrospective single-center cohort of 56 children (35 boys, 21 girls; mean age about 6.5 years) with posterior fossa tumors who followed a multidisciplinary program at the Ghent University Hospital Child Rehabilitation Centre from 2005 to 2020. Physical functioning and IQ were described over rehabilitation and compared by tumor histology. Motor and intelligence performance were impaired; multidisciplinary rehabilitation was described as beneficial but did not counteract further decline in several motor skills and intelligence during oncological treatment, more so in medulloblastoma. Gross motor function correlated with total IQ.",
+    "why_it_matters": "Shows that movement problems after childhood brain tumors can keep worsening during treatment, which argues for rehab that continues after treatment ends.",
+    "relevance_reason": "Brain tumor survivors' motor function during rehab; pediatric, mostly cerebellar region.",
+    "relevance_score": 6,
+    "evidence_level": "Retrospective cohort; no control group",
+    "date_note": "Background research: published June 9, 2022.",
+    "limitation": "Children only; no group without rehab; mixed tumor types and treatments over 15 years.",
+    "verified_on": "2026-11-28"
   }
 ]
